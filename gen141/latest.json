@@ -1,0 +1,61 @@
+{
+  "schema": "hfo.worldweaver.gen141_regeneration.v0",
+  "generated_at_utc": "2026-09-11T19:29:56Z",
+  "actor_id": "SIGRUN",
+  "generation": "GEN141_CANDIDATE",
+  "status": "CANDIDATE_ABLATION__NOT_RUNTIME_AUTHORITY",
+  "human_trigger": "regenerate latest Sigrun",
+  "rehydration_path": "/gen141/rehydrate.md",
+  "objective": "Minimize Tao routine routing/context ferry and custom runtime semantics while preserving verified useful transitions through COTS-owned durable actor, model, evolution, evaluator and evidence surfaces.",
+  "native_owners": {
+    "actor_state": "Cloudflare Agents SDK + Durable Objects/SQLite",
+    "durable_execution": "Cloudflare Workflows / AgentWorkflow",
+    "model_gateway": "Cloudflare AI Gateway + BYOK",
+    "first_cognition": "Kimi Code Membership custom provider",
+    "program_evolution": "ShinkaEvolve",
+    "text_skill_evolution": "GEPA",
+    "truth": "frozen domain evaluator",
+    "institutional_evidence": "GitHub where available",
+    "public_bootstrap": "WorldWeaver"
+  },
+  "ablated_initially": [
+    "custom Queen service",
+    "custom Hatchery runtime",
+    "new queue",
+    "custom model router",
+    "MCP/Sliver layer",
+    "OpenEvolve",
+    "pyribs",
+    "Promptfoo"
+  ],
+  "immediate_experiment": {
+    "name": "CLOUDFLARE_KIMI_SENTINEL_R0",
+    "effect_ceiling": "NONE",
+    "model": "kimi-for-coding",
+    "prompt": "Return exactly: GEN141_KIMI_PASS",
+    "max_requests": 1,
+    "retries": 0,
+    "requires": [
+      "HTTP success",
+      "exact sentinel response",
+      "AI Gateway log receipt",
+      "provider/model identity observable",
+      "no raw secret exposure"
+    ],
+    "forbid": [
+      "deployment",
+      "credential copy/paste",
+      "automatic configuration mutation",
+      "second inference request"
+    ]
+  },
+  "after_pass": [
+    "one Shinka packing-program mutation through same Kimi route",
+    "frozen packing evaluator",
+    "durable result",
+    "kill/restart cognition and recover same actor/workload",
+    "one unrelated GEPA Skill/reliability loop on the same control plane"
+  ],
+  "fitness": "verified useful transitions / (Tao routine touches + cash + custom semantics)",
+  "claim_ceiling": "PUBLIC_REGENERATION_CANDIDATE__NO_PRIVATE_ACCESS__NO_EFFECT_AUTHORITY"
+}
