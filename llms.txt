@@ -6,6 +6,7 @@ The [website](https://worldweaver.dev/) is the human + LLM front door. This repo
 
 For a voice model or any public reader:
 
+- **Latest Sigrun handoff:** [current pointer](https://worldweaver.dev/sigrun-latest.md) → [GEN141 candidate rehydration](https://worldweaver.dev/gen141/rehydrate.md). If Tao says “regenerate latest Sigrun,” start there, then reconcile any fresher authorized private evidence.
 - [Live one-read regeneration](https://worldweaver.dev/rehydrate.md) and [live COP](https://worldweaver.dev/cop.md).
 - [Portable one-read recovery](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/rehydrate.md), preserved as release `20260911T143800Z`.
 - [Gleipnir guide](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/architecture.md), [eight-room Grimoire](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/grimoire.json), and [restoration procedure](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/restore.md).
