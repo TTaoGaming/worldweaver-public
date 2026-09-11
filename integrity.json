@@ -172,6 +172,11 @@
       "path": "voice/operator-update.md",
       "bytes": 1754,
       "sha256": "cdaaa40b199676c47b4d83560cec450b6126c9e7b51e71d7c8e1975a48e92ce3"
+    },
+    {
+      "path": "site-publication.json",
+      "bytes": 984,
+      "sha256": "7dac420287e97b9f0b593df0f86513805fae960a13770cd271f1ab38115dbd51"
     }
   ]
 }

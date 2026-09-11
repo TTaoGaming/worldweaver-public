@@ -1,0 +1,18 @@
+{
+  "schema": "worldweaver.public_site_publication.v1",
+  "site": "https://worldweaver.dev",
+  "deployed_at": "2026-09-11T13:47:13.97741Z",
+  "revision": "worldweaver-obsidian-public-cop-v10-20260911",
+  "source_commit": "451a4bb3ca8c40e20fb8365bee746665a68ebd9e",
+  "worker_version": "745a7185-a2bb-455d-af19-5c2fa49ed229",
+  "deployment_id": "2cad1327-478a-42f0-9111-2740545ed722",
+  "bundle_sha256": "0bfbd5c5abfaf334db725278cfac1e5ca86b148c18a3cb65f421bcdf6d10866f",
+  "manual_packet_sha256": "bd4f3e89de5e3584527a8fd8a7804725a4f5df7c1bebbbf5004c9e5896979d14",
+  "anonymous_site_readback_at": "2026-09-11T13:48:33.815644Z",
+  "anonymous_site_checks": 27,
+  "local_tests_passed": 25,
+  "independent_source_review": "Completed; three freshness/history edge cases corrected",
+  "read_only": true,
+  "voice_client": "Not yet tested by operator",
+  "claim_ceiling": "Publication and exact public byte evidence, not a claim that all providers or unattended work lifecycles function."
+}
