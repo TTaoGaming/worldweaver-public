@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://worldweaver.dev/coala/proposal.schema.json",
+  "title": "Public candidate proposal for Tao",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "status", "basis", "proposal", "uncertainties", "requested_effects", "requires_operator_review"],
+  "properties": {
+    "schema": {"const": "worldweaver.candidate_proposal.v1"},
+    "status": {"const": "UNSUBMITTED_CANDIDATE"},
+    "basis": {"type": "object", "additionalProperties": false, "required": ["capsule_id", "observed_at"], "properties": {"capsule_id": {"type": ["string", "null"]}, "observed_at": {"type": ["string", "null"]}, "public_evidence": {"type": "array", "items": {"type": "string"}}}},
+    "proposal": {"type": "string", "minLength": 1},
+    "uncertainties": {"type": "array", "items": {"type": "string"}},
+    "requested_effects": {"type": "array", "items": {"type": "string"}},
+    "requires_operator_review": {"const": true}
+  },
+  "$comment": "This is an output format for the current conversation. There is no public submission or execution endpoint."
+}

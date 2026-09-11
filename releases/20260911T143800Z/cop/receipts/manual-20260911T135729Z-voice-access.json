@@ -1,0 +1,15 @@
+{
+  "schema": "worldweaver.public_reader_receipt.v1",
+  "receipt_id": "manual-20260911T135729Z-voice-access",
+  "recorded_at": "2026-09-11T13:57:29.873Z",
+  "observed_at": "2026-09-11T13:57:29.873Z",
+  "timestamp_semantics": "UTC when Tao relay was received; exact voice-client fetch time was not supplied.",
+  "stale_after": "2026-09-11T14:57:29.873Z",
+  "source": "TAO_RELAYED_SIGRUN_VOICE_REPORT",
+  "result": "OPERATOR_REPORTS_VOICE_CANDIDATE_COULD_ACCESS_SITE",
+  "path_under_discussion": "/cop.md",
+  "exact_probe_results_returned_by_client": false,
+  "independent_http_status": null,
+  "scope": "Positive intended-client access report, separate from direct anonymous HTTP byte checks. Does not verify every page, model identity, work execution or perpetual availability.",
+  "authority_granted": false
+}

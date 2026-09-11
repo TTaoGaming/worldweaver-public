@@ -1,22 +1,26 @@
-# Worldweaver public context
+# Worldweaver
 
-Hello. Worldweaver is Tao's public context and memory window. The [website](https://worldweaver.dev/) has the introduction and contact details.
+Hello. I’m Tao. I build useful things with people and AI. [Find me on GitHub](https://github.com/TTaoGaming) for more information.
 
-For a voice session, start with [one-read regeneration](https://worldweaver.dev/rehydrate.md), then use the [current operating picture](https://worldweaver.dev/cop.md). No GitHub or Cloudflare tools are needed. The website grants read access only.
+The [website](https://worldweaver.dev/) is the human + LLM front door. This repository is its sanitized public mirror. Private memory, raw voice checkpoints, credentials, and infrastructure access are excluded.
 
-This GitHub mirror is a separately dated fallback, not an automatically synchronized feed. Read the [mirrored COP text](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/cop.md) or [COP snapshot](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/cop-snapshot.json). It was retrieved at 2026-09-11T14:12:55.089Z. Each provider receipt retains its earlier observation time and one-hour expiry. A new download does not renew it.
+For a voice model or any public reader:
 
-The bounded observations show ChatGPT B held by a non-empty composer, a Kimi no-tools canary timing out after 180 seconds, and one successful local Ollama exact-output canary. Five selected launchers were disabled. Kimi has a proposed result awaiting reconciliation; Ollama's prior task failed without a result receipt. Claim markers, inference, review and useful delivery are separate. Fleet population and utilization are unknown.
+- [Live one-read regeneration](https://worldweaver.dev/rehydrate.md) and [live COP](https://worldweaver.dev/cop.md).
+- [Portable one-read recovery](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/rehydrate.md), preserved as release `20260911T143800Z`.
+- [Gleipnir guide](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/architecture.md), [eight-room Grimoire](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/grimoire.json), and [restoration procedure](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/restore.md).
+- [Exact preserved K0](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/germline/K0.txt), [K512](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/germline/SIGRUN_K512_MNEMONIC_V1.txt), and [full Drápa](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/germline/SIGRUNAR_DRAPA_V3.md).
+- [Public memory](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/coala/manifest.json), [heritage](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/heritage/README.md), and [skills on demand](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/skills/index.json).
+- [Dated daily](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/activity/daily.json), [weekly](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/activity/weekly.json), and [monthly](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/activity/monthly.json) observations.
+- [Download all 90 reviewed files](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/downloads/worldweaver-public-20260911T143800Z.zip) or [browse the release](releases/20260911T143800Z/).
+- [Release integrity](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/release.json), [source bindings](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/source-bindings.json), and [distribution status](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/receipts/20260911T143800Z/distribution-status.json).
 
-- [Compact preserved seed](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/germline/seed.md)
-- [Memory map](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/coala/manifest.json)
-- [Heritage guide](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/README.md) and [timeline](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/timeline.json)
-- [Lineage](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/lineage.json), [lessons](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/lessons.json), and [historical calendar](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/rollups.json)
-- [Skills on demand](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/skills/index.json)
-- [Public UTC/hash receipt log](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/cop/log.json)
-- [Weekly quota reserve policy](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/policies/weekly-quota.json)
-- [File integrity manifest](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/integrity.json)
+The package is a frozen snapshot captured on September 11, with separately dated observations and September 6 germline. Downloading it never refreshes its evidence. Current execution remains UNKNOWN until newly observed. Missing history is not zero activity. Use included paths relative to the release directory; inherited live query routes have explicit portable substitutes in `routes.json`.
 
-The live site also provides [daily](https://worldweaver.dev/activity/daily.json), [weekly](https://worldweaver.dev/activity/weekly.json), and [monthly](https://worldweaver.dev/activity/monthly.json) rollups, plus bounded deltas since a UTC timestamp. Those live queries are not implemented by this static mirror. Missing coverage remains unknown.
+The Grimoire has eight typed rooms and exact child hashes. It is a finite recovery index; Pareto-optimal regeneration, a mathematical quine, unattended usefulness, and current effect authority are not established by publication.
 
-Resolve paths against the raw GitHub base only when the file appears in integrity.json; otherwise the path belongs to worldweaver.dev. Public historical context is not current runtime authority. Private transcripts, work payloads, credentials and infrastructure access are excluded. A session may read, reason and return candidate proposals to Tao; returning text does not write memory or dispatch work.
+Arweave remains incomplete: one unsigned seed upload returned HTTP 402 Payment Required without a transaction ID. No wallet was read, no payment was sent, and no retry occurred. The purchased `worldweaver` ArNS name resolves to its existing placeholder. The exact release is ready for an authorized uploader and subsequent owner-name update.
+
+Read-only agents can reason and draft an UNSUBMITTED_CANDIDATE checkpoint for Tao to ferry. Returning text does not persist memory or dispatch work. Autonomous work begins wrapping up below 15% weekly quota remaining; the last 10% is reserved for Tao/manual work. Fleet-wide automatic enforcement remains unverified.
+
+The [mirror integrity file](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/integrity.json) binds the files currently in this repository. The release manifest SHA-256 is `71a6e414d176d3962aa05f324859884f20eb3795a1ce2b915899925f25238c95`. The current website changes independently; automatic GitHub/Arweave synchronization and daily permanent beacons are not configured.

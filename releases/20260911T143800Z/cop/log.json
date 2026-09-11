@@ -1,0 +1,39 @@
+{
+  "schema": "worldweaver.cop_log.v1",
+  "coverage": "PUBLIC_MANUAL_PUBLICATION_LOG_ONLY",
+  "observations": [
+    {
+      "path": "/cop/observations/manual-20260911T133411Z.json",
+      "bytes": 12011,
+      "sha256": "4525fe45122403622764f56d4216f8da3d747fc3876b679dd58dd4a164155c83",
+      "schema": "worldweaver.cop_pointer.v1",
+      "observation_id": "manual-20260911T133411Z",
+      "recorded_at": "2026-09-11T13:34:11.408Z"
+    },
+    {
+      "path": "/cop/observations/manual-20260911T134446Z.json",
+      "bytes": 13723,
+      "sha256": "bd4f3e89de5e3584527a8fd8a7804725a4f5df7c1bebbbf5004c9e5896979d14",
+      "schema": "worldweaver.cop_pointer.v1",
+      "observation_id": "manual-20260911T134446Z",
+      "recorded_at": "2026-09-11T13:44:46.470Z"
+    },
+    {
+      "path": "/cop/observations/manual-20260911T135729Z.json",
+      "bytes": 14753,
+      "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
+      "schema": "worldweaver.cop_pointer.v1",
+      "observation_id": "manual-20260911T135729Z",
+      "recorded_at": "2026-09-11T13:57:29.873Z"
+    },
+    {
+      "path": "/cop/observations/manual-20260911T140923Z.json",
+      "bytes": 18414,
+      "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b",
+      "schema": "worldweaver.cop_pointer.v1",
+      "observation_id": "manual-20260911T140923Z",
+      "recorded_at": "2026-09-11T14:09:23.967Z"
+    }
+  ],
+  "note": "Public receipt history starts here. Retained scheduled samples and long-term rollups are separate; no earlier manual observations are invented."
+}

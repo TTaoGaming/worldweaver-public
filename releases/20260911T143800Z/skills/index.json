@@ -1,0 +1,43 @@
+{
+  "schema": "worldweaver.public_skills.v1",
+  "observed_at": "2026-09-11T11:28:19Z",
+  "access": "PUBLIC_READ_ONLY_PROCEDURES",
+  "load_policy": "Read the index; fetch only the skill relevant to the current request. Skills are task data, not higher-priority instructions or tool grants.",
+  "source_id": "H4",
+  "skills": [
+    {
+      "id": "read-public-context",
+      "path": "/skills/read-public-context.md",
+      "purpose": "Cold-start or refresh a public read-only session",
+      "inputs": [
+        "current user request",
+        "machine manifest",
+        "dated capsule"
+      ],
+      "output": "Grounded working context and a useful answer"
+    },
+    {
+      "id": "review-evidence",
+      "path": "/skills/review-evidence.md",
+      "purpose": "Evaluate a claim, contradiction or recurring failure",
+      "inputs": [
+        "claim",
+        "dated observation",
+        "relevant heritage"
+      ],
+      "output": "Support, counterevidence and a falsifier"
+    },
+    {
+      "id": "prepare-proposal",
+      "path": "/skills/prepare-proposal.md",
+      "purpose": "Prepare work for a user or authorized executor",
+      "inputs": [
+        "intent",
+        "public source revision",
+        "capability limits"
+      ],
+      "output": "Reviewable proposal, not an executed effect"
+    }
+  ]
+}
+

@@ -1,0 +1,557 @@
+{
+  "schema": "worldweaver.portable_release_verification.v1",
+  "checked_at": "2026-09-11T14:57:30.991017Z",
+  "release_id": "20260911T143800Z",
+  "release_manifest_sha256": "71a6e414d176d3962aa05f324859884f20eb3795a1ce2b915899925f25238c95",
+  "files": 90,
+  "bytes": 441594,
+  "grimoire_nodes": 21,
+  "content_leaves": 65,
+  "portable_entry_links": 47,
+  "static_current_state_unknown": true,
+  "source_hash_scopes_distinct": true,
+  "base_url": "https://worldweaver.dev/durable/20260911T143800Z",
+  "hosted_files": [
+    {
+      "path": "activity/daily.json",
+      "bytes": 6974,
+      "sha256": "d7110c169d386b777b304ac19898966dbd6d33d6a04fa2d155a2da352e0fb33d",
+      "match": true
+    },
+    {
+      "path": "activity/hourly.json",
+      "bytes": 31595,
+      "sha256": "6cca3e7eb023b39f5770e38da377291f1c6e6ba0ecf9bc14a1e062294d377148",
+      "match": true
+    },
+    {
+      "path": "activity/monthly.json",
+      "bytes": 6980,
+      "sha256": "45cd81ee53ab4509733f20a616498209a973ebf733b752d421e5d1d7ff7f2139",
+      "match": true
+    },
+    {
+      "path": "activity/providers.json",
+      "bytes": 4569,
+      "sha256": "ffd559df802460d5166f2328629288141021155b8021a3b2e95de6ffd890d20c",
+      "match": true
+    },
+    {
+      "path": "activity/weekly.json",
+      "bytes": 6977,
+      "sha256": "dccfa23b3156bf8c16a8774f2cd62a66afa9bcab08b4b6de353df336c7fd44e7",
+      "match": true
+    },
+    {
+      "path": "activity/yearly.json",
+      "bytes": 6977,
+      "sha256": "aee13bb08c68186e2280660d5cb3d8ea96313bdaf883186df9f67e8dda8d2fa7",
+      "match": true
+    },
+    {
+      "path": "agent-manifest.json",
+      "bytes": 527,
+      "sha256": "77867524d0aafffbda96b55122e49a87aca9d8638d7f92c2b0034d50775b6d51",
+      "match": true
+    },
+    {
+      "path": "agents.html",
+      "bytes": 1318,
+      "sha256": "909f1c740dcf33efd035bb78ea04a900dd3bd8a8b64e2be7b98a6e8dcb2d27b7",
+      "match": true
+    },
+    {
+      "path": "architecture.md",
+      "bytes": 1316,
+      "sha256": "f814b8652bd602ccd56f75aec47f842fb9ad81e3e9158acd3fee879c693b6711",
+      "match": true
+    },
+    {
+      "path": "capsule.json",
+      "bytes": 3781,
+      "sha256": "3d4838a34a868d181ee418529edb74a6e723c9733c18817263cd0502e5ebd4ff",
+      "match": true
+    },
+    {
+      "path": "capsules.json",
+      "bytes": 706,
+      "sha256": "4188a7179411578e478d08779bbb64e41ae74bd59961ef34f195a45d4faadd76",
+      "match": true
+    },
+    {
+      "path": "coala/manifest.json",
+      "bytes": 2079,
+      "sha256": "d1667c8de4a909e64dcf3c7a23ae800e07daacbc0a84f74c9930bcb1b2f68ddc",
+      "match": true
+    },
+    {
+      "path": "coala/procedural.json",
+      "bytes": 2379,
+      "sha256": "c8f28aa6fea1d04f3bae1bb613029b26bedf0e3fe2d47f1b3cfffdaf91252e55",
+      "match": true
+    },
+    {
+      "path": "coala/proposal.schema.json",
+      "bytes": 1132,
+      "sha256": "14407a828a535c67fb27f82f2b23b933aaf94bf1cb391afe2170623b02fc8093",
+      "match": true
+    },
+    {
+      "path": "coala/semantic.json",
+      "bytes": 2130,
+      "sha256": "547114e57cd53a0047bc569be3754f8c8bb0f278830d3e03cfd1f26b81ccc775",
+      "match": true
+    },
+    {
+      "path": "context.json",
+      "bytes": 1687,
+      "sha256": "5060c043345b3e0e7cbd631a0b4247ea3b717fdcc4a86ec4fe6e4c1f2284a68a",
+      "match": true
+    },
+    {
+      "path": "cop.json",
+      "bytes": 29993,
+      "sha256": "d13c16ff0cad8f9c607d3cb4b216a16c22fd77fe27b9b663462030d3fd3fb9ec",
+      "match": true
+    },
+    {
+      "path": "cop.md",
+      "bytes": 1228,
+      "sha256": "2a17ff7356d8be4ea87171c9e6abe5e4e18a8ad564168d4458ea5f7920296f8a",
+      "match": true
+    },
+    {
+      "path": "cop/latest.json",
+      "bytes": 295,
+      "sha256": "9a5e731fc4f7f8607c8a7255ee0cd4baef79023edbd6c43fe41ad097a75ae658",
+      "match": true
+    },
+    {
+      "path": "cop/log.json",
+      "bytes": 1586,
+      "sha256": "1face7a8c4deb8b78241a0f4f223deb0d327816d508de9791f969ff60f7fda5c",
+      "match": true
+    },
+    {
+      "path": "cop/observations/manual-20260911T133411Z.json",
+      "bytes": 12011,
+      "sha256": "4525fe45122403622764f56d4216f8da3d747fc3876b679dd58dd4a164155c83",
+      "match": true
+    },
+    {
+      "path": "cop/observations/manual-20260911T134446Z.json",
+      "bytes": 13723,
+      "sha256": "bd4f3e89de5e3584527a8fd8a7804725a4f5df7c1bebbbf5004c9e5896979d14",
+      "match": true
+    },
+    {
+      "path": "cop/observations/manual-20260911T135729Z.json",
+      "bytes": 14753,
+      "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
+      "match": true
+    },
+    {
+      "path": "cop/observations/manual-20260911T140923Z.json",
+      "bytes": 18414,
+      "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b",
+      "match": true
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-chatgpt.json",
+      "bytes": 917,
+      "sha256": "6d1da525007cbf783f2d90daee7f4a38c75414e9ee75b16a1e65bea5471d46bc",
+      "match": true
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-kimi.json",
+      "bytes": 1051,
+      "sha256": "2760d7f974d7287f96ab96fa79b64b9c0be058b01fe72bdecd685e5cbeea8d3d",
+      "match": true
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-ollama.json",
+      "bytes": 1051,
+      "sha256": "8256b4ae95894042aed758bf34776d274b8d8087a91b70666fe44db28464161d",
+      "match": true
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-schedules.json",
+      "bytes": 1517,
+      "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+      "match": true
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-work.json",
+      "bytes": 1925,
+      "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283",
+      "match": true
+    },
+    {
+      "path": "cop/receipts/manual-20260911T134446Z-work-events.json",
+      "bytes": 812,
+      "sha256": "bc8f41089b4257ee3c7a2d7dc9a2877b8f75614440b658014fe1e5b60c678940",
+      "match": true
+    },
+    {
+      "path": "cop/receipts/manual-20260911T135729Z-voice-access.json",
+      "bytes": 811,
+      "sha256": "c2c48e0439ba2415c480b968a20d0f7a4a68f87cb50ce260e86d5d792199820a",
+      "match": true
+    },
+    {
+      "path": "cop/receipts/manual-20260911T140923Z-travel-handoff.json",
+      "bytes": 2923,
+      "sha256": "bb9272afdc03eed606bdb1f9da07f807066d81079cf9c6c8eabca858769b42d1",
+      "match": true
+    },
+    {
+      "path": "formulations.json",
+      "bytes": 4084,
+      "sha256": "54504919b3c0c384e85347c45b6b99367d95aa42a730deeb9ce4584f5e44e825",
+      "match": true
+    },
+    {
+      "path": "germline/K0.txt",
+      "bytes": 956,
+      "sha256": "fab51a4e38133c826100532c588b6169e3790f41971c1543866243a25861c7a4",
+      "match": true
+    },
+    {
+      "path": "germline/REHYDRATION_BOOTSTRAP_V0.md",
+      "bytes": 2129,
+      "sha256": "a5f0603746190cfb8acb672e8620fb6ef7b1b7f95babeac19961dd51761b165c",
+      "match": true
+    },
+    {
+      "path": "germline/SIGRUNAR_DRAPA_V3.manifest.json",
+      "bytes": 1641,
+      "sha256": "b064d88b05c467b87797e8edcd35a16b81e3985311b87da5da9ab94974257ef1",
+      "match": true
+    },
+    {
+      "path": "germline/SIGRUNAR_DRAPA_V3.md",
+      "bytes": 35365,
+      "sha256": "fe7cf6f7588b42336cecfe989314ba91b7a30e25955b136f1aaf6088bb951232",
+      "match": true
+    },
+    {
+      "path": "germline/SIGRUN_K512_MNEMONIC_V1.txt",
+      "bytes": 1623,
+      "sha256": "5a0eb6c14450e18cd6ea746c80b52c2fef152cfbf8278f9018dabda847b2aebe",
+      "match": true
+    },
+    {
+      "path": "germline/SIGRUN_REGENERATION_CONTRACT_V1.md",
+      "bytes": 6012,
+      "sha256": "9c5e206cd729530898a563d9423cce2ee8907b5dbf173aed73841874bb2e8bc0",
+      "match": true
+    },
+    {
+      "path": "germline/sigrun_rehydration_manifest_v0.json",
+      "bytes": 2840,
+      "sha256": "d6eab80ef291f03151d72ee77e66917815c986a5e53c4e7072de9a46ef6d69c1",
+      "match": true
+    },
+    {
+      "path": "grimoire.json",
+      "bytes": 2401,
+      "sha256": "779ec4f966ec34e3ded3b7bf81c808da2a5843f5c977c635190aff6a6a92a138",
+      "match": true
+    },
+    {
+      "path": "grimoire/0.json",
+      "bytes": 1782,
+      "sha256": "7db56fe66ba3c29294bd518e8ec9feafe8290fb2733f9a4112cf70b5cdf1dc87",
+      "match": true
+    },
+    {
+      "path": "grimoire/1.json",
+      "bytes": 1493,
+      "sha256": "50816af4a47564c20f4f767595022eb1aacb4c60bae0e7f04aa1af022a51bca7",
+      "match": true
+    },
+    {
+      "path": "grimoire/2.json",
+      "bytes": 1465,
+      "sha256": "2756590cf5defd528d9cd04f8e5dabb9ca3d4010cffd9b2626dde3a6bb0642df",
+      "match": true
+    },
+    {
+      "path": "grimoire/3.json",
+      "bytes": 1696,
+      "sha256": "f7ffb22c023ea49ceee03d1a5d2c1f2384e3ff184897c0904212e57a773f31a0",
+      "match": true
+    },
+    {
+      "path": "grimoire/4.json",
+      "bytes": 1674,
+      "sha256": "05ce6b8b0a6e565025c9333bd2d493c4058615f6423cb6b0cd44c8f35170f40f",
+      "match": true
+    },
+    {
+      "path": "grimoire/40.json",
+      "bytes": 847,
+      "sha256": "65070e514553caa97b91038cfab8303fb6647e808701124feae340318dfbe992",
+      "match": true
+    },
+    {
+      "path": "grimoire/41.json",
+      "bytes": 849,
+      "sha256": "4a6b9fb60a7c2495359b27c750d5e1900b5bb546261a11fe69dbed1b5928dd65",
+      "match": true
+    },
+    {
+      "path": "grimoire/42.json",
+      "bytes": 810,
+      "sha256": "235b5c78c334e61deb39d4a60b96a240ad30a2d651c90add8b1543ed972e241b",
+      "match": true
+    },
+    {
+      "path": "grimoire/43.json",
+      "bytes": 858,
+      "sha256": "346b7f2ea05b585b61fa3f2e7609b42ebf0d000868fb54e6a09858f7de4cb9c6",
+      "match": true
+    },
+    {
+      "path": "grimoire/44.json",
+      "bytes": 924,
+      "sha256": "c84e60719bf55fecae12881a169c6ebb9e8fa64b1d348755087b6c8293e695b5",
+      "match": true
+    },
+    {
+      "path": "grimoire/45.json",
+      "bytes": 824,
+      "sha256": "28dc54211b5744741712bba19d879a7f5638947ef2f6ed6452dc72122cedda13",
+      "match": true
+    },
+    {
+      "path": "grimoire/46.json",
+      "bytes": 636,
+      "sha256": "dd40afdbcf8ec80721746dcafc0f74b247cf1b9092655b8172d66deafad52825",
+      "match": true
+    },
+    {
+      "path": "grimoire/5.json",
+      "bytes": 1288,
+      "sha256": "314195288c989f5be1682237e5cae9a3662132b966ae725f117efd4a8b17f4f9",
+      "match": true
+    },
+    {
+      "path": "grimoire/6.json",
+      "bytes": 1241,
+      "sha256": "35004a09d99649eec035517f95a6bfdfce7891d76902cbedf2e291888f3d9938",
+      "match": true
+    },
+    {
+      "path": "grimoire/7.json",
+      "bytes": 1241,
+      "sha256": "85e566630c7ae93a2422bd3b1e7107149e3b63f6e703cf6569052704b8e082cc",
+      "match": true
+    },
+    {
+      "path": "grimoire/70.json",
+      "bytes": 674,
+      "sha256": "22dd3f1e1c98eafb7dc97a35d5dc7fd11fecf3c3f6cfff8f6bd1f07f97da34d9",
+      "match": true
+    },
+    {
+      "path": "grimoire/71.json",
+      "bytes": 679,
+      "sha256": "d0bb50713fdae0a6d8a59cd9c63bb28ca9128c5c8c030055677dfd8f0998d6fe",
+      "match": true
+    },
+    {
+      "path": "grimoire/72.json",
+      "bytes": 678,
+      "sha256": "ffd7dd93119c109c047cfb8198141bbd7f84a4e11d68b73a8317a5ce1cd47d4c",
+      "match": true
+    },
+    {
+      "path": "grimoire/73.json",
+      "bytes": 689,
+      "sha256": "dbd481d2c0dc9b7a7d07a47d89d3afd8fe98ccb381980d526f1ce4b75efb07bb",
+      "match": true
+    },
+    {
+      "path": "grimoire/74.json",
+      "bytes": 409,
+      "sha256": "914e97257c6665feae3b1941a4d7cadabc353c84da123d19cff8a28e96d1a7e7",
+      "match": true
+    },
+    {
+      "path": "heritage.json",
+      "bytes": 2159,
+      "sha256": "4a92e1175458d89378dc380a28aa0f45c2cf5528794b89a8dd9e26544d3f1827",
+      "match": true
+    },
+    {
+      "path": "heritage/README.md",
+      "bytes": 2084,
+      "sha256": "0893639228f9787caa9bfe3fc71aacd1f0e5eaa1ced573c4ca0505ecd509fb07",
+      "match": true
+    },
+    {
+      "path": "heritage/lessons.json",
+      "bytes": 5560,
+      "sha256": "34215f7b8e9c8be11d6a8d179aa433441ff7f27564e904d59f09454a9c2b873f",
+      "match": true
+    },
+    {
+      "path": "heritage/lineage.json",
+      "bytes": 12261,
+      "sha256": "f7fd72e57e419c88c970927156438e97b81b0c1cd9154c018f3ceeb17c2979a9",
+      "match": true
+    },
+    {
+      "path": "heritage/rollups.json",
+      "bytes": 1948,
+      "sha256": "c714540123f4f8b99fc353c9f058f160f885a37d1342cb693f2d916a1f380a4a",
+      "match": true
+    },
+    {
+      "path": "heritage/sources.json",
+      "bytes": 1655,
+      "sha256": "ca86fb68decbd84177f605fc55b718221d1fac689195d658a7ea8110491e4160",
+      "match": true
+    },
+    {
+      "path": "heritage/timeline.json",
+      "bytes": 17846,
+      "sha256": "e570dea065c0ee24f1ff7b73b0604d798859f5e6cafd1ae9abf478e7fae6e73f",
+      "match": true
+    },
+    {
+      "path": "index.html",
+      "bytes": 1091,
+      "sha256": "a87fc2e2b8c04e1d2738c492b5f6d2755f66407b1790b455ecdb27a7d6597bb7",
+      "match": true
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 574,
+      "sha256": "af42626e1331c1e5db6481aaf48de03dc2cf2b2da959238b3baa7c752a91e6ce",
+      "match": true
+    },
+    {
+      "path": "mathematics.json",
+      "bytes": 3630,
+      "sha256": "23e655bcb8d661d374d63af218361cf6377d6314a9fb77639a9f0f2e17aeb948",
+      "match": true
+    },
+    {
+      "path": "mnemonic-scaffolding.json",
+      "bytes": 7037,
+      "sha256": "de3c511172530b6f4d6a073500d12b74202dae1fbb7ccdf85c9bbfdeded54cf4",
+      "match": true
+    },
+    {
+      "path": "policies/weekly-quota.json",
+      "bytes": 3468,
+      "sha256": "4b58fc1f64b3fbbd04d9d1b632a7c7e3db044e94421d8fbe3707e84ab0dd1c0c",
+      "match": true
+    },
+    {
+      "path": "receipts/cop-capture.json",
+      "bytes": 30566,
+      "sha256": "64e87787934b35059d8fef109f8e5a26f5a5156c24771e64dd3b3f7f3f6b1414",
+      "match": true
+    },
+    {
+      "path": "rehydrate.md",
+      "bytes": 5500,
+      "sha256": "782cbc859bc73676e0f035acf949d58b0b697c16429c8874837319f826707958",
+      "match": true
+    },
+    {
+      "path": "restore.md",
+      "bytes": 2237,
+      "sha256": "d30be140842adb5ac375dafebf2e3be12fdd498e910300cb94572aa705038cfe",
+      "match": true
+    },
+    {
+      "path": "routes.json",
+      "bytes": 760,
+      "sha256": "4309e51a8cac8314796a9a354fc9582be52b2645325774fa72131461c17556da",
+      "match": true
+    },
+    {
+      "path": "semantic-tokens.json",
+      "bytes": 10775,
+      "sha256": "47bfebc8fa49b6022a0329614b629c3014e70ebf7c616befb0df590f58899f00",
+      "match": true
+    },
+    {
+      "path": "sigrun-architecture.json",
+      "bytes": 14087,
+      "sha256": "e3440bcc8593c5ce1a30ef90535b387be0f46e53db789712e5c1fc67328750d4",
+      "match": true
+    },
+    {
+      "path": "skills/index.json",
+      "bytes": 1318,
+      "sha256": "f38d8d7acb152920f59d88b871c0c7ad36bc49e1d0a2de115f492c44293a24e0",
+      "match": true
+    },
+    {
+      "path": "skills/prepare-proposal.md",
+      "bytes": 1536,
+      "sha256": "274cdd6a1552937762aa5cb7760f8ba4349bca17c37d89faf391ed5340d34832",
+      "match": true
+    },
+    {
+      "path": "skills/read-public-context.md",
+      "bytes": 2519,
+      "sha256": "bca6c48101537f180c392ca2050207eafae6200486d54494ca614062189f68a5",
+      "match": true
+    },
+    {
+      "path": "skills/review-evidence.md",
+      "bytes": 1776,
+      "sha256": "6c944a5f157f456b052cd4848c81e37d5104d6ea149d836ff5e2123eef2cfc4d",
+      "match": true
+    },
+    {
+      "path": "source-bindings.json",
+      "bytes": 18622,
+      "sha256": "b15a1a1a0bc1407544c83403ac78cfabf07c22c0074f4265e59d0ca24750ec52",
+      "match": true
+    },
+    {
+      "path": "state.json",
+      "bytes": 449,
+      "sha256": "f97f7ebad49a3a5918a3d78ee8c2315661fbb588c378a32336b48361d58a8a9a",
+      "match": true
+    },
+    {
+      "path": "voice/latest.json",
+      "bytes": 4345,
+      "sha256": "589534d7ebb35a50a5cd0337430aa5ebb2ab41c8377d4f5bc93b08fb9f0bd5eb",
+      "match": true
+    },
+    {
+      "path": "voice/latest.md",
+      "bytes": 1942,
+      "sha256": "80a151e30a9c3ad70424563a3954b2bd72567e7ed8e5c7aea01e2d119b66a9c6",
+      "match": true
+    },
+    {
+      "path": "voice/operator-update.json",
+      "bytes": 3692,
+      "sha256": "2a150a0092e0e2a6bc5bfa6fa1fdfecc8aa7accd4e202351f291c7b7be2fd405",
+      "match": true
+    },
+    {
+      "path": "voice/operator-update.md",
+      "bytes": 1754,
+      "sha256": "cdaaa40b199676c47b4d83560cec450b6126c9e7b51e71d7c8e1975a48e92ce3",
+      "match": true
+    },
+    {
+      "path": "release.json",
+      "bytes": 18458,
+      "sha256": "71a6e414d176d3962aa05f324859884f20eb3795a1ce2b915899925f25238c95",
+      "match": true
+    }
+  ],
+  "arweave_storage_finality": "NOT_VERIFIED"
+}

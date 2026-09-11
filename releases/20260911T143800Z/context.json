@@ -1,0 +1,20 @@
+{
+  "schema": "worldweaver.public_context.v1",
+  "updated_at": "2026-09-11T09:54:58Z",
+  "source": "Direct operator statement in the Worldweaver website task, September 11, 2026. This is dated operator context, not an independent runtime test.",
+  "human": "Tao, the human operator and creator of this project.",
+  "candidate_identity": "Sigrun, a continuing coordinating system whose identity, constraints, accepted history and learning can be reconstructed across replaceable model sessions.",
+  "purpose": "Any human or read-only LLM can visit Worldweaver, understand who they are interacting with, and reconstruct a candidate from public germline plus dated system state.",
+  "operator_report": {
+    "automation": "Working in pieces; end-to-end operation is not yet established.",
+    "main_blocker": "Getting Cloudflare to work end to end.",
+    "compute_sources": ["ChatGPT cloud chat sending tool for Larva", "Kimi", "Ollama"],
+    "compute_expansion": "Additional sources are deferred until the current system is stable.",
+    "arweave": "Older lifeboats are working. A new Arweave release is needed."
+  },
+  "authority_granted": false,
+  "public_write_access": false,
+  "candidate_rule": "Regeneration yields a candidate continuation, not accepted identity, current permissions, a live worker, or proof of operational readiness.",
+  "state_rule": "Keep the operator report timestamp, source observation time, and page rendering time distinct. A scheduled read does not refresh the operator's statement or historical germline.",
+  "private_context": "Not included. No login, secret, private conversation, account access, or write action is needed to use this public surface."
+}

@@ -1,0 +1,678 @@
+{
+  "kind": "DATED_HTTP_RESPONSE_EVIDENCE",
+  "captured_at": "2026-09-11T14:34:36.200741Z",
+  "original_body_sha256": "f313d9b795337e83627dc6ff412700a3cf6e11ecc2bb0015da4dd853d94412fa",
+  "payload_at_capture": {
+    "schema": "worldweaver.common_operating_picture.v1",
+    "rendered_at": "2026-09-11T14:34:39.565Z",
+    "coverage": "PARTIAL_SELECTED_SOURCES",
+    "authority_granted": false,
+    "observation": {
+      "scheduled": {
+        "schema": "worldweaver.state.v1",
+        "observed_at": "2026-09-11T14:30:26.229Z",
+        "manual_observation": {
+          "observation_id": "manual-20260911T140923Z",
+          "path": "/cop/observations/manual-20260911T140923Z.json",
+          "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b",
+          "bytes": 18414,
+          "recorded_at": "2026-09-11T14:09:23.967Z"
+        },
+        "next_observation_due": "2026-09-11T14:45:26.229Z",
+        "last_change_at": "2026-09-11T14:15:26.175Z",
+        "status": "OBSERVED_PARTIAL_SYSTEM",
+        "sources": [
+          {
+            "label": "Ollama observation lane",
+            "availability": "OBSERVED",
+            "observed_at": "2026-09-11T14:30:26.229Z",
+            "recorded_observation_at": "2026-09-10T00:48:55.000Z",
+            "carrier_liveness": "UNKNOWN",
+            "workflow_records": null,
+            "checkpoint_count": null,
+            "note": "Selected stored state only. Live execution and useful delivery are not established by this observation."
+          },
+          {
+            "label": "Kimi observation lane",
+            "availability": "OBSERVED",
+            "observed_at": "2026-09-11T14:30:26.229Z",
+            "recorded_observation_at": "2026-09-10T00:48:55.000Z",
+            "carrier_liveness": "UNKNOWN",
+            "workflow_records": null,
+            "checkpoint_count": null,
+            "note": "Selected stored state only. Live execution and useful delivery are not established by this observation."
+          },
+          {
+            "label": "Native workflow lane",
+            "availability": "OBSERVED",
+            "observed_at": "2026-09-11T14:30:26.229Z",
+            "recorded_observation_at": null,
+            "carrier_liveness": "UNKNOWN",
+            "workflow_records": {
+              "completed": 15,
+              "rejected": 9,
+              "unresolved": 0
+            },
+            "checkpoint_count": 12,
+            "note": "Selected stored state only. Live execution and useful delivery are not established by this observation."
+          }
+        ],
+        "newly_observed_records": {
+          "completed": 0,
+          "rejected": 0,
+          "comparable": true
+        },
+        "scope": "Three configured state lanes and an optional public actor summary. Private conversations and the wider fleet are outside this view.",
+        "authority_granted": false,
+        "useful_delivery": "NOT_MEASURED",
+        "fleet_readiness": "UNKNOWN",
+        "gen140": {
+          "schema_version": "hfo.gen140.world_state.v1",
+          "generated_at_utc": "2026-09-11T14:30:26.229Z",
+          "system": {
+            "status": "UNKNOWN",
+            "active_actor_count": 0,
+            "idle_actor_count": 1,
+            "stalled_actor_count": 0,
+            "unknown_actor_count": 3
+          },
+          "actors": [
+            {
+              "callsign": "GONDUL",
+              "state": "IDLE",
+              "last_heartbeat_utc": "2026-09-11T14:00:00.142Z",
+              "last_useful_checkpoint_utc": "2026-09-11T10:29:43.676Z",
+              "heartbeat_count": 5,
+              "observed_at": "2026-09-11T14:30:26.229Z",
+              "claimed_work": null,
+              "checkpoint_ref": null,
+              "blocker": null,
+              "evidence_refs": [],
+              "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+            },
+            {
+              "callsign": "HLOKK",
+              "state": "UNKNOWN",
+              "last_heartbeat_utc": null,
+              "last_useful_checkpoint_utc": null,
+              "heartbeat_count": null,
+              "observed_at": "2026-09-11T14:30:26.229Z",
+              "claimed_work": null,
+              "checkpoint_ref": null,
+              "blocker": null,
+              "evidence_refs": [],
+              "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+            },
+            {
+              "callsign": "SKULD",
+              "state": "UNKNOWN",
+              "last_heartbeat_utc": null,
+              "last_useful_checkpoint_utc": null,
+              "heartbeat_count": null,
+              "observed_at": "2026-09-11T14:30:26.229Z",
+              "claimed_work": null,
+              "checkpoint_ref": null,
+              "blocker": null,
+              "evidence_refs": [],
+              "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+            },
+            {
+              "callsign": "SKOGUL",
+              "state": "UNKNOWN",
+              "last_heartbeat_utc": null,
+              "last_useful_checkpoint_utc": null,
+              "heartbeat_count": null,
+              "observed_at": "2026-09-11T14:30:26.229Z",
+              "claimed_work": null,
+              "checkpoint_ref": null,
+              "blocker": null,
+              "evidence_refs": [],
+              "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+            }
+          ],
+          "work": {
+            "claimed": [],
+            "unclaimed": [],
+            "blocked": [],
+            "pending_transitions": []
+          },
+          "recent_changes": [],
+          "evidence_refs": [],
+          "scope": "Four configured actor seats. Recorded heartbeat classifications are a partial observation; private references are withheld."
+        }
+      },
+      "manual": {
+        "path": "/cop/observations/manual-20260911T140923Z.json",
+        "bytes": 18414,
+        "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b",
+        "schema": "worldweaver.cop_pointer.v1",
+        "observation_id": "manual-20260911T140923Z",
+        "recorded_at": "2026-09-11T14:09:23.967Z"
+      }
+    },
+    "integrity": {
+      "algorithm": "SHA-256",
+      "serialization": "UTF-8 JSON.stringify(observation), no trailing newline",
+      "observation_sha256": "120ce93427bff8d7925e21f1ca03b8aeb26d43ed3691d1dfe39850aba9cce2fa",
+      "manual_bytes": {
+        "path": "/cop/observations/manual-20260911T140923Z.json",
+        "bytes": 18414,
+        "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b",
+        "schema": "worldweaver.cop_pointer.v1",
+        "observation_id": "manual-20260911T140923Z",
+        "recorded_at": "2026-09-11T14:09:23.967Z"
+      }
+    },
+    "population": {
+      "registered_total": null,
+      "active_total": null,
+      "observed_actor_seats": 4,
+      "observed_active": 0,
+      "observed_idle": 1,
+      "observed_stale": 0,
+      "observed_unknown": 3
+    },
+    "actors": [
+      {
+        "actor_uuid": "9da421ae-c3ee-42be-9d55-9c23b54429a2",
+        "callsign": "GONDUL",
+        "carrier": "Cloudflare durable actor",
+        "compute_surface": "Cloudflare",
+        "loadout": null,
+        "observed_state": "IDLE",
+        "current_state": "IDLE",
+        "observed_at": "2026-09-11T14:30:26.229Z",
+        "freshness": "WITHIN_OBSERVATION_WINDOW",
+        "heartbeat_freshness": "WITHIN_OBSERVATION_WINDOW",
+        "heartbeat_expiry_seconds": 7200,
+        "claimed_work": null,
+        "claim_utc": null,
+        "last_heartbeat_utc": "2026-09-11T14:00:00.142Z",
+        "last_recorded_checkpoint_utc": "2026-09-11T10:29:43.676Z",
+        "checkpoint_ref": null,
+        "useful_delivery": "NOT_INDEPENDENTLY_VERIFIED",
+        "blocker": null,
+        "next_transition": null,
+        "lineage_ref": "/heritage/lineage.json",
+        "evidence_refs": [
+          "/state.json"
+        ]
+      },
+      {
+        "actor_uuid": "d584419b-3b09-458d-9318-0a83fc5a6ca4",
+        "callsign": "HLOKK",
+        "carrier": "UNKNOWN",
+        "compute_surface": "UNKNOWN",
+        "loadout": null,
+        "observed_state": "UNKNOWN",
+        "current_state": "UNKNOWN",
+        "observed_at": "2026-09-11T14:30:26.229Z",
+        "freshness": "WITHIN_OBSERVATION_WINDOW",
+        "heartbeat_freshness": "UNKNOWN",
+        "heartbeat_expiry_seconds": 7200,
+        "claimed_work": null,
+        "claim_utc": null,
+        "last_heartbeat_utc": null,
+        "last_recorded_checkpoint_utc": null,
+        "checkpoint_ref": null,
+        "useful_delivery": "NOT_INDEPENDENTLY_VERIFIED",
+        "blocker": "No admitted live source was observed for this seat.",
+        "next_transition": null,
+        "lineage_ref": "/heritage/lineage.json",
+        "evidence_refs": [
+          "/state.json"
+        ]
+      },
+      {
+        "actor_uuid": "262b2f7c-13a2-4b03-a558-6f531cac0a56",
+        "callsign": "SKULD",
+        "carrier": "UNKNOWN",
+        "compute_surface": "UNKNOWN",
+        "loadout": null,
+        "observed_state": "UNKNOWN",
+        "current_state": "UNKNOWN",
+        "observed_at": "2026-09-11T14:30:26.229Z",
+        "freshness": "WITHIN_OBSERVATION_WINDOW",
+        "heartbeat_freshness": "UNKNOWN",
+        "heartbeat_expiry_seconds": 7200,
+        "claimed_work": null,
+        "claim_utc": null,
+        "last_heartbeat_utc": null,
+        "last_recorded_checkpoint_utc": null,
+        "checkpoint_ref": null,
+        "useful_delivery": "NOT_INDEPENDENTLY_VERIFIED",
+        "blocker": "No admitted live source was observed for this seat.",
+        "next_transition": null,
+        "lineage_ref": "/heritage/lineage.json",
+        "evidence_refs": [
+          "/state.json"
+        ]
+      },
+      {
+        "actor_uuid": "d3d0ecb0-7dc0-4ca4-9c6c-caec59541c1e",
+        "callsign": "SKOGUL",
+        "carrier": "UNKNOWN",
+        "compute_surface": "UNKNOWN",
+        "loadout": null,
+        "observed_state": "UNKNOWN",
+        "current_state": "UNKNOWN",
+        "observed_at": "2026-09-11T14:30:26.229Z",
+        "freshness": "WITHIN_OBSERVATION_WINDOW",
+        "heartbeat_freshness": "UNKNOWN",
+        "heartbeat_expiry_seconds": 7200,
+        "claimed_work": null,
+        "claim_utc": null,
+        "last_heartbeat_utc": null,
+        "last_recorded_checkpoint_utc": null,
+        "checkpoint_ref": null,
+        "useful_delivery": "NOT_INDEPENDENTLY_VERIFIED",
+        "blocker": "No admitted live source was observed for this seat.",
+        "next_transition": null,
+        "lineage_ref": "/heritage/lineage.json",
+        "evidence_refs": [
+          "/state.json"
+        ]
+      }
+    ],
+    "surfaces": [
+      {
+        "surface_id": "chatgpt-b",
+        "label": "ChatGPT cloud chat B",
+        "carrier": "browser pickup adapter",
+        "compute_surface": "ChatGPT subscription browser",
+        "loadout": "Configured adaptive XHIGH and Pro lanes; no fresh accepted model start",
+        "configured": true,
+        "launcher_state": "DISABLED",
+        "observed_state": "BLOCKED",
+        "probe_result": "HOLD_COMPOSER_NOT_EMPTY",
+        "inference": "NOT_TESTED_NO_SEND",
+        "useful_work": "NOT_VERIFIED",
+        "current_execution": "UNKNOWN",
+        "utilization_percent": null,
+        "observed_at": "2026-09-11T13:18:35.365Z",
+        "stale_after": "2026-09-11T14:18:35.365Z",
+        "blocker": "Non-empty composer; ownership and send history unresolved.",
+        "next_transition": "Review the existing candidate against all nonce/send history; preserve unknown drafts.",
+        "receipt_refs": [
+          {
+            "path": "/cop/receipts/manual-20260911T133411Z-chatgpt.json",
+            "bytes": 917,
+            "sha256": "6d1da525007cbf783f2d90daee7f4a38c75414e9ee75b16a1e65bea5471d46bc",
+            "receipt_id": "manual-20260911T133411Z-chatgpt",
+            "recorded_at": "2026-09-11T13:34:11.408Z",
+            "observed_at": "2026-09-11T13:18:35.365Z",
+            "stale_after": "2026-09-11T14:18:35.365Z"
+          },
+          {
+            "path": "/cop/receipts/manual-20260911T133411Z-schedules.json",
+            "bytes": 1517,
+            "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+            "receipt_id": "manual-20260911T133411Z-schedules",
+            "recorded_at": "2026-09-11T13:34:11.408Z",
+            "observed_at": "2026-09-11T13:32:35.7837888Z",
+            "stale_after": "2026-09-11T14:32:35.783Z"
+          },
+          {
+            "path": "/cop/receipts/manual-20260911T133411Z-work.json",
+            "bytes": 1925,
+            "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283",
+            "receipt_id": "manual-20260911T133411Z-work",
+            "recorded_at": "2026-09-11T13:34:11.408Z",
+            "observed_at": "2026-09-11T13:30:09.136Z",
+            "stale_after": "2026-09-11T14:30:09.136Z"
+          }
+        ],
+        "freshness": "STALE_UNKNOWN",
+        "current_state": "UNKNOWN"
+      },
+      {
+        "surface_id": "kimi",
+        "label": "Kimi",
+        "carrier": "Native subscription CLI",
+        "compute_surface": "Kimi subscription",
+        "loadout": "CLI 0.41.0; no-tools canary",
+        "configured": true,
+        "launcher_state": "DISABLED",
+        "observed_state": "BLOCKED",
+        "probe_result": "TIMEOUT_180_SECONDS",
+        "inference": "NO_COMPLETION_IN_WINDOW",
+        "useful_work": "PRIOR_PROPOSAL_EXISTS_REVIEW_UNKNOWN",
+        "current_execution": "UNKNOWN",
+        "utilization_percent": null,
+        "observed_at": "2026-09-11T13:22:47.000Z",
+        "stale_after": "2026-09-11T14:22:47.000Z",
+        "blocker": "Canary timed out; cause unknown. Prior result still awaits reconciliation.",
+        "next_transition": "Consume the existing proposal and investigate the timeout at the native CLI boundary before another task.",
+        "receipt_refs": [
+          {
+            "path": "/cop/receipts/manual-20260911T133411Z-kimi.json",
+            "bytes": 1051,
+            "sha256": "2760d7f974d7287f96ab96fa79b64b9c0be058b01fe72bdecd685e5cbeea8d3d",
+            "receipt_id": "manual-20260911T133411Z-kimi",
+            "recorded_at": "2026-09-11T13:34:11.408Z",
+            "observed_at": "2026-09-11T13:22:47.000Z",
+            "stale_after": "2026-09-11T14:22:47.000Z"
+          },
+          {
+            "path": "/cop/receipts/manual-20260911T133411Z-schedules.json",
+            "bytes": 1517,
+            "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+            "receipt_id": "manual-20260911T133411Z-schedules",
+            "recorded_at": "2026-09-11T13:34:11.408Z",
+            "observed_at": "2026-09-11T13:32:35.7837888Z",
+            "stale_after": "2026-09-11T14:32:35.783Z"
+          },
+          {
+            "path": "/cop/receipts/manual-20260911T133411Z-work.json",
+            "bytes": 1925,
+            "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283",
+            "receipt_id": "manual-20260911T133411Z-work",
+            "recorded_at": "2026-09-11T13:34:11.408Z",
+            "observed_at": "2026-09-11T13:30:09.136Z",
+            "stale_after": "2026-09-11T14:30:09.136Z"
+          }
+        ],
+        "freshness": "STALE_UNKNOWN",
+        "current_state": "UNKNOWN"
+      },
+      {
+        "surface_id": "ollama",
+        "label": "Ollama local",
+        "carrier": "Local model service and native worker harness",
+        "compute_surface": "Local compute",
+        "loadout": "qwen3.5:4b-q4_K_M exact-output canary",
+        "configured": true,
+        "launcher_state": "DISABLED",
+        "observed_state": "INFERENCE_AVAILABLE_WORK_BLOCKED",
+        "probe_result": "PASS_EXACT_OUTPUT",
+        "inference": "PASS_SINGLE_CANARY",
+        "useful_work": "PRIOR_TASK_FAILED_NO_RECEIPT",
+        "current_execution": "UNKNOWN",
+        "utilization_percent": null,
+        "observed_at": "2026-09-11T13:23:18.000Z",
+        "stale_after": "2026-09-11T14:23:18.000Z",
+        "blocker": "Prior worker did not complete the repository/instruction access needed for the task.",
+        "next_transition": "Repair working-directory and authenticated repository access in the incumbent harness, then run one task through review and reconciliation.",
+        "receipt_refs": [
+          {
+            "path": "/cop/receipts/manual-20260911T133411Z-ollama.json",
+            "bytes": 1051,
+            "sha256": "8256b4ae95894042aed758bf34776d274b8d8087a91b70666fe44db28464161d",
+            "receipt_id": "manual-20260911T133411Z-ollama",
+            "recorded_at": "2026-09-11T13:34:11.408Z",
+            "observed_at": "2026-09-11T13:23:18.000Z",
+            "stale_after": "2026-09-11T14:23:18.000Z"
+          },
+          {
+            "path": "/cop/receipts/manual-20260911T133411Z-schedules.json",
+            "bytes": 1517,
+            "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+            "receipt_id": "manual-20260911T133411Z-schedules",
+            "recorded_at": "2026-09-11T13:34:11.408Z",
+            "observed_at": "2026-09-11T13:32:35.7837888Z",
+            "stale_after": "2026-09-11T14:32:35.783Z"
+          },
+          {
+            "path": "/cop/receipts/manual-20260911T133411Z-work.json",
+            "bytes": 1925,
+            "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283",
+            "receipt_id": "manual-20260911T133411Z-work",
+            "recorded_at": "2026-09-11T13:34:11.408Z",
+            "observed_at": "2026-09-11T13:30:09.136Z",
+            "stale_after": "2026-09-11T14:30:09.136Z"
+          }
+        ],
+        "freshness": "STALE_UNKNOWN",
+        "current_state": "UNKNOWN"
+      }
+    ],
+    "schedules": {
+      "observed_at": "2026-09-11T13:30:48.6148381Z",
+      "stale_after": "2026-09-11T14:30:48.614Z",
+      "selected": 5,
+      "disabled": 5,
+      "full_fleet_verified": false,
+      "receipt": {
+        "path": "/cop/receipts/manual-20260911T133411Z-schedules.json",
+        "bytes": 1517,
+        "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+        "receipt_id": "manual-20260911T133411Z-schedules",
+        "recorded_at": "2026-09-11T13:34:11.408Z",
+        "observed_at": "2026-09-11T13:32:35.7837888Z",
+        "stale_after": "2026-09-11T14:32:35.783Z"
+      },
+      "freshness": "STALE_UNKNOWN"
+    },
+    "work": [
+      {
+        "public_work_id": "kimi-composer-repair",
+        "state": "PROPOSAL_AWAITING_RECONCILIATION",
+        "result_recorded_at": "2026-09-11T11:36:33Z",
+        "artifact_sha256": "bdb77075d633f87730f17d2d3a5184ddf216ce62dab17fb139ac3a2a6e2c1996",
+        "artifact_text_hash_verified": true,
+        "independent_review": "NOT_OBSERVED",
+        "live_repair": "NOT_VERIFIED",
+        "claim_marker": "native-running remains alongside native-ready",
+        "claim_utc": null,
+        "claim_marker_recorded_at": "2026-09-11T11:27:06Z",
+        "event_receipt": {
+          "path": "/cop/receipts/manual-20260911T134446Z-work-events.json",
+          "bytes": 812,
+          "sha256": "bc8f41089b4257ee3c7a2d7dc9a2877b8f75614440b658014fe1e5b60c678940",
+          "receipt_id": "manual-20260911T134446Z-work-events",
+          "recorded_at": "2026-09-11T13:44:46.470Z",
+          "observed_at": "2026-09-11T13:43:15.808Z",
+          "stale_after": "2026-09-11T14:43:15.808Z"
+        }
+      },
+      {
+        "public_work_id": "ollama-packing-audit",
+        "state": "FAILED_NO_RESULT_RECEIPT",
+        "result_comment_count": 0,
+        "claim_marker": "native-running remains alongside native-ready",
+        "claim_utc": null,
+        "failure_observation": "Prior native wake exited 1. Worker diagnostics show a wrong relative instruction path and an unauthenticated repository request; the model itself produced text.",
+        "cause_classification": "HARNESS_OR_TASK_ACCESS_FAILURE",
+        "causal_limit": "Recorded failure trace; not a replay of the entire native work lifecycle.",
+        "claim_marker_recorded_at": "2026-09-11T11:36:10Z",
+        "event_receipt": {
+          "path": "/cop/receipts/manual-20260911T134446Z-work-events.json",
+          "bytes": 812,
+          "sha256": "bc8f41089b4257ee3c7a2d7dc9a2877b8f75614440b658014fe1e5b60c678940",
+          "receipt_id": "manual-20260911T134446Z-work-events",
+          "recorded_at": "2026-09-11T13:44:46.470Z",
+          "observed_at": "2026-09-11T13:43:15.808Z",
+          "stale_after": "2026-09-11T14:43:15.808Z"
+        }
+      }
+    ],
+    "voice": {
+      "callsign": "SIGRUN_HLUTI_CANDIDATE",
+      "actor_uuid": null,
+      "carrier": "Operator-reported frontier voice session",
+      "tools": "PUBLIC_WEBSITE_READS_ONLY",
+      "state": "OPERATOR_REPORTED_CAN_READ_SITE",
+      "observed_at": "2026-09-11T13:57:29.873Z",
+      "source_kind": "TAO_RELAYED_WEBSITE_ACCESS_REPORT",
+      "checkpoint_schema": "GEN140_SIGRUN_C2_CHECKPOINT_V2",
+      "checkpoint_sha256": "a7bb1b0509692b9c46965840bf62060907e2c525f81b1d218ff1f5bed993b1cc",
+      "raw_payload_public": false,
+      "durable_write": false,
+      "transport": "Tao ferries candidate payloads; receipt publication is separate.",
+      "requested_next": "A common operating picture with current work, evidence, blockers and deltas. Other checkpoint proposals remain candidates.",
+      "checkpoint_utc": "2026-09-11T13:07:00Z",
+      "access_receipt": {
+        "path": "/cop/receipts/manual-20260911T135729Z-voice-access.json",
+        "bytes": 811,
+        "sha256": "c2c48e0439ba2415c480b968a20d0f7a4a68f87cb50ce260e86d5d792199820a",
+        "receipt_id": "manual-20260911T135729Z-voice-access",
+        "recorded_at": "2026-09-11T13:57:29.873Z",
+        "observed_at": "2026-09-11T13:57:29.873Z",
+        "stale_after": "2026-09-11T14:57:29.873Z"
+      },
+      "access_report": "Tao reports that Sigrun candidate voice could access the site. Exact client fetch time and a response containing probe results were not supplied.",
+      "freshness": "WITHIN_OBSERVATION_WINDOW",
+      "current_execution": "UNKNOWN"
+    },
+    "work_freshness": "STALE_UNKNOWN",
+    "operator_direction": {
+      "recorded_at": "2026-09-11T14:09:23.967Z",
+      "source": "DIRECT_TAO_FLIGHT_WRAP_UP_REQUEST",
+      "text": "Sigrun checkpoint/stigmergy is being consumed as work input. Finish the current laptop checkpoint and prepare for operator-reported laptop shutdown during travel. Worldweaver remains the hosted read-only memory window. No working VPS handoff has been verified.",
+      "scope": "Complete this handoff; preserve paused launchers and the weekly manual reserve."
+    },
+    "operator_handoff": {
+      "schema": "worldweaver.operator_handoff.v1",
+      "recorded_at": "2026-09-11T14:09:23.967Z",
+      "source": "DIRECT_TAO_REQUEST_AND_LAPTOP_INTEGRATOR_RECEIPTS",
+      "status": "WRAPPING_UP_FOR_PLANNED_LAPTOP_OFFLINE",
+      "message_to_sigrun": "Sigrun: the laptop swarm has picked up your deposited JSON checkpoint/stigmergy as work input. The active laptop integrator has published the common operating picture, sanitized memory and heritage, source hashes, work/probe receipts and your voice-access report. We are wrapping up because Tao is travelling and the laptop is about to go dark. Your checkpoint is preserved; silence during the offline interval is expected, not a lost checkpoint.",
+      "active_work_scope": "The laptop integrator is completing this handoff. Previously reviewed provider launchers were paused; this statement does not claim every provider is running.",
+      "completed": [
+        "Checkpoint V2 logged and linked to the public COP",
+        "Provider probes separated from task and claim state",
+        "Read-only memory, heritage and on-demand skills published",
+        "Daily/weekly/monthly captured-history views and UTC/hash receipts available",
+        "Native collector receipt capture verified at 2026-09-11T14:00:26.210Z"
+      ],
+      "planned_offline": {
+        "operator_reported": true,
+        "actual_shutdown_utc": null,
+        "laptop_job_continuity": "DO_NOT_ASSUME_AFTER_LAPTOP_SHUTDOWN",
+        "no_laptop_restart_authorized_by_this_handoff": true
+      },
+      "available_without_laptop": [
+        "Cloudflare-hosted Worldweaver public context and existing collector",
+        "Committed GitHub source, receipts and public mirror",
+        "Voice session may read and reason using public context; returned text still needs an authorized durable write"
+      ],
+      "vps": {
+        "observed_at": "2026-09-11T14:07:58.687Z",
+        "state": "HOLD_ROUTE_UNBOUND",
+        "cause": "No registered local route adapter or SSH configuration was found.",
+        "transport": "NOT_ATTEMPTED",
+        "worker_state": "UNKNOWN",
+        "offline_claim": false,
+        "new_vps_handoff_proven": false,
+        "next_action": "Recover and verify the exact existing VPS route, then run a bounded service census and useful job through receipt/reconciliation. Plan this after travel; no functioning VPS continuation is claimed now."
+      },
+      "resume_order": [
+        "Recover the existing trusted VPS route and verify a useful laptop-independent work cycle",
+        "Reconcile the preserved ChatGPT draft and Kimi proposal",
+        "Repair the Ollama work harness and verify one complete work result"
+      ],
+      "quota_policy": "/policies/weekly-quota.json",
+      "authority_granted": false,
+      "receipt": {
+        "path": "/cop/receipts/manual-20260911T140923Z-travel-handoff.json",
+        "bytes": 2923,
+        "sha256": "bb9272afdc03eed606bdb1f9da07f807066d81079cf9c6c8eabca858769b42d1",
+        "receipt_id": "manual-20260911T140923Z-travel-handoff",
+        "recorded_at": "2026-09-11T14:09:23.967Z",
+        "observed_at": "2026-09-11T14:09:23.967Z",
+        "stale_after": "2026-09-11T15:09:23.967Z"
+      }
+    },
+    "blocked": [],
+    "unknowns": [
+      "Fleet population and utilization are not measured.",
+      "Claim labels do not prove an active process or an exclusive lease.",
+      "Heartbeat, canary response, proposed result, independent review and useful delivery are distinct.",
+      "Previously launched remote chats are outside this census."
+    ],
+    "receipts": [
+      {
+        "path": "/cop/receipts/manual-20260911T133411Z-chatgpt.json",
+        "bytes": 917,
+        "sha256": "6d1da525007cbf783f2d90daee7f4a38c75414e9ee75b16a1e65bea5471d46bc",
+        "receipt_id": "manual-20260911T133411Z-chatgpt",
+        "recorded_at": "2026-09-11T13:34:11.408Z",
+        "observed_at": "2026-09-11T13:18:35.365Z",
+        "stale_after": "2026-09-11T14:18:35.365Z"
+      },
+      {
+        "path": "/cop/receipts/manual-20260911T133411Z-kimi.json",
+        "bytes": 1051,
+        "sha256": "2760d7f974d7287f96ab96fa79b64b9c0be058b01fe72bdecd685e5cbeea8d3d",
+        "receipt_id": "manual-20260911T133411Z-kimi",
+        "recorded_at": "2026-09-11T13:34:11.408Z",
+        "observed_at": "2026-09-11T13:22:47.000Z",
+        "stale_after": "2026-09-11T14:22:47.000Z"
+      },
+      {
+        "path": "/cop/receipts/manual-20260911T133411Z-ollama.json",
+        "bytes": 1051,
+        "sha256": "8256b4ae95894042aed758bf34776d274b8d8087a91b70666fe44db28464161d",
+        "receipt_id": "manual-20260911T133411Z-ollama",
+        "recorded_at": "2026-09-11T13:34:11.408Z",
+        "observed_at": "2026-09-11T13:23:18.000Z",
+        "stale_after": "2026-09-11T14:23:18.000Z"
+      },
+      {
+        "path": "/cop/receipts/manual-20260911T133411Z-schedules.json",
+        "bytes": 1517,
+        "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+        "receipt_id": "manual-20260911T133411Z-schedules",
+        "recorded_at": "2026-09-11T13:34:11.408Z",
+        "observed_at": "2026-09-11T13:32:35.7837888Z",
+        "stale_after": "2026-09-11T14:32:35.783Z"
+      },
+      {
+        "path": "/cop/receipts/manual-20260911T133411Z-work.json",
+        "bytes": 1925,
+        "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283",
+        "receipt_id": "manual-20260911T133411Z-work",
+        "recorded_at": "2026-09-11T13:34:11.408Z",
+        "observed_at": "2026-09-11T13:30:09.136Z",
+        "stale_after": "2026-09-11T14:30:09.136Z"
+      },
+      {
+        "path": "/cop/receipts/manual-20260911T134446Z-work-events.json",
+        "bytes": 812,
+        "sha256": "bc8f41089b4257ee3c7a2d7dc9a2877b8f75614440b658014fe1e5b60c678940",
+        "receipt_id": "manual-20260911T134446Z-work-events",
+        "recorded_at": "2026-09-11T13:44:46.470Z",
+        "observed_at": "2026-09-11T13:43:15.808Z",
+        "stale_after": "2026-09-11T14:43:15.808Z"
+      },
+      {
+        "path": "/cop/receipts/manual-20260911T135729Z-voice-access.json",
+        "bytes": 811,
+        "sha256": "c2c48e0439ba2415c480b968a20d0f7a4a68f87cb50ce260e86d5d792199820a",
+        "receipt_id": "manual-20260911T135729Z-voice-access",
+        "recorded_at": "2026-09-11T13:57:29.873Z",
+        "observed_at": "2026-09-11T13:57:29.873Z",
+        "stale_after": "2026-09-11T14:57:29.873Z"
+      },
+      {
+        "path": "/cop/receipts/manual-20260911T140923Z-travel-handoff.json",
+        "bytes": 2923,
+        "sha256": "bb9272afdc03eed606bdb1f9da07f807066d81079cf9c6c8eabca858769b42d1",
+        "receipt_id": "manual-20260911T140923Z-travel-handoff",
+        "recorded_at": "2026-09-11T14:09:23.967Z",
+        "observed_at": "2026-09-11T14:09:23.967Z",
+        "stale_after": "2026-09-11T15:09:23.967Z"
+      }
+    ],
+    "log": "/cop/log.json",
+    "delta": "/delta?since=2026-09-11T14%3A30%3A26.229Z",
+    "refresh": {
+      "scheduled_state_seconds": 900,
+      "scheduled_state_expiry_seconds": 3600,
+      "provider_mode": "MANUAL_REVIEWED_SNAPSHOT",
+      "provider_probe_trigger": "NONE_FROM_PUBLIC_READS",
+      "note": "The collector refreshes selected Cloudflare state only. Every provider and work receipt retains its own observation time and expiry."
+    },
+    "memory": {
+      "rehydrate": "/rehydrate.md",
+      "capsule": "/capsule.json",
+      "heritage": "/heritage/README.md",
+      "skills": "/skills/index.json",
+      "daily": "/activity/daily.json",
+      "weekly": "/activity/weekly.json",
+      "monthly": "/activity/monthly.json"
+    }
+  },
+  "current_execution": "UNKNOWN",
+  "warning": "Nested FRESH/current_state values describe the capture time only."
+}

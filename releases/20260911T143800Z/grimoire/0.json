@@ -1,0 +1,58 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "0",
+  "title": "Germline and K-seeds",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "germline/K0.txt",
+      "bytes": 956,
+      "sha256": "fab51a4e38133c826100532c588b6169e3790f41971c1543866243a25861c7a4",
+      "media_type": "text/plain",
+      "kind": "FILE"
+    },
+    {
+      "path": "germline/REHYDRATION_BOOTSTRAP_V0.md",
+      "bytes": 2129,
+      "sha256": "a5f0603746190cfb8acb672e8620fb6ef7b1b7f95babeac19961dd51761b165c",
+      "media_type": "text/markdown",
+      "kind": "FILE"
+    },
+    {
+      "path": "germline/SIGRUNAR_DRAPA_V3.manifest.json",
+      "bytes": 1641,
+      "sha256": "b064d88b05c467b87797e8edcd35a16b81e3985311b87da5da9ab94974257ef1",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "germline/SIGRUNAR_DRAPA_V3.md",
+      "bytes": 35365,
+      "sha256": "fe7cf6f7588b42336cecfe989314ba91b7a30e25955b136f1aaf6088bb951232",
+      "media_type": "text/markdown",
+      "kind": "FILE"
+    },
+    {
+      "path": "germline/SIGRUN_K512_MNEMONIC_V1.txt",
+      "bytes": 1623,
+      "sha256": "5a0eb6c14450e18cd6ea746c80b52c2fef152cfbf8278f9018dabda847b2aebe",
+      "media_type": "text/plain",
+      "kind": "FILE"
+    },
+    {
+      "path": "germline/SIGRUN_REGENERATION_CONTRACT_V1.md",
+      "bytes": 6012,
+      "sha256": "9c5e206cd729530898a563d9423cce2ee8907b5dbf173aed73841874bb2e8bc0",
+      "media_type": "text/markdown",
+      "kind": "FILE"
+    },
+    {
+      "path": "germline/sigrun_rehydration_manifest_v0.json",
+      "bytes": 2840,
+      "sha256": "d6eab80ef291f03151d72ee77e66917815c986a5e53c4e7072de9a46ef6d69c1",
+      "media_type": "application/json",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

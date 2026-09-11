@@ -1,0 +1,23 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "73",
+  "title": "Observation receipts / 3",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "cop/receipts/manual-20260911T135729Z-voice-access.json",
+      "bytes": 811,
+      "sha256": "c2c48e0439ba2415c480b968a20d0f7a4a68f87cb50ce260e86d5d792199820a",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T140923Z-travel-handoff.json",
+      "bytes": 2923,
+      "sha256": "bb9272afdc03eed606bdb1f9da07f807066d81079cf9c6c8eabca858769b42d1",
+      "media_type": "application/json",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

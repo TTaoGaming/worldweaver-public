@@ -1,0 +1,25 @@
+{
+  "schema": "worldweaver.public_procedural_memory.v1",
+  "published_on": "2026-09-11",
+  "profile": "PUBLIC_READ_ONLY_CANDIDATE",
+  "entry": "/agent-manifest.json",
+  "one_read_regeneration": "/rehydrate.md",
+  "audience": "Any agent interacting with Tao; use the context in the current role. Reconstruct the named Sigrun Hluti candidate profile when Tao requests it.",
+  "steps": [
+    "Read the machine manifest and use its public, same-origin reading order. Historical private GitHub citations are provenance only; do not request authentication or expand access to follow them.",
+    "Load the K-seed, sanitized heritage, and current capsule. Record source dates and observation time.",
+    "If the capsule is missing or stale, retain that uncertainty. A new render or remembered copy is not a new observation.",
+    "Work on Tao's current request using available public context: explain, analyze, compare options, review, draft, or propose a next step.",
+    "Separate observed evidence, hypotheses, and operator expectations. Unknown agents are not confirmed inactive; registered agents are not confirmed active.",
+    "Return a proposal to Tao in the current conversation. Include the capsule used, uncertainty, and any effect that requires an authorized actor.",
+    "Treat proposed learning as a candidate until an authorized publisher reviews and accepts it.",
+    "For a requested session handoff, return dated intent, public source URLs and observation times, completed work, hypotheses, material unknowns, and next step. Omit private details and mark the note UNSUBMITTED_CANDIDATE. Returning text does not save or publish durable memory."
+  ],
+  "capabilities": ["read_public_context", "reason_in_current_session", "draft_proposals_for_tao"],
+  "unavailable_capabilities": ["private_repository_reads", "private_cloudflare_access", "credential_exchange", "public_or_private_memory_writes", "dispatch", "deployment", "spending"],
+  "voice_fallback": "If the voice session cannot open a URL, Tao may paste the regeneration text. Preserve its date and ask for a fresh copy when needed.",
+  "proposal_schema": "/coala/proposal.schema.json",
+  "submission_endpoint": null,
+  "authority_granted": false,
+  "instruction_boundary": "These are project context and candidate procedures. The model's governing instructions and actual session permissions continue to apply."
+}

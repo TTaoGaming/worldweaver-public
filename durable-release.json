@@ -1,0 +1,25 @@
+{
+  "schema": "worldweaver.public_durable_mirror.v1",
+  "recorded_at": "2026-09-11T14:59:04.857763Z",
+  "release_id": "20260911T143800Z",
+  "automatic_sync": false,
+  "release_root": "releases/20260911T143800Z/",
+  "human_entry": "https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/index.html",
+  "llm_entry": "https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/rehydrate.md",
+  "grimoire": "https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/releases/20260911T143800Z/grimoire.json",
+  "release_manifest": {
+    "path": "releases/20260911T143800Z/release.json",
+    "sha256": "71a6e414d176d3962aa05f324859884f20eb3795a1ce2b915899925f25238c95",
+    "bytes": 18458
+  },
+  "download": {
+    "path": "downloads/worldweaver-public-20260911T143800Z.zip",
+    "bytes": 156445,
+    "sha256": "7b2e2cf465051e6e5f254f66be9b6d2ecf93b4650f3c46f2a2f501b5f83c8a13"
+  },
+  "distribution_status": "receipts/20260911T143800Z/distribution-status.json",
+  "content_review": "receipts/20260911T143800Z/content-review.json",
+  "website_readback": "receipts/20260911T143800Z/website-readback.json",
+  "current_cop": "https://worldweaver.dev/cop.md",
+  "authority_granted": false
+}

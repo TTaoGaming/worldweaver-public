@@ -1,0 +1,21 @@
+{
+  "schema": "worldweaver.public_observation_receipt.v1",
+  "receipt_id": "manual-20260911T133411Z-chatgpt",
+  "recorded_at": "2026-09-11T13:34:11.408Z",
+  "observed_at": "2026-09-11T13:18:35.365Z",
+  "stale_after": "2026-09-11T14:18:35.365Z",
+  "method": "Existing no-send browser pickup probe",
+  "facts": {
+    "surface_id": "chatgpt-b",
+    "result": "HOLD_COMPOSER_NOT_EMPTY",
+    "prompt_sent": false,
+    "draft_preserved": true,
+    "local_throttle_flags": "GREEN",
+    "provider_remaining_quota": null,
+    "limit": "Local throttle state is not provider quota or an accepted model start."
+  },
+  "observation_window": null,
+  "privacy": "Reviewed summary; original source payloads and private identifiers are withheld.",
+  "integrity_note": "The descriptor hashes these exact public JSON bytes. This is integrity and provenance, not independent proof of every source claim.",
+  "authority_granted": false
+}

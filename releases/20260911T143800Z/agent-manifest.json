@@ -1,0 +1,17 @@
+{
+  "schema": "worldweaver.portable_agent_manifest.v1",
+  "kind": "DATED_STATIC_PUBLIC_READING_MANIFEST",
+  "recorded_at": "2026-09-11T14:34:36.200741Z",
+  "read_only": true,
+  "authority_granted": false,
+  "regeneration": "rehydrate.md",
+  "current_state": "cop.json",
+  "current_execution": "UNKNOWN",
+  "capsule": "capsule.json",
+  "grimoire": "grimoire.json",
+  "integrity": "release.json",
+  "routes": "routes.json",
+  "memory": "coala/manifest.json",
+  "heritage": "heritage/README.md",
+  "skills": "skills/index.json"
+}

@@ -1,0 +1,420 @@
+{
+  "schema": "worldweaver.public_source_bindings.v1",
+  "recorded_at": "2026-09-11T14:34:36.200741Z",
+  "source_release_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba",
+  "source_seed_date": "2026-09-06",
+  "source_candidate_commit": "423c441c051e1a5999167c468fb70ecb659aa213",
+  "candidate_pr_status_at_binding": "OPEN_NOT_MERGED",
+  "exact_germline_bindings": [
+    {
+      "path": "germline/SIGRUN_K512_MNEMONIC_V1.txt",
+      "source_path": "contracts/SIGRUN_K512_MNEMONIC_V1.txt",
+      "source_commit": "423c441c051e1a5999167c468fb70ecb659aa213",
+      "git_blob_sha": "7d4abad9a77b068c1d5316bf713044d034198a97",
+      "sha256": "5a0eb6c14450e18cd6ea746c80b52c2fef152cfbf8278f9018dabda847b2aebe",
+      "status": "EXACT_SOURCE_BYTES__NO_NEW_CANON_PROMOTION"
+    },
+    {
+      "path": "germline/SIGRUNAR_DRAPA_V3.md",
+      "source_path": "docs/SIGRUNAR_DRAPA_V3.md",
+      "source_commit": "423c441c051e1a5999167c468fb70ecb659aa213",
+      "git_blob_sha": "da9dd4d3623ef9421c3324ee246fe7bef14c612f",
+      "sha256": "fe7cf6f7588b42336cecfe989314ba91b7a30e25955b136f1aaf6088bb951232",
+      "status": "EXACT_SOURCE_BYTES__NO_NEW_CANON_PROMOTION"
+    },
+    {
+      "path": "germline/SIGRUNAR_DRAPA_V3.manifest.json",
+      "source_path": "docs/SIGRUNAR_DRAPA_V3.manifest.json",
+      "source_commit": "423c441c051e1a5999167c468fb70ecb659aa213",
+      "git_blob_sha": "679904d3963a05a86024af80021b3436b7ca8677",
+      "sha256": "b064d88b05c467b87797e8edcd35a16b81e3985311b87da5da9ab94974257ef1",
+      "status": "EXACT_SOURCE_BYTES__NO_NEW_CANON_PROMOTION"
+    },
+    {
+      "path": "germline/SIGRUN_REGENERATION_CONTRACT_V1.md",
+      "source_path": "docs/SIGRUN_REGENERATION_CONTRACT_V1.md",
+      "source_commit": "423c441c051e1a5999167c468fb70ecb659aa213",
+      "git_blob_sha": "63d988333e9ccd236c931bbbfc29122ad3a14472",
+      "sha256": "9c5e206cd729530898a563d9423cce2ee8907b5dbf173aed73841874bb2e8bc0",
+      "status": "EXACT_SOURCE_BYTES__NO_NEW_CANON_PROMOTION"
+    }
+  ],
+  "preserved_assets": [
+    {
+      "path": "germline/SIGRUN_K512_MNEMONIC_V1.txt",
+      "sha256": "5a0eb6c14450e18cd6ea746c80b52c2fef152cfbf8278f9018dabda847b2aebe",
+      "source_status": "MNEMONIC_BOOT_CANDIDATE",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "germline/K0.txt",
+      "sha256": "fab51a4e38133c826100532c588b6169e3790f41971c1543866243a25861c7a4",
+      "source_status": "CANONICAL",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "germline/SIGRUNAR_DRAPA_V3.md",
+      "sha256": "fe7cf6f7588b42336cecfe989314ba91b7a30e25955b136f1aaf6088bb951232",
+      "source_status": "CANONICAL_V3_4",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "germline/SIGRUNAR_DRAPA_V3.manifest.json",
+      "sha256": "b064d88b05c467b87797e8edcd35a16b81e3985311b87da5da9ab94974257ef1",
+      "source_status": "CANONICAL_V3_4",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "germline/SIGRUN_REGENERATION_CONTRACT_V1.md",
+      "sha256": "9c5e206cd729530898a563d9423cce2ee8907b5dbf173aed73841874bb2e8bc0",
+      "source_status": "CANONICAL",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "mathematics.json",
+      "sha256": "23e655bcb8d661d374d63af218361cf6377d6314a9fb77639a9f0f2e17aeb948",
+      "source_status": "SOURCE_BOUND_MATHEMATICAL_MAP",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "formulations.json",
+      "sha256": "54504919b3c0c384e85347c45b6b99367d95aa42a730deeb9ce4584f5e44e825",
+      "source_status": "MIXED_HERITAGE_PLUS_WIP",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "semantic-tokens.json",
+      "sha256": "47bfebc8fa49b6022a0329614b629c3014e70ebf7c616befb0df590f58899f00",
+      "source_status": "SOURCE_BOUND_SEMANTIC_DECODER_CANDIDATE",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "sigrun-architecture.json",
+      "sha256": "e3440bcc8593c5ce1a30ef90535b387be0f46e53db789712e5c1fc67328750d4",
+      "source_status": "SOURCE_BOUND_COMPOUND_ACTOR_SYNTHESIS_CANDIDATE",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "germline/REHYDRATION_BOOTSTRAP_V0.md",
+      "sha256": "a5f0603746190cfb8acb672e8620fb6ef7b1b7f95babeac19961dd51761b165c",
+      "source_status": "SOURCE_CANDIDATE",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "germline/sigrun_rehydration_manifest_v0.json",
+      "sha256": "d6eab80ef291f03151d72ee77e66917815c986a5e53c4e7072de9a46ef6d69c1",
+      "source_status": "SOURCE_CANDIDATE",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "mnemonic-scaffolding.json",
+      "sha256": "de3c511172530b6f4d6a073500d12b74202dae1fbb7ccdf85c9bbfdeded54cf4",
+      "source_status": "MNEMONIC_MEMORY_PALACE_CANDIDATE",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "context.json",
+      "sha256": "5060c043345b3e0e7cbd631a0b4247ea3b717fdcc4a86ec4fe6e4c1f2284a68a",
+      "source_status": "DATED_OPERATOR_REPORT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "heritage.json",
+      "sha256": "4a92e1175458d89378dc380a28aa0f45c2cf5528794b89a8dd9e26544d3f1827",
+      "source_status": "CURATED_PUBLIC_CANDIDATE_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "coala/manifest.json",
+      "sha256": "d1667c8de4a909e64dcf3c7a23ae800e07daacbc0a84f74c9930bcb1b2f68ddc",
+      "source_status": "CURATED_PUBLIC_CANDIDATE_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "coala/semantic.json",
+      "sha256": "547114e57cd53a0047bc569be3754f8c8bb0f278830d3e03cfd1f26b81ccc775",
+      "source_status": "CURATED_PUBLIC_CANDIDATE_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "coala/procedural.json",
+      "sha256": "c8f28aa6fea1d04f3bae1bb613029b26bedf0e3fe2d47f1b3cfffdaf91252e55",
+      "source_status": "CURATED_PUBLIC_CANDIDATE_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "coala/proposal.schema.json",
+      "sha256": "14407a828a535c67fb27f82f2b23b933aaf94bf1cb391afe2170623b02fc8093",
+      "source_status": "CURATED_PUBLIC_CANDIDATE_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "skills/index.json",
+      "sha256": "f38d8d7acb152920f59d88b871c0c7ad36bc49e1d0a2de115f492c44293a24e0",
+      "source_status": "CURATED_PUBLIC_CANDIDATE_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "skills/read-public-context.md",
+      "sha256": "bca6c48101537f180c392ca2050207eafae6200486d54494ca614062189f68a5",
+      "source_status": "CURATED_PUBLIC_CANDIDATE_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "skills/review-evidence.md",
+      "sha256": "6c944a5f157f456b052cd4848c81e37d5104d6ea149d836ff5e2123eef2cfc4d",
+      "source_status": "CURATED_PUBLIC_CANDIDATE_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "skills/prepare-proposal.md",
+      "sha256": "274cdd6a1552937762aa5cb7760f8ba4349bca17c37d89faf391ed5340d34832",
+      "source_status": "CURATED_PUBLIC_CANDIDATE_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "heritage/README.md",
+      "sha256": "0893639228f9787caa9bfe3fc71aacd1f0e5eaa1ced573c4ca0505ecd509fb07",
+      "source_status": "SOURCE_DERIVED_HERITAGE_NOT_CURRENT_AUTHORITY",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "heritage/timeline.json",
+      "sha256": "e570dea065c0ee24f1ff7b73b0604d798859f5e6cafd1ae9abf478e7fae6e73f",
+      "source_status": "SOURCE_DERIVED_HERITAGE_NOT_CURRENT_AUTHORITY",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "heritage/lineage.json",
+      "sha256": "f7fd72e57e419c88c970927156438e97b81b0c1cd9154c018f3ceeb17c2979a9",
+      "source_status": "SOURCE_DERIVED_HERITAGE_NOT_CURRENT_AUTHORITY",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "heritage/lessons.json",
+      "sha256": "34215f7b8e9c8be11d6a8d179aa433441ff7f27564e904d59f09454a9c2b873f",
+      "source_status": "SOURCE_DERIVED_HERITAGE_NOT_CURRENT_AUTHORITY",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "heritage/rollups.json",
+      "sha256": "c714540123f4f8b99fc353c9f058f160f885a37d1342cb693f2d916a1f380a4a",
+      "source_status": "SOURCE_DERIVED_HERITAGE_NOT_CURRENT_AUTHORITY",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "heritage/sources.json",
+      "sha256": "ca86fb68decbd84177f605fc55b718221d1fac689195d658a7ea8110491e4160",
+      "source_status": "SOURCE_DERIVED_HERITAGE_NOT_CURRENT_AUTHORITY",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "voice/latest.json",
+      "sha256": "589534d7ebb35a50a5cd0337430aa5ebb2ab41c8377d4f5bc93b08fb9f0bd5eb",
+      "source_status": "DATED_PUBLIC_VOICE_INTAKE_RESPONSE",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "voice/latest.md",
+      "sha256": "80a151e30a9c3ad70424563a3954b2bd72567e7ed8e5c7aea01e2d119b66a9c6",
+      "source_status": "DATED_PUBLIC_VOICE_INTAKE_RESPONSE",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "voice/operator-update.json",
+      "sha256": "2a150a0092e0e2a6bc5bfa6fa1fdfecc8aa7accd4e202351f291c7b7be2fd405",
+      "source_status": "DATED_PUBLIC_VOICE_INTAKE_RESPONSE",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "voice/operator-update.md",
+      "sha256": "cdaaa40b199676c47b4d83560cec450b6126c9e7b51e71d7c8e1975a48e92ce3",
+      "source_status": "DATED_PUBLIC_VOICE_INTAKE_RESPONSE",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "policies/weekly-quota.json",
+      "sha256": "4b58fc1f64b3fbbd04d9d1b632a7c7e3db044e94421d8fbe3707e84ab0dd1c0c",
+      "source_status": "DATED_PUBLIC_VOICE_INTAKE_RESPONSE",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "activity/providers.json",
+      "sha256": "ffd559df802460d5166f2328629288141021155b8021a3b2e95de6ffd890d20c",
+      "source_status": "DATED_PUBLIC_PROVIDER_OBSERVATION",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/latest.json",
+      "sha256": "9a5e731fc4f7f8607c8a7255ee0cd4baef79023edbd6c43fe41ad097a75ae658",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/log.json",
+      "sha256": "1face7a8c4deb8b78241a0f4f223deb0d327816d508de9791f969ff60f7fda5c",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/observations/manual-20260911T133411Z.json",
+      "sha256": "4525fe45122403622764f56d4216f8da3d747fc3876b679dd58dd4a164155c83",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/observations/manual-20260911T134446Z.json",
+      "sha256": "bd4f3e89de5e3584527a8fd8a7804725a4f5df7c1bebbbf5004c9e5896979d14",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/observations/manual-20260911T135729Z.json",
+      "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/observations/manual-20260911T140923Z.json",
+      "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-chatgpt.json",
+      "sha256": "6d1da525007cbf783f2d90daee7f4a38c75414e9ee75b16a1e65bea5471d46bc",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-kimi.json",
+      "sha256": "2760d7f974d7287f96ab96fa79b64b9c0be058b01fe72bdecd685e5cbeea8d3d",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-ollama.json",
+      "sha256": "8256b4ae95894042aed758bf34776d274b8d8087a91b70666fe44db28464161d",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-schedules.json",
+      "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-work.json",
+      "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T134446Z-work-events.json",
+      "sha256": "bc8f41089b4257ee3c7a2d7dc9a2877b8f75614440b658014fe1e5b60c678940",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T135729Z-voice-access.json",
+      "sha256": "c2c48e0439ba2415c480b968a20d0f7a4a68f87cb50ce260e86d5d792199820a",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T140923Z-travel-handoff.json",
+      "sha256": "bb9272afdc03eed606bdb1f9da07f807066d81079cf9c6c8eabca858769b42d1",
+      "source_status": "REVIEWED_PUBLIC_COP_CONTEXT",
+      "source_commit": "18443d5bd6213b935f19ecc5e90b7b78871f1aba"
+    }
+  ],
+  "anonymous_capture_receipts": [
+    {
+      "url": "https://worldweaver.dev/cop.json",
+      "retrieved_at": "2026-09-11T14:34:35.545332Z",
+      "bytes": 28898,
+      "sha256": "f313d9b795337e83627dc6ff412700a3cf6e11ecc2bb0015da4dd853d94412fa",
+      "source_response_filename": "cop.json",
+      "hash_scope": "ORIGINAL_ANONYMOUS_HTTP_RESPONSE_BEFORE_STATIC_WRAPPING",
+      "package_projection": {
+        "path": "cop.json",
+        "bytes": 29993,
+        "sha256": "d13c16ff0cad8f9c607d3cb4b216a16c22fd77fe27b9b663462030d3fd3fb9ec",
+        "media_type": "application/json"
+      }
+    },
+    {
+      "url": "https://worldweaver.dev/activity/hourly.json",
+      "retrieved_at": "2026-09-11T14:34:35.829355Z",
+      "bytes": 29785,
+      "sha256": "0fcc060c75767d25823cb15e1bcf1dddfb1ecadf2707a86a539de50ac879f720",
+      "source_response_filename": "activity/hourly.json",
+      "hash_scope": "ORIGINAL_ANONYMOUS_HTTP_RESPONSE_BEFORE_STATIC_WRAPPING",
+      "package_projection": {
+        "path": "activity/hourly.json",
+        "bytes": 31595,
+        "sha256": "6cca3e7eb023b39f5770e38da377291f1c6e6ba0ecf9bc14a1e062294d377148",
+        "media_type": "application/json"
+      }
+    },
+    {
+      "url": "https://worldweaver.dev/activity/daily.json",
+      "retrieved_at": "2026-09-11T14:34:35.816837Z",
+      "bytes": 6317,
+      "sha256": "f0c8c132a0be6aa146a50c2749f29d1e2104cdedaf8b898d854ecc07359c6774",
+      "source_response_filename": "activity/daily.json",
+      "hash_scope": "ORIGINAL_ANONYMOUS_HTTP_RESPONSE_BEFORE_STATIC_WRAPPING",
+      "package_projection": {
+        "path": "activity/daily.json",
+        "bytes": 6974,
+        "sha256": "d7110c169d386b777b304ac19898966dbd6d33d6a04fa2d155a2da352e0fb33d",
+        "media_type": "application/json"
+      }
+    },
+    {
+      "url": "https://worldweaver.dev/activity/weekly.json",
+      "retrieved_at": "2026-09-11T14:34:35.918617Z",
+      "bytes": 6319,
+      "sha256": "05097018885e5b7ee470858662a7ea7f7eb5e3579ea38e7010f9e00a92cd8817",
+      "source_response_filename": "activity/weekly.json",
+      "hash_scope": "ORIGINAL_ANONYMOUS_HTTP_RESPONSE_BEFORE_STATIC_WRAPPING",
+      "package_projection": {
+        "path": "activity/weekly.json",
+        "bytes": 6977,
+        "sha256": "dccfa23b3156bf8c16a8774f2cd62a66afa9bcab08b4b6de353df336c7fd44e7",
+        "media_type": "application/json"
+      }
+    },
+    {
+      "url": "https://worldweaver.dev/activity/monthly.json",
+      "retrieved_at": "2026-09-11T14:34:36.200741Z",
+      "bytes": 6321,
+      "sha256": "a5fb3aba5cf41ca2b30eb67b1c1094bd65ae8426b68e4055dbfa8b1dbc1571f1",
+      "source_response_filename": "activity/monthly.json",
+      "hash_scope": "ORIGINAL_ANONYMOUS_HTTP_RESPONSE_BEFORE_STATIC_WRAPPING",
+      "package_projection": {
+        "path": "activity/monthly.json",
+        "bytes": 6980,
+        "sha256": "45cd81ee53ab4509733f20a616498209a973ebf733b752d421e5d1d7ff7f2139",
+        "media_type": "application/json"
+      }
+    },
+    {
+      "url": "https://worldweaver.dev/activity/yearly.json",
+      "retrieved_at": "2026-09-11T14:34:36.177157Z",
+      "bytes": 6319,
+      "sha256": "71a18686518b545934d6aec224d7076460df46f9e9c59300fcec4080af453dad",
+      "source_response_filename": "activity/yearly.json",
+      "hash_scope": "ORIGINAL_ANONYMOUS_HTTP_RESPONSE_BEFORE_STATIC_WRAPPING",
+      "package_projection": {
+        "path": "activity/yearly.json",
+        "bytes": 6977,
+        "sha256": "aee13bb08c68186e2280660d5cb3d8ea96313bdaf883186df9f67e8dda8d2fa7",
+        "media_type": "application/json"
+      }
+    }
+  ],
+  "source_status_rule": "Historic CANONICAL labels are preserved source classifications from September 6; they do not establish current authority.",
+  "authority_granted": false
+}

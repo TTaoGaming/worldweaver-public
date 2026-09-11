@@ -1,0 +1,51 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "1",
+  "title": "Semantic and mathematical decoding",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "architecture.md",
+      "bytes": 1316,
+      "sha256": "f814b8652bd602ccd56f75aec47f842fb9ad81e3e9158acd3fee879c693b6711",
+      "media_type": "text/markdown",
+      "kind": "FILE"
+    },
+    {
+      "path": "formulations.json",
+      "bytes": 4084,
+      "sha256": "54504919b3c0c384e85347c45b6b99367d95aa42a730deeb9ce4584f5e44e825",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "mathematics.json",
+      "bytes": 3630,
+      "sha256": "23e655bcb8d661d374d63af218361cf6377d6314a9fb77639a9f0f2e17aeb948",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "mnemonic-scaffolding.json",
+      "bytes": 7037,
+      "sha256": "de3c511172530b6f4d6a073500d12b74202dae1fbb7ccdf85c9bbfdeded54cf4",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "semantic-tokens.json",
+      "bytes": 10775,
+      "sha256": "47bfebc8fa49b6022a0329614b629c3014e70ebf7c616befb0df590f58899f00",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "sigrun-architecture.json",
+      "bytes": 14087,
+      "sha256": "e3440bcc8593c5ce1a30ef90535b387be0f46e53db789712e5c1fc67328750d4",
+      "media_type": "application/json",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

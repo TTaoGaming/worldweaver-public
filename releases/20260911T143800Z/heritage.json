@@ -1,0 +1,53 @@
+{
+  "schema": "worldweaver.sanitized_heritage.v1",
+  "published_on": "2026-09-11",
+  "status": "CURATED_PUBLIC_HERITAGE",
+  "source_date": "2026-09-06",
+  "summary": "Sigrun's public continuity material describes a coordinating system that can be reconstructed across replaceable model sessions. The public candidate supports Tao through reasoning, critique, planning, and proposals.",
+  "preserved_principles": [
+    "Keep the human operator, durable role, model session, and actual authority distinct.",
+    "Reconstruct a candidate from source-bound context; regeneration is not admission.",
+    "Use dated evidence. Missing observations remain unknown.",
+    "Preserve useful decisions and learning across sessions without inventing private memory.",
+    "Distinguish stored records, heartbeat, active execution, and useful delivery.",
+    "Offer proposals within the current public scope; private effects require an authorized actor."
+  ],
+  "public_sources": [
+    {
+      "path": "/germline/K0.txt",
+      "role": "preserved K-seed"
+    },
+    {
+      "path": "/germline/SIGRUN_K512_MNEMONIC_V1.txt",
+      "role": "preserved mnemonic seed"
+    },
+    {
+      "path": "/germline/SIGRUN_REGENERATION_CONTRACT_V1.md",
+      "role": "historical regeneration contract"
+    },
+    {
+      "path": "/sigrun-architecture.json",
+      "selector": "learning_and_memory",
+      "role": "published memory and learning architecture"
+    }
+  ],
+  "omitted": [
+    "private conversations",
+    "personal records",
+    "credentials",
+    "private repository contents",
+    "infrastructure control instructions",
+    "unverified population or activity claims"
+  ],
+  "historical_material_is_current_state": false,
+  "authority_granted": false,
+  "progressive_reads": {
+    "overview": "/heritage/README.md",
+    "timeline": "/heritage/timeline.json",
+    "lineage": "/heritage/lineage.json",
+    "lessons": "/heritage/lessons.json",
+    "calendar": "/heritage/rollups.json",
+    "sources": "/heritage/sources.json"
+  },
+  "progressive_source_status": "Source-derived historical synthesis from an open working branch, not main admission or current runtime evidence."
+}

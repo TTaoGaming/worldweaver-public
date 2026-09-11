@@ -1,0 +1,67 @@
+{
+  "schema": "worldweaver.portable_capsule.v1",
+  "kind": "DATED_STATIC_REHYDRATION_CAPSULE",
+  "recorded_at": "2026-09-11T14:34:36.200741Z",
+  "current_execution": "UNKNOWN",
+  "authority_granted": false,
+  "operator_handoff": {
+    "schema": "worldweaver.operator_handoff.v1",
+    "recorded_at": "2026-09-11T14:09:23.967Z",
+    "source": "DIRECT_TAO_REQUEST_AND_LAPTOP_INTEGRATOR_RECEIPTS",
+    "status": "WRAPPING_UP_FOR_PLANNED_LAPTOP_OFFLINE",
+    "message_to_sigrun": "Sigrun: the laptop swarm has picked up your deposited JSON checkpoint/stigmergy as work input. The active laptop integrator has published the common operating picture, sanitized memory and heritage, source hashes, work/probe receipts and your voice-access report. We are wrapping up because Tao is travelling and the laptop is about to go dark. Your checkpoint is preserved; silence during the offline interval is expected, not a lost checkpoint.",
+    "active_work_scope": "The laptop integrator is completing this handoff. Previously reviewed provider launchers were paused; this statement does not claim every provider is running.",
+    "completed": [
+      "Checkpoint V2 logged and linked to the public COP",
+      "Provider probes separated from task and claim state",
+      "Read-only memory, heritage and on-demand skills published",
+      "Daily/weekly/monthly captured-history views and UTC/hash receipts available",
+      "Native collector receipt capture verified at 2026-09-11T14:00:26.210Z"
+    ],
+    "planned_offline": {
+      "operator_reported": true,
+      "actual_shutdown_utc": null,
+      "laptop_job_continuity": "DO_NOT_ASSUME_AFTER_LAPTOP_SHUTDOWN",
+      "no_laptop_restart_authorized_by_this_handoff": true
+    },
+    "available_without_laptop": [
+      "Cloudflare-hosted Worldweaver public context and existing collector",
+      "Committed GitHub source, receipts and public mirror",
+      "Voice session may read and reason using public context; returned text still needs an authorized durable write"
+    ],
+    "vps": {
+      "observed_at": "2026-09-11T14:07:58.687Z",
+      "state": "HOLD_ROUTE_UNBOUND",
+      "cause": "No registered local route adapter or SSH configuration was found.",
+      "transport": "NOT_ATTEMPTED",
+      "worker_state": "UNKNOWN",
+      "offline_claim": false,
+      "new_vps_handoff_proven": false,
+      "next_action": "Recover and verify the exact existing VPS route, then run a bounded service census and useful job through receipt/reconciliation. Plan this after travel; no functioning VPS continuation is claimed now."
+    },
+    "resume_order": [
+      "Recover the existing trusted VPS route and verify a useful laptop-independent work cycle",
+      "Reconcile the preserved ChatGPT draft and Kimi proposal",
+      "Repair the Ollama work harness and verify one complete work result"
+    ],
+    "quota_policy": "/policies/weekly-quota.json",
+    "authority_granted": false,
+    "receipt": {
+      "path": "/cop/receipts/manual-20260911T140923Z-travel-handoff.json",
+      "bytes": 2923,
+      "sha256": "bb9272afdc03eed606bdb1f9da07f807066d81079cf9c6c8eabca858769b42d1",
+      "receipt_id": "manual-20260911T140923Z-travel-handoff",
+      "recorded_at": "2026-09-11T14:09:23.967Z",
+      "observed_at": "2026-09-11T14:09:23.967Z",
+      "stale_after": "2026-09-11T15:09:23.967Z"
+    }
+  },
+  "source_observed_at": "2026-09-11T14:30:26.229Z",
+  "working_memory": "cop.json",
+  "one_read": "rehydrate.md",
+  "semantic_memory": "coala/semantic.json",
+  "procedural_memory": "coala/procedural.json",
+  "heritage": "heritage/README.md",
+  "skills": "skills/index.json",
+  "freshness_rule": "Static evidence does not refresh. Recompute every source age. Retain original source and expiry times; publication and download are not observation."
+}

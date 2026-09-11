@@ -1,0 +1,17 @@
+{
+  "schema": "worldweaver.public_observation_receipt.v1",
+  "receipt_id": "manual-20260911T134446Z-work-events",
+  "recorded_at": "2026-09-11T13:44:46.470Z",
+  "observed_at": "2026-09-11T13:43:15.808Z",
+  "stale_after": "2026-09-11T14:43:15.808Z",
+  "method": "Native GitHub issue event and result-comment timestamp readback",
+  "facts": {
+    "kimi_claim_marker_recorded_at": "2026-09-11T11:27:06Z",
+    "ollama_claim_marker_recorded_at": "2026-09-11T11:36:10Z",
+    "kimi_proposal_recorded_at": "2026-09-11T11:36:33Z",
+    "kimi_proposal_updated_at": "2026-09-11T11:36:33Z",
+    "claim_limit": "These are label event times, not exclusive leases or proof of a live worker.",
+    "result_limit": "A timestamped proposal does not establish independent review or live repair."
+  },
+  "authority_granted": false
+}

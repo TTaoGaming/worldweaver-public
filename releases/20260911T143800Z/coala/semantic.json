@@ -1,0 +1,23 @@
+{
+  "schema": "worldweaver.public_semantic_memory.v1",
+  "published_on": "2026-09-11",
+  "status": "CURATED_PUBLIC_CONTEXT",
+  "facts": [
+    {"id": "human", "claim": "Tao is the human creator and operator of Worldweaver.", "source": "/context.json", "evidence_class": "OPERATOR_REPORT"},
+    {"id": "candidate", "claim": "Sigrun is the coordinating system described in the germline. A fresh model session can reconstruct a candidate Hluti continuation.", "source": "/germline/SIGRUN_REGENERATION_CONTRACT_V1.md", "evidence_class": "PUBLISHED_HERITAGE"},
+    {"id": "oasis", "claim": "This public surface supports voice and other read-only LLMs without private GitHub or Cloudflare access.", "source": "Tao's website instructions, 2026-09-11", "evidence_class": "OPERATOR_SCOPE"},
+    {"id": "scale", "claim": "Tao expects a large population of Lings and Roaches with some Valkyrie roles. The current public feed does not establish total registered or active population.", "source": "Tao's website instructions, 2026-09-11", "evidence_class": "OPERATOR_EXPECTATION_NOT_MEASURED_COUNT"},
+    {"id": "lineage", "claim": "The preserved germline is dated September 6, 2026. Fresh observations and new page renders do not update that historical source date.", "source": "/manifest.json", "evidence_class": "PUBLIC_ARTIFACT_METADATA"}
+  ],
+  "terms": {
+    "germline": "Preserved identity, principles, and reconstruction material.",
+    "capsule": "A bounded, dated public context packet.",
+    "Hluti": "A candidate continuation using a particular model session; reconstruction alone does not admit it or grant permissions.",
+    "Ling": "A project term for a bounded cognition worker; the label alone does not establish liveness.",
+    "Roach": "A project term for a worker carrier or chassis; inventory is distinct from active execution.",
+    "Valkyrie": "A project role or callsign; role, carrier, and current authority are separate.",
+    "active": "Use a source's dated observed state, never population size, naming, or expectations, to describe activity."
+  },
+  "private_memory_included": false,
+  "authority_granted": false
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "72",
+  "title": "Observation receipts / 2",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-work.json",
+      "bytes": 1925,
+      "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T134446Z-work-events.json",
+      "bytes": 812,
+      "sha256": "bc8f41089b4257ee3c7a2d7dc9a2877b8f75614440b658014fe1e5b60c678940",
+      "media_type": "application/json",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

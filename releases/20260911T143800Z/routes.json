@@ -1,0 +1,19 @@
+{
+  "schema": "worldweaver.portable_routes.v1",
+  "path_base": "RELEASE_ROOT",
+  "recorded_at": "2026-09-11T14:34:36.200741Z",
+  "automatic_refresh": false,
+  "rule": "For preserved leading-slash paths, remove the initial slash and resolve against this release directory. Follow only included files. Unavailable live queries remain unavailable; no generic fallback claims success.",
+  "included_aliases": {
+    "/agent-manifest.json": "agent-manifest.json",
+    "/capsule.json": "capsule.json",
+    "/state.json": "state.json",
+    "/capsules.json": "capsules.json"
+  },
+  "live_queries_not_implemented": [
+    "/delta?since=ISO_UTC",
+    "/capsules.json?date=YYYY-MM-DD"
+  ],
+  "live_refresh": "https://worldweaver.dev/cop.md",
+  "authority_granted": false
+}

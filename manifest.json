@@ -1,14 +1,14 @@
 {
-  "schema": "worldweaver.public_mirror.v2",
-  "recorded_at": "2026-09-11T14:12:57.623Z",
+  "schema": "worldweaver.public_mirror.v3",
+  "recorded_at": "2026-09-11T14:59:04.385Z",
   "kind": "DATED_PUBLIC_FALLBACK",
   "automatic_sync": false,
   "website": "https://worldweaver.dev",
   "one_read": "/START_HERE.md",
   "current_picture": "/cop-snapshot.json",
   "current_picture_text": "/cop.md",
-  "snapshot_rendered_at": "2026-09-11T14:12:55.089Z",
-  "scheduled_observed_at": "2026-09-11T14:00:26.210Z",
+  "snapshot_rendered_at": "2026-09-11T14:57:30.421Z",
+  "scheduled_observed_at": "2026-09-11T14:45:26.245Z",
   "manual_observation": {
     "path": "/cop/observations/manual-20260911T140923Z.json",
     "bytes": 18414,
@@ -23,5 +23,9 @@
   "skills": "/skills/index.json",
   "quota_policy": "/policies/weekly-quota.json",
   "public_log": "/cop/log.json",
-  "authority_granted": false
+  "authority_granted": false,
+  "durable_release": "durable-release.json",
+  "durable_release_manifest_sha256": "71a6e414d176d3962aa05f324859884f20eb3795a1ce2b915899925f25238c95",
+  "static_human_entry": "index.html",
+  "portable_llm_entry": "releases/20260911T143800Z/rehydrate.md"
 }

@@ -1,0 +1,17 @@
+{
+  "schema": "worldweaver.independent_publication_content_review.v1",
+  "reviewed_at": "2026-09-11T14:49:07Z",
+  "reviewer": "independent_durable_review_agent",
+  "verdict": "APPROVE_PUBLIC_DATA_CANDIDATE",
+  "release_id": "20260911T143800Z",
+  "release_manifest_sha256": "71a6e414d176d3962aa05f324859884f20eb3795a1ce2b915899925f25238c95",
+  "grimoire_sha256": "779ec4f966ec34e3ded3b7bf81c808da2a5843f5c977c635190aff6a6a92a138",
+  "file_count_including_manifest": 90,
+  "bytes": 441594,
+  "nodes": 21,
+  "content_leaves": 65,
+  "max_fanout": 8,
+  "checks": ["ALL_LENGTHS_AND_HASHES_MATCH", "NO_ORPHAN_FILES", "NO_CYCLES", "NO_BROKEN_GRAPH_BINDINGS", "PORTABLE_ENTRY_LINKS_RESOLVE", "NO_CONTENT_PUBLICATION_FINDINGS", "SOURCE_RESPONSE_AND_PACKAGE_HASH_SCOPES_SEPARATE"],
+  "review_scope": "PUBLIC_DATA_AND_STATIC_RECOVERY_GRAPH",
+  "excluded": ["UPLOADER_BEHAVIOR", "PAYMENT_BEHAVIOR", "ARNS_OWNERSHIP", "HOSTED_READBACK", "PERMANENT_STORAGE_FINALITY"]
+}

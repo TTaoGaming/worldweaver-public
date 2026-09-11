@@ -1,0 +1,78 @@
+{
+  "schema": "worldweaver.grimoire.root.v1",
+  "release_id": "20260911T143800Z",
+  "captured_at": "2026-09-11T14:34:36.200741Z",
+  "path_base": "RELEASE_ROOT",
+  "max_children": 8,
+  "kind": "FINITE_STATIC_UNFOLDING_INDEX",
+  "quine_proven": false,
+  "pareto_optimal_seed_proven": false,
+  "authority_granted": false,
+  "children": [
+    {
+      "path": "grimoire/0.json",
+      "bytes": 1782,
+      "sha256": "7db56fe66ba3c29294bd518e8ec9feafe8290fb2733f9a4112cf70b5cdf1dc87",
+      "media_type": "application/json",
+      "kind": "NODE",
+      "room": "Germline and K-seeds"
+    },
+    {
+      "path": "grimoire/1.json",
+      "bytes": 1493,
+      "sha256": "50816af4a47564c20f4f767595022eb1aacb4c60bae0e7f04aa1af022a51bca7",
+      "media_type": "application/json",
+      "kind": "NODE",
+      "room": "Semantic and mathematical decoding"
+    },
+    {
+      "path": "grimoire/2.json",
+      "bytes": 1465,
+      "sha256": "2756590cf5defd528d9cd04f8e5dabb9ca3d4010cffd9b2626dde3a6bb0642df",
+      "media_type": "application/json",
+      "kind": "NODE",
+      "room": "Public memory"
+    },
+    {
+      "path": "grimoire/3.json",
+      "bytes": 1696,
+      "sha256": "f7ffb22c023ea49ceee03d1a5d2c1f2384e3ff184897c0904212e57a773f31a0",
+      "media_type": "application/json",
+      "kind": "NODE",
+      "room": "Heritage and lessons"
+    },
+    {
+      "path": "grimoire/4.json",
+      "bytes": 1674,
+      "sha256": "05ce6b8b0a6e565025c9333bd2d493c4058615f6423cb6b0cd44c8f35170f40f",
+      "media_type": "application/json",
+      "kind": "NODE",
+      "room": "Dated world state and rollups"
+    },
+    {
+      "path": "grimoire/5.json",
+      "bytes": 1288,
+      "sha256": "314195288c989f5be1682237e5cae9a3662132b966ae725f117efd4a8b17f4f9",
+      "media_type": "application/json",
+      "kind": "NODE",
+      "room": "Skills and quota constraints"
+    },
+    {
+      "path": "grimoire/6.json",
+      "bytes": 1241,
+      "sha256": "35004a09d99649eec035517f95a6bfdfce7891d76902cbedf2e291888f3d9938",
+      "media_type": "application/json",
+      "kind": "NODE",
+      "room": "Restoration and source binding"
+    },
+    {
+      "path": "grimoire/7.json",
+      "bytes": 1241,
+      "sha256": "85e566630c7ae93a2422bd3b1e7107149e3b63f6e703cf6569052704b8e082cc",
+      "media_type": "application/json",
+      "kind": "NODE",
+      "room": "Observation receipts"
+    }
+  ],
+  "restore": "restore.md"
+}

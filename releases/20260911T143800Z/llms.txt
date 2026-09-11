@@ -1,0 +1,12 @@
+# Worldweaver public release 20260911T143800Z
+
+Dated static human + LLM release. No login required. Current execution is UNKNOWN until freshly observed. All relative paths use the directory containing index.html as their base.
+
+- [One-read rehydration](rehydrate.md)
+- [Gleipnir / Grimoire](architecture.md)
+- [Hash-linked eight-room root](grimoire.json)
+- [All files and exact SHA-256](release.json)
+- [Restore](restore.md)
+- [Dated COP](cop.md)
+- [Live public COP](https://worldweaver.dev/cop.md)
+- [Public GitHub mirror](https://github.com/TTaoGaming/worldweaver-public)

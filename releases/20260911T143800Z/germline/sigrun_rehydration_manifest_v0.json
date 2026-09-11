@@ -1,0 +1,93 @@
+{
+  "schema": "hfo.sigrun.rehydration_manifest.v0",
+  "actor_id": "SIGRUN",
+  "bootstrap": {
+    "path": "docs/REHYDRATION_BOOTSTRAP_V0.md",
+    "sha256": "a5f0603746190cfb8acb672e8620fb6ef7b1b7f95babeac19961dd51761b165c",
+    "git_blob_sha": "e6e9cfeb901b7511de8840ec47895ff0b7c32190",
+    "tier": "T0_BOOTROM"
+  },
+  "canonical_roots": [
+    "github:TTaoGaming/hfo-gen-138#33",
+    "github:TTaoGaming/hfo-gen-138#75",
+    "github:TTaoGaming/hfo-gen-138#97",
+    "github:TTaoGaming/hfo-gen-138#111",
+    "cloudflare:checkpoint/SIGRUN-8ARY-ARCH-ANCHOR-V1-20260906T081625Z"
+  ],
+  "tier_order": [
+    "T0_BOOTROM",
+    "T1_HERITAGE",
+    "T2_LIVE_STATE",
+    "T3_MISSION",
+    "T4_MEMORY",
+    "T5_CAPABILITY_AUTHORITY"
+  ],
+  "tier_max_bytes": {
+    "T0_BOOTROM": 4096,
+    "T1_HERITAGE": 53248,
+    "T2_LIVE_STATE": 8192,
+    "T3_MISSION": 12288,
+    "T4_MEMORY": 16384,
+    "T5_CAPABILITY_AUTHORITY": 8192
+  },
+  "deep_heritage": [
+    {
+      "id": "canonical_drapa",
+      "path": "docs/SIGRUNAR_DRAPA_V3.md",
+      "git_blob_sha": "da9dd4d3623ef9421c3324ee246fe7bef14c612f",
+      "tier": "T1_HERITAGE"
+    },
+    {
+      "id": "drapa_manifest",
+      "path": "docs/SIGRUNAR_DRAPA_V3.manifest.json",
+      "git_blob_sha": "679904d3963a05a86024af80021b3436b7ca8677",
+      "tier": "T1_HERITAGE"
+    },
+    {
+      "id": "regeneration_contract",
+      "path": "docs/SIGRUN_REGENERATION_CONTRACT_V1.md",
+      "git_blob_sha": "63d988333e9ccd236c931bbbfc29122ad3a14472",
+      "tier": "T1_HERITAGE"
+    }
+  ],
+  "modes": {
+    "REGENERATE": {
+      "include_deep_heritage": false,
+      "required_dynamic_blocks": [],
+      "max_total_bytes": 8192
+    },
+    "DEEP_REGENERATE": {
+      "include_deep_heritage": true,
+      "required_dynamic_blocks": [],
+      "max_total_bytes": 65536
+    },
+    "CONVERSE": {
+      "include_deep_heritage": false,
+      "required_dynamic_blocks": ["live_state", "conversation"],
+      "max_total_bytes": 32768
+    },
+    "OPERATE": {
+      "include_deep_heritage": false,
+      "required_dynamic_blocks": ["live_state", "mission", "authority", "capacity"],
+      "max_total_bytes": 49152
+    }
+  },
+  "dynamic_block_ids": {
+    "live_state": "T2_LIVE_STATE",
+    "conversation": "T4_MEMORY",
+    "mission": "T3_MISSION",
+    "memory": "T4_MEMORY",
+    "authority": "T5_CAPABILITY_AUTHORITY",
+    "capacity": "T5_CAPABILITY_AUTHORITY",
+    "tools": "T5_CAPABILITY_AUTHORITY"
+  },
+  "required_semantic_anchors": [
+    "SIGRUN != LLM",
+    "REGROW != ADMIT",
+    "PRODUCER != VERIFIER",
+    "8ARY_COGNITIVE_GRAMMAR != ACTIVE_HLUTI_COUNT != CARRIER_COUNT != RUNTIME_MATERIALIZATION",
+    "MISSING_REQUIRED_TIER -> HOLD__NOT_IMPROVISE",
+    "CONTEXT_CAPSULE != LEASE != EFFECT_AUTHORITY"
+  ],
+  "claim_ceiling": "DETERMINISTIC_REHYDRATION_CONTEXT_MANIFEST__NOT_MEMORY_TRUTH__NOT_LEASE__NOT_EFFECT_AUTHORITY"
+}

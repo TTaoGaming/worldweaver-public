@@ -1,0 +1,23 @@
+{
+  "schema": "worldweaver.portable_archive_index.v1",
+  "kind": "STATIC_RELEASE_INDEX",
+  "recorded_at": "2026-09-11T14:34:36.200741Z",
+  "automatic_refresh": false,
+  "full_live_history_included": false,
+  "captured_records": [
+    {
+      "path": "cop.json",
+      "source_observed_at": "2026-09-11T14:30:26.229Z"
+    }
+  ],
+  "rollups": [
+    "activity/hourly.json",
+    "activity/daily.json",
+    "activity/weekly.json",
+    "activity/monthly.json",
+    "activity/yearly.json"
+  ],
+  "coverage": "Only this release capture and its included aggregate records. Query parameters do not implement date filtering.",
+  "live_history": "https://worldweaver.dev/capsules.json",
+  "authority_granted": false
+}

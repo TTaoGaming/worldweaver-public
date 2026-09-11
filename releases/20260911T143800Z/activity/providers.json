@@ -1,0 +1,102 @@
+{
+  "schema": "worldweaver.provider_activity.v1",
+  "snapshot_id": "providers-20260911T110705Z",
+  "observed_at": "2026-09-11T11:07:05Z",
+  "stale_after": "2026-09-11T12:07:05Z",
+  "visibility": "SANITIZED_PUBLIC_READ_ONLY",
+  "refresh_mode": "DATED_SNAPSHOT",
+  "freshness_rule": "After stale_after, treat current-state claims as STALE_UNKNOWN. Historical results remain dated evidence. A site refresh does not refresh these provider observations.",
+  "summary": "ChatGPT cloud account B has enabled scheduler checks and operator-reported activity. Kimi has two recent recorded worker results. The local Ollama API responded with zero loaded models. Current model-call concurrency and utilization percentages are unknown.",
+  "providers": [
+    {
+      "id": "chatgpt-cloud-b",
+      "label": "ChatGPT cloud account B",
+      "surface": "Cloud chat reached by a local scheduled pickup adapter",
+      "reported_state": "ACTIVE",
+      "report_source": "OPERATOR_REPORT_THIS_SESSION",
+      "report_date": "2026-09-11",
+      "reported_at": null,
+      "observed_at": "2026-09-11T11:07:05Z",
+      "evidence_class": "LOCAL_SCHEDULER_READBACK_AND_OPERATOR_REPORT",
+      "observed_state": "SCHEDULER_READY",
+      "current_running_state": "UNKNOWN",
+      "current_running_sessions": null,
+      "utilization": "UNKNOWN",
+      "remaining_general_chat_quota": "UNKNOWN",
+      "scheduler": {
+        "adaptive_pickup": {
+          "state": "READY",
+          "check_interval_seconds": 300,
+          "last_run_at": "2026-09-11T11:04:46Z",
+          "last_exit_code": 0
+        },
+        "pro_campaign": {
+          "state": "READY",
+          "check_interval_seconds": 1800,
+          "last_run_at": "2026-09-11T10:44:46Z",
+          "last_exit_code": 0
+        }
+      },
+      "claim_limit": "Scheduler exit zero is a scheduler observation, not proof that a chat started or useful work completed. Check cadence is not model-call cadence. Tool-observed Pro usage does not measure ordinary chat capacity."
+    },
+    {
+      "id": "kimi",
+      "label": "Kimi",
+      "surface": "Local workstation worker using an existing Kimi harness",
+      "reported_state": "ACTIVE",
+      "report_source": "OPERATOR_REPORT_THIS_SESSION",
+      "report_date": "2026-09-11",
+      "reported_at": null,
+      "observed_at": "2026-09-11T11:07:05Z",
+      "evidence_class": "PRIVATE_GITHUB_RECEIPTS_READ_BACK",
+      "observed_state": "RECENT_RESULTS_RECORDED",
+      "current_running_state": "UNKNOWN",
+      "current_running_sessions": null,
+      "utilization": "UNKNOWN",
+      "remaining_quota": "UNKNOWN",
+      "results": [
+        {
+          "recorded_at": "2026-09-11T10:37:01Z",
+          "task": "Verify an existing numerical packing",
+          "worker_reported_status": "PASS",
+          "recorded_outcome": "Existing candidate retained after saved-geometry comparison",
+          "independently_reexecuted_this_snapshot": false
+        },
+        {
+          "recorded_at": "2026-09-11T10:53:36Z",
+          "task": "Evaluate one bounded numerical packing seed variant",
+          "worker_reported_status": "PASS",
+          "recorded_outcome": "Feasible non-improving candidate rejected; incumbent retained",
+          "independently_reexecuted_this_snapshot": false
+        }
+      ],
+      "claim_limit": "These are recorded task results, not evidence of a currently running worker, population evolution, or unattended recovery. The second result did not improve the incumbent. Private source receipts are intentionally not reproduced."
+    },
+    {
+      "id": "ollama-local",
+      "label": "Ollama",
+      "surface": "Local workstation model service",
+      "reported_state": "UNKNOWN",
+      "observed_at": "2026-09-11T11:06:33.3960521Z",
+      "evidence_class": "LOCAL_MODEL_SERVICE_READ_ONLY_API",
+      "observed_state": "REACHABLE_NO_MODEL_LOADED",
+      "api_reachable": true,
+      "loaded_model_count": 0,
+      "current_running_state": "UNKNOWN",
+      "current_running_sessions": null,
+      "utilization": "UNKNOWN",
+      "inference_tested": false,
+      "claim_limit": "An API response with zero loaded models is a point-in-time inventory. It does not prove model quality, inference readiness, continuous uptime, or task delivery."
+    }
+  ],
+  "coverage": {
+    "provider_count": 3,
+    "scope": "Selected provider surfaces only",
+    "full_swarm_census": false,
+    "registered_agent_count": null,
+    "active_ling_count": null,
+    "active_roach_count": null,
+    "active_valkyrie_count": null,
+    "accepted_useful_closures_measured": false
+  }
+}

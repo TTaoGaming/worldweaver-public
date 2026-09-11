@@ -1,0 +1,26 @@
+{
+  "schema": "worldweaver.public_observation_receipt.v1",
+  "receipt_id": "manual-20260911T133411Z-kimi",
+  "recorded_at": "2026-09-11T13:34:11.408Z",
+  "observed_at": "2026-09-11T13:22:47.000Z",
+  "stale_after": "2026-09-11T14:22:47.000Z",
+  "method": "Existing no-tools subscription CLI canary",
+  "facts": {
+    "surface_id": "kimi",
+    "result": "TIMEOUT",
+    "timeout_seconds": 180,
+    "cli_version": "0.41.0",
+    "cli_version_exit": 0,
+    "inference_completion": "NOT_OBSERVED",
+    "cause": "UNKNOWN",
+    "limit": "Request/return window includes possible queue time; it is not inference duration."
+  },
+  "observation_window": {
+    "requested_at": "2026-09-11T13:18:26Z",
+    "returned_at": "2026-09-11T13:22:47Z",
+    "execution_started_at": null
+  },
+  "privacy": "Reviewed summary; original source payloads and private identifiers are withheld.",
+  "integrity_note": "The descriptor hashes these exact public JSON bytes. This is integrity and provenance, not independent proof of every source claim.",
+  "authority_granted": false
+}

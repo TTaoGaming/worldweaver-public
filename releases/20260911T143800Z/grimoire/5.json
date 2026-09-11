@@ -1,0 +1,44 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "5",
+  "title": "Skills and quota constraints",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "policies/weekly-quota.json",
+      "bytes": 3468,
+      "sha256": "4b58fc1f64b3fbbd04d9d1b632a7c7e3db044e94421d8fbe3707e84ab0dd1c0c",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "skills/index.json",
+      "bytes": 1318,
+      "sha256": "f38d8d7acb152920f59d88b871c0c7ad36bc49e1d0a2de115f492c44293a24e0",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "skills/prepare-proposal.md",
+      "bytes": 1536,
+      "sha256": "274cdd6a1552937762aa5cb7760f8ba4349bca17c37d89faf391ed5340d34832",
+      "media_type": "text/markdown",
+      "kind": "FILE"
+    },
+    {
+      "path": "skills/read-public-context.md",
+      "bytes": 2519,
+      "sha256": "bca6c48101537f180c392ca2050207eafae6200486d54494ca614062189f68a5",
+      "media_type": "text/markdown",
+      "kind": "FILE"
+    },
+    {
+      "path": "skills/review-evidence.md",
+      "bytes": 1776,
+      "sha256": "6c944a5f157f456b052cd4848c81e37d5104d6ea149d836ff5e2123eef2cfc4d",
+      "media_type": "text/markdown",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

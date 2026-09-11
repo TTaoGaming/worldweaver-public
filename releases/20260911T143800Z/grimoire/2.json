@@ -1,0 +1,51 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "2",
+  "title": "Public memory",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "capsule.json",
+      "bytes": 3781,
+      "sha256": "3d4838a34a868d181ee418529edb74a6e723c9733c18817263cd0502e5ebd4ff",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "coala/manifest.json",
+      "bytes": 2079,
+      "sha256": "d1667c8de4a909e64dcf3c7a23ae800e07daacbc0a84f74c9930bcb1b2f68ddc",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "coala/procedural.json",
+      "bytes": 2379,
+      "sha256": "c8f28aa6fea1d04f3bae1bb613029b26bedf0e3fe2d47f1b3cfffdaf91252e55",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "coala/proposal.schema.json",
+      "bytes": 1132,
+      "sha256": "14407a828a535c67fb27f82f2b23b933aaf94bf1cb391afe2170623b02fc8093",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "coala/semantic.json",
+      "bytes": 2130,
+      "sha256": "547114e57cd53a0047bc569be3754f8c8bb0f278830d3e03cfd1f26b81ccc775",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "context.json",
+      "bytes": 1687,
+      "sha256": "5060c043345b3e0e7cbd631a0b4247ea3b717fdcc4a86ec4fe6e4c1f2284a68a",
+      "media_type": "application/json",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

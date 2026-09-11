@@ -1,0 +1,46 @@
+{
+  "schema": "worldweaver.durable_distribution_status.v1",
+  "recorded_at": "2026-09-11T14:51:03Z",
+  "release_id": "20260911T143800Z",
+  "release_manifest_sha256": "71a6e414d176d3962aa05f324859884f20eb3795a1ce2b915899925f25238c95",
+  "content_review": "APPROVED_EXACT_PUBLIC_BYTES",
+  "reviewed_at": "2026-09-11T14:49:07Z",
+  "file_count": 90,
+  "bytes": 441594,
+  "arweave": {
+    "status": "HOLD_PAYMENT_REQUIRED_NO_TRANSACTION_ID",
+    "attempted_at": "2026-09-11T14:50:57.983516Z",
+    "response_at": "2026-09-11T14:50:58.836628Z",
+    "provider": "Turbo unsigned x402",
+    "http_status": 402,
+    "candidate_path": "germline/SIGRUN_K512_MNEMONIC_V1.txt",
+    "candidate_bytes": 1623,
+    "candidate_sha256": "5a0eb6c14450e18cd6ea746c80b52c2fef152cfbf8278f9018dabda847b2aebe",
+    "upload_attempts": 1,
+    "retries": 0,
+    "payment_enabled": false,
+    "payment_sent": false,
+    "wallet_access": false,
+    "transaction_id": null,
+    "storage_finality": "NOT_ESTABLISHED",
+    "next_action": "Bind an existing authorized upload/signing route and a current bounded cost decision. Resolve the prior 402 in the attempt ledger before resuming; do not blindly replay."
+  },
+  "arns": {
+    "name": "worldweaver",
+    "url": "https://worldweaver.ar.io",
+    "observed_at": "2026-09-11T14:30:54Z",
+    "http_status": 200,
+    "resolved_id": "T9_V2HfiAq5qlLzObfyayj2-cjPujxpg25TRi4OZbe4",
+    "content_observed": "ARNS_PLACEHOLDER_PAGE",
+    "new_release_target_updated": false,
+    "owner_session": "NOT_CONNECTED_IN_MANAGEMENT_BROWSER",
+    "next_action": "After verified Arweave publication, connect the existing owner session and set the existing name to the verified path-manifest ID. Do not buy another name."
+  },
+  "automation": {
+    "daily_continuity_beacon": "NOT_IMPLEMENTED",
+    "automatic_arweave_publish": "NOT_IMPLEMENTED",
+    "automatic_arns_advance": "NOT_IMPLEMENTED",
+    "existing_cloudflare_state_collector": "EXISTING_15_MINUTE_COLLECTOR_UNCHANGED"
+  },
+  "claim_ceiling": "REVIEWED_PUBLIC_PACKAGE_AND_OBSERVED_UPLOAD_REFUSAL__NOT_ARWEAVE_PUBLICATION__NOT_COLD_REGENERATION_ADMISSION"
+}

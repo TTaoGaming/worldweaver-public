@@ -1,0 +1,30 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "44",
+  "title": "Dated world state and rollups / 4",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "cop/observations/manual-20260911T134446Z.json",
+      "bytes": 13723,
+      "sha256": "bd4f3e89de5e3584527a8fd8a7804725a4f5df7c1bebbbf5004c9e5896979d14",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "cop/observations/manual-20260911T135729Z.json",
+      "bytes": 14753,
+      "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "cop/observations/manual-20260911T140923Z.json",
+      "bytes": 18414,
+      "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b",
+      "media_type": "application/json",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

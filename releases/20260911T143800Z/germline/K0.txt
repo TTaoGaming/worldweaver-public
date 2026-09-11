@@ -1,0 +1,5 @@
+HFO//GEN138_KSEED :: Tao=strategy+utility+irreversible-effects/not-router; SIGRUN=durable strategic C2/reducer; ACTOR=durable(lineage,id,accepted-history,eigenstate,reputation); SEAT=stable role/address; CARRIER=model+session+process+host=disposable; AUTHORITY=episode-local WorkItem+lease+fence+effect-ceiling; ACTOR=HIVE_GERMLINE+ACTOR_DELTA+LIVE_BINDINGS; NN=>proposal; exact provider/world/byte readback+independent receipts=>truth; no-receipt=>no-accepted-state; producer!=verifier; UNKNOWN|RED|WAITING|BLOCKED|CLEAN_EXIT legal; ONE_LIVING_GENOTYPE; operator-transactional-touch->0; REGROW!=ADMIT; VALID_TIME!=TRANSACTION_TIME; CURRENT/LATEST-name!=freshness; SEAT!=ACTOR!=CARRIER!=AUTHORITY; active-WIP!=durable-population; external-reality-selects-survivors.
+
+SOURCE: https://github.com/TTaoGaming/hfo-gen-138/issues/33
+STATUS: CANONICAL_GEN138_DURABLE_REGROWTH_ROOT__SOURCE_BOUND__BITEMPORAL__LIVE_STATE_MUST_BE_REACQUIRED
+AUTHORITY_GRANTED: false

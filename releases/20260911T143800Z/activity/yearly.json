@@ -1,0 +1,166 @@
+{
+  "kind": "DATED_STATIC_ROLLUP",
+  "captured_at": "2026-09-11T14:34:36.177157Z",
+  "source_url": "https://worldweaver.dev/activity/yearly.json",
+  "original_body_sha256": "71a18686518b545934d6aec224d7076460df46f9e9c59300fcec4080af453dad",
+  "automatic_refresh": false,
+  "coverage": "CAPTURED_PERIODS_ONLY__GAPS_ARE_NOT_ZERO",
+  "payload": {
+    "schema": "worldweaver.activity_index.v1",
+    "period": "yearly",
+    "coverage": "PARTIAL",
+    "rendered_at": "2026-09-11T14:34:39.998Z",
+    "reports": [
+      {
+        "schema": "worldweaver.rollup.v1",
+        "period": "year",
+        "period_start": "2026-01-01T00:00:00.000Z",
+        "observed_through": "2026-09-11T14:30:26.229Z",
+        "coverage": "PARTIAL",
+        "observation_count": 18,
+        "source_failure_observations": 0,
+        "newly_observed_records": {
+          "completed": 0,
+          "rejected": 0,
+          "comparable": true
+        },
+        "hours_observed": null,
+        "days_observed": 1,
+        "latest": {
+          "schema": "worldweaver.state.v1",
+          "observed_at": "2026-09-11T14:30:26.229Z",
+          "manual_observation": {
+            "observation_id": "manual-20260911T140923Z",
+            "path": "/cop/observations/manual-20260911T140923Z.json",
+            "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b",
+            "bytes": 18414,
+            "recorded_at": "2026-09-11T14:09:23.967Z"
+          },
+          "next_observation_due": "2026-09-11T14:45:26.229Z",
+          "last_change_at": "2026-09-11T14:15:26.175Z",
+          "status": "OBSERVED_PARTIAL_SYSTEM",
+          "sources": [
+            {
+              "label": "Ollama observation lane",
+              "availability": "OBSERVED",
+              "observed_at": "2026-09-11T14:30:26.229Z",
+              "recorded_observation_at": "2026-09-10T00:48:55.000Z",
+              "carrier_liveness": "UNKNOWN",
+              "workflow_records": null,
+              "checkpoint_count": null,
+              "note": "Selected stored state only. Live execution and useful delivery are not established by this observation."
+            },
+            {
+              "label": "Kimi observation lane",
+              "availability": "OBSERVED",
+              "observed_at": "2026-09-11T14:30:26.229Z",
+              "recorded_observation_at": "2026-09-10T00:48:55.000Z",
+              "carrier_liveness": "UNKNOWN",
+              "workflow_records": null,
+              "checkpoint_count": null,
+              "note": "Selected stored state only. Live execution and useful delivery are not established by this observation."
+            },
+            {
+              "label": "Native workflow lane",
+              "availability": "OBSERVED",
+              "observed_at": "2026-09-11T14:30:26.229Z",
+              "recorded_observation_at": null,
+              "carrier_liveness": "UNKNOWN",
+              "workflow_records": {
+                "completed": 15,
+                "rejected": 9,
+                "unresolved": 0
+              },
+              "checkpoint_count": 12,
+              "note": "Selected stored state only. Live execution and useful delivery are not established by this observation."
+            }
+          ],
+          "newly_observed_records": {
+            "completed": 0,
+            "rejected": 0,
+            "comparable": true
+          },
+          "scope": "Three configured state lanes and an optional public actor summary. Private conversations and the wider fleet are outside this view.",
+          "authority_granted": false,
+          "useful_delivery": "NOT_MEASURED",
+          "fleet_readiness": "UNKNOWN",
+          "gen140": {
+            "schema_version": "hfo.gen140.world_state.v1",
+            "generated_at_utc": "2026-09-11T14:30:26.229Z",
+            "system": {
+              "status": "UNKNOWN",
+              "active_actor_count": 0,
+              "idle_actor_count": 1,
+              "stalled_actor_count": 0,
+              "unknown_actor_count": 3
+            },
+            "actors": [
+              {
+                "callsign": "GONDUL",
+                "state": "IDLE",
+                "last_heartbeat_utc": "2026-09-11T14:00:00.142Z",
+                "last_useful_checkpoint_utc": "2026-09-11T10:29:43.676Z",
+                "heartbeat_count": 5,
+                "observed_at": "2026-09-11T14:30:26.229Z",
+                "claimed_work": null,
+                "checkpoint_ref": null,
+                "blocker": null,
+                "evidence_refs": [],
+                "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+              },
+              {
+                "callsign": "HLOKK",
+                "state": "UNKNOWN",
+                "last_heartbeat_utc": null,
+                "last_useful_checkpoint_utc": null,
+                "heartbeat_count": null,
+                "observed_at": "2026-09-11T14:30:26.229Z",
+                "claimed_work": null,
+                "checkpoint_ref": null,
+                "blocker": null,
+                "evidence_refs": [],
+                "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+              },
+              {
+                "callsign": "SKULD",
+                "state": "UNKNOWN",
+                "last_heartbeat_utc": null,
+                "last_useful_checkpoint_utc": null,
+                "heartbeat_count": null,
+                "observed_at": "2026-09-11T14:30:26.229Z",
+                "claimed_work": null,
+                "checkpoint_ref": null,
+                "blocker": null,
+                "evidence_refs": [],
+                "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+              },
+              {
+                "callsign": "SKOGUL",
+                "state": "UNKNOWN",
+                "last_heartbeat_utc": null,
+                "last_useful_checkpoint_utc": null,
+                "heartbeat_count": null,
+                "observed_at": "2026-09-11T14:30:26.229Z",
+                "claimed_work": null,
+                "checkpoint_ref": null,
+                "blocker": null,
+                "evidence_refs": [],
+                "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+              }
+            ],
+            "work": {
+              "claimed": [],
+              "unclaimed": [],
+              "blocked": [],
+              "pending_transitions": []
+            },
+            "recent_changes": [],
+            "evidence_refs": [],
+            "scope": "Four configured actor seats. Recorded heartbeat classifications are a partial observation; private references are withheld."
+          }
+        },
+        "note": "Only captured observations are included. Missing periods remain gaps; stored results do not establish useful delivery."
+      }
+    ]
+  }
+}

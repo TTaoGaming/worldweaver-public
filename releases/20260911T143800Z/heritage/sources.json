@@ -1,0 +1,38 @@
+{
+  "schema": "worldweaver.public_heritage_sources.v1",
+  "source_commit": "49e5877e03cf566381ff5101b352f262ccbb7ace",
+  "readback_at": "2026-09-11T11:28:19Z",
+  "access": "PRIVATE_ORIGINALS_PUBLIC_SANITIZED_PROJECTION",
+  "source_branch_state": "OPEN_WORKING_PR_NOT_MAIN_ADMISSION",
+  "sources": [
+    {
+      "id": "H1",
+      "description": "Previously normalized 25-row epoch synthesis, January 2025 through May 2026",
+      "git_blob": "0116febc6b1526e84b421fe56e39689c145bfd92",
+      "public_projection": "/heritage/timeline.json",
+      "note": "Meta introduction omitted; 24 epochs paraphrased. Earlier quantitative or completeness assertions are not promoted."
+    },
+    {
+      "id": "H2",
+      "description": "Precursor and lineage synthesis continued through Gen140",
+      "git_blob": "006cda64aded5bde6417e369b35b3e1ac4a8d2d2",
+      "public_projection": "/heritage/lineage.json",
+      "note": "Names, functional relationships and qualified periods only; original private links omitted."
+    },
+    {
+      "id": "H3",
+      "description": "Nine recurring failure classes and remembered controls",
+      "git_blob": "43c56706ab6574aef5ca0664eaf2eb030e8f512a",
+      "public_projection": "/heritage/lessons.json",
+      "note": "Historical controls are not proof of present enforcement."
+    },
+    {
+      "id": "H4",
+      "description": "Compact operational heritage capsule",
+      "git_blob": "4fd0aa5fbfd66070c0566cd35040567588db1571",
+      "public_projection": "/skills/index.json",
+      "note": "Adapted for public reads and conversational proposals; private execution procedures and operational details excluded."
+    }
+  ]
+}
+

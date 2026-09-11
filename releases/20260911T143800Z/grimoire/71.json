@@ -1,0 +1,23 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "71",
+  "title": "Observation receipts / 1",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-ollama.json",
+      "bytes": 1051,
+      "sha256": "8256b4ae95894042aed758bf34776d274b8d8087a91b70666fe44db28464161d",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-schedules.json",
+      "bytes": 1517,
+      "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+      "media_type": "application/json",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

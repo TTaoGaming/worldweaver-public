@@ -1,0 +1,23 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "70",
+  "title": "Observation receipts / 0",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-chatgpt.json",
+      "bytes": 917,
+      "sha256": "6d1da525007cbf783f2d90daee7f4a38c75414e9ee75b16a1e65bea5471d46bc",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-kimi.json",
+      "bytes": 1051,
+      "sha256": "2760d7f974d7287f96ab96fa79b64b9c0be058b01fe72bdecd685e5cbeea8d3d",
+      "media_type": "application/json",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

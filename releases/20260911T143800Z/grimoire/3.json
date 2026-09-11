@@ -1,0 +1,58 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "3",
+  "title": "Heritage and lessons",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "heritage.json",
+      "bytes": 2159,
+      "sha256": "4a92e1175458d89378dc380a28aa0f45c2cf5528794b89a8dd9e26544d3f1827",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "heritage/README.md",
+      "bytes": 2084,
+      "sha256": "0893639228f9787caa9bfe3fc71aacd1f0e5eaa1ced573c4ca0505ecd509fb07",
+      "media_type": "text/markdown",
+      "kind": "FILE"
+    },
+    {
+      "path": "heritage/lessons.json",
+      "bytes": 5560,
+      "sha256": "34215f7b8e9c8be11d6a8d179aa433441ff7f27564e904d59f09454a9c2b873f",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "heritage/lineage.json",
+      "bytes": 12261,
+      "sha256": "f7fd72e57e419c88c970927156438e97b81b0c1cd9154c018f3ceeb17c2979a9",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "heritage/rollups.json",
+      "bytes": 1948,
+      "sha256": "c714540123f4f8b99fc353c9f058f160f885a37d1342cb693f2d916a1f380a4a",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "heritage/sources.json",
+      "bytes": 1655,
+      "sha256": "ca86fb68decbd84177f605fc55b718221d1fac689195d658a7ea8110491e4160",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "heritage/timeline.json",
+      "bytes": 17846,
+      "sha256": "e570dea065c0ee24f1ff7b73b0604d798859f5e6cafd1ae9abf478e7fae6e73f",
+      "media_type": "application/json",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

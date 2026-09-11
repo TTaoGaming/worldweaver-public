@@ -1,0 +1,58 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "4",
+  "title": "Dated world state and rollups",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "grimoire/40.json",
+      "bytes": 847,
+      "sha256": "65070e514553caa97b91038cfab8303fb6647e808701124feae340318dfbe992",
+      "media_type": "application/json",
+      "kind": "NODE"
+    },
+    {
+      "path": "grimoire/41.json",
+      "bytes": 849,
+      "sha256": "4a6b9fb60a7c2495359b27c750d5e1900b5bb546261a11fe69dbed1b5928dd65",
+      "media_type": "application/json",
+      "kind": "NODE"
+    },
+    {
+      "path": "grimoire/42.json",
+      "bytes": 810,
+      "sha256": "235b5c78c334e61deb39d4a60b96a240ad30a2d651c90add8b1543ed972e241b",
+      "media_type": "application/json",
+      "kind": "NODE"
+    },
+    {
+      "path": "grimoire/43.json",
+      "bytes": 858,
+      "sha256": "346b7f2ea05b585b61fa3f2e7609b42ebf0d000868fb54e6a09858f7de4cb9c6",
+      "media_type": "application/json",
+      "kind": "NODE"
+    },
+    {
+      "path": "grimoire/44.json",
+      "bytes": 924,
+      "sha256": "c84e60719bf55fecae12881a169c6ebb9e8fa64b1d348755087b6c8293e695b5",
+      "media_type": "application/json",
+      "kind": "NODE"
+    },
+    {
+      "path": "grimoire/45.json",
+      "bytes": 824,
+      "sha256": "28dc54211b5744741712bba19d879a7f5638947ef2f6ed6452dc72122cedda13",
+      "media_type": "application/json",
+      "kind": "NODE"
+    },
+    {
+      "path": "grimoire/46.json",
+      "bytes": 636,
+      "sha256": "dd40afdbcf8ec80721746dcafc0f74b247cf1b9092655b8172d66deafad52825",
+      "media_type": "application/json",
+      "kind": "NODE"
+    }
+  ],
+  "authority_granted": false
+}

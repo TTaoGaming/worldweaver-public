@@ -1,0 +1,44 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "7",
+  "title": "Observation receipts",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "grimoire/70.json",
+      "bytes": 674,
+      "sha256": "22dd3f1e1c98eafb7dc97a35d5dc7fd11fecf3c3f6cfff8f6bd1f07f97da34d9",
+      "media_type": "application/json",
+      "kind": "NODE"
+    },
+    {
+      "path": "grimoire/71.json",
+      "bytes": 679,
+      "sha256": "d0bb50713fdae0a6d8a59cd9c63bb28ca9128c5c8c030055677dfd8f0998d6fe",
+      "media_type": "application/json",
+      "kind": "NODE"
+    },
+    {
+      "path": "grimoire/72.json",
+      "bytes": 678,
+      "sha256": "ffd7dd93119c109c047cfb8198141bbd7f84a4e11d68b73a8317a5ce1cd47d4c",
+      "media_type": "application/json",
+      "kind": "NODE"
+    },
+    {
+      "path": "grimoire/73.json",
+      "bytes": 689,
+      "sha256": "dbd481d2c0dc9b7a7d07a47d89d3afd8fe98ccb381980d526f1ce4b75efb07bb",
+      "media_type": "application/json",
+      "kind": "NODE"
+    },
+    {
+      "path": "grimoire/74.json",
+      "bytes": 409,
+      "sha256": "914e97257c6665feae3b1941a4d7cadabc353c84da123d19cff8a28e96d1a7e7",
+      "media_type": "application/json",
+      "kind": "NODE"
+    }
+  ],
+  "authority_granted": false
+}

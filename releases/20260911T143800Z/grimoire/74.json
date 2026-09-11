@@ -1,0 +1,16 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "74",
+  "title": "Observation receipts / 4",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "receipts/cop-capture.json",
+      "bytes": 30566,
+      "sha256": "64e87787934b35059d8fef109f8e5a26f5a5156c24771e64dd3b3f7f3f6b1414",
+      "media_type": "application/json",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

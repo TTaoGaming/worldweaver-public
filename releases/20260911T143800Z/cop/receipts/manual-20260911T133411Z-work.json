@@ -1,0 +1,39 @@
+{
+  "schema": "worldweaver.public_observation_receipt.v1",
+  "receipt_id": "manual-20260911T133411Z-work",
+  "recorded_at": "2026-09-11T13:34:11.408Z",
+  "observed_at": "2026-09-11T13:30:09.136Z",
+  "stale_after": "2026-09-11T14:30:09.136Z",
+  "method": "GitHub issue and full comment readback; native scheduler diagnostic",
+  "facts": {
+    "work": [
+      {
+        "public_work_id": "kimi-composer-repair",
+        "state": "PROPOSAL_AWAITING_RECONCILIATION",
+        "result_recorded_at": null,
+        "artifact_sha256": "bdb77075d633f87730f17d2d3a5184ddf216ce62dab17fb139ac3a2a6e2c1996",
+        "artifact_text_hash_verified": true,
+        "independent_review": "NOT_OBSERVED",
+        "live_repair": "NOT_VERIFIED",
+        "claim_marker": "native-running remains alongside native-ready",
+        "claim_utc": null
+      },
+      {
+        "public_work_id": "ollama-packing-audit",
+        "state": "FAILED_NO_RESULT_RECEIPT",
+        "result_comment_count": 0,
+        "claim_marker": "native-running remains alongside native-ready",
+        "claim_utc": null,
+        "failure_observation": "Prior native wake exited 1. Worker diagnostics show a wrong relative instruction path and an unauthenticated repository request; the model itself produced text.",
+        "cause_classification": "HARNESS_OR_TASK_ACCESS_FAILURE",
+        "causal_limit": "Recorded failure trace; not a replay of the entire native work lifecycle."
+      }
+    ],
+    "claim_protocol": "Labels are claim markers; atomic exclusivity and current process ownership are not proven.",
+    "useful_unattended_closures_verified": 0
+  },
+  "observation_window": null,
+  "privacy": "Reviewed summary; original source payloads and private identifiers are withheld.",
+  "integrity_note": "The descriptor hashes these exact public JSON bytes. This is integrity and provenance, not independent proof of every source claim.",
+  "authority_granted": false
+}

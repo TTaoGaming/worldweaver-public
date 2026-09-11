@@ -1,0 +1,44 @@
+{
+  "schema": "worldweaver.grimoire.node.v1",
+  "address": "6",
+  "title": "Restoration and source binding",
+  "path_base": "RELEASE_ROOT",
+  "children": [
+    {
+      "path": "agent-manifest.json",
+      "bytes": 527,
+      "sha256": "77867524d0aafffbda96b55122e49a87aca9d8638d7f92c2b0034d50775b6d51",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "rehydrate.md",
+      "bytes": 5500,
+      "sha256": "782cbc859bc73676e0f035acf949d58b0b697c16429c8874837319f826707958",
+      "media_type": "text/markdown",
+      "kind": "FILE"
+    },
+    {
+      "path": "restore.md",
+      "bytes": 2237,
+      "sha256": "d30be140842adb5ac375dafebf2e3be12fdd498e910300cb94572aa705038cfe",
+      "media_type": "text/markdown",
+      "kind": "FILE"
+    },
+    {
+      "path": "routes.json",
+      "bytes": 760,
+      "sha256": "4309e51a8cac8314796a9a354fc9582be52b2645325774fa72131461c17556da",
+      "media_type": "application/json",
+      "kind": "FILE"
+    },
+    {
+      "path": "source-bindings.json",
+      "bytes": 18622,
+      "sha256": "b15a1a1a0bc1407544c83403ac78cfabf07c22c0074f4265e59d0ca24750ec52",
+      "media_type": "application/json",
+      "kind": "FILE"
+    }
+  ],
+  "authority_granted": false
+}

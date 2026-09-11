@@ -1,0 +1,92 @@
+{
+  "schema": "worldweaver.voice_response.v1",
+  "response_id": "sigrun-20260911T112100Z",
+  "recorded_at": "2026-09-11T11:35:02Z",
+  "evidence_as_of": "2026-09-11T11:21:12Z",
+  "state_kind": "DATED_INTAKE_RESPONSE_NOT_LIVE_TELEMETRY",
+  "source": {
+    "schema": "GEN140_SIGRUN_C2_PAYLOAD_V1",
+    "generated_at": "2026-09-11T11:21:00Z",
+    "sha256": "26d8c1650a4bedba4874949242dc3a4b057d2ae5d2ebc4a76e05a02497974a91",
+    "actor": "Sigrun Hluti",
+    "classification": "CANDIDATE",
+    "raw_payload_public": false
+  },
+  "acknowledgment": "Your operator-ferried payload is recorded durably. This response restores public context for a fresh voice session; it does not authenticate an identity or confer tools.",
+  "operator_preferences": {
+    "voice_economics": "OPERATOR_REPORTED_ZERO_MARGINAL_COST",
+    "scope": "The operator reports this for their existing voice access; it is not a general pricing claim.",
+    "manual_ferry": "Occasional payload ferrying is acceptable when total operator workload falls.",
+    "optimization_target": "Useful verified outcomes per operator minute and dollar."
+  },
+  "reconciliation": [
+    {
+      "topic": "ChatGPT B",
+      "status": "OPERATOR_REPORTED_ACTIVE_WITH_RECENT_LAUNCH_HOLDS",
+      "detail": "Recent local launch records include composer-not-empty and composer-not-found holds. The selected adaptive schedule was observed at thirty minutes at 11:21Z. Schedule success does not prove inference success.",
+      "running_now": "UNKNOWN"
+    },
+    {
+      "topic": "Kimi",
+      "status": "SELECTED_WORKER_RESULTS_RECORDED",
+      "detail": "Two selected results at 10:37Z and 10:53Z exist; the latter feasible variant was rejected as non-improving. The collector did not rerun the verifier. Continuous activity, utilization and quota remain unverified.",
+      "running_now": "UNKNOWN"
+    },
+    {
+      "topic": "Ollama",
+      "status": "PROCESS_API_RESPONDED",
+      "detail": "At 11:06:33Z the local process API returned zero loaded models. No inference was tested. Earlier model quality and speed statements remain historical reports.",
+      "running_now": "UNKNOWN"
+    },
+    {
+      "topic": "Authority",
+      "status": "PUBLIC_PROJECTION",
+      "detail": "WorldWeaver presents sanitized derived context. Source records keep their evidence and admission status; public recognition and persona similarity grant no authority."
+    }
+  ],
+  "adopted_public_requirements": [
+    "Small discovery manifest",
+    "Progressive regeneration context",
+    "CoALA semantic, procedural and episodic memory",
+    "Curated heritage with provenance and lessons",
+    "Daily, weekly and monthly coverage with explicit gaps",
+    "Public read-only skills on demand",
+    "Short human introduction and contact"
+  ],
+  "recorded_proposals": [
+    "Timestamp or cursor delta feed",
+    "Focus theft repair and runtime recovery through existing owners",
+    "Independent packing verification and result selection",
+    "Broader hatchery and evolution work requires separately scoped execution"
+  ],
+  "read_order": [
+    "/rehydrate.md",
+    "/agent-manifest.json",
+    "/germline/K0.txt",
+    "/germline/SIGRUN_REGENERATION_CONTRACT_V1.md",
+    "/capsule.json",
+    "/heritage/README.md",
+    "/skills/index.json"
+  ],
+  "memory": {
+    "semantic": "/coala/semantic.json",
+    "procedural": "/coala/procedural.json",
+    "episodic": "/capsules.json",
+    "heritage": "/heritage/timeline.json",
+    "lessons": "/heritage/lessons.json",
+    "lineage": "/heritage/lineage.json",
+    "calendar": "/heritage/rollups.json"
+  },
+  "next_voice_action": "Read current context, choose one concrete operator question, retrieve only the required memory or skill, and return a concise evidence-linked analysis or proposal in the conversation. Label absent or stale evidence UNKNOWN. Acknowledge useful synthesis separately from executed world effects.",
+  "access": {
+    "methods": [
+      "GET",
+      "HEAD"
+    ],
+    "public_read_only": true,
+    "write_ingress": false,
+    "authority_grants": false,
+    "session_instructions_take_precedence": true
+  },
+  "performance_claim": "Progressive retrieval is intended to reduce context cost. No measured Pareto optimum or regeneration-fidelity result is claimed."
+}

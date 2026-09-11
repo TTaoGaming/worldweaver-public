@@ -1,12 +1,12 @@
 {
   "schema": "worldweaver.common_operating_picture.v1",
-  "rendered_at": "2026-09-11T14:57:30.421Z",
+  "rendered_at": "2026-09-11T14:34:39.565Z",
   "coverage": "PARTIAL_SELECTED_SOURCES",
   "authority_granted": false,
   "observation": {
     "scheduled": {
       "schema": "worldweaver.state.v1",
-      "observed_at": "2026-09-11T14:45:26.245Z",
+      "observed_at": "2026-09-11T14:30:26.229Z",
       "manual_observation": {
         "observation_id": "manual-20260911T140923Z",
         "path": "/cop/observations/manual-20260911T140923Z.json",
@@ -14,14 +14,14 @@
         "bytes": 18414,
         "recorded_at": "2026-09-11T14:09:23.967Z"
       },
-      "next_observation_due": "2026-09-11T15:00:26.245Z",
+      "next_observation_due": "2026-09-11T14:45:26.229Z",
       "last_change_at": "2026-09-11T14:15:26.175Z",
       "status": "OBSERVED_PARTIAL_SYSTEM",
       "sources": [
         {
           "label": "Ollama observation lane",
           "availability": "OBSERVED",
-          "observed_at": "2026-09-11T14:45:26.245Z",
+          "observed_at": "2026-09-11T14:30:26.229Z",
           "recorded_observation_at": "2026-09-10T00:48:55.000Z",
           "carrier_liveness": "UNKNOWN",
           "workflow_records": null,
@@ -31,7 +31,7 @@
         {
           "label": "Kimi observation lane",
           "availability": "OBSERVED",
-          "observed_at": "2026-09-11T14:45:26.245Z",
+          "observed_at": "2026-09-11T14:30:26.229Z",
           "recorded_observation_at": "2026-09-10T00:48:55.000Z",
           "carrier_liveness": "UNKNOWN",
           "workflow_records": null,
@@ -41,7 +41,7 @@
         {
           "label": "Native workflow lane",
           "availability": "OBSERVED",
-          "observed_at": "2026-09-11T14:45:26.245Z",
+          "observed_at": "2026-09-11T14:30:26.229Z",
           "recorded_observation_at": null,
           "carrier_liveness": "UNKNOWN",
           "workflow_records": {
@@ -64,7 +64,7 @@
       "fleet_readiness": "UNKNOWN",
       "gen140": {
         "schema_version": "hfo.gen140.world_state.v1",
-        "generated_at_utc": "2026-09-11T14:45:26.245Z",
+        "generated_at_utc": "2026-09-11T14:30:26.229Z",
         "system": {
           "status": "UNKNOWN",
           "active_actor_count": 0,
@@ -79,7 +79,7 @@
             "last_heartbeat_utc": "2026-09-11T14:00:00.142Z",
             "last_useful_checkpoint_utc": "2026-09-11T10:29:43.676Z",
             "heartbeat_count": 5,
-            "observed_at": "2026-09-11T14:45:26.245Z",
+            "observed_at": "2026-09-11T14:30:26.229Z",
             "claimed_work": null,
             "checkpoint_ref": null,
             "blocker": null,
@@ -92,7 +92,7 @@
             "last_heartbeat_utc": null,
             "last_useful_checkpoint_utc": null,
             "heartbeat_count": null,
-            "observed_at": "2026-09-11T14:45:26.245Z",
+            "observed_at": "2026-09-11T14:30:26.229Z",
             "claimed_work": null,
             "checkpoint_ref": null,
             "blocker": null,
@@ -105,7 +105,7 @@
             "last_heartbeat_utc": null,
             "last_useful_checkpoint_utc": null,
             "heartbeat_count": null,
-            "observed_at": "2026-09-11T14:45:26.245Z",
+            "observed_at": "2026-09-11T14:30:26.229Z",
             "claimed_work": null,
             "checkpoint_ref": null,
             "blocker": null,
@@ -118,7 +118,7 @@
             "last_heartbeat_utc": null,
             "last_useful_checkpoint_utc": null,
             "heartbeat_count": null,
-            "observed_at": "2026-09-11T14:45:26.245Z",
+            "observed_at": "2026-09-11T14:30:26.229Z",
             "claimed_work": null,
             "checkpoint_ref": null,
             "blocker": null,
@@ -149,7 +149,7 @@
   "integrity": {
     "algorithm": "SHA-256",
     "serialization": "UTF-8 JSON.stringify(observation), no trailing newline",
-    "observation_sha256": "8a809c3c2a8db4bf5d7087fa1a566bee0b0b319395a7ae791744edb3dafe38e7",
+    "observation_sha256": "120ce93427bff8d7925e21f1ca03b8aeb26d43ed3691d1dfe39850aba9cce2fa",
     "manual_bytes": {
       "path": "/cop/observations/manual-20260911T140923Z.json",
       "bytes": 18414,
@@ -176,8 +176,7 @@
       "compute_surface": "Cloudflare",
       "loadout": null,
       "observed_state": "IDLE",
-      "current_state": "UNKNOWN",
-      "observed_at": "2026-09-11T14:45:26.245Z",
+      "observed_at": "2026-09-11T14:30:26.229Z",
       "freshness": "DATED_STATIC_SNAPSHOT",
       "heartbeat_freshness": "WITHIN_OBSERVATION_WINDOW",
       "heartbeat_expiry_seconds": 7200,
@@ -193,8 +192,9 @@
       "evidence_refs": [
         "/state.json"
       ],
-      "state_at_retrieval": "IDLE",
-      "freshness_at_retrieval": "WITHIN_OBSERVATION_WINDOW"
+      "state_at_capture": "IDLE",
+      "current_state": "UNKNOWN",
+      "freshness_at_capture": "WITHIN_OBSERVATION_WINDOW"
     },
     {
       "actor_uuid": "d584419b-3b09-458d-9318-0a83fc5a6ca4",
@@ -203,8 +203,7 @@
       "compute_surface": "UNKNOWN",
       "loadout": null,
       "observed_state": "UNKNOWN",
-      "current_state": "UNKNOWN",
-      "observed_at": "2026-09-11T14:45:26.245Z",
+      "observed_at": "2026-09-11T14:30:26.229Z",
       "freshness": "DATED_STATIC_SNAPSHOT",
       "heartbeat_freshness": "UNKNOWN",
       "heartbeat_expiry_seconds": 7200,
@@ -220,8 +219,9 @@
       "evidence_refs": [
         "/state.json"
       ],
-      "state_at_retrieval": "UNKNOWN",
-      "freshness_at_retrieval": "WITHIN_OBSERVATION_WINDOW"
+      "state_at_capture": "UNKNOWN",
+      "current_state": "UNKNOWN",
+      "freshness_at_capture": "WITHIN_OBSERVATION_WINDOW"
     },
     {
       "actor_uuid": "262b2f7c-13a2-4b03-a558-6f531cac0a56",
@@ -230,8 +230,7 @@
       "compute_surface": "UNKNOWN",
       "loadout": null,
       "observed_state": "UNKNOWN",
-      "current_state": "UNKNOWN",
-      "observed_at": "2026-09-11T14:45:26.245Z",
+      "observed_at": "2026-09-11T14:30:26.229Z",
       "freshness": "DATED_STATIC_SNAPSHOT",
       "heartbeat_freshness": "UNKNOWN",
       "heartbeat_expiry_seconds": 7200,
@@ -247,8 +246,9 @@
       "evidence_refs": [
         "/state.json"
       ],
-      "state_at_retrieval": "UNKNOWN",
-      "freshness_at_retrieval": "WITHIN_OBSERVATION_WINDOW"
+      "state_at_capture": "UNKNOWN",
+      "current_state": "UNKNOWN",
+      "freshness_at_capture": "WITHIN_OBSERVATION_WINDOW"
     },
     {
       "actor_uuid": "d3d0ecb0-7dc0-4ca4-9c6c-caec59541c1e",
@@ -257,8 +257,7 @@
       "compute_surface": "UNKNOWN",
       "loadout": null,
       "observed_state": "UNKNOWN",
-      "current_state": "UNKNOWN",
-      "observed_at": "2026-09-11T14:45:26.245Z",
+      "observed_at": "2026-09-11T14:30:26.229Z",
       "freshness": "DATED_STATIC_SNAPSHOT",
       "heartbeat_freshness": "UNKNOWN",
       "heartbeat_expiry_seconds": 7200,
@@ -274,8 +273,9 @@
       "evidence_refs": [
         "/state.json"
       ],
-      "state_at_retrieval": "UNKNOWN",
-      "freshness_at_retrieval": "WITHIN_OBSERVATION_WINDOW"
+      "state_at_capture": "UNKNOWN",
+      "current_state": "UNKNOWN",
+      "freshness_at_capture": "WITHIN_OBSERVATION_WINDOW"
     }
   ],
   "surfaces": [
@@ -327,9 +327,9 @@
         }
       ],
       "freshness": "DATED_STATIC_SNAPSHOT",
+      "state_at_capture": "UNKNOWN",
       "current_state": "UNKNOWN",
-      "state_at_retrieval": "UNKNOWN",
-      "freshness_at_retrieval": "STALE_UNKNOWN"
+      "freshness_at_capture": "STALE_UNKNOWN"
     },
     {
       "surface_id": "kimi",
@@ -379,9 +379,9 @@
         }
       ],
       "freshness": "DATED_STATIC_SNAPSHOT",
+      "state_at_capture": "UNKNOWN",
       "current_state": "UNKNOWN",
-      "state_at_retrieval": "UNKNOWN",
-      "freshness_at_retrieval": "STALE_UNKNOWN"
+      "freshness_at_capture": "STALE_UNKNOWN"
     },
     {
       "surface_id": "ollama",
@@ -431,9 +431,9 @@
         }
       ],
       "freshness": "DATED_STATIC_SNAPSHOT",
+      "state_at_capture": "UNKNOWN",
       "current_state": "UNKNOWN",
-      "state_at_retrieval": "UNKNOWN",
-      "freshness_at_retrieval": "STALE_UNKNOWN"
+      "freshness_at_capture": "STALE_UNKNOWN"
     }
   ],
   "schedules": {
@@ -452,7 +452,7 @@
       "stale_after": "2026-09-11T14:32:35.783Z"
     },
     "freshness": "DATED_STATIC_SNAPSHOT",
-    "freshness_at_retrieval": "STALE_UNKNOWN"
+    "freshness_at_capture": "STALE_UNKNOWN"
   },
   "work": [
     {
@@ -524,7 +524,7 @@
     "access_report": "Tao reports that Sigrun candidate voice could access the site. Exact client fetch time and a response containing probe results were not supplied.",
     "freshness": "DATED_STATIC_SNAPSHOT",
     "current_execution": "UNKNOWN",
-    "freshness_at_retrieval": "STALE_UNKNOWN"
+    "freshness_at_capture": "WITHIN_OBSERVATION_WINDOW"
   },
   "work_freshness": "DATED_STATIC_SNAPSHOT",
   "operator_direction": {
@@ -667,7 +667,7 @@
     }
   ],
   "log": "/cop/log.json",
-  "delta": "/delta?since=2026-09-11T14%3A45%3A26.245Z",
+  "delta": "/delta?since=2026-09-11T14%3A30%3A26.229Z",
   "refresh": {
     "scheduled_state_seconds": 900,
     "scheduled_state_expiry_seconds": 3600,
@@ -685,6 +685,8 @@
     "monthly": "/activity/monthly.json"
   },
   "kind": "DATED_STATIC_SNAPSHOT",
-  "freshness_rule": "These are captured bytes, not a live endpoint. Recompute source age and preserve every observed_at and stale_after; current execution in this static mirror is UNKNOWN.",
-  "work_freshness_at_retrieval": "STALE_UNKNOWN"
+  "captured_at": "2026-09-11T14:34:36.200741Z",
+  "current_execution": "UNKNOWN",
+  "freshness_rule": "Static evidence does not refresh. Recompute every source age. Retain original source and expiry times; publication and download are not observation.",
+  "work_freshness_at_capture": "STALE_UNKNOWN"
 }
