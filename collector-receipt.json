@@ -1,0 +1,32 @@
+{
+  "schema": "worldweaver.public_collector_capture_receipt.v1",
+  "verified_at": "2026-09-11T14:02:40.760699+00:00",
+  "authentication_used": false,
+  "client": "Anonymous curl",
+  "site": "https://worldweaver.dev",
+  "source_revision": "worldweaver-obsidian-public-cop-v11-20260911",
+  "checks": [
+    {
+      "path": "/capsules/2026-09-11T13-45.json",
+      "observed_at": "2026-09-11T13:45:26.179Z",
+      "body_sha256": "21683feb11f927e54c4180227e736f6d4cd6c1fb8bd4a74ba65aa2e2807e172b",
+      "manual_observation": null,
+      "historical_current_context_backfilled": false
+    },
+    {
+      "path": "/capsules/2026-09-11T14-00.json",
+      "observed_at": "2026-09-11T14:00:26.210Z",
+      "body_sha256": "f4e8fa22c33b69aadfe084f2bb70ae4d0821c578e831ec82bf802512e05459b7",
+      "manual_observation": {
+        "observation_id": "manual-20260911T135729Z",
+        "path": "/cop/observations/manual-20260911T135729Z.json",
+        "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
+        "bytes": 14753,
+        "recorded_at": "2026-09-11T13:57:29.873Z"
+      },
+      "historical_current_context_backfilled": false
+    }
+  ],
+  "result": "FIRST_NATIVE_CAPTURE_AND_NO_PRIOR_SAMPLE_BACKFILL_VERIFIED",
+  "scope": "Retained public observations only; original provider observation and expiry clocks remain unchanged."
+}

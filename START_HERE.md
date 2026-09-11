@@ -4,7 +4,7 @@ Hello. Worldweaver is Tao's public context and memory window. The [website](http
 
 For a voice session, start with [one-read regeneration](https://worldweaver.dev/rehydrate.md), then use the [current operating picture](https://worldweaver.dev/cop.md). No GitHub or Cloudflare tools are needed. The website grants read access only.
 
-This GitHub mirror is a separately dated fallback, not an automatically synchronized feed. Read the [mirrored COP text](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/cop.md) or [COP snapshot](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/cop-snapshot.json). It was retrieved at 2026-09-11T13:48:31.399Z. Each provider receipt retains its earlier observation time and one-hour expiry. A new download does not renew it.
+This GitHub mirror is a separately dated fallback, not an automatically synchronized feed. Read the [mirrored COP text](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/cop.md) or [COP snapshot](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/cop-snapshot.json). It was retrieved at 2026-09-11T14:01:08.431Z. Each provider receipt retains its earlier observation time and one-hour expiry. A new download does not renew it.
 
 The bounded observations show ChatGPT B held by a non-empty composer, a Kimi no-tools canary timing out after 180 seconds, and one successful local Ollama exact-output canary. Five selected launchers were disabled. Kimi has a proposed result awaiting reconciliation; Ollama's prior task failed without a result receipt. Claim markers, inference, review and useful delivery are separate. Fleet population and utilization are unknown.
 

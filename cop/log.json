@@ -17,6 +17,14 @@
       "schema": "worldweaver.cop_pointer.v1",
       "observation_id": "manual-20260911T134446Z",
       "recorded_at": "2026-09-11T13:44:46.470Z"
+    },
+    {
+      "path": "/cop/observations/manual-20260911T135729Z.json",
+      "bytes": 14753,
+      "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
+      "schema": "worldweaver.cop_pointer.v1",
+      "observation_id": "manual-20260911T135729Z",
+      "recorded_at": "2026-09-11T13:57:29.873Z"
     }
   ],
   "note": "Public receipt history starts here. Retained scheduled samples and long-term rollups are separate; no earlier manual observations are invented."

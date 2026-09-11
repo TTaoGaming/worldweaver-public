@@ -1,21 +1,27 @@
 {
   "schema": "worldweaver.common_operating_picture.v1",
-  "rendered_at": "2026-09-11T13:48:31.399Z",
+  "rendered_at": "2026-09-11T14:01:08.431Z",
   "coverage": "PARTIAL_SELECTED_SOURCES",
   "authority_granted": false,
   "observation": {
     "scheduled": {
       "schema": "worldweaver.state.v1",
-      "observed_at": "2026-09-11T13:45:26.179Z",
-      "manual_observation": null,
-      "next_observation_due": "2026-09-11T14:00:26.179Z",
-      "last_change_at": "2026-09-11T10:15:23.736Z",
+      "observed_at": "2026-09-11T14:00:26.210Z",
+      "manual_observation": {
+        "observation_id": "manual-20260911T135729Z",
+        "path": "/cop/observations/manual-20260911T135729Z.json",
+        "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
+        "bytes": 14753,
+        "recorded_at": "2026-09-11T13:57:29.873Z"
+      },
+      "next_observation_due": "2026-09-11T14:15:26.210Z",
+      "last_change_at": "2026-09-11T14:00:26.210Z",
       "status": "OBSERVED_PARTIAL_SYSTEM",
       "sources": [
         {
           "label": "Ollama observation lane",
           "availability": "OBSERVED",
-          "observed_at": "2026-09-11T13:45:26.179Z",
+          "observed_at": "2026-09-11T14:00:26.210Z",
           "recorded_observation_at": "2026-09-10T00:48:55.000Z",
           "carrier_liveness": "UNKNOWN",
           "workflow_records": null,
@@ -25,7 +31,7 @@
         {
           "label": "Kimi observation lane",
           "availability": "OBSERVED",
-          "observed_at": "2026-09-11T13:45:26.179Z",
+          "observed_at": "2026-09-11T14:00:26.210Z",
           "recorded_observation_at": "2026-09-10T00:48:55.000Z",
           "carrier_liveness": "UNKNOWN",
           "workflow_records": null,
@@ -35,7 +41,7 @@
         {
           "label": "Native workflow lane",
           "availability": "OBSERVED",
-          "observed_at": "2026-09-11T13:45:26.179Z",
+          "observed_at": "2026-09-11T14:00:26.210Z",
           "recorded_observation_at": null,
           "carrier_liveness": "UNKNOWN",
           "workflow_records": {
@@ -58,7 +64,7 @@
       "fleet_readiness": "UNKNOWN",
       "gen140": {
         "schema_version": "hfo.gen140.world_state.v1",
-        "generated_at_utc": "2026-09-11T13:45:26.179Z",
+        "generated_at_utc": "2026-09-11T14:00:26.210Z",
         "system": {
           "status": "UNKNOWN",
           "active_actor_count": 0,
@@ -70,10 +76,10 @@
           {
             "callsign": "GONDUL",
             "state": "IDLE",
-            "last_heartbeat_utc": "2026-09-11T13:00:00.134Z",
+            "last_heartbeat_utc": "2026-09-11T14:00:00.142Z",
             "last_useful_checkpoint_utc": "2026-09-11T10:29:43.676Z",
-            "heartbeat_count": 4,
-            "observed_at": "2026-09-11T13:45:26.179Z",
+            "heartbeat_count": 5,
+            "observed_at": "2026-09-11T14:00:26.210Z",
             "claimed_work": null,
             "checkpoint_ref": null,
             "blocker": null,
@@ -86,7 +92,7 @@
             "last_heartbeat_utc": null,
             "last_useful_checkpoint_utc": null,
             "heartbeat_count": null,
-            "observed_at": "2026-09-11T13:45:26.179Z",
+            "observed_at": "2026-09-11T14:00:26.210Z",
             "claimed_work": null,
             "checkpoint_ref": null,
             "blocker": null,
@@ -99,7 +105,7 @@
             "last_heartbeat_utc": null,
             "last_useful_checkpoint_utc": null,
             "heartbeat_count": null,
-            "observed_at": "2026-09-11T13:45:26.179Z",
+            "observed_at": "2026-09-11T14:00:26.210Z",
             "claimed_work": null,
             "checkpoint_ref": null,
             "blocker": null,
@@ -112,7 +118,7 @@
             "last_heartbeat_utc": null,
             "last_useful_checkpoint_utc": null,
             "heartbeat_count": null,
-            "observed_at": "2026-09-11T13:45:26.179Z",
+            "observed_at": "2026-09-11T14:00:26.210Z",
             "claimed_work": null,
             "checkpoint_ref": null,
             "blocker": null,
@@ -132,25 +138,25 @@
       }
     },
     "manual": {
-      "path": "/cop/observations/manual-20260911T134446Z.json",
-      "bytes": 13723,
-      "sha256": "bd4f3e89de5e3584527a8fd8a7804725a4f5df7c1bebbbf5004c9e5896979d14",
+      "path": "/cop/observations/manual-20260911T135729Z.json",
+      "bytes": 14753,
+      "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
       "schema": "worldweaver.cop_pointer.v1",
-      "observation_id": "manual-20260911T134446Z",
-      "recorded_at": "2026-09-11T13:44:46.470Z"
+      "observation_id": "manual-20260911T135729Z",
+      "recorded_at": "2026-09-11T13:57:29.873Z"
     }
   },
   "integrity": {
     "algorithm": "SHA-256",
     "serialization": "UTF-8 JSON.stringify(observation), no trailing newline",
-    "observation_sha256": "1a3ad0b432f29b7b90a3f2d4a44344916f2036d72803a0f540de722fb5a3bc14",
+    "observation_sha256": "2abd0c4eb7aaf742d2ae302c517a8ee5b3e16db4cd017fe66bf052d278a00aba",
     "manual_bytes": {
-      "path": "/cop/observations/manual-20260911T134446Z.json",
-      "bytes": 13723,
-      "sha256": "bd4f3e89de5e3584527a8fd8a7804725a4f5df7c1bebbbf5004c9e5896979d14",
+      "path": "/cop/observations/manual-20260911T135729Z.json",
+      "bytes": 14753,
+      "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
       "schema": "worldweaver.cop_pointer.v1",
-      "observation_id": "manual-20260911T134446Z",
-      "recorded_at": "2026-09-11T13:44:46.470Z"
+      "observation_id": "manual-20260911T135729Z",
+      "recorded_at": "2026-09-11T13:57:29.873Z"
     }
   },
   "population": {
@@ -171,13 +177,13 @@
       "loadout": null,
       "observed_state": "IDLE",
       "current_state": "UNKNOWN",
-      "observed_at": "2026-09-11T13:45:26.179Z",
+      "observed_at": "2026-09-11T14:00:26.210Z",
       "freshness": "DATED_STATIC_SNAPSHOT",
       "heartbeat_freshness": "WITHIN_OBSERVATION_WINDOW",
       "heartbeat_expiry_seconds": 7200,
       "claimed_work": null,
       "claim_utc": null,
-      "last_heartbeat_utc": "2026-09-11T13:00:00.134Z",
+      "last_heartbeat_utc": "2026-09-11T14:00:00.142Z",
       "last_recorded_checkpoint_utc": "2026-09-11T10:29:43.676Z",
       "checkpoint_ref": null,
       "useful_delivery": "NOT_INDEPENDENTLY_VERIFIED",
@@ -198,7 +204,7 @@
       "loadout": null,
       "observed_state": "UNKNOWN",
       "current_state": "UNKNOWN",
-      "observed_at": "2026-09-11T13:45:26.179Z",
+      "observed_at": "2026-09-11T14:00:26.210Z",
       "freshness": "DATED_STATIC_SNAPSHOT",
       "heartbeat_freshness": "UNKNOWN",
       "heartbeat_expiry_seconds": 7200,
@@ -225,7 +231,7 @@
       "loadout": null,
       "observed_state": "UNKNOWN",
       "current_state": "UNKNOWN",
-      "observed_at": "2026-09-11T13:45:26.179Z",
+      "observed_at": "2026-09-11T14:00:26.210Z",
       "freshness": "DATED_STATIC_SNAPSHOT",
       "heartbeat_freshness": "UNKNOWN",
       "heartbeat_expiry_seconds": 7200,
@@ -252,7 +258,7 @@
       "loadout": null,
       "observed_state": "UNKNOWN",
       "current_state": "UNKNOWN",
-      "observed_at": "2026-09-11T13:45:26.179Z",
+      "observed_at": "2026-09-11T14:00:26.210Z",
       "freshness": "DATED_STATIC_SNAPSHOT",
       "heartbeat_freshness": "UNKNOWN",
       "heartbeat_expiry_seconds": 7200,
@@ -496,15 +502,26 @@
     "actor_uuid": null,
     "carrier": "Operator-reported frontier voice session",
     "tools": "PUBLIC_WEBSITE_READS_ONLY",
-    "state": "OPERATOR_REPORTED_IN_USE",
-    "observed_at": "2026-09-11T13:07:00Z",
-    "source_kind": "CANDIDATE_CHECKPOINT_AND_OPERATOR_REPORT",
+    "state": "OPERATOR_REPORTED_CAN_READ_SITE",
+    "observed_at": "2026-09-11T13:57:29.873Z",
+    "source_kind": "TAO_RELAYED_WEBSITE_ACCESS_REPORT",
     "checkpoint_schema": "GEN140_SIGRUN_C2_CHECKPOINT_V2",
     "checkpoint_sha256": "a7bb1b0509692b9c46965840bf62060907e2c525f81b1d218ff1f5bed993b1cc",
     "raw_payload_public": false,
     "durable_write": false,
     "transport": "Tao ferries candidate payloads; receipt publication is separate.",
     "requested_next": "A common operating picture with current work, evidence, blockers and deltas. Other checkpoint proposals remain candidates.",
+    "checkpoint_utc": "2026-09-11T13:07:00Z",
+    "access_receipt": {
+      "path": "/cop/receipts/manual-20260911T135729Z-voice-access.json",
+      "bytes": 811,
+      "sha256": "c2c48e0439ba2415c480b968a20d0f7a4a68f87cb50ce260e86d5d792199820a",
+      "receipt_id": "manual-20260911T135729Z-voice-access",
+      "recorded_at": "2026-09-11T13:57:29.873Z",
+      "observed_at": "2026-09-11T13:57:29.873Z",
+      "stale_after": "2026-09-11T14:57:29.873Z"
+    },
+    "access_report": "Tao reports that Sigrun candidate voice could access the site. Exact client fetch time and a response containing probe results were not supplied.",
     "freshness": "DATED_STATIC_SNAPSHOT",
     "current_execution": "UNKNOWN",
     "freshness_at_retrieval": "WITHIN_OBSERVATION_WINDOW"
@@ -593,10 +610,19 @@
       "recorded_at": "2026-09-11T13:44:46.470Z",
       "observed_at": "2026-09-11T13:43:15.808Z",
       "stale_after": "2026-09-11T14:43:15.808Z"
+    },
+    {
+      "path": "/cop/receipts/manual-20260911T135729Z-voice-access.json",
+      "bytes": 811,
+      "sha256": "c2c48e0439ba2415c480b968a20d0f7a4a68f87cb50ce260e86d5d792199820a",
+      "receipt_id": "manual-20260911T135729Z-voice-access",
+      "recorded_at": "2026-09-11T13:57:29.873Z",
+      "observed_at": "2026-09-11T13:57:29.873Z",
+      "stale_after": "2026-09-11T14:57:29.873Z"
     }
   ],
   "log": "/cop/log.json",
-  "delta": "/delta?since=2026-09-11T13%3A45%3A26.179Z",
+  "delta": "/delta?since=2026-09-11T14%3A00%3A26.210Z",
   "refresh": {
     "scheduled_state_seconds": 900,
     "scheduled_state_expiry_seconds": 3600,
