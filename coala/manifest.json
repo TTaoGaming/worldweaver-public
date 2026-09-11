@@ -1,0 +1,19 @@
+{
+  "schema": "worldweaver.public_memory_mirror.v1",
+  "working": "state-snapshot.json",
+  "semantic": [
+    "germline/seed.md",
+    "heritage/lineage.json"
+  ],
+  "episodic": [
+    "heritage/timeline.json",
+    "heritage/rollups.json",
+    "voice/latest.json"
+  ],
+  "procedural": [
+    "heritage/lessons.json",
+    "skills/index.json"
+  ],
+  "write_endpoint": null,
+  "rule": "Read only. Retrieve per task. Source and admission classifications remain attached."
+}

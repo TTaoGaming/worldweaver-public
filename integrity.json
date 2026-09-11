@@ -1,0 +1,102 @@
+{
+  "schema": "worldweaver.public_integrity.v1",
+  "algorithm": "SHA-256",
+  "note": "Hashes bind release bytes; they do not establish truth or source admission. This manifest does not hash itself.",
+  "artifacts": [
+    {
+      "path": "activity/providers.json",
+      "bytes": 4569,
+      "sha256": "ffd559df802460d5166f2328629288141021155b8021a3b2e95de6ffd890d20c"
+    },
+    {
+      "path": "coala/manifest.json",
+      "bytes": 466,
+      "sha256": "34b1b4dc21d163018e8dc9445c4d542aa5883d9cf72e7bd1e60c31f1d467d130"
+    },
+    {
+      "path": "germline/seed.md",
+      "bytes": 1561,
+      "sha256": "fe18ce34da0e7f271d2c0a8ae468d6d07295970016d6c3b5738170ecf3e5e770"
+    },
+    {
+      "path": "heritage/lessons.json",
+      "bytes": 5560,
+      "sha256": "34215f7b8e9c8be11d6a8d179aa433441ff7f27564e904d59f09454a9c2b873f"
+    },
+    {
+      "path": "heritage/lineage.json",
+      "bytes": 12261,
+      "sha256": "f7fd72e57e419c88c970927156438e97b81b0c1cd9154c018f3ceeb17c2979a9"
+    },
+    {
+      "path": "heritage/README.md",
+      "bytes": 2084,
+      "sha256": "0893639228f9787caa9bfe3fc71aacd1f0e5eaa1ced573c4ca0505ecd509fb07"
+    },
+    {
+      "path": "heritage/rollups.json",
+      "bytes": 1948,
+      "sha256": "c714540123f4f8b99fc353c9f058f160f885a37d1342cb693f2d916a1f380a4a"
+    },
+    {
+      "path": "heritage/sources.json",
+      "bytes": 1655,
+      "sha256": "ca86fb68decbd84177f605fc55b718221d1fac689195d658a7ea8110491e4160"
+    },
+    {
+      "path": "heritage/timeline.json",
+      "bytes": 17846,
+      "sha256": "e570dea065c0ee24f1ff7b73b0604d798859f5e6cafd1ae9abf478e7fae6e73f"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 741,
+      "sha256": "b1594a8beb48687b06bab656fc84f2ba11e635bc2b9c378f5dca2ee70dd7738e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3727,
+      "sha256": "6bc6331c786d5ad08792c6002dc5de8a1e8eff28de7e27a80bdde9c08b36ab3e"
+    },
+    {
+      "path": "skills/index.json",
+      "bytes": 1318,
+      "sha256": "f38d8d7acb152920f59d88b871c0c7ad36bc49e1d0a2de115f492c44293a24e0"
+    },
+    {
+      "path": "skills/prepare-proposal.md",
+      "bytes": 1536,
+      "sha256": "274cdd6a1552937762aa5cb7760f8ba4349bca17c37d89faf391ed5340d34832"
+    },
+    {
+      "path": "skills/read-public-context.md",
+      "bytes": 1802,
+      "sha256": "76e027a4795ba152abdf0bc37657e36e61ec6c596d06079ba3c7f28b0b188fa8"
+    },
+    {
+      "path": "skills/review-evidence.md",
+      "bytes": 1776,
+      "sha256": "6c944a5f157f456b052cd4848c81e37d5104d6ea149d836ff5e2123eef2cfc4d"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 3727,
+      "sha256": "6bc6331c786d5ad08792c6002dc5de8a1e8eff28de7e27a80bdde9c08b36ab3e"
+    },
+    {
+      "path": "state-snapshot.json",
+      "bytes": 2731,
+      "sha256": "87f0a4721357139673af372fbd1019e4f16931c943f4dea63f8f66bb0013f665"
+    },
+    {
+      "path": "voice/latest.json",
+      "bytes": 4345,
+      "sha256": "589534d7ebb35a50a5cd0337430aa5ebb2ab41c8377d4f5bc93b08fb9f0bd5eb"
+    },
+    {
+      "path": "voice/latest.md",
+      "bytes": 1942,
+      "sha256": "80a151e30a9c3ad70424563a3954b2bd72567e7ed8e5c7aea01e2d119b66a9c6"
+    }
+  ]
+}

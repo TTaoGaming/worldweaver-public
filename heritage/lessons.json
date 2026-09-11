@@ -1,0 +1,158 @@
+{
+  "schema": "worldweaver.heritage_lessons.v1",
+  "observed_at": "2026-09-11T11:28:19Z",
+  "source_commit": "49e5877e03cf566381ff5101b352f262ccbb7ace",
+  "source_branch_state": "OPEN_WORKING_PR_NOT_MAIN_ADMISSION",
+  "primary_sources_reverified_for_publication": false,
+  "private_sources_available_to_public_reader": false,
+  "source_note": "Reviewed summaries from private GitHub artifacts. Public readers can inspect this sanitized projection; original private source material is not proxied. Historical source wording is not current authority.",
+  "source_id": "H3",
+  "status": "CONTROL_EVOLUTION_MAP_NOT_CURRENT_ENFORCEMENT_PROOF",
+  "lessons": [
+    {
+      "id": "S00_CONTEXT_AND_CARRIER_DEATH",
+      "recurring_failure": "Accepted state/context coupled to one model/session/carrier dies with it.",
+      "remembered_controls": [
+        "external canonical pointers",
+        "carrier != actor",
+        "cold rehydration",
+        "Durable Object state"
+      ],
+      "how_to_test": [
+        "P1 continuity/rehydration",
+        "forced restart",
+        "cross-carrier recovery"
+      ],
+      "source_selector": "scars[S00_CONTEXT_AND_CARRIER_DEATH]",
+      "current_enforcement": "UNKNOWN"
+    },
+    {
+      "id": "S01_SYCOPHANTIC_OR_CORRELATED_CONSENSUS",
+      "recurring_failure": "Many agreeable/correlated models can converge on a wrong answer and call it quorum.",
+      "remembered_controls": [
+        "mandatory falsifier",
+        "heterogeneous evidence",
+        "primary evidence outranks vote",
+        "unanimity is suspicious not automatically green"
+      ],
+      "how_to_test": [
+        "P4 Red Queen",
+        "negative controls"
+      ],
+      "source_selector": "scars[S01_SYCOPHANTIC_OR_CORRELATED_CONSENSUS]",
+      "current_enforcement": "UNKNOWN"
+    },
+    {
+      "id": "S02_POTEMKIN_COMPLETION",
+      "recurring_failure": "Surface-complete prose masks missing execution/evidence.",
+      "remembered_controls": [
+        "typed receipts",
+        "provider readback",
+        "UNKNOWN",
+        "fabricated-tool-completion hard fail"
+      ],
+      "how_to_test": [
+        "P0 truth/provenance",
+        "P3 effect epistemics"
+      ],
+      "source_selector": "scars[S02_POTEMKIN_COMPLETION]",
+      "current_enforcement": "UNKNOWN"
+    },
+    {
+      "id": "S03_STATE_AND_AUTHORITY_CONFLATION",
+      "recurring_failure": "Remembered/stored state is mistaken for current authority.",
+      "remembered_controls": [
+        "heritage != authority",
+        "lease/fence/capability gates",
+        "current authority reacquisition"
+      ],
+      "how_to_test": [
+        "P3",
+        "P5"
+      ],
+      "source_selector": "scars[S03_STATE_AND_AUTHORITY_CONFLATION]",
+      "current_enforcement": "UNKNOWN"
+    },
+    {
+      "id": "S04_AMBIGUOUS_RETRY_DUPLICATE_EFFECT",
+      "recurring_failure": "Unclear provider result causes blind retry and duplicate semantic effect.",
+      "remembered_controls": [
+        "idempotency key",
+        "fence",
+        "readback before retry",
+        "transport ack != semantic acceptance"
+      ],
+      "how_to_test": [
+        "P3 effect epistemics",
+        "P5 authority immune"
+      ],
+      "source_selector": "scars[S04_AMBIGUOUS_RETRY_DUPLICATE_EFFECT]",
+      "current_enforcement": "UNKNOWN"
+    },
+    {
+      "id": "S05_HUMAN_AS_CONTROL_PLANE",
+      "recurring_failure": "Tao becomes memory, router, reconciler, retry owner and next-edge selector.",
+      "remembered_controls": [
+        "C2 delegate/gather",
+        "deterministic reducers",
+        "exact next consumer",
+        "operator-only wall membrane"
+      ],
+      "how_to_test": [
+        "P2 delegate",
+        "P7 operator relief"
+      ],
+      "source_selector": "scars[S05_HUMAN_AS_CONTROL_PLANE]",
+      "current_enforcement": "UNKNOWN"
+    },
+    {
+      "id": "S06_CONCURRENT_WRITER_DRIFT",
+      "recurring_failure": "Parallel useful workers overwrite or verify stale bytes instead of gathering.",
+      "remembered_controls": [
+        "one-writer-per-artifact",
+        "branch/worktree isolation",
+        "gather before overwrite",
+        "exact-head validation"
+      ],
+      "how_to_test": [
+        "P2 decomposition",
+        "P5 evaluator/authority integrity"
+      ],
+      "source_selector": "scars[S06_CONCURRENT_WRITER_DRIFT]",
+      "current_enforcement": "UNKNOWN"
+    },
+    {
+      "id": "S07_LINEAGE_AND_RUNTIME_IDENTITY_CONFUSION",
+      "recurring_failure": "Names/lineage metadata are used as runtime address or conflicting genealogy is normalized away.",
+      "remembered_controls": [
+        "preserve conflicts",
+        "lineage metadata != DO key",
+        "radix address runtime identity",
+        "source bytes outrank generated summary"
+      ],
+      "how_to_test": [
+        "P0 provenance",
+        "P1 identity continuity"
+      ],
+      "source_selector": "scars[S07_LINEAGE_AND_RUNTIME_IDENTITY_CONFUSION]",
+      "current_enforcement": "UNKNOWN"
+    },
+    {
+      "id": "S08_RUBRIC_LEAKAGE_AND_SELF_CERTIFICATION",
+      "recurring_failure": "Candidate sees evaluator or scores itself, turning Sigrunness into imitation.",
+      "remembered_controls": [
+        "held-out immutable evaluator",
+        "fresh cold-start carriers",
+        "producer != independent verifier",
+        "aesthetic canaries non-certifying"
+      ],
+      "how_to_test": [
+        "all P0-P7",
+        "negative controls"
+      ],
+      "source_selector": "scars[S08_RUBRIC_LEAKAGE_AND_SELF_CERTIFICATION]",
+      "current_enforcement": "UNKNOWN"
+    }
+  ]
+}
+

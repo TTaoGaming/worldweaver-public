@@ -1,0 +1,106 @@
+{
+  "schema": "worldweaver.heritage_rollups.v1",
+  "observed_at": "2026-09-11T11:28:19Z",
+  "kind": "ARCHIVE_INDEX_NOT_RUNTIME_ACTIVITY",
+  "source": "/heritage/timeline.json",
+  "aggregation": "Period-overlap membership. An interval can occur in multiple buckets; memberships must not be added as independent work.",
+  "date_policy": "Month-precision records are never fabricated into exact daily or weekly events.",
+  "daily": {
+    "2026-09-09": [
+      "continuation-04"
+    ]
+  },
+  "weekly": {
+    "2026-W37": [
+      "continuation-04"
+    ]
+  },
+  "monthly": {
+    "2025-01": [
+      "epoch-01"
+    ],
+    "2025-02": [
+      "epoch-02"
+    ],
+    "2025-03": [
+      "epoch-02"
+    ],
+    "2025-04": [
+      "epoch-02"
+    ],
+    "2025-05": [
+      "epoch-02"
+    ],
+    "2025-06": [
+      "epoch-02"
+    ],
+    "2025-07": [
+      "epoch-02"
+    ],
+    "2025-08": [
+      "epoch-02"
+    ],
+    "2025-09": [
+      "epoch-03"
+    ],
+    "2025-10": [
+      "epoch-03",
+      "epoch-04"
+    ],
+    "2025-11": [
+      "epoch-03",
+      "epoch-04",
+      "epoch-05"
+    ],
+    "2025-12": [
+      "epoch-03",
+      "epoch-05",
+      "epoch-06"
+    ],
+    "2026-01": [
+      "epoch-03",
+      "epoch-06",
+      "epoch-07"
+    ],
+    "2026-02": [
+      "epoch-08",
+      "epoch-09"
+    ],
+    "2026-03": [
+      "epoch-08",
+      "epoch-10",
+      "epoch-11"
+    ],
+    "2026-04": [
+      "epoch-11",
+      "epoch-12",
+      "epoch-13",
+      "epoch-14",
+      "epoch-15",
+      "epoch-16"
+    ],
+    "2026-05": [
+      "epoch-13",
+      "epoch-15",
+      "epoch-16",
+      "epoch-17",
+      "epoch-18",
+      "epoch-19",
+      "epoch-20",
+      "epoch-21",
+      "epoch-22",
+      "epoch-23",
+      "epoch-24"
+    ],
+    "2026-07": [
+      "continuation-01",
+      "continuation-02"
+    ],
+    "2026-09": [
+      "continuation-03",
+      "continuation-04"
+    ]
+  },
+  "coverage": "Selected history only. Empty buckets do not mean zero activity."
+}
+

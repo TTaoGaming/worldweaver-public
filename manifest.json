@@ -1,0 +1,19 @@
+{
+  "schema": "worldweaver.public_mirror_manifest.v1",
+  "canonical_site": "https://worldweaver.dev/",
+  "raw_base_url": "https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/",
+  "read_order": [
+    "START_HERE.md",
+    "germline/seed.md",
+    "voice/latest.json",
+    "state-snapshot.json"
+  ],
+  "memory": "coala/manifest.json",
+  "heritage": "heritage/README.md",
+  "skills": "skills/index.json",
+  "integrity": "integrity.json",
+  "refresh_mode": "DATED_RELEASE_SNAPSHOT_NO_AUTOMATIC_REFRESH",
+  "link_rule": "For a listed local artifact, prepend raw_base_url to its path after removing any leading slash. Other links refer to the canonical WorldWeaver site.",
+  "public_read_only": true,
+  "authority_granted": false
+}

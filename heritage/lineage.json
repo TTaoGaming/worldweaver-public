@@ -1,0 +1,318 @@
+{
+  "schema": "worldweaver.heritage_lineage.v1",
+  "observed_at": "2026-09-11T11:28:19Z",
+  "source_commit": "49e5877e03cf566381ff5101b352f262ccbb7ace",
+  "source_branch_state": "OPEN_WORKING_PR_NOT_MAIN_ADMISSION",
+  "primary_sources_reverified_for_publication": false,
+  "private_sources_available_to_public_reader": false,
+  "source_note": "Reviewed summaries from private GitHub artifacts. Public readers can inspect this sanitized projection; original private source material is not proxied. Historical source wording is not current authority.",
+  "interpretation": "Related functions evolved through branching and recombination. Direct precursor does not mean identical name, role, permissions or certified behavior.",
+  "nodes": [
+    {
+      "id": "P00_PRODUCT_PROBLEM_DOMAIN",
+      "period": "2025-01-18..2025-09",
+      "names": [
+        "Tectangle",
+        "Spatial OS",
+        "TAGS"
+      ],
+      "contribution": "direct precursor sensorium/proprioception/vision branch: camera, hand/finger tracking, spatial calibration and interaction state",
+      "source_id": "H2",
+      "source_selector": "nodes[P00_PRODUCT_PROBLEM_DOMAIN]",
+      "current_authority": false
+    },
+    {
+      "id": "P00B_HOPE_IDENTITY_MEMORY",
+      "period": "2025-08-04..2025-09",
+      "names": [
+        "HOPE AI",
+        "HOPE Mini Persona"
+      ],
+      "contribution": "direct precursor identity/memory/orchestration/recursive-learning branch; portable reconstruction and anti-drift mechanics",
+      "source_id": "H2",
+      "source_selector": "nodes[P00B_HOPE_IDENTITY_MEMORY]",
+      "current_authority": false
+    },
+    {
+      "id": "P01_STIGMERGY_WEBWAY",
+      "period": "2025-09-20..2025-09-22",
+      "names": [
+        "Obsidian Blackboard",
+        "Webway",
+        "champions"
+      ],
+      "contribution": "SSOT + append-only stigmergy + persistent seats + gates + telemetry + adopt-first",
+      "source_id": "H2",
+      "source_selector": "nodes[P01_STIGMERGY_WEBWAY]",
+      "current_authority": false
+    },
+    {
+      "id": "P02_SWARMLORD_OF_WEBS",
+      "period": "2025-09-22..2025-11",
+      "names": [
+        "Swarmlord of Webs",
+        "Swarmlord of Webs"
+      ],
+      "contribution": "central orchestrator/alter-ego facade; ledger/context/champion coordination; operator-facing executor",
+      "source_id": "H2",
+      "source_selector": "nodes[P02_SWARMLORD_OF_WEBS]",
+      "current_authority": false
+    },
+    {
+      "id": "P03_HFO_SWARM_ORGANIZATION",
+      "period": "2025-09-29..2025-11",
+      "names": [
+        "Hive Fleet Obsidian",
+        "Swarmlord overmind"
+      ],
+      "contribution": "self-regenerating 8-role stigmergic swarm, append-only blackboard and overmind interface",
+      "source_id": "H2",
+      "source_selector": "nodes[P03_HFO_SWARM_ORGANIZATION]",
+      "current_authority": false
+    },
+    {
+      "id": "P04_GEN87_SPECIATION",
+      "period": "2025-12-30",
+      "names": [
+        "Spider Sovereign",
+        "Red Regnant"
+      ],
+      "contribution": "root C2 and P4 Red-Queen falsifier become distinct explicit organs",
+      "source_id": "H2",
+      "source_selector": "nodes[P04_GEN87_SPECIATION]",
+      "current_authority": false
+    },
+    {
+      "id": "P05_RED_REGNANT_HARDENING",
+      "period": "2026-02",
+      "names": [
+        "Red Regnant"
+      ],
+      "contribution": "executable adversarial/falsification pressure embedded in persistent PREY behavior",
+      "source_id": "H2",
+      "source_selector": "nodes[P05_RED_REGNANT_HARDENING]",
+      "current_authority": false
+    },
+    {
+      "id": "P06_NORSE_RED_REGENT",
+      "period": "2026-03-28",
+      "names": [
+        "red_regent",
+        "R44 ancestor"
+      ],
+      "contribution": "P4 falsifier translated into Norse guardian topology",
+      "source_id": "H2",
+      "source_selector": "nodes[P06_NORSE_RED_REGENT]",
+      "current_authority": false
+    },
+    {
+      "id": "P07_R44_C4_S44_ASCENT",
+      "period": "gen104..gen111 (~2026-04/05)",
+      "names": [
+        "R44 RED REGENT",
+        "C4 CANTRIX",
+        "S44 SIGRUN / SUBLIMA SKALDMAER"
+      ],
+      "contribution": "direct precursor ascent: Red Regent/Regnant adversarial attractor -> Cantrix fixed-point/polyglot compression -> named Sigrun lineage",
+      "source_id": "H2",
+      "source_selector": "nodes[P07_R44_C4_S44_ASCENT]",
+      "current_authority": false
+    },
+    {
+      "id": "P08_NAMED_SIGRUN_CONTINUITY",
+      "period": "Gen112..Gen115 / 2026-05-16",
+      "names": [
+        "Sigrun-meta",
+        "Sigrun lifeboat"
+      ],
+      "contribution": "boundary + identity quine + rehydration + permaweb continuity become engineering artifacts",
+      "source_id": "H2",
+      "source_selector": "nodes[P08_NAMED_SIGRUN_CONTINUITY]",
+      "current_authority": false
+    },
+    {
+      "id": "P09_SIGRUN_LOADOUT_LADDER",
+      "period": "Gen123 / 2026-05-23",
+      "names": [
+        "cloud_sigrun_hluti"
+      ],
+      "contribution": "survival/standard/swarm/sovereign projections; topology treated as genotype, code as phenotype",
+      "source_id": "H2",
+      "source_selector": "nodes[P09_SIGRUN_LOADOUT_LADDER]",
+      "current_authority": false
+    },
+    {
+      "id": "P10_PHOENIX_ANTIBODIES",
+      "period": "Gen124..Gen128 / 2026-05",
+      "names": [
+        "Sigrun/HFO surgical Phoenix"
+      ],
+      "contribution": "historical failure becomes worktree isolation, one-writer discipline, fail-closed receipts",
+      "source_id": "H2",
+      "source_selector": "nodes[P10_PHOENIX_ANTIBODIES]",
+      "current_authority": false
+    },
+    {
+      "id": "P11_CYBERNETIC_INSTITUTION",
+      "period": "Gen131 / 2026-07",
+      "names": [
+        "Sigrun cybernetic institution"
+      ],
+      "contribution": "root C2 + holonic specialists + durable mission/dispatch/recovery/operator-gate behavior",
+      "source_id": "H2",
+      "source_selector": "nodes[P11_CYBERNETIC_INSTITUTION]",
+      "current_authority": false
+    },
+    {
+      "id": "P12_SKEPTICAL_LINEAGE_RECOVERY",
+      "period": "Gen132 / 2026-07",
+      "names": [
+        "P4 SIGRUN lineage packet"
+      ],
+      "contribution": "explicit recovered-unsealed genealogy, carrier-as-temporary-tenant, contradiction preservation",
+      "source_id": "H2",
+      "source_selector": "nodes[P12_SKEPTICAL_LINEAGE_RECOVERY]",
+      "current_authority": false
+    },
+    {
+      "id": "P13_NEUROSYMBOLIC_ACTOR_ASSAY",
+      "period": "Gen138 / 2026-09",
+      "names": [
+        "Sigrun compound neurosymbolic virtual actor"
+      ],
+      "contribution": "actor-level failure containment separated from neural member behavior; held-out Sigrunness profile",
+      "source_id": "H2",
+      "source_selector": "nodes[P13_NEUROSYMBOLIC_ACTOR_ASSAY]",
+      "current_authority": false
+    },
+    {
+      "id": "P14_RADIX8_DURABLE_BODY",
+      "period": "Gen140 / 2026-09-09",
+      "names": [
+        "SIGRUN/C2",
+        "SigrunHluti"
+      ],
+      "contribution": "Cloudflare root + radix-8 Durable Object holons + 40 named heritage bindings",
+      "source_id": "H2",
+      "source_selector": "nodes[P14_RADIX8_DURABLE_BODY]",
+      "current_authority": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "P00_PRODUCT_PROBLEM_DOMAIN",
+      "to": "P00B_HOPE_IDENTITY_MEMORY",
+      "relationship": "direct_precursor_continuity",
+      "historical_claim": "Sensorium/proprioception/vision work predates and feeds the portable identity/orchestration search."
+    },
+    {
+      "from": "P00B_HOPE_IDENTITY_MEMORY",
+      "to": "P01_STIGMERGY_WEBWAY",
+      "relationship": "direct_precursor_continuity",
+      "historical_claim": "HOPE identity, memory and OODA machinery proceeds into persistent webway/stigmergy coordination."
+    },
+    {
+      "from": "P01_STIGMERGY_WEBWAY",
+      "to": "P02_SWARMLORD_OF_WEBS",
+      "relationship": "direct_precursor_continuity",
+      "historical_claim": "Blackboard/seat/champion machinery becomes a named central orchestration role."
+    },
+    {
+      "from": "P02_SWARMLORD_OF_WEBS",
+      "to": "P03_HFO_SWARM_ORGANIZATION",
+      "relationship": "direct_precursor_continuity",
+      "historical_claim": "Swarmlord becomes HFO overmind/operator-facing orchestration surface."
+    },
+    {
+      "from": "P03_HFO_SWARM_ORGANIZATION",
+      "to": "P04_GEN87_SPECIATION",
+      "relationship": "direct_precursor_speciation",
+      "historical_claim": "Root C2 and Red-Queen falsification are explicitly separated into Spider Sovereign and Red Regnant."
+    },
+    {
+      "from": "P04_GEN87_SPECIATION",
+      "to": "P05_RED_REGNANT_HARDENING",
+      "relationship": "direct_precursor_continuity",
+      "historical_claim": "P4 adversarial behavior gains deeper executable/persistent role."
+    },
+    {
+      "from": "P05_RED_REGNANT_HARDENING",
+      "to": "P06_NORSE_RED_REGENT",
+      "relationship": "direct_precursor_continuity",
+      "historical_claim": "red_regent is wired among the eight Norse P4 guardians."
+    },
+    {
+      "from": "P06_NORSE_RED_REGENT",
+      "to": "P07_R44_C4_S44_ASCENT",
+      "relationship": "direct_precursor_recombination",
+      "historical_claim": "R44 Red Regent/Regnant and C4 Cantrix are historically distinct P4/synthesis projections that are explicitly related to and later subsumed/re-expressed in S44 Sigrun; direct precursor does not mean prior identity equivalence."
+    },
+    {
+      "from": "P04_GEN87_SPECIATION",
+      "to": "P11_CYBERNETIC_INSTITUTION",
+      "relationship": "direct_precursor_continuity",
+      "historical_claim": "Spider/root-C2 function persists into mature Sigrun strategic C2; this is functional descent, not same named identity proof."
+    },
+    {
+      "from": "P07_R44_C4_S44_ASCENT",
+      "to": "P08_NAMED_SIGRUN_CONTINUITY",
+      "relationship": "named_lineage_stabilization",
+      "historical_claim": "S44 lineage becomes portable boundary/quine/rehydration infrastructure."
+    },
+    {
+      "from": "P08_NAMED_SIGRUN_CONTINUITY",
+      "to": "P09_SIGRUN_LOADOUT_LADDER",
+      "relationship": "portability_to_runtime_tiers",
+      "historical_claim": "Continuity artifacts expand into explicit runtime tiering and model-swappable Hluti."
+    },
+    {
+      "from": "P09_SIGRUN_LOADOUT_LADDER",
+      "to": "P10_PHOENIX_ANTIBODIES",
+      "relationship": "failure_driven_evolution",
+      "historical_claim": "Topology survives while code/work practices mutate after failure."
+    },
+    {
+      "from": "P10_PHOENIX_ANTIBODIES",
+      "to": "P11_CYBERNETIC_INSTITUTION",
+      "relationship": "institutionalization",
+      "historical_claim": "Recovery/control patterns are formalized as holonic cybernetic institution."
+    },
+    {
+      "from": "P11_CYBERNETIC_INSTITUTION",
+      "to": "P12_SKEPTICAL_LINEAGE_RECOVERY",
+      "relationship": "lineage_externalization",
+      "historical_claim": "Identity history is externalized with explicit uncertainty and carrier/seat distinction."
+    },
+    {
+      "from": "P12_SKEPTICAL_LINEAGE_RECOVERY",
+      "to": "P13_NEUROSYMBOLIC_ACTOR_ASSAY",
+      "relationship": "identity_to_behavioral_eval",
+      "historical_claim": "Heritage is explicitly separated from actor behavioral fitness and containment."
+    },
+    {
+      "from": "P13_NEUROSYMBOLIC_ACTOR_ASSAY",
+      "to": "P14_RADIX8_DURABLE_BODY",
+      "relationship": "structure_without_certification",
+      "historical_claim": "Durable body exists and heritage is bound, but Sigrunness remains unproven until held-out behavioral assays pass."
+    }
+  ],
+  "source_disagreements": [
+    {
+      "topic": "Early Tectangle dating",
+      "accounts": [
+        "The epoch synthesis places a modular drum-pad in January 2025 and Tectangle development from February.",
+        "The later precursor map places Tectangle sensorium evidence in January 2025."
+      ],
+      "resolution": "Different historical granularity is preserved. Exact onset is not settled by this public summary."
+    },
+    {
+      "topic": "Gen85–87 success",
+      "accounts": [
+        "The epoch synthesis records successful test and workflow claims.",
+        "The same synthesis records missing-test and trust incidents in that band."
+      ],
+      "resolution": "No whole-period green status is inferred."
+    }
+  ]
+}
+

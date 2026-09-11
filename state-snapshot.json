@@ -1,0 +1,72 @@
+{
+  "schema": "worldweaver.github_state_snapshot.v1",
+  "kind": "DATED_STATIC_SNAPSHOT",
+  "source": "https://worldweaver.dev/capsule.json",
+  "source_observed_at": "2026-09-11T11:30:23.712Z",
+  "stale_after": "2026-09-11T12:30:23.712000Z",
+  "freshness_rule": "Calculate age at read time. After stale_after, treat current state as STALE_UNKNOWN. A GitHub view does not refresh this observation.",
+  "scope": "PARTIAL_PUBLIC_PROJECTION",
+  "fleet_readiness": "UNKNOWN",
+  "useful_delivery": "NOT_MEASURED",
+  "actors": [
+    {
+      "callsign": "GONDUL",
+      "state": "IDLE",
+      "last_heartbeat_utc": "2026-09-11T11:00:00.112Z",
+      "last_useful_checkpoint_utc": "2026-09-11T10:29:43.676Z",
+      "heartbeat_count": 2,
+      "observed_at": "2026-09-11T11:30:23.712Z",
+      "claimed_work": null,
+      "checkpoint_ref": null,
+      "blocker": null,
+      "evidence_refs": [],
+      "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+    },
+    {
+      "callsign": "HLOKK",
+      "state": "UNKNOWN",
+      "last_heartbeat_utc": null,
+      "last_useful_checkpoint_utc": null,
+      "heartbeat_count": null,
+      "observed_at": "2026-09-11T11:30:23.712Z",
+      "claimed_work": null,
+      "checkpoint_ref": null,
+      "blocker": null,
+      "evidence_refs": [],
+      "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+    },
+    {
+      "callsign": "SKULD",
+      "state": "UNKNOWN",
+      "last_heartbeat_utc": null,
+      "last_useful_checkpoint_utc": null,
+      "heartbeat_count": null,
+      "observed_at": "2026-09-11T11:30:23.712Z",
+      "claimed_work": null,
+      "checkpoint_ref": null,
+      "blocker": null,
+      "evidence_refs": [],
+      "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+    },
+    {
+      "callsign": "SKOGUL",
+      "state": "UNKNOWN",
+      "last_heartbeat_utc": null,
+      "last_useful_checkpoint_utc": null,
+      "heartbeat_count": null,
+      "observed_at": "2026-09-11T11:30:23.712Z",
+      "claimed_work": null,
+      "checkpoint_ref": null,
+      "blocker": null,
+      "evidence_refs": [],
+      "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+    }
+  ],
+  "provider_snapshot": "activity/providers.json",
+  "operator_context": {
+    "reported_at": "2026-09-11T11:21:00Z",
+    "voice": "Operator-ferried Sigrun Hluti candidate context. See voice/latest.json.",
+    "goal": "Reduce operator workload through useful evidence-linked reasoning and reliable existing compute paths."
+  },
+  "authority_granted": false
+}
