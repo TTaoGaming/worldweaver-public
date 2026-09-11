@@ -1,19 +1,65 @@
 {
-  "schema": "worldweaver.public_memory_mirror.v1",
-  "working": "state-snapshot.json",
-  "semantic": [
-    "germline/seed.md",
-    "heritage/lineage.json"
+  "schema": "worldweaver.coala_public_memory.v1",
+  "status": "PUBLIC_CANDIDATE_CONTEXT",
+  "model": "A public read-only adaptation of CoALA, not a copy of private memory or an autonomous runtime.",
+  "memory": {
+    "working": {
+      "path": "/cop.json",
+      "text": "/cop.md",
+      "refresh_target_seconds": 900,
+      "stale_after_seconds": 3600,
+      "provider_refresh": "Manual reviewed snapshots; each retains its own expiry"
+    },
+    "episodic": {
+      "path": "/capsules.json",
+      "human_view": "/capsules/",
+      "retention_days": 30,
+      "long_term": [
+        "/activity/daily.json",
+        "/activity/weekly.json",
+        "/activity/monthly.json",
+        "/activity/yearly.json"
+      ],
+      "coverage": "captured observations only",
+      "public_receipt_log": "/cop/log.json",
+      "delta": "/delta?since=ISO_UTC"
+    },
+    "semantic": {
+      "path": "/coala/semantic.json",
+      "heritage": "/heritage.json",
+      "germline": "/germline/K0.txt"
+    },
+    "procedural": {
+      "path": "/coala/procedural.json",
+      "proposal_schema": "/coala/proposal.schema.json",
+      "skills": "/skills/index.json"
+    }
+  },
+  "decision_cycle": [
+    "read the public manifest",
+    "load germline and current capsule",
+    "check freshness and coverage",
+    "reason about Tao's current request",
+    "return a bounded proposal to Tao",
+    "retain uncertainty and source dates"
   ],
-  "episodic": [
-    "heritage/timeline.json",
-    "heritage/rollups.json",
-    "voice/latest.json"
-  ],
-  "procedural": [
-    "heritage/lessons.json",
-    "skills/index.json"
-  ],
-  "write_endpoint": null,
-  "rule": "Read only. Retrieve per task. Source and admission classifications remain attached."
+  "learning_boundary": "A candidate may keep session notes and propose learning. It cannot write or promote public or private durable memory.",
+  "private_access": false,
+  "public_writes": false,
+  "authority_granted": false,
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2309.02427",
+      "role": "CoALA research framework"
+    },
+    {
+      "path": "/sigrun-architecture.json",
+      "selector": "learning_and_memory",
+      "role": "previously published project architecture; historical candidate material"
+    },
+    {
+      "source": "Tao's website instructions, 2026-09-11",
+      "role": "public read-only voice candidate scope"
+    }
+  ]
 }

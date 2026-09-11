@@ -1,0 +1,47 @@
+{
+  "schema": "worldweaver.public_observation_receipt.v1",
+  "receipt_id": "manual-20260911T133411Z-schedules",
+  "recorded_at": "2026-09-11T13:34:11.408Z",
+  "observed_at": "2026-09-11T13:32:35.7837888Z",
+  "stale_after": "2026-09-11T14:32:35.783Z",
+  "method": "Native Windows Task Scheduler and OpenClaw readback",
+  "facts": {
+    "selected_launchers": 5,
+    "disabled": 5,
+    "windows_observed_at": "2026-09-11T13:32:35.7837888Z",
+    "openclaw_observed_at": "2026-09-11T13:30:48.6148381Z",
+    "launchers": [
+      {
+        "label": "ChatGPT B adaptive XHIGH",
+        "enabled": false
+      },
+      {
+        "label": "ChatGPT B Pro",
+        "enabled": false
+      },
+      {
+        "label": "Kimi worker",
+        "enabled": false
+      },
+      {
+        "label": "Kimi work-pull worker",
+        "enabled": false
+      },
+      {
+        "label": "Ollama worker",
+        "enabled": false
+      }
+    ],
+    "all_fleet_covered": false,
+    "previously_launched_conversations": "UNKNOWN",
+    "automatic_percentage_guard_installed": false,
+    "schedule_changes_in_this_manual_turn": 0
+  },
+  "observation_window": {
+    "started_at": "2026-09-11T13:30:37.6867528Z",
+    "ended_at": "2026-09-11T13:32:35.7837888Z"
+  },
+  "privacy": "Reviewed summary; original source payloads and private identifiers are withheld.",
+  "integrity_note": "The descriptor hashes these exact public JSON bytes. This is integrity and provenance, not independent proof of every source claim.",
+  "authority_granted": false
+}

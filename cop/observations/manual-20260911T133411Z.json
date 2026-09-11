@@ -1,0 +1,270 @@
+{
+  "schema": "worldweaver.reviewed_cop_observation.v1",
+  "observation_id": "manual-20260911T133411Z",
+  "recorded_at": "2026-09-11T13:34:11.408Z",
+  "coverage": "SELECTED_SOURCES_ONLY",
+  "source_software_base": "90d6ab8861d7b96190a248b9e1a001fe83666210",
+  "refresh_mode": "MANUAL_REVIEWED_OBSERVATION",
+  "automatic_provider_probing": false,
+  "surfaces": [
+    {
+      "surface_id": "chatgpt-b",
+      "label": "ChatGPT cloud chat B",
+      "carrier": "browser pickup adapter",
+      "compute_surface": "ChatGPT subscription browser",
+      "loadout": "Configured adaptive XHIGH and Pro lanes; no fresh accepted model start",
+      "configured": true,
+      "launcher_state": "DISABLED",
+      "observed_state": "BLOCKED",
+      "probe_result": "HOLD_COMPOSER_NOT_EMPTY",
+      "inference": "NOT_TESTED_NO_SEND",
+      "useful_work": "NOT_VERIFIED",
+      "current_execution": "UNKNOWN",
+      "utilization_percent": null,
+      "observed_at": "2026-09-11T13:18:35.365Z",
+      "stale_after": "2026-09-11T14:18:35.365Z",
+      "blocker": "Non-empty composer; ownership and send history unresolved.",
+      "next_transition": "Review the existing candidate against all nonce/send history; preserve unknown drafts.",
+      "receipt_refs": [
+        {
+          "path": "/cop/receipts/manual-20260911T133411Z-chatgpt.json",
+          "bytes": 917,
+          "sha256": "6d1da525007cbf783f2d90daee7f4a38c75414e9ee75b16a1e65bea5471d46bc",
+          "receipt_id": "manual-20260911T133411Z-chatgpt",
+          "recorded_at": "2026-09-11T13:34:11.408Z",
+          "observed_at": "2026-09-11T13:18:35.365Z",
+          "stale_after": "2026-09-11T14:18:35.365Z"
+        },
+        {
+          "path": "/cop/receipts/manual-20260911T133411Z-schedules.json",
+          "bytes": 1517,
+          "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+          "receipt_id": "manual-20260911T133411Z-schedules",
+          "recorded_at": "2026-09-11T13:34:11.408Z",
+          "observed_at": "2026-09-11T13:32:35.7837888Z",
+          "stale_after": "2026-09-11T14:32:35.783Z"
+        },
+        {
+          "path": "/cop/receipts/manual-20260911T133411Z-work.json",
+          "bytes": 1925,
+          "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283",
+          "receipt_id": "manual-20260911T133411Z-work",
+          "recorded_at": "2026-09-11T13:34:11.408Z",
+          "observed_at": "2026-09-11T13:30:09.136Z",
+          "stale_after": "2026-09-11T14:30:09.136Z"
+        }
+      ]
+    },
+    {
+      "surface_id": "kimi",
+      "label": "Kimi",
+      "carrier": "Native subscription CLI",
+      "compute_surface": "Kimi subscription",
+      "loadout": "CLI 0.41.0; no-tools canary",
+      "configured": true,
+      "launcher_state": "DISABLED",
+      "observed_state": "BLOCKED",
+      "probe_result": "TIMEOUT_180_SECONDS",
+      "inference": "NO_COMPLETION_IN_WINDOW",
+      "useful_work": "PRIOR_PROPOSAL_EXISTS_REVIEW_UNKNOWN",
+      "current_execution": "UNKNOWN",
+      "utilization_percent": null,
+      "observed_at": "2026-09-11T13:22:47.000Z",
+      "stale_after": "2026-09-11T14:22:47.000Z",
+      "blocker": "Canary timed out; cause unknown. Prior result still awaits reconciliation.",
+      "next_transition": "Consume the existing proposal and investigate the timeout at the native CLI boundary before another task.",
+      "receipt_refs": [
+        {
+          "path": "/cop/receipts/manual-20260911T133411Z-kimi.json",
+          "bytes": 1051,
+          "sha256": "2760d7f974d7287f96ab96fa79b64b9c0be058b01fe72bdecd685e5cbeea8d3d",
+          "receipt_id": "manual-20260911T133411Z-kimi",
+          "recorded_at": "2026-09-11T13:34:11.408Z",
+          "observed_at": "2026-09-11T13:22:47.000Z",
+          "stale_after": "2026-09-11T14:22:47.000Z"
+        },
+        {
+          "path": "/cop/receipts/manual-20260911T133411Z-schedules.json",
+          "bytes": 1517,
+          "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+          "receipt_id": "manual-20260911T133411Z-schedules",
+          "recorded_at": "2026-09-11T13:34:11.408Z",
+          "observed_at": "2026-09-11T13:32:35.7837888Z",
+          "stale_after": "2026-09-11T14:32:35.783Z"
+        },
+        {
+          "path": "/cop/receipts/manual-20260911T133411Z-work.json",
+          "bytes": 1925,
+          "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283",
+          "receipt_id": "manual-20260911T133411Z-work",
+          "recorded_at": "2026-09-11T13:34:11.408Z",
+          "observed_at": "2026-09-11T13:30:09.136Z",
+          "stale_after": "2026-09-11T14:30:09.136Z"
+        }
+      ]
+    },
+    {
+      "surface_id": "ollama",
+      "label": "Ollama local",
+      "carrier": "Local model service and native worker harness",
+      "compute_surface": "Local compute",
+      "loadout": "qwen3.5:4b-q4_K_M exact-output canary",
+      "configured": true,
+      "launcher_state": "DISABLED",
+      "observed_state": "INFERENCE_AVAILABLE_WORK_BLOCKED",
+      "probe_result": "PASS_EXACT_OUTPUT",
+      "inference": "PASS_SINGLE_CANARY",
+      "useful_work": "PRIOR_TASK_FAILED_NO_RECEIPT",
+      "current_execution": "UNKNOWN",
+      "utilization_percent": null,
+      "observed_at": "2026-09-11T13:23:18.000Z",
+      "stale_after": "2026-09-11T14:23:18.000Z",
+      "blocker": "Prior worker did not complete the repository/instruction access needed for the task.",
+      "next_transition": "Repair working-directory and authenticated repository access in the incumbent harness, then run one task through review and reconciliation.",
+      "receipt_refs": [
+        {
+          "path": "/cop/receipts/manual-20260911T133411Z-ollama.json",
+          "bytes": 1051,
+          "sha256": "8256b4ae95894042aed758bf34776d274b8d8087a91b70666fe44db28464161d",
+          "receipt_id": "manual-20260911T133411Z-ollama",
+          "recorded_at": "2026-09-11T13:34:11.408Z",
+          "observed_at": "2026-09-11T13:23:18.000Z",
+          "stale_after": "2026-09-11T14:23:18.000Z"
+        },
+        {
+          "path": "/cop/receipts/manual-20260911T133411Z-schedules.json",
+          "bytes": 1517,
+          "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+          "receipt_id": "manual-20260911T133411Z-schedules",
+          "recorded_at": "2026-09-11T13:34:11.408Z",
+          "observed_at": "2026-09-11T13:32:35.7837888Z",
+          "stale_after": "2026-09-11T14:32:35.783Z"
+        },
+        {
+          "path": "/cop/receipts/manual-20260911T133411Z-work.json",
+          "bytes": 1925,
+          "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283",
+          "receipt_id": "manual-20260911T133411Z-work",
+          "recorded_at": "2026-09-11T13:34:11.408Z",
+          "observed_at": "2026-09-11T13:30:09.136Z",
+          "stale_after": "2026-09-11T14:30:09.136Z"
+        }
+      ]
+    }
+  ],
+  "work": [
+    {
+      "public_work_id": "kimi-composer-repair",
+      "state": "PROPOSAL_AWAITING_RECONCILIATION",
+      "result_recorded_at": null,
+      "artifact_sha256": "bdb77075d633f87730f17d2d3a5184ddf216ce62dab17fb139ac3a2a6e2c1996",
+      "artifact_text_hash_verified": true,
+      "independent_review": "NOT_OBSERVED",
+      "live_repair": "NOT_VERIFIED",
+      "claim_marker": "native-running remains alongside native-ready",
+      "claim_utc": null
+    },
+    {
+      "public_work_id": "ollama-packing-audit",
+      "state": "FAILED_NO_RESULT_RECEIPT",
+      "result_comment_count": 0,
+      "claim_marker": "native-running remains alongside native-ready",
+      "claim_utc": null,
+      "failure_observation": "Prior native wake exited 1. Worker diagnostics show a wrong relative instruction path and an unauthenticated repository request; the model itself produced text.",
+      "cause_classification": "HARNESS_OR_TASK_ACCESS_FAILURE",
+      "causal_limit": "Recorded failure trace; not a replay of the entire native work lifecycle."
+    }
+  ],
+  "schedules": {
+    "observed_at": "2026-09-11T13:30:48.6148381Z",
+    "stale_after": "2026-09-11T14:30:48.614Z",
+    "selected": 5,
+    "disabled": 5,
+    "full_fleet_verified": false,
+    "receipt": {
+      "path": "/cop/receipts/manual-20260911T133411Z-schedules.json",
+      "bytes": 1517,
+      "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+      "receipt_id": "manual-20260911T133411Z-schedules",
+      "recorded_at": "2026-09-11T13:34:11.408Z",
+      "observed_at": "2026-09-11T13:32:35.7837888Z",
+      "stale_after": "2026-09-11T14:32:35.783Z"
+    }
+  },
+  "voice": {
+    "callsign": "SIGRUN_HLUTI_CANDIDATE",
+    "actor_uuid": null,
+    "carrier": "Operator-reported frontier voice session",
+    "tools": "PUBLIC_WEBSITE_READS_ONLY",
+    "state": "OPERATOR_REPORTED_IN_USE",
+    "observed_at": "2026-09-11T13:07:00Z",
+    "source_kind": "CANDIDATE_CHECKPOINT_AND_OPERATOR_REPORT",
+    "checkpoint_schema": "GEN140_SIGRUN_C2_CHECKPOINT_V2",
+    "checkpoint_sha256": "a7bb1b0509692b9c46965840bf62060907e2c525f81b1d218ff1f5bed993b1cc",
+    "raw_payload_public": false,
+    "durable_write": false,
+    "transport": "Tao ferries candidate payloads; receipt publication is separate.",
+    "requested_next": "A common operating picture with current work, evidence, blockers and deltas. Other checkpoint proposals remain candidates."
+  },
+  "operator_direction": {
+    "recorded_at": "2026-09-11T13:34:11.408Z",
+    "source": "DIRECT_OPERATOR_MANUAL_AUTHORIZATION",
+    "text": "Tao is present and authorized manual probing, reconciliation and sanitized publication. Automatic quota reserves and paused launchers remain in force.",
+    "scope": "This manual COP task; no automatic restart inferred."
+  },
+  "quota_policy": "/policies/weekly-quota.json",
+  "receipts": [
+    {
+      "path": "/cop/receipts/manual-20260911T133411Z-chatgpt.json",
+      "bytes": 917,
+      "sha256": "6d1da525007cbf783f2d90daee7f4a38c75414e9ee75b16a1e65bea5471d46bc",
+      "receipt_id": "manual-20260911T133411Z-chatgpt",
+      "recorded_at": "2026-09-11T13:34:11.408Z",
+      "observed_at": "2026-09-11T13:18:35.365Z",
+      "stale_after": "2026-09-11T14:18:35.365Z"
+    },
+    {
+      "path": "/cop/receipts/manual-20260911T133411Z-kimi.json",
+      "bytes": 1051,
+      "sha256": "2760d7f974d7287f96ab96fa79b64b9c0be058b01fe72bdecd685e5cbeea8d3d",
+      "receipt_id": "manual-20260911T133411Z-kimi",
+      "recorded_at": "2026-09-11T13:34:11.408Z",
+      "observed_at": "2026-09-11T13:22:47.000Z",
+      "stale_after": "2026-09-11T14:22:47.000Z"
+    },
+    {
+      "path": "/cop/receipts/manual-20260911T133411Z-ollama.json",
+      "bytes": 1051,
+      "sha256": "8256b4ae95894042aed758bf34776d274b8d8087a91b70666fe44db28464161d",
+      "receipt_id": "manual-20260911T133411Z-ollama",
+      "recorded_at": "2026-09-11T13:34:11.408Z",
+      "observed_at": "2026-09-11T13:23:18.000Z",
+      "stale_after": "2026-09-11T14:23:18.000Z"
+    },
+    {
+      "path": "/cop/receipts/manual-20260911T133411Z-schedules.json",
+      "bytes": 1517,
+      "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7",
+      "receipt_id": "manual-20260911T133411Z-schedules",
+      "recorded_at": "2026-09-11T13:34:11.408Z",
+      "observed_at": "2026-09-11T13:32:35.7837888Z",
+      "stale_after": "2026-09-11T14:32:35.783Z"
+    },
+    {
+      "path": "/cop/receipts/manual-20260911T133411Z-work.json",
+      "bytes": 1925,
+      "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283",
+      "receipt_id": "manual-20260911T133411Z-work",
+      "recorded_at": "2026-09-11T13:34:11.408Z",
+      "observed_at": "2026-09-11T13:30:09.136Z",
+      "stale_after": "2026-09-11T14:30:09.136Z"
+    }
+  ],
+  "unmeasured": [
+    "Global registered and active population",
+    "Per-provider current utilization and bound weekly quota",
+    "Previously launched remote conversation activity",
+    "Full lifecycle useful delivery and zero-operator reconciliation"
+  ],
+  "authority_granted": false
+}

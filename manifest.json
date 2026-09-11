@@ -1,19 +1,27 @@
 {
-  "schema": "worldweaver.public_mirror_manifest.v1",
-  "canonical_site": "https://worldweaver.dev/",
-  "raw_base_url": "https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/",
-  "read_order": [
-    "START_HERE.md",
-    "germline/seed.md",
-    "voice/latest.json",
-    "state-snapshot.json"
-  ],
-  "memory": "coala/manifest.json",
-  "heritage": "heritage/README.md",
-  "skills": "skills/index.json",
-  "integrity": "integrity.json",
-  "refresh_mode": "DATED_RELEASE_SNAPSHOT_NO_AUTOMATIC_REFRESH",
-  "link_rule": "For a listed local artifact, prepend raw_base_url to its path after removing any leading slash. Other links refer to the canonical WorldWeaver site.",
-  "public_read_only": true,
+  "schema": "worldweaver.public_mirror.v2",
+  "recorded_at": "2026-09-11T13:50:37.450Z",
+  "kind": "DATED_PUBLIC_FALLBACK",
+  "automatic_sync": false,
+  "website": "https://worldweaver.dev",
+  "one_read": "/START_HERE.md",
+  "current_picture": "/cop-snapshot.json",
+  "current_picture_text": "/cop.md",
+  "snapshot_rendered_at": "2026-09-11T13:48:31.399Z",
+  "scheduled_observed_at": "2026-09-11T13:45:26.179Z",
+  "manual_observation": {
+    "path": "/cop/observations/manual-20260911T134446Z.json",
+    "bytes": 13723,
+    "sha256": "bd4f3e89de5e3584527a8fd8a7804725a4f5df7c1bebbbf5004c9e5896979d14",
+    "schema": "worldweaver.cop_pointer.v1",
+    "observation_id": "manual-20260911T134446Z",
+    "recorded_at": "2026-09-11T13:44:46.470Z"
+  },
+  "provider_freshness": "Every receipt has its own observed_at and stale_after. Rendering and download times never renew evidence.",
+  "memory": "/coala/manifest.json",
+  "heritage": "/heritage/README.md",
+  "skills": "/skills/index.json",
+  "quota_policy": "/policies/weekly-quota.json",
+  "public_log": "/cop/log.json",
   "authority_granted": false
 }

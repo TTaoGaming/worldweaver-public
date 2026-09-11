@@ -1,72 +1,158 @@
 {
-  "schema": "worldweaver.github_state_snapshot.v1",
-  "kind": "DATED_STATIC_SNAPSHOT",
-  "source": "https://worldweaver.dev/capsule.json",
-  "source_observed_at": "2026-09-11T11:30:23.712Z",
-  "stale_after": "2026-09-11T12:30:23.712000Z",
-  "freshness_rule": "Calculate age at read time. After stale_after, treat current state as STALE_UNKNOWN. A GitHub view does not refresh this observation.",
-  "scope": "PARTIAL_PUBLIC_PROJECTION",
-  "fleet_readiness": "UNKNOWN",
-  "useful_delivery": "NOT_MEASURED",
-  "actors": [
+  "schema": "worldweaver.state.v1",
+  "observed_at": "2026-09-11T13:45:26.179Z",
+  "manual_observation": null,
+  "next_observation_due": "2026-09-11T14:00:26.179Z",
+  "last_change_at": "2026-09-11T10:15:23.736Z",
+  "status": "OBSERVED_PARTIAL_SYSTEM",
+  "sources": [
     {
-      "callsign": "GONDUL",
-      "state": "IDLE",
-      "last_heartbeat_utc": "2026-09-11T11:00:00.112Z",
-      "last_useful_checkpoint_utc": "2026-09-11T10:29:43.676Z",
-      "heartbeat_count": 2,
-      "observed_at": "2026-09-11T11:30:23.712Z",
-      "claimed_work": null,
-      "checkpoint_ref": null,
-      "blocker": null,
-      "evidence_refs": [],
-      "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+      "label": "Ollama observation lane",
+      "availability": "OBSERVED",
+      "observed_at": "2026-09-11T13:45:26.179Z",
+      "recorded_observation_at": "2026-09-10T00:48:55.000Z",
+      "carrier_liveness": "UNKNOWN",
+      "workflow_records": null,
+      "checkpoint_count": null,
+      "note": "Selected stored state only. Live execution and useful delivery are not established by this observation."
     },
     {
-      "callsign": "HLOKK",
-      "state": "UNKNOWN",
-      "last_heartbeat_utc": null,
-      "last_useful_checkpoint_utc": null,
-      "heartbeat_count": null,
-      "observed_at": "2026-09-11T11:30:23.712Z",
-      "claimed_work": null,
-      "checkpoint_ref": null,
-      "blocker": null,
-      "evidence_refs": [],
-      "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+      "label": "Kimi observation lane",
+      "availability": "OBSERVED",
+      "observed_at": "2026-09-11T13:45:26.179Z",
+      "recorded_observation_at": "2026-09-10T00:48:55.000Z",
+      "carrier_liveness": "UNKNOWN",
+      "workflow_records": null,
+      "checkpoint_count": null,
+      "note": "Selected stored state only. Live execution and useful delivery are not established by this observation."
     },
     {
-      "callsign": "SKULD",
-      "state": "UNKNOWN",
-      "last_heartbeat_utc": null,
-      "last_useful_checkpoint_utc": null,
-      "heartbeat_count": null,
-      "observed_at": "2026-09-11T11:30:23.712Z",
-      "claimed_work": null,
-      "checkpoint_ref": null,
-      "blocker": null,
-      "evidence_refs": [],
-      "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
-    },
-    {
-      "callsign": "SKOGUL",
-      "state": "UNKNOWN",
-      "last_heartbeat_utc": null,
-      "last_useful_checkpoint_utc": null,
-      "heartbeat_count": null,
-      "observed_at": "2026-09-11T11:30:23.712Z",
-      "claimed_work": null,
-      "checkpoint_ref": null,
-      "blocker": null,
-      "evidence_refs": [],
-      "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+      "label": "Native workflow lane",
+      "availability": "OBSERVED",
+      "observed_at": "2026-09-11T13:45:26.179Z",
+      "recorded_observation_at": null,
+      "carrier_liveness": "UNKNOWN",
+      "workflow_records": {
+        "completed": 15,
+        "rejected": 9,
+        "unresolved": 0
+      },
+      "checkpoint_count": 12,
+      "note": "Selected stored state only. Live execution and useful delivery are not established by this observation."
     }
   ],
-  "provider_snapshot": "activity/providers.json",
-  "operator_context": {
-    "reported_at": "2026-09-11T11:21:00Z",
-    "voice": "Operator-ferried Sigrun Hluti candidate context. See voice/latest.json.",
-    "goal": "Reduce operator workload through useful evidence-linked reasoning and reliable existing compute paths."
+  "newly_observed_records": {
+    "completed": 0,
+    "rejected": 0,
+    "comparable": true
   },
-  "authority_granted": false
+  "scope": "Three configured state lanes and an optional public actor summary. Private conversations and the wider fleet are outside this view.",
+  "authority_granted": false,
+  "useful_delivery": "NOT_MEASURED",
+  "fleet_readiness": "UNKNOWN",
+  "gen140": {
+    "schema_version": "hfo.gen140.world_state.v1",
+    "generated_at_utc": "2026-09-11T13:45:26.179Z",
+    "system": {
+      "status": "UNKNOWN",
+      "active_actor_count": 0,
+      "idle_actor_count": 1,
+      "stalled_actor_count": 0,
+      "unknown_actor_count": 3
+    },
+    "actors": [
+      {
+        "callsign": "GONDUL",
+        "state": "IDLE",
+        "last_heartbeat_utc": "2026-09-11T13:00:00.134Z",
+        "last_useful_checkpoint_utc": "2026-09-11T10:29:43.676Z",
+        "heartbeat_count": 4,
+        "observed_at": "2026-09-11T13:45:26.179Z",
+        "claimed_work": null,
+        "checkpoint_ref": null,
+        "blocker": null,
+        "evidence_refs": [],
+        "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+      },
+      {
+        "callsign": "HLOKK",
+        "state": "UNKNOWN",
+        "last_heartbeat_utc": null,
+        "last_useful_checkpoint_utc": null,
+        "heartbeat_count": null,
+        "observed_at": "2026-09-11T13:45:26.179Z",
+        "claimed_work": null,
+        "checkpoint_ref": null,
+        "blocker": null,
+        "evidence_refs": [],
+        "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+      },
+      {
+        "callsign": "SKULD",
+        "state": "UNKNOWN",
+        "last_heartbeat_utc": null,
+        "last_useful_checkpoint_utc": null,
+        "heartbeat_count": null,
+        "observed_at": "2026-09-11T13:45:26.179Z",
+        "claimed_work": null,
+        "checkpoint_ref": null,
+        "blocker": null,
+        "evidence_refs": [],
+        "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+      },
+      {
+        "callsign": "SKOGUL",
+        "state": "UNKNOWN",
+        "last_heartbeat_utc": null,
+        "last_useful_checkpoint_utc": null,
+        "heartbeat_count": null,
+        "observed_at": "2026-09-11T13:45:26.179Z",
+        "claimed_work": null,
+        "checkpoint_ref": null,
+        "blocker": null,
+        "evidence_refs": [],
+        "note": "Private work, infrastructure addresses, and checkpoint references are omitted from the public projection."
+      }
+    ],
+    "work": {
+      "claimed": [],
+      "unclaimed": [],
+      "blocked": [],
+      "pending_transitions": []
+    },
+    "recent_changes": [],
+    "evidence_refs": [],
+    "scope": "Four configured actor seats. Recorded heartbeat classifications are a partial observation; private references are withheld."
+  },
+  "freshness": "DATED_STATIC_SNAPSHOT",
+  "age_seconds": 186,
+  "rendered_at": "2026-09-11T13:48:33.020Z",
+  "operator_context": {
+    "schema": "worldweaver.public_context.v1",
+    "updated_at": "2026-09-11T09:54:58Z",
+    "source": "Direct operator statement in the Worldweaver website task, September 11, 2026. This is dated operator context, not an independent runtime test.",
+    "human": "Tao, the human operator and creator of this project.",
+    "candidate_identity": "Sigrun, a continuing coordinating system whose identity, constraints, accepted history and learning can be reconstructed across replaceable model sessions.",
+    "purpose": "Any human or read-only LLM can visit Worldweaver, understand who they are interacting with, and reconstruct a candidate from public germline plus dated system state.",
+    "operator_report": {
+      "automation": "Working in pieces; end-to-end operation is not yet established.",
+      "main_blocker": "Getting Cloudflare to work end to end.",
+      "compute_sources": [
+        "ChatGPT cloud chat sending tool for Larva",
+        "Kimi",
+        "Ollama"
+      ],
+      "compute_expansion": "Additional sources are deferred until the current system is stable.",
+      "arweave": "Older lifeboats are working. A new Arweave release is needed."
+    },
+    "authority_granted": false,
+    "public_write_access": false,
+    "candidate_rule": "Regeneration yields a candidate continuation, not accepted identity, current permissions, a live worker, or proof of operational readiness.",
+    "state_rule": "Keep the operator report timestamp, source observation time, and page rendering time distinct. A scheduled read does not refresh the operator's statement or historical germline.",
+    "private_context": "Not included. No login, secret, private conversation, account access, or write action is needed to use this public surface."
+  },
+  "kind": "DATED_STATIC_SNAPSHOT",
+  "freshness_at_retrieval": "FRESH",
+  "stale_after": "2026-09-11T14:45:26.179000Z",
+  "freshness_rule": "Recompute age from observed_at. This GitHub file never refreshes automatically."
 }

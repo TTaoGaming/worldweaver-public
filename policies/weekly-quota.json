@@ -1,0 +1,57 @@
+{
+  "schema": "worldweaver.weekly_quota_policy.v1",
+  "policy_id": "operator-weekly-reserve-20260911",
+  "recorded_at": "2026-09-11T11:50:46Z",
+  "authority": "DIRECT_OPERATOR_INSTRUCTION",
+  "scope": "All swarm agents, applied independently to each verified account and weekly quota pool.",
+  "wrap_up_below_remaining_percent": 15,
+  "manual_reserve_remaining_percent": 10,
+  "rules": [
+    "Below 15 percent weekly remaining: admit no new autonomous work, expansion, retries, or successor jobs. Checkpoint existing work and terminate safely.",
+    "At or below 10 percent weekly remaining: no autonomous model calls or dispatch against that pool. The final 10 percent is reserved for the operator and manual work.",
+    "Do not use the reserve to finish a task. Begin wrap-up early enough to preserve it; publish partial results and a restart pointer when necessary.",
+    "Unknown, stale, or unbound quota does not authorize new autonomous work on a metered weekly pool. A pool with no weekly quota must be explicitly classified as such and retain its other resource and spend caps.",
+    "Keep quota pools distinct. Codex telemetry does not establish ChatGPT voice, ordinary chat, Kimi, or local inference capacity.",
+    "Preserve existing stricter stops and caps. No automatic reset redemption, cap increase, purchase, or paid fallback.",
+    "Resume after a verified quota reset or explicit operator authorization consistent with the reserved manual budget."
+  ],
+  "observation": {
+    "pool_label": "Connected Codex account, weekly inference pool",
+    "observed_at": "2026-09-11T11:48:20Z",
+    "weekly_used_percent": 86,
+    "weekly_remaining_percent": 14,
+    "evidence_class": "OFFICIAL_USAGE_TOOL_READBACK",
+    "consequence": "WRAP_UP_TRIGGER_OBSERVED",
+    "current_quota": "UNKNOWN_UNTIL_FRESH_READ",
+    "note": "This is a dated observation. Reading this document does not refresh telemetry. Account identifiers and credentials are omitted."
+  },
+  "implementation_status": {
+    "policy": "EFFECTIVE_OPERATOR_INSTRUCTION",
+    "known_coordinators_notified": 3,
+    "root_task": "WRAP_UP",
+    "evidence_as_of": "2026-09-11T11:52:57Z",
+    "evidence_class": "OWNERS_NATIVE_PAUSE_RECEIPT_READ_BACK",
+    "confirmed_disabled_launchers": 5,
+    "paused_routes": [
+      "ChatGPT B XHIGH launcher",
+      "ChatGPT B Pro launcher",
+      "Kimi worker launcher",
+      "Kimi-backed work-pull launcher",
+      "Ollama worker launcher"
+    ],
+    "cloud_pause_reason": "Bound current weekly quota is unknown for the owned B and Kimi launchers.",
+    "local_pause_reason": "Ollama is a separate local pool with no subscription weekly quota. Its launcher is paused because its first task failed and requires repair.",
+    "mechanical_enforcement_coverage": "SELECTED_SCHEDULER_PAUSES_ONLY",
+    "all_swarm_enforcement_verified": false,
+    "automatic_percentage_guard_installed": false,
+    "not_covered": [
+      "Account A and other provider launchers",
+      "Orphan processes and previously launched remote conversations",
+      "Per-call reservations and mid-run quota control",
+      "Automatic safe re-enablement"
+    ],
+    "no_send_probes": "Two existing B no-send probe tasks were left enabled.",
+    "recovery": "Require fresh quota evidence for the applicable cloud pool and repair/review of preserved work before explicit re-enablement. Manual invocation is not mechanically prevented by these scheduler pauses."
+  },
+  "public_read_only": true
+}

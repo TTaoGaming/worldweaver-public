@@ -1,0 +1,25 @@
+{
+  "schema": "worldweaver.public_observation_receipt.v1",
+  "receipt_id": "manual-20260911T133411Z-ollama",
+  "recorded_at": "2026-09-11T13:34:11.408Z",
+  "observed_at": "2026-09-11T13:23:18.000Z",
+  "stale_after": "2026-09-11T14:23:18.000Z",
+  "method": "Existing local exact-output inference canary",
+  "facts": {
+    "surface_id": "ollama",
+    "model": "qwen3.5:4b-q4_K_M",
+    "expected": "EC338_OLLAMA_OK",
+    "actual": "EC338_OLLAMA_OK",
+    "result": "PASS",
+    "useful_work_delivery": "NOT_TESTED",
+    "limit": "One successful inference does not establish worker tools, claims, review or delivery."
+  },
+  "observation_window": {
+    "requested_at": "2026-09-11T13:18:26Z",
+    "returned_at": "2026-09-11T13:23:18Z",
+    "execution_started_at": null
+  },
+  "privacy": "Reviewed summary; original source payloads and private identifiers are withheld.",
+  "integrity_note": "The descriptor hashes these exact public JSON bytes. This is integrity and provenance, not independent proof of every source claim.",
+  "authority_granted": false
+}

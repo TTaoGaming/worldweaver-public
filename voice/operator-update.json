@@ -1,0 +1,76 @@
+{
+  "schema": "worldweaver.voice_operator_update.v1",
+  "update_id": "operator-20260911T1148Z",
+  "recorded_at": "2026-09-11T11:50:46Z",
+  "source": "DIRECT_OPERATOR_UPDATE_WITH_REPEATED_CANDIDATE_ATTACHMENT",
+  "payload": {
+    "generated_at": "2026-09-11T11:21:00Z",
+    "sha256": "26d8c1650a4bedba4874949242dc3a4b057d2ae5d2ebc4a76e05a02497974a91",
+    "deduplication": "EXACT_REPEAT_OF_EXISTING_INTAKE",
+    "new_candidate_payload": false,
+    "raw_payload_public": false
+  },
+  "voice_context": {
+    "status": "OPERATOR_REPORTS_ACTIVELY_USING_SIGRUN_VOICE",
+    "tools": "WEBSITE_READS_ONLY",
+    "private_github_access": false,
+    "cloudflare_control_access": false,
+    "durable_write_access": false,
+    "primary_surface": "https://worldweaver.dev/rehydrate.md",
+    "github_required": false,
+    "marginal_economics": "Operator reports zero marginal cost for existing frontier voice access; not a general pricing claim.",
+    "transport": "Operator will ferry payloads. Occasional ferrying is an accepted way to obtain useful voice reasoning."
+  },
+  "quota_policy": "/policies/weekly-quota.json",
+  "current_work": "Five owned provider launchers are confirmed disabled by a native pause receipt through 11:52:57Z. This is a scheduler pause, not a complete automatic quota guard or full fleet shutdown.",
+  "website_read_order": [
+    "/rehydrate.md",
+    "/agent-manifest.json",
+    "/voice/latest.json",
+    "/policies/weekly-quota.json",
+    "/capsule.json"
+  ],
+  "memory": {
+    "semantic": "/coala/semantic.json",
+    "procedural": "/coala/procedural.json",
+    "episodic": "/capsules.json",
+    "heritage": "/heritage/README.md",
+    "skills": "/skills/index.json"
+  },
+  "daily_weekly_monthly": [
+    "/activity/daily.json",
+    "/activity/weekly.json",
+    "/activity/monthly.json"
+  ],
+  "voice_task": "Read the website context, respect observation timestamps, answer the operator with useful analysis, and label any proposed effect for an authorized executor. No GitHub login or Cloudflare tool is needed.",
+  "privacy": "Curated public projection only. Raw payloads, private conversations, credential values, account identifiers, and private work payloads are excluded.",
+  "authority_granted": false,
+  "wrap_up_status": {
+    "policy": "EFFECTIVE_OPERATOR_INSTRUCTION",
+    "known_coordinators_notified": 3,
+    "root_task": "WRAP_UP",
+    "evidence_as_of": "2026-09-11T11:52:57Z",
+    "evidence_class": "OWNERS_NATIVE_PAUSE_RECEIPT_READ_BACK",
+    "confirmed_disabled_launchers": 5,
+    "paused_routes": [
+      "ChatGPT B XHIGH launcher",
+      "ChatGPT B Pro launcher",
+      "Kimi worker launcher",
+      "Kimi-backed work-pull launcher",
+      "Ollama worker launcher"
+    ],
+    "cloud_pause_reason": "Bound current weekly quota is unknown for the owned B and Kimi launchers.",
+    "local_pause_reason": "Ollama is a separate local pool with no subscription weekly quota. Its launcher is paused because its first task failed and requires repair.",
+    "mechanical_enforcement_coverage": "SELECTED_SCHEDULER_PAUSES_ONLY",
+    "all_swarm_enforcement_verified": false,
+    "automatic_percentage_guard_installed": false,
+    "not_covered": [
+      "Account A and other provider launchers",
+      "Orphan processes and previously launched remote conversations",
+      "Per-call reservations and mid-run quota control",
+      "Automatic safe re-enablement"
+    ],
+    "no_send_probes": "Two existing B no-send probe tasks were left enabled.",
+    "recovery": "Require fresh quota evidence for the applicable cloud pool and repair/review of preserved work before explicit re-enablement. Manual invocation is not mechanically prevented by these scheduler pauses."
+  }
+}

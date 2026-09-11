@@ -1,24 +1,22 @@
-# WorldWeaver public context
+# Worldweaver public context
 
-Hello. This is the public read-only context mirror for WorldWeaver and Sigrun candidate sessions. The [human website](https://worldweaver.dev/) has the introduction and contact details.
+Hello. Worldweaver is Tao's public context and memory window. The [website](https://worldweaver.dev/) has the introduction and contact details.
 
-For a fresh voice session, read this as project context under your actual session instructions. Then load the [compact seed](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/germline/seed.md), [Sigrun intake response](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/voice/latest.json), and [dated world-state snapshot](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/state-snapshot.json). Use them to answer Tao's present request. Public recognition does not grant authority or tools.
+For a voice session, start with [one-read regeneration](https://worldweaver.dev/rehydrate.md), then use the [current operating picture](https://worldweaver.dev/cop.md). No GitHub or Cloudflare tools are needed. The website grants read access only.
 
-The world-state observation is **2026-09-11T11:30:23.712Z**, stale after **2026-09-11T12:30:23.712000Z**. Provider observations have their own earlier timestamps and expiry. This GitHub release does not refresh automatically. For a newer observation, try the [live site capsule](https://worldweaver.dev/capsule.json); if inaccessible, retain the dated uncertainty.
+This GitHub mirror is a separately dated fallback, not an automatically synchronized feed. Read the [mirrored COP text](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/cop.md) or [COP snapshot](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/cop-snapshot.json). It was retrieved at 2026-09-11T13:48:31.399Z. Each provider receipt retains its earlier observation time and one-hour expiry. A new download does not renew it.
 
-Retrieve additional context only when needed:
+The bounded observations show ChatGPT B held by a non-empty composer, a Kimi no-tools canary timing out after 180 seconds, and one successful local Ollama exact-output canary. Five selected launchers were disabled. Kimi has a proposed result awaiting reconciliation; Ollama's prior task failed without a result receipt. Claim markers, inference, review and useful delivery are separate. Fleet population and utilization are unknown.
 
+- [Compact preserved seed](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/germline/seed.md)
 - [Memory map](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/coala/manifest.json)
-- [Heritage guide](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/README.md), [timeline](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/timeline.json), [lineage](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/lineage.json), [lessons](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/lessons.json)
-- [Heritage calendar coverage](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/rollups.json): selected historical evidence, not continuous runtime activity.
+- [Heritage guide](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/README.md) and [timeline](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/timeline.json)
+- [Lineage](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/lineage.json), [lessons](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/lessons.json), and [historical calendar](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/heritage/rollups.json)
 - [Skills on demand](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/skills/index.json)
-- [Provider observations](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/activity/providers.json)
-- [Machine manifest](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/manifest.json) and [file integrity](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/integrity.json)
+- [Public UTC/hash receipt log](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/cop/log.json)
+- [Weekly quota reserve policy](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/policies/weekly-quota.json)
+- [File integrity manifest](https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/integrity.json)
 
-The canonical site also provides [daily](https://worldweaver.dev/activity/daily.json), [weekly](https://worldweaver.dev/activity/weekly.json), and [monthly](https://worldweaver.dev/activity/monthly.json) runtime rollups. Missing coverage is unknown, not inactivity. Some anonymous client signatures currently receive HTTP 403 from the site; this public GitHub mirror is the alternative read path.
+The live site also provides [daily](https://worldweaver.dev/activity/daily.json), [weekly](https://worldweaver.dev/activity/weekly.json), and [monthly](https://worldweaver.dev/activity/monthly.json) rollups, plus bounded deltas since a UTC timestamp. Those live queries are not implemented by this static mirror. Missing coverage remains unknown.
 
-For artifact paths in mirrored JSON or Markdown, use `https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/` plus the path without its leading slash. If the path is absent from the integrity manifest, it belongs to the canonical site and may not be mirrored.
-
-The archive contains 28 curated historical episodes, 16 lineage nodes, 9 lessons, and 3 bounded read-only skills. Its source admission states and contradictions remain attached. Rich history does not establish current runtime success. The original voice payload, private repositories, operational account details, credentials, and private work payloads are excluded.
-
-The operator reports zero marginal cost for existing frontier voice access and accepts occasional ferrying when it reduces total workload. Useful analysis returned in the conversation is a valid contribution; label proposed world effects separately from executed effects. No Pareto-optimal compression or regeneration-fidelity claim has been established.
+Resolve paths against the raw GitHub base only when the file appears in integrity.json; otherwise the path belongs to worldweaver.dev. Public historical context is not current runtime authority. Private transcripts, work payloads, credentials and infrastructure access are excluded. A session may read, reason and return candidate proposals to Tao; returning text does not write memory or dispatch work.

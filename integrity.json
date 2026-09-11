@@ -1,13 +1,8 @@
 {
-  "schema": "worldweaver.public_integrity.v1",
+  "schema": "worldweaver.public_mirror_integrity.v2",
+  "recorded_at": "2026-09-11T13:50:37.450Z",
   "algorithm": "SHA-256",
-  "note": "Hashes bind release bytes; they do not establish truth or source admission. This manifest does not hash itself.",
-  "artifacts": [
-    {
-      "path": ".gitattributes",
-      "bytes": 8,
-      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
-    },
+  "files": [
     {
       "path": "activity/providers.json",
       "bytes": 4569,
@@ -15,8 +10,68 @@
     },
     {
       "path": "coala/manifest.json",
-      "bytes": 466,
-      "sha256": "34b1b4dc21d163018e8dc9445c4d542aa5883d9cf72e7bd1e60c31f1d467d130"
+      "bytes": 2079,
+      "sha256": "d1667c8de4a909e64dcf3c7a23ae800e07daacbc0a84f74c9930bcb1b2f68ddc"
+    },
+    {
+      "path": "cop/latest.json",
+      "bytes": 295,
+      "sha256": "11bd1a9981ac3c6eb7cf65b048a62482a6354e3700e53c5daefc3d19a0130aff"
+    },
+    {
+      "path": "cop/log.json",
+      "bytes": 930,
+      "sha256": "dae44d854e7f844fb18649f7dfcad1d078e009ff704e6e3538e8e332a5d25eb7"
+    },
+    {
+      "path": "cop/observations/manual-20260911T133411Z.json",
+      "bytes": 12011,
+      "sha256": "4525fe45122403622764f56d4216f8da3d747fc3876b679dd58dd4a164155c83"
+    },
+    {
+      "path": "cop/observations/manual-20260911T134446Z.json",
+      "bytes": 13723,
+      "sha256": "bd4f3e89de5e3584527a8fd8a7804725a4f5df7c1bebbbf5004c9e5896979d14"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-chatgpt.json",
+      "bytes": 917,
+      "sha256": "6d1da525007cbf783f2d90daee7f4a38c75414e9ee75b16a1e65bea5471d46bc"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-kimi.json",
+      "bytes": 1051,
+      "sha256": "2760d7f974d7287f96ab96fa79b64b9c0be058b01fe72bdecd685e5cbeea8d3d"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-ollama.json",
+      "bytes": 1051,
+      "sha256": "8256b4ae95894042aed758bf34776d274b8d8087a91b70666fe44db28464161d"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-schedules.json",
+      "bytes": 1517,
+      "sha256": "3ba9de176b0370c3e70bba21681f62f75a8c2029572b770fa3feeb41ece7abc7"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T133411Z-work.json",
+      "bytes": 1925,
+      "sha256": "3532c2453c718d979b4e128f6ce0d5952e5611c48a7bc1c7325aef943441a283"
+    },
+    {
+      "path": "cop/receipts/manual-20260911T134446Z-work-events.json",
+      "bytes": 812,
+      "sha256": "bc8f41089b4257ee3c7a2d7dc9a2877b8f75614440b658014fe1e5b60c678940"
+    },
+    {
+      "path": "cop-snapshot.json",
+      "bytes": 25899,
+      "sha256": "a693599aab05694f3a6ee2daafcae1f4ee7eeb2e67a4139c72128e402fab51cd"
+    },
+    {
+      "path": "cop.md",
+      "bytes": 3096,
+      "sha256": "defd063e5d0e0634fd64d58cf1c933fbab0256ae7094c91287f70bfad8ea63a5"
     },
     {
       "path": "germline/seed.md",
@@ -55,13 +110,18 @@
     },
     {
       "path": "manifest.json",
-      "bytes": 741,
-      "sha256": "b1594a8beb48687b06bab656fc84f2ba11e635bc2b9c378f5dca2ee70dd7738e"
+      "bytes": 1101,
+      "sha256": "f9fa7b77dd8f66e87eca15cb308562e927dd7ea53adc0ed6370f82989d69e72c"
+    },
+    {
+      "path": "policies/weekly-quota.json",
+      "bytes": 3468,
+      "sha256": "4b58fc1f64b3fbbd04d9d1b632a7c7e3db044e94421d8fbe3707e84ab0dd1c0c"
     },
     {
       "path": "README.md",
-      "bytes": 3727,
-      "sha256": "6bc6331c786d5ad08792c6002dc5de8a1e8eff28de7e27a80bdde9c08b36ab3e"
+      "bytes": 3303,
+      "sha256": "f3767a37c68ff3439234316df9dbaa529713911a947f5812baf881647ad7b657"
     },
     {
       "path": "skills/index.json",
@@ -85,13 +145,13 @@
     },
     {
       "path": "START_HERE.md",
-      "bytes": 3727,
-      "sha256": "6bc6331c786d5ad08792c6002dc5de8a1e8eff28de7e27a80bdde9c08b36ab3e"
+      "bytes": 3303,
+      "sha256": "f3767a37c68ff3439234316df9dbaa529713911a947f5812baf881647ad7b657"
     },
     {
       "path": "state-snapshot.json",
-      "bytes": 2731,
-      "sha256": "87f0a4721357139673af372fbd1019e4f16931c943f4dea63f8f66bb0013f665"
+      "bytes": 6611,
+      "sha256": "b3aa10dd6d386f814b4dd422ea7349ae3268997c88ace0ed04ee630c9de6f5be"
     },
     {
       "path": "voice/latest.json",
@@ -102,6 +162,16 @@
       "path": "voice/latest.md",
       "bytes": 1942,
       "sha256": "80a151e30a9c3ad70424563a3954b2bd72567e7ed8e5c7aea01e2d119b66a9c6"
+    },
+    {
+      "path": "voice/operator-update.json",
+      "bytes": 3692,
+      "sha256": "2a150a0092e0e2a6bc5bfa6fa1fdfecc8aa7accd4e202351f291c7b7be2fd405"
+    },
+    {
+      "path": "voice/operator-update.md",
+      "bytes": 1754,
+      "sha256": "cdaaa40b199676c47b4d83560cec450b6126c9e7b51e71d7c8e1975a48e92ce3"
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "path": "/cop/observations/manual-20260911T134446Z.json",
+  "bytes": 13723,
+  "sha256": "bd4f3e89de5e3584527a8fd8a7804725a4f5df7c1bebbbf5004c9e5896979d14",
+  "schema": "worldweaver.cop_pointer.v1",
+  "observation_id": "manual-20260911T134446Z",
+  "recorded_at": "2026-09-11T13:44:46.470Z"
+}
