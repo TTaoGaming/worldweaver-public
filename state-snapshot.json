@@ -131,8 +131,8 @@
     "scope": "Four configured actor seats. Recorded heartbeat classifications are a partial observation; private references are withheld."
   },
   "freshness": "DATED_STATIC_SNAPSHOT",
-  "age_seconds": 43,
-  "rendered_at": "2026-09-11T14:01:10.080Z",
+  "age_seconds": 750,
+  "rendered_at": "2026-09-11T14:12:56.408Z",
   "operator_context": {
     "schema": "worldweaver.public_context.v1",
     "updated_at": "2026-09-11T09:54:58Z",

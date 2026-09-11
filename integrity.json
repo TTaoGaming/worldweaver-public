@@ -1,6 +1,6 @@
 {
   "schema": "worldweaver.public_mirror_integrity.v2",
-  "recorded_at": "2026-09-11T14:02:43.415691+00:00",
+  "recorded_at": "2026-09-11T14:12:57.623Z",
   "algorithm": "SHA-256",
   "files": [
     {
@@ -21,12 +21,12 @@
     {
       "path": "cop/latest.json",
       "bytes": 295,
-      "sha256": "966e68455d668325d3d8e9e067fb8758cba18bde3eab6bb3807c1cc3d9d3df5f"
+      "sha256": "9a5e731fc4f7f8607c8a7255ee0cd4baef79023edbd6c43fe41ad097a75ae658"
     },
     {
       "path": "cop/log.json",
-      "bytes": 1258,
-      "sha256": "fcf9030bd8bd2088a26531d6b0ed6aaa4f8e9a6b9fb90ff16b66a4744fd20332"
+      "bytes": 1586,
+      "sha256": "1face7a8c4deb8b78241a0f4f223deb0d327816d508de9791f969ff60f7fda5c"
     },
     {
       "path": "cop/observations/manual-20260911T133411Z.json",
@@ -42,6 +42,11 @@
       "path": "cop/observations/manual-20260911T135729Z.json",
       "bytes": 14753,
       "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968"
+    },
+    {
+      "path": "cop/observations/manual-20260911T140923Z.json",
+      "bytes": 18414,
+      "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b"
     },
     {
       "path": "cop/receipts/manual-20260911T133411Z-chatgpt.json",
@@ -79,14 +84,19 @@
       "sha256": "c2c48e0439ba2415c480b968a20d0f7a4a68f87cb50ce260e86d5d792199820a"
     },
     {
+      "path": "cop/receipts/manual-20260911T140923Z-travel-handoff.json",
+      "bytes": 2923,
+      "sha256": "bb9272afdc03eed606bdb1f9da07f807066d81079cf9c6c8eabca858769b42d1"
+    },
+    {
       "path": "cop-snapshot.json",
-      "bytes": 27213,
-      "sha256": "e1fe8bc92cbc955014a690224b5523fe100f6a81e7c5996bffa94849d330465b"
+      "bytes": 30874,
+      "sha256": "38e0299a472a4ad8ef4eeaa07ac837a11d534a61f77fedd6b212e7cc2fd1dd45"
     },
     {
       "path": "cop.md",
-      "bytes": 3242,
-      "sha256": "97e345ecbfee5a7d9a9f90b28cd01a4e790eb1af024fba1d15a73a249dd07df6"
+      "bytes": 4305,
+      "sha256": "2fa9cb7dae94270b30759db869d1e9c133b026e946bd46990c4e06a47300c4bf"
     },
     {
       "path": "germline/seed.md",
@@ -126,7 +136,7 @@
     {
       "path": "manifest.json",
       "bytes": 1101,
-      "sha256": "c738d7cc05536f1a866c7670b9ee5908aa910c0860c074e80abe96bfc44921b6"
+      "sha256": "d4b5e41a09acd6a2bada2518dc0605944847605ef09469220f5c225bc3f98f51"
     },
     {
       "path": "policies/weekly-quota.json",
@@ -136,7 +146,7 @@
     {
       "path": "README.md",
       "bytes": 3303,
-      "sha256": "ce6182458b35c4d3baa9040b218da0ba96b34c647ee190038ebec955fecd070f"
+      "sha256": "c38012a584f27b94a9db8f60e4671a9c88cae0f3b1f5d7a4924282e92b74f1c9"
     },
     {
       "path": "site-publication.json",
@@ -166,12 +176,12 @@
     {
       "path": "START_HERE.md",
       "bytes": 3303,
-      "sha256": "ce6182458b35c4d3baa9040b218da0ba96b34c647ee190038ebec955fecd070f"
+      "sha256": "c38012a584f27b94a9db8f60e4671a9c88cae0f3b1f5d7a4924282e92b74f1c9"
     },
     {
       "path": "state-snapshot.json",
-      "bytes": 6870,
-      "sha256": "76810ebad62d418ae4ecc652082790019de282ffb21ee0879996bd6fafb52c91"
+      "bytes": 6871,
+      "sha256": "fb95ee59c006c09ecc247c46f5a3c16f048c9494e5e7f73484131df1ea3eb538"
     },
     {
       "path": "voice/latest.json",
@@ -192,6 +202,11 @@
       "path": "voice/operator-update.md",
       "bytes": 1754,
       "sha256": "cdaaa40b199676c47b4d83560cec450b6126c9e7b51e71d7c8e1975a48e92ce3"
+    },
+    {
+      "path": "flight-handoff-publication.json",
+      "bytes": 974,
+      "sha256": "2a172cc160a179f9003dcbd9f4a7765239e9bbf74feb68205e421309efcea247"
     }
   ]
 }

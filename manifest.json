@@ -1,21 +1,21 @@
 {
   "schema": "worldweaver.public_mirror.v2",
-  "recorded_at": "2026-09-11T14:02:41.747Z",
+  "recorded_at": "2026-09-11T14:12:57.623Z",
   "kind": "DATED_PUBLIC_FALLBACK",
   "automatic_sync": false,
   "website": "https://worldweaver.dev",
   "one_read": "/START_HERE.md",
   "current_picture": "/cop-snapshot.json",
   "current_picture_text": "/cop.md",
-  "snapshot_rendered_at": "2026-09-11T14:01:08.431Z",
+  "snapshot_rendered_at": "2026-09-11T14:12:55.089Z",
   "scheduled_observed_at": "2026-09-11T14:00:26.210Z",
   "manual_observation": {
-    "path": "/cop/observations/manual-20260911T135729Z.json",
-    "bytes": 14753,
-    "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
+    "path": "/cop/observations/manual-20260911T140923Z.json",
+    "bytes": 18414,
+    "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b",
     "schema": "worldweaver.cop_pointer.v1",
-    "observation_id": "manual-20260911T135729Z",
-    "recorded_at": "2026-09-11T13:57:29.873Z"
+    "observation_id": "manual-20260911T140923Z",
+    "recorded_at": "2026-09-11T14:09:23.967Z"
   },
   "provider_freshness": "Every receipt has its own observed_at and stale_after. Rendering and download times never renew evidence.",
   "memory": "/coala/manifest.json",

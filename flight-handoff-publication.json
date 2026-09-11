@@ -1,0 +1,19 @@
+{
+  "schema": "worldweaver.flight_handoff_publication.v1",
+  "recorded_at": "2026-09-11T14:12:57.852Z",
+  "status": "PUBLISHED_AND_ANONYMOUSLY_VERIFIED",
+  "source_commit": "b2e9c01ff342a05241cc85efe86693cc27021cda",
+  "deployed_at": "2026-09-11T14:11:18.647503Z",
+  "version_id": "84136c76-c81f-4c5d-8184-179b9e7f2d63",
+  "deployment_id": "ce25255b-889e-458b-b762-39bd7428996a",
+  "bundle_sha256": "b23d07801065506b035f6a4ac0c9670086381645bcf383fe887246782e73bfb8",
+  "handoff": "/cop/receipts/manual-20260911T140923Z-travel-handoff.json",
+  "local_tests_passed": 25,
+  "hosted_checks": 31,
+  "vps_state": "HOLD_ROUTE_UNBOUND",
+  "vps_next_edge": "Recover exact existing trusted route after travel, then bounded census and useful-work receipt.",
+  "operator_shutdown": "PLANNED_NOT_OBSERVED",
+  "source_check": "registered route adapter and SSH configuration absent at2026-09-11T14:07:58.687Z",
+  "public_website_laptop_dependency": false,
+  "no_new_provider_work": true
+}

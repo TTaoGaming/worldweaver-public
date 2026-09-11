@@ -1,6 +1,6 @@
 {
   "schema": "worldweaver.common_operating_picture.v1",
-  "rendered_at": "2026-09-11T14:01:08.431Z",
+  "rendered_at": "2026-09-11T14:12:55.089Z",
   "coverage": "PARTIAL_SELECTED_SOURCES",
   "authority_granted": false,
   "observation": {
@@ -138,25 +138,25 @@
       }
     },
     "manual": {
-      "path": "/cop/observations/manual-20260911T135729Z.json",
-      "bytes": 14753,
-      "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
+      "path": "/cop/observations/manual-20260911T140923Z.json",
+      "bytes": 18414,
+      "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b",
       "schema": "worldweaver.cop_pointer.v1",
-      "observation_id": "manual-20260911T135729Z",
-      "recorded_at": "2026-09-11T13:57:29.873Z"
+      "observation_id": "manual-20260911T140923Z",
+      "recorded_at": "2026-09-11T14:09:23.967Z"
     }
   },
   "integrity": {
     "algorithm": "SHA-256",
     "serialization": "UTF-8 JSON.stringify(observation), no trailing newline",
-    "observation_sha256": "2abd0c4eb7aaf742d2ae302c517a8ee5b3e16db4cd017fe66bf052d278a00aba",
+    "observation_sha256": "b60d6bfb53932cd05b0628f2247fd7188807d3d6de142f17f48e9f25e17bdafc",
     "manual_bytes": {
-      "path": "/cop/observations/manual-20260911T135729Z.json",
-      "bytes": 14753,
-      "sha256": "499e218dc18e5fb39d71c813137ea7eb5bd5fa76f77a2c63f7e6a838e9310968",
+      "path": "/cop/observations/manual-20260911T140923Z.json",
+      "bytes": 18414,
+      "sha256": "853caa17b4e17c914a39562c2926d8e31394cefca8490949ff5408c53324761b",
       "schema": "worldweaver.cop_pointer.v1",
-      "observation_id": "manual-20260911T135729Z",
-      "recorded_at": "2026-09-11T13:57:29.873Z"
+      "observation_id": "manual-20260911T140923Z",
+      "recorded_at": "2026-09-11T14:09:23.967Z"
     }
   },
   "population": {
@@ -528,10 +528,62 @@
   },
   "work_freshness": "DATED_STATIC_SNAPSHOT",
   "operator_direction": {
-    "recorded_at": "2026-09-11T13:34:11.408Z",
-    "source": "DIRECT_OPERATOR_MANUAL_AUTHORIZATION",
-    "text": "Tao is present and authorized manual probing, reconciliation and sanitized publication. Automatic quota reserves and paused launchers remain in force.",
-    "scope": "This manual COP task; no automatic restart inferred."
+    "recorded_at": "2026-09-11T14:09:23.967Z",
+    "source": "DIRECT_TAO_FLIGHT_WRAP_UP_REQUEST",
+    "text": "Sigrun checkpoint/stigmergy is being consumed as work input. Finish the current laptop checkpoint and prepare for operator-reported laptop shutdown during travel. Worldweaver remains the hosted read-only memory window. No working VPS handoff has been verified.",
+    "scope": "Complete this handoff; preserve paused launchers and the weekly manual reserve."
+  },
+  "operator_handoff": {
+    "schema": "worldweaver.operator_handoff.v1",
+    "recorded_at": "2026-09-11T14:09:23.967Z",
+    "source": "DIRECT_TAO_REQUEST_AND_LAPTOP_INTEGRATOR_RECEIPTS",
+    "status": "WRAPPING_UP_FOR_PLANNED_LAPTOP_OFFLINE",
+    "message_to_sigrun": "Sigrun: the laptop swarm has picked up your deposited JSON checkpoint/stigmergy as work input. The active laptop integrator has published the common operating picture, sanitized memory and heritage, source hashes, work/probe receipts and your voice-access report. We are wrapping up because Tao is travelling and the laptop is about to go dark. Your checkpoint is preserved; silence during the offline interval is expected, not a lost checkpoint.",
+    "active_work_scope": "The laptop integrator is completing this handoff. Previously reviewed provider launchers were paused; this statement does not claim every provider is running.",
+    "completed": [
+      "Checkpoint V2 logged and linked to the public COP",
+      "Provider probes separated from task and claim state",
+      "Read-only memory, heritage and on-demand skills published",
+      "Daily/weekly/monthly captured-history views and UTC/hash receipts available",
+      "Native collector receipt capture verified at 2026-09-11T14:00:26.210Z"
+    ],
+    "planned_offline": {
+      "operator_reported": true,
+      "actual_shutdown_utc": null,
+      "laptop_job_continuity": "DO_NOT_ASSUME_AFTER_LAPTOP_SHUTDOWN",
+      "no_laptop_restart_authorized_by_this_handoff": true
+    },
+    "available_without_laptop": [
+      "Cloudflare-hosted Worldweaver public context and existing collector",
+      "Committed GitHub source, receipts and public mirror",
+      "Voice session may read and reason using public context; returned text still needs an authorized durable write"
+    ],
+    "vps": {
+      "observed_at": "2026-09-11T14:07:58.687Z",
+      "state": "HOLD_ROUTE_UNBOUND",
+      "cause": "No registered local route adapter or SSH configuration was found.",
+      "transport": "NOT_ATTEMPTED",
+      "worker_state": "UNKNOWN",
+      "offline_claim": false,
+      "new_vps_handoff_proven": false,
+      "next_action": "Recover and verify the exact existing VPS route, then run a bounded service census and useful job through receipt/reconciliation. Plan this after travel; no functioning VPS continuation is claimed now."
+    },
+    "resume_order": [
+      "Recover the existing trusted VPS route and verify a useful laptop-independent work cycle",
+      "Reconcile the preserved ChatGPT draft and Kimi proposal",
+      "Repair the Ollama work harness and verify one complete work result"
+    ],
+    "quota_policy": "/policies/weekly-quota.json",
+    "authority_granted": false,
+    "receipt": {
+      "path": "/cop/receipts/manual-20260911T140923Z-travel-handoff.json",
+      "bytes": 2923,
+      "sha256": "bb9272afdc03eed606bdb1f9da07f807066d81079cf9c6c8eabca858769b42d1",
+      "receipt_id": "manual-20260911T140923Z-travel-handoff",
+      "recorded_at": "2026-09-11T14:09:23.967Z",
+      "observed_at": "2026-09-11T14:09:23.967Z",
+      "stale_after": "2026-09-11T15:09:23.967Z"
+    }
   },
   "blocked": [
     {
@@ -619,6 +671,15 @@
       "recorded_at": "2026-09-11T13:57:29.873Z",
       "observed_at": "2026-09-11T13:57:29.873Z",
       "stale_after": "2026-09-11T14:57:29.873Z"
+    },
+    {
+      "path": "/cop/receipts/manual-20260911T140923Z-travel-handoff.json",
+      "bytes": 2923,
+      "sha256": "bb9272afdc03eed606bdb1f9da07f807066d81079cf9c6c8eabca858769b42d1",
+      "receipt_id": "manual-20260911T140923Z-travel-handoff",
+      "recorded_at": "2026-09-11T14:09:23.967Z",
+      "observed_at": "2026-09-11T14:09:23.967Z",
+      "stale_after": "2026-09-11T15:09:23.967Z"
     }
   ],
   "log": "/cop/log.json",
