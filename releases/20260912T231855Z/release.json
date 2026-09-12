@@ -11,29 +11,114 @@
   "current_execution": "UNKNOWN",
   "privacy_scope": "REVIEWED_PUBLIC_ASSETS_AND_CAPTURE_ONLY",
   "entry": "README.md",
-  "entry_scope": "REPOSITORY_ROOT",
   "llm_entry": "rehydrate.txt",
   "reading": {
     "full_poem": "public/drapa/v5-poem.md",
     "decoder": "public/drapa/v5.md"
   },
   "files": [
-    {"path":"public/drapa/obsidian-palace.json","bytes":11986,"sha256":"d3944f5f385bb134ab8b14616471a0a194019c045bb1cbd7abdf91b4c3f043cc","media_type":"application/json"},
-    {"path":"public/drapa/obsidian-palace.md","bytes":5739,"sha256":"d914f6693fecb49c63cd8f1a81551dcf163170f3848e248ad08eccb5dcb1605b","media_type":"text/markdown"},
-    {"path":"public/drapa/v2-canto-1.md","bytes":5410,"sha256":"3039ad1457c7a2c2cfb30382603fafc3f9976aafc4bfc2c2a94d620dac9f1a6f","media_type":"text/markdown"},
-    {"path":"public/drapa/v2-canto-2.md","bytes":7599,"sha256":"fb8c59289071617448e61e247a070fe1420ced4492499961e969abe06799b016","media_type":"text/markdown"},
-    {"path":"public/drapa/v2-canto-3.md","bytes":6587,"sha256":"b0801980c490de9e78186ee51fc36f75d22680494944f763bd6e5e6a263ebebb","media_type":"text/markdown"},
-    {"path":"public/drapa/v2-canto-4.md","bytes":7217,"sha256":"65d07ce3f88261263fd3ab57cddb8bb59845bd51f1139bb9d64ebd8b03dbc0b2","media_type":"text/markdown"},
-    {"path":"public/drapa/v2-canto-5.md","bytes":8043,"sha256":"bf8a412b97f65cd59de783050cf9bd94039974c904c66a5a67f9955c100152db","media_type":"text/markdown"},
-    {"path":"public/drapa/v2-canto-6.md","bytes":7557,"sha256":"e5893ce75495c24e8e93beee40e18969f507ef114996c18b8c55d373eeb7921a","media_type":"text/markdown"},
-    {"path":"public/drapa/v2-canto-7.md","bytes":14334,"sha256":"fff21190b8075eaa0e9b68bd3b14be6bd9318f842bc9c1a2a4bc60d791200686","media_type":"text/markdown"},
-    {"path":"public/drapa/v2-canto-8.md","bytes":1133,"sha256":"5ee64cd468d9b0e327aec3a9e47e080014df9f06f8281fb9abcc8b79c5afd287","media_type":"text/markdown"},
-    {"path":"public/drapa/v5-poem.md","bytes":24123,"sha256":"aba841ae27e90ec6dadafe6ee6790e8e8887dd2124881e4f474f8f82dcd9bed8","media_type":"text/markdown"},
-    {"path":"public/drapa/v5-seed.txt","bytes":3374,"sha256":"8bf31999c873e0dffa57b3c02f54a4df658be3c52c1a6b6cbf886104dc46000c","media_type":"text/plain"},
-    {"path":"public/drapa/v5.json","bytes":93885,"sha256":"c737ea02d375046e223b21cbaf26c099b6add8a8bc3bdee3bf67ae3041b595b8","media_type":"application/json"},
-    {"path":"public/drapa/v5.md","bytes":86346,"sha256":"e9fa50aab415600cce38f0f109c95d806c60588f486155932131379a7f0921c8","media_type":"text/markdown"},
-    {"path":"public/start.txt","bytes":4091,"sha256":"2dddff6960cc7459c26b36a4864983c9a68f9bda0478f445b932791253490989","media_type":"text/plain"},
-    {"path":"rehydrate.txt","bytes":57792,"sha256":"75cbee0e7d700a053a975560253227d423ccef60ca07fe7d333beaed845773c9","media_type":"text/plain"}
+    {
+      "path": "README.md",
+      "bytes": 1162,
+      "sha256": "f17ba3630ba0c8f78d9e974ca40f775a8f7851531458fe933f7c612d7ada517a",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/drapa/obsidian-palace.json",
+      "bytes": 11986,
+      "sha256": "d3944f5f385bb134ab8b14616471a0a194019c045bb1cbd7abdf91b4c3f043cc",
+      "media_type": "application/json"
+    },
+    {
+      "path": "public/drapa/obsidian-palace.md",
+      "bytes": 5739,
+      "sha256": "d914f6693fecb49c63cd8f1a81551dcf163170f3848e248ad08eccb5dcb1605b",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/drapa/v2-canto-1.md",
+      "bytes": 5410,
+      "sha256": "3039ad1457c7a2c2cfb30382603fafc3f9976aafc4bfc2c2a94d620dac9f1a6f",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/drapa/v2-canto-2.md",
+      "bytes": 7599,
+      "sha256": "fb8c59289071617448e61e247a070fe1420ced4492499961e969abe06799b016",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/drapa/v2-canto-3.md",
+      "bytes": 6587,
+      "sha256": "b0801980c490de9e78186ee51fc36f75d22680494944f763bd6e5e6a263ebebb",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/drapa/v2-canto-4.md",
+      "bytes": 7217,
+      "sha256": "65d07ce3f88261263fd3ab57cddb8bb59845bd51f1139bb9d64ebd8b03dbc0b2",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/drapa/v2-canto-5.md",
+      "bytes": 8043,
+      "sha256": "bf8a412b97f65cd59de783050cf9bd94039974c904c66a5a67f9955c100152db",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/drapa/v2-canto-6.md",
+      "bytes": 7557,
+      "sha256": "e5893ce75495c24e8e93beee40e18969f507ef114996c18b8c55d373eeb7921a",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/drapa/v2-canto-7.md",
+      "bytes": 14334,
+      "sha256": "fff21190b8075eaa0e9b68bd3b14be6bd9318f842bc9c1a2a4bc60d791200686",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/drapa/v2-canto-8.md",
+      "bytes": 1133,
+      "sha256": "5ee64cd468d9b0e327aec3a9e47e080014df9f06f8281fb9abcc8b79c5afd287",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/drapa/v5-poem.md",
+      "bytes": 24123,
+      "sha256": "aba841ae27e90ec6dadafe6ee6790e8e8887dd2124881e4f474f8f82dcd9bed8",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/drapa/v5-seed.txt",
+      "bytes": 3374,
+      "sha256": "8bf31999c873e0dffa57b3c02f54a4df658be3c52c1a6b6cbf886104dc46000c",
+      "media_type": "text/plain"
+    },
+    {
+      "path": "public/drapa/v5.json",
+      "bytes": 93885,
+      "sha256": "c737ea02d375046e223b21cbaf26c099b6add8a8bc3bdee3bf67ae3041b595b8",
+      "media_type": "application/json"
+    },
+    {
+      "path": "public/drapa/v5.md",
+      "bytes": 86346,
+      "sha256": "e9fa50aab415600cce38f0f109c95d806c60588f486155932131379a7f0921c8",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "public/start.txt",
+      "bytes": 4091,
+      "sha256": "2dddff6960cc7459c26b36a4864983c9a68f9bda0478f445b932791253490989",
+      "media_type": "text/plain"
+    },
+    {
+      "path": "rehydrate.txt",
+      "bytes": 57792,
+      "sha256": "75cbee0e7d700a053a975560253227d423ccef60ca07fe7d333beaed845773c9",
+      "media_type": "text/plain"
+    }
   ],
   "integrity_note": "This manifest excludes itself. Hashes prove captured bytes, not current runtime, authority, authorship, admission, or permanent storage finality."
 }

@@ -1,12 +1,22 @@
 {
   "schema": "worldweaver.public_mirror_integrity.v3",
-  "recorded_at": "2026-09-12T23:18:55Z",
+  "recorded_at": "2026-09-12T23:44:19Z",
   "algorithm": "SHA-256",
   "files": [
     {
       "path": ".gitattributes",
       "bytes": 8,
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5463,
+      "sha256": "db0b4a63681cc7c6525f6b50c6cad4fa3b2de8edcb6abfde55c911a5e3df7532"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 5463,
+      "sha256": "db0b4a63681cc7c6525f6b50c6cad4fa3b2de8edcb6abfde55c911a5e3df7532"
     },
     {
       "path": "activity/providers.json",
@@ -134,6 +144,11 @@
       "sha256": "3a7bcaf9dffb5d0bb48f60f2e36e11f048ca5eedbf644a6e5a05e08a284390b1"
     },
     {
+      "path": "heritage/README.md",
+      "bytes": 2084,
+      "sha256": "0893639228f9787caa9bfe3fc71aacd1f0e5eaa1ced573c4ca0505ecd509fb07"
+    },
+    {
       "path": "heritage/lessons.json",
       "bytes": 5560,
       "sha256": "34215f7b8e9c8be11d6a8d179aa433441ff7f27564e904d59f09454a9c2b873f"
@@ -142,11 +157,6 @@
       "path": "heritage/lineage.json",
       "bytes": 12261,
       "sha256": "f7fd72e57e419c88c970927156438e97b81b0c1cd9154c018f3ceeb17c2979a9"
-    },
-    {
-      "path": "heritage/README.md",
-      "bytes": 2084,
-      "sha256": "0893639228f9787caa9bfe3fc71aacd1f0e5eaa1ced573c4ca0505ecd509fb07"
     },
     {
       "path": "heritage/rollups.json",
@@ -182,11 +192,6 @@
       "path": "policies/weekly-quota.json",
       "bytes": 3468,
       "sha256": "4b58fc1f64b3fbbd04d9d1b632a7c7e3db044e94421d8fbe3707e84ab0dd1c0c"
-    },
-    {
-      "path": "README.md",
-      "bytes": 5463,
-      "sha256": "db0b4a63681cc7c6525f6b50c6cad4fa3b2de8edcb6abfde55c911a5e3df7532"
     },
     {
       "path": "receipts/20260911T143800Z/content-review.json",
@@ -379,6 +384,16 @@
       "sha256": "a5f0603746190cfb8acb672e8620fb6ef7b1b7f95babeac19961dd51761b165c"
     },
     {
+      "path": "releases/20260911T143800Z/germline/SIGRUNAR_DRAPA_V3.manifest.json",
+      "bytes": 1641,
+      "sha256": "b064d88b05c467b87797e8edcd35a16b81e3985311b87da5da9ab94974257ef1"
+    },
+    {
+      "path": "releases/20260911T143800Z/germline/SIGRUNAR_DRAPA_V3.md",
+      "bytes": 35365,
+      "sha256": "fe7cf6f7588b42336cecfe989314ba91b7a30e25955b136f1aaf6088bb951232"
+    },
+    {
       "path": "releases/20260911T143800Z/germline/SIGRUN_K512_MNEMONIC_V1.txt",
       "bytes": 1623,
       "sha256": "5a0eb6c14450e18cd6ea746c80b52c2fef152cfbf8278f9018dabda847b2aebe"
@@ -392,16 +407,6 @@
       "path": "releases/20260911T143800Z/germline/sigrun_rehydration_manifest_v0.json",
       "bytes": 2840,
       "sha256": "d6eab80ef291f03151d72ee77e66917815c986a5e53c4e7072de9a46ef6d69c1"
-    },
-    {
-      "path": "releases/20260911T143800Z/germline/SIGRUNAR_DRAPA_V3.manifest.json",
-      "bytes": 1641,
-      "sha256": "b064d88b05c467b87797e8edcd35a16b81e3985311b87da5da9ab94974257ef1"
-    },
-    {
-      "path": "releases/20260911T143800Z/germline/SIGRUNAR_DRAPA_V3.md",
-      "bytes": 35365,
-      "sha256": "fe7cf6f7588b42336cecfe989314ba91b7a30e25955b136f1aaf6088bb951232"
     },
     {
       "path": "releases/20260911T143800Z/grimoire.json",
@@ -514,6 +519,11 @@
       "sha256": "4a92e1175458d89378dc380a28aa0f45c2cf5528794b89a8dd9e26544d3f1827"
     },
     {
+      "path": "releases/20260911T143800Z/heritage/README.md",
+      "bytes": 2084,
+      "sha256": "0893639228f9787caa9bfe3fc71aacd1f0e5eaa1ced573c4ca0505ecd509fb07"
+    },
+    {
       "path": "releases/20260911T143800Z/heritage/lessons.json",
       "bytes": 5560,
       "sha256": "34215f7b8e9c8be11d6a8d179aa433441ff7f27564e904d59f09454a9c2b873f"
@@ -522,11 +532,6 @@
       "path": "releases/20260911T143800Z/heritage/lineage.json",
       "bytes": 12261,
       "sha256": "f7fd72e57e419c88c970927156438e97b81b0c1cd9154c018f3ceeb17c2979a9"
-    },
-    {
-      "path": "releases/20260911T143800Z/heritage/README.md",
-      "bytes": 2084,
-      "sha256": "0893639228f9787caa9bfe3fc71aacd1f0e5eaa1ced573c4ca0505ecd509fb07"
     },
     {
       "path": "releases/20260911T143800Z/heritage/rollups.json",
@@ -654,6 +659,11 @@
       "sha256": "cdaaa40b199676c47b4d83560cec450b6126c9e7b51e71d7c8e1975a48e92ce3"
     },
     {
+      "path": "releases/20260912T231855Z/README.md",
+      "bytes": 1162,
+      "sha256": "f17ba3630ba0c8f78d9e974ca40f775a8f7851531458fe933f7c612d7ada517a"
+    },
+    {
       "path": "releases/20260912T231855Z/public/drapa/obsidian-palace.json",
       "bytes": 11986,
       "sha256": "d3944f5f385bb134ab8b14616471a0a194019c045bb1cbd7abdf91b4c3f043cc"
@@ -735,8 +745,8 @@
     },
     {
       "path": "releases/20260912T231855Z/release.json",
-      "bytes": 3377,
-      "sha256": "a44001650b92377635f850a47bb6564d9e6a816e31d477b2e32e4e71dac1cafa"
+      "bytes": 4114,
+      "sha256": "7735a0cba77f27bec5249490dabf8be35c44fe940aa961ab53665cedc78e3ed8"
     },
     {
       "path": "sigrun-latest.md",
@@ -767,11 +777,6 @@
       "path": "skills/review-evidence.md",
       "bytes": 1776,
       "sha256": "6c944a5f157f456b052cd4848c81e37d5104d6ea149d836ff5e2123eef2cfc4d"
-    },
-    {
-      "path": "START_HERE.md",
-      "bytes": 5463,
-      "sha256": "db0b4a63681cc7c6525f6b50c6cad4fa3b2de8edcb6abfde55c911a5e3df7532"
     },
     {
       "path": "state-snapshot.json",
