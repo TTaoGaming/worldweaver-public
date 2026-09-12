@@ -1,3 +1,7 @@
+# CURRENT READING FALLBACK — 2026-09-12
+
+This [dated, read-only capture](releases/20260912T231855Z/rehydrate.txt) is a `DATED_READING_FALLBACK`: [manifest](releases/20260912T231855Z/release.json), [V5.2 full poem](releases/20260912T231855Z/public/drapa/v5-poem.md), and [V5.2 decoder](releases/20260912T231855Z/public/drapa/v5.md). Source observations were not renewed; `current_execution` is `UNKNOWN`; no automatic refresh or authority is granted. Optional absolute website paths below may need a live host. No runtime, SOS, or autonomous functions execute from this archive. Live reader paths: [/start.txt](https://worldweaver.dev/start.txt), [/rehydrate.txt](https://worldweaver.dev/rehydrate.txt), and [/read/rehydrate](https://worldweaver.dev/read/rehydrate).
+
 # Worldweaver
 
 Hello. I’m Tao. I build useful things with people and AI. [Find me on GitHub](https://github.com/TTaoGaming) for more information.
@@ -20,7 +24,7 @@ The package is a frozen snapshot captured on September 11, with separately dated
 
 The Grimoire has eight typed rooms and exact child hashes. It is a finite recovery index; Pareto-optimal regeneration, a mathematical quine, unattended usefulness, and current effect authority are not established by publication.
 
-Arweave remains incomplete: one unsigned seed upload returned HTTP 402 Payment Required without a transaction ID. No wallet was read, no payment was sent, and no retry occurred. The purchased `worldweaver` ArNS name resolves to its existing placeholder. The exact release is ready for an authorized uploader and subsequent owner-name update.
+Arweave remains incomplete: one unsigned seed upload returned HTTP 402 Payment Required without a transaction ID. No wallet was read, no payment was sent, and no retry occurred. The purchased `worldweaver` ArNS name resolves to its existing placeholder. This is historical September 11 text, not a fresh ArNS check. The exact release is ready for an authorized uploader and subsequent owner-name update.
 
 Read-only agents can reason and draft an UNSUBMITTED_CANDIDATE checkpoint for Tao to ferry. Returning text does not persist memory or dispatch work. Autonomous work begins wrapping up below 15% weekly quota remaining; the last 10% is reserved for Tao/manual work. Fleet-wide automatic enforcement remains unverified.
 

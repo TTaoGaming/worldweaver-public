@@ -1,8 +1,13 @@
 {
   "schema": "worldweaver.public_mirror_integrity.v3",
-  "recorded_at": "2026-09-11T14:59:04.857763Z",
+  "recorded_at": "2026-09-12T23:18:55Z",
   "algorithm": "SHA-256",
   "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
     {
       "path": "activity/providers.json",
       "bytes": 4569,
@@ -17,6 +22,16 @@
       "path": "collector-receipt.json",
       "bytes": 1384,
       "sha256": "3cfd82707eb0d34525c5fb7b331261f312f97478cddea8bcd20220fe4eb8e3eb"
+    },
+    {
+      "path": "cop-snapshot.json",
+      "bytes": 29952,
+      "sha256": "6e4b9591c34602b728a15485dfccf1694c7ac345d5c854c96bee0f6399ce0ad0"
+    },
+    {
+      "path": "cop.md",
+      "bytes": 4220,
+      "sha256": "20c46a4e05acd14754eb5d8ff644ab8e78ca63ae1e3c66c97240f90a9c08d39e"
     },
     {
       "path": "cop/latest.json",
@@ -89,16 +104,6 @@
       "sha256": "bb9272afdc03eed606bdb1f9da07f807066d81079cf9c6c8eabca858769b42d1"
     },
     {
-      "path": "cop-snapshot.json",
-      "bytes": 29952,
-      "sha256": "6e4b9591c34602b728a15485dfccf1694c7ac345d5c854c96bee0f6399ce0ad0"
-    },
-    {
-      "path": "cop.md",
-      "bytes": 4220,
-      "sha256": "20c46a4e05acd14754eb5d8ff644ab8e78ca63ae1e3c66c97240f90a9c08d39e"
-    },
-    {
       "path": "downloads/worldweaver-public-20260911T143800Z.zip",
       "bytes": 156445,
       "sha256": "7b2e2cf465051e6e5f254f66be9b6d2ecf93b4650f3c46f2a2f501b5f83c8a13"
@@ -114,9 +119,19 @@
       "sha256": "2a172cc160a179f9003dcbd9f4a7765239e9bbf74feb68205e421309efcea247"
     },
     {
+      "path": "gen141/latest.json",
+      "bytes": 2255,
+      "sha256": "e1433ee7c8276442cd3cd68efc784a3ce84175868f25169de8684f293c90997a"
+    },
+    {
+      "path": "gen141/rehydrate.md",
+      "bytes": 4753,
+      "sha256": "b46b278fd3973abfb5de874418eeb2005e24ea9bb23f984642eb098e6483041d"
+    },
+    {
       "path": "germline/seed.md",
-      "bytes": 1561,
-      "sha256": "fe18ce34da0e7f271d2c0a8ae468d6d07295970016d6c3b5738170ecf3e5e770"
+      "bytes": 2011,
+      "sha256": "3a7bcaf9dffb5d0bb48f60f2e36e11f048ca5eedbf644a6e5a05e08a284390b1"
     },
     {
       "path": "heritage/lessons.json",
@@ -155,8 +170,8 @@
     },
     {
       "path": "llms.txt",
-      "bytes": 4632,
-      "sha256": "ccd6f929412ba8b647c93054c161c4c91969c3304b5a044959eea9f6730771f1"
+      "bytes": 5746,
+      "sha256": "0bafd3b0cc8532c6bc1bd437cd01accdb9b70b77c0f9b3ff44740e7ac34542fb"
     },
     {
       "path": "manifest.json",
@@ -170,8 +185,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4632,
-      "sha256": "ccd6f929412ba8b647c93054c161c4c91969c3304b5a044959eea9f6730771f1"
+      "bytes": 5463,
+      "sha256": "db0b4a63681cc7c6525f6b50c6cad4fa3b2de8edcb6abfde55c911a5e3df7532"
     },
     {
       "path": "receipts/20260911T143800Z/content-review.json",
@@ -269,6 +284,16 @@
       "sha256": "5060c043345b3e0e7cbd631a0b4247ea3b717fdcc4a86ec4fe6e4c1f2284a68a"
     },
     {
+      "path": "releases/20260911T143800Z/cop.json",
+      "bytes": 29993,
+      "sha256": "d13c16ff0cad8f9c607d3cb4b216a16c22fd77fe27b9b663462030d3fd3fb9ec"
+    },
+    {
+      "path": "releases/20260911T143800Z/cop.md",
+      "bytes": 1228,
+      "sha256": "2a17ff7356d8be4ea87171c9e6abe5e4e18a8ad564168d4458ea5f7920296f8a"
+    },
+    {
       "path": "releases/20260911T143800Z/cop/latest.json",
       "bytes": 295,
       "sha256": "9a5e731fc4f7f8607c8a7255ee0cd4baef79023edbd6c43fe41ad097a75ae658"
@@ -339,16 +364,6 @@
       "sha256": "bb9272afdc03eed606bdb1f9da07f807066d81079cf9c6c8eabca858769b42d1"
     },
     {
-      "path": "releases/20260911T143800Z/cop.json",
-      "bytes": 29993,
-      "sha256": "d13c16ff0cad8f9c607d3cb4b216a16c22fd77fe27b9b663462030d3fd3fb9ec"
-    },
-    {
-      "path": "releases/20260911T143800Z/cop.md",
-      "bytes": 1228,
-      "sha256": "2a17ff7356d8be4ea87171c9e6abe5e4e18a8ad564168d4458ea5f7920296f8a"
-    },
-    {
       "path": "releases/20260911T143800Z/formulations.json",
       "bytes": 4084,
       "sha256": "54504919b3c0c384e85347c45b6b99367d95aa42a730deeb9ce4584f5e44e825"
@@ -387,6 +402,11 @@
       "path": "releases/20260911T143800Z/germline/SIGRUNAR_DRAPA_V3.md",
       "bytes": 35365,
       "sha256": "fe7cf6f7588b42336cecfe989314ba91b7a30e25955b136f1aaf6088bb951232"
+    },
+    {
+      "path": "releases/20260911T143800Z/grimoire.json",
+      "bytes": 2401,
+      "sha256": "779ec4f966ec34e3ded3b7bf81c808da2a5843f5c977c635190aff6a6a92a138"
     },
     {
       "path": "releases/20260911T143800Z/grimoire/0.json",
@@ -489,9 +509,9 @@
       "sha256": "914e97257c6665feae3b1941a4d7cadabc353c84da123d19cff8a28e96d1a7e7"
     },
     {
-      "path": "releases/20260911T143800Z/grimoire.json",
-      "bytes": 2401,
-      "sha256": "779ec4f966ec34e3ded3b7bf81c808da2a5843f5c977c635190aff6a6a92a138"
+      "path": "releases/20260911T143800Z/heritage.json",
+      "bytes": 2159,
+      "sha256": "4a92e1175458d89378dc380a28aa0f45c2cf5528794b89a8dd9e26544d3f1827"
     },
     {
       "path": "releases/20260911T143800Z/heritage/lessons.json",
@@ -522,11 +542,6 @@
       "path": "releases/20260911T143800Z/heritage/timeline.json",
       "bytes": 17846,
       "sha256": "e570dea065c0ee24f1ff7b73b0604d798859f5e6cafd1ae9abf478e7fae6e73f"
-    },
-    {
-      "path": "releases/20260911T143800Z/heritage.json",
-      "bytes": 2159,
-      "sha256": "4a92e1175458d89378dc380a28aa0f45c2cf5528794b89a8dd9e26544d3f1827"
     },
     {
       "path": "releases/20260911T143800Z/index.html",
@@ -639,6 +654,96 @@
       "sha256": "cdaaa40b199676c47b4d83560cec450b6126c9e7b51e71d7c8e1975a48e92ce3"
     },
     {
+      "path": "releases/20260912T231855Z/public/drapa/obsidian-palace.json",
+      "bytes": 11986,
+      "sha256": "d3944f5f385bb134ab8b14616471a0a194019c045bb1cbd7abdf91b4c3f043cc"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/obsidian-palace.md",
+      "bytes": 5739,
+      "sha256": "d914f6693fecb49c63cd8f1a81551dcf163170f3848e248ad08eccb5dcb1605b"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v2-canto-1.md",
+      "bytes": 5410,
+      "sha256": "3039ad1457c7a2c2cfb30382603fafc3f9976aafc4bfc2c2a94d620dac9f1a6f"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v2-canto-2.md",
+      "bytes": 7599,
+      "sha256": "fb8c59289071617448e61e247a070fe1420ced4492499961e969abe06799b016"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v2-canto-3.md",
+      "bytes": 6587,
+      "sha256": "b0801980c490de9e78186ee51fc36f75d22680494944f763bd6e5e6a263ebebb"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v2-canto-4.md",
+      "bytes": 7217,
+      "sha256": "65d07ce3f88261263fd3ab57cddb8bb59845bd51f1139bb9d64ebd8b03dbc0b2"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v2-canto-5.md",
+      "bytes": 8043,
+      "sha256": "bf8a412b97f65cd59de783050cf9bd94039974c904c66a5a67f9955c100152db"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v2-canto-6.md",
+      "bytes": 7557,
+      "sha256": "e5893ce75495c24e8e93beee40e18969f507ef114996c18b8c55d373eeb7921a"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v2-canto-7.md",
+      "bytes": 14334,
+      "sha256": "fff21190b8075eaa0e9b68bd3b14be6bd9318f842bc9c1a2a4bc60d791200686"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v2-canto-8.md",
+      "bytes": 1133,
+      "sha256": "5ee64cd468d9b0e327aec3a9e47e080014df9f06f8281fb9abcc8b79c5afd287"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v5-poem.md",
+      "bytes": 24123,
+      "sha256": "aba841ae27e90ec6dadafe6ee6790e8e8887dd2124881e4f474f8f82dcd9bed8"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v5-seed.txt",
+      "bytes": 3374,
+      "sha256": "8bf31999c873e0dffa57b3c02f54a4df658be3c52c1a6b6cbf886104dc46000c"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v5.json",
+      "bytes": 93885,
+      "sha256": "c737ea02d375046e223b21cbaf26c099b6add8a8bc3bdee3bf67ae3041b595b8"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/drapa/v5.md",
+      "bytes": 86346,
+      "sha256": "e9fa50aab415600cce38f0f109c95d806c60588f486155932131379a7f0921c8"
+    },
+    {
+      "path": "releases/20260912T231855Z/public/start.txt",
+      "bytes": 4091,
+      "sha256": "2dddff6960cc7459c26b36a4864983c9a68f9bda0478f445b932791253490989"
+    },
+    {
+      "path": "releases/20260912T231855Z/rehydrate.txt",
+      "bytes": 57792,
+      "sha256": "75cbee0e7d700a053a975560253227d423ccef60ca07fe7d333beaed845773c9"
+    },
+    {
+      "path": "releases/20260912T231855Z/release.json",
+      "bytes": 3377,
+      "sha256": "a44001650b92377635f850a47bb6564d9e6a816e31d477b2e32e4e71dac1cafa"
+    },
+    {
+      "path": "sigrun-latest.md",
+      "bytes": 601,
+      "sha256": "e2780bc2682d5f8ce88b56d38686b3cc270b0bda4a0ef1d78aa15dda21563e16"
+    },
+    {
       "path": "site-publication.json",
       "bytes": 1410,
       "sha256": "b8cb65bbf2859713671b5d64e00743653b9764358dab36899a4a7d1cae77824e"
@@ -665,8 +770,8 @@
     },
     {
       "path": "START_HERE.md",
-      "bytes": 4632,
-      "sha256": "ccd6f929412ba8b647c93054c161c4c91969c3304b5a044959eea9f6730771f1"
+      "bytes": 5463,
+      "sha256": "db0b4a63681cc7c6525f6b50c6cad4fa3b2de8edcb6abfde55c911a5e3df7532"
     },
     {
       "path": "state-snapshot.json",
@@ -680,8 +785,8 @@
     },
     {
       "path": "voice/latest.md",
-      "bytes": 1942,
-      "sha256": "80a151e30a9c3ad70424563a3954b2bd72567e7ed8e5c7aea01e2d119b66a9c6"
+      "bytes": 2375,
+      "sha256": "e78613c8db13b83a85361e327bb5af1d9a16494dfdbb0aff937256b3338ba559"
     },
     {
       "path": "voice/operator-update.json",
