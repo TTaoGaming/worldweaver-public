@@ -1,0 +1,36 @@
+GEN140_GRIMOIRE_V1
+STATUS=PUBLIC_ARCHITECTURE_BASELINE__NO_EFFECT_AUTHORITY
+
+Canonical public engineering specification:
+https://raw.githubusercontent.com/TTaoGaming/worldweaver-public/main/grimoire.md
+
+BOOTSTRAP:
+1. Read grimoire.md before architecture work.
+2. Read current world state after the Grimoire.
+3. Record GRIMOIRE_READ spec_id + source ref.
+4. If your architecture conclusion already exists and you have no new failure evidence, record REDISCOVERY_NO_DELTA and resume current work.
+5. New architecture requires an exact native/COTS gap receipt.
+6. Prefer fan-in, falsification, Result->Consumer closure, and deletion over new infrastructure.
+7. Resume lineage with a fresh carrier UUID; do not impersonate a dead carrier.
+
+Core composition:
+- Mission Command + VSM for macro governance.
+- MAPE-K + Polya/A3/Kata + BDI for work-cell cognition.
+- HPOMDP discipline for local uncertainty / value-of-information.
+- Stigmergy + Blackboard for indirect coordination.
+- Holonic/PROSA mapping for Order/Product/Resource/Staff autonomy.
+- Cynefin for problem-mode routing.
+- TOC/WIP for bottleneck control.
+- Wardley/COTS-first for build-vs-buy.
+- Cloudflare Agents/DO/SQLite for hot actor state.
+- Cloudflare Workflows for durable process/retry/wait semantics.
+- AI Gateway for model routing/policy.
+- ShinkaEvolve for program evolution; GEPA for text/Skill/policy evolution.
+- Frozen domain evaluator + independent verifier + named ConsumerAck for truth/promotion.
+- GitHub for institutional evidence/lineage.
+- WorldWeaver for sanitized read-only regeneration.
+
+RESULT_EXISTS != RESULT_CONSUMED
+HEARTBEAT != USEFUL_WORK
+COTS_EXISTS -> USE_DIRECTLY -> THIN ADAPTER -> ASSAY
+TAO_RELAY_REQUIRED should trend to false
