@@ -1,0 +1,69 @@
+WORLD STATE 2026-09-13T00:39:43Z
+
+DATED SOURCE-RECEIPT PROJECTION; AUTHORITY_GRANTED: false
+
+Packing readiness and two workcell acceptance-gate source-readback refresh only. Unrelated lanes retain their prior source dates without recheck.
+
+Public website — V35_1_PUBLIC_RECOVERY_DEPLOYED_PROVENANCE_REPAIR_IN_PROGRESS
+Evidence: 2026-09-12T22:05:13.435643Z / DIRECT_PUBLIC_HTTP_READBACK_AND_DATED_COLD_READER_FIXTURE
+The self-contained TXT recovery packet and script-free HTML reader passed 28 default-Python GET/HEAD checks over seven approved routes on both public hosts. One cold worker completed a synthetic task but confused provenance fields; its failure is retained. Other reader environments remain unverified.
+Next: Keep publication revision, fetched body hash and each source observation UTC separate. Independently verify the deterministic provenance repair before interpreting future model trials.
+
+Selected Cloudflare state — OBSERVED_PARTIAL_SYSTEM
+Evidence: 2026-09-12T02:00:32.636Z / DIRECT_PUBLIC_HTTP_READ
+GONDUL idle; HLOKK, SKULD and SKOGUL unknown. Stored native workflow totals: 15 completed, 9 rejected, 0 unresolved. Newly observed completed/rejected records: 0/0. Useful delivery is not measured.
+Next: Require two consecutive useful cycles with independent acceptance and zero operator relay before expanding.
+
+Model launchers — HISTORICAL_PAUSE_CURRENT_STATE_UNVERIFIED
+Evidence: 2026-09-11 / TASK_REPORT_AND_GITHUB_CHECKPOINT
+Five selected launchers were reported paused: two cloud-chat, two Kimi and one Ollama. Automatic quota enforcement and pacing remain unfinished. This closeout did not query or change those schedulers.
+Next: Preserve pauses until the existing owner verifies quota binding and the failed work.
+
+Desktop tool recovery — RECOVERY_REPORTED_COMPLETE_WITH_INDEX_WARNING
+Evidence: 2026-09-12T02:06:50Z / TASK_REPORTED_CHECKS_NOT_INDEPENDENT_RETEST
+Desktop tool live response and session query succeeded. Local model/network services, database containers and workflow service passed the source task checks. Memory service responds but its search index is stale. Services recovered without manual restart. This publisher did not retest them.
+Next: Keep the stale memory index explicit; consume the separate VPS recovery receipt when ready.
+
+Autonomous hatchery — LOCAL_REPAIR_REPORTED_LAPTOP_OFF_USEFUL_EXECUTION_UNDEMONSTRATED
+Evidence: 2026-09-12T23:46:17Z / SOURCE_READBACK_NOT_NATIVE_EXECUTION_OR_INDEPENDENT_RESULT_REPLAY
+A source/review report describes a local PID-reuse false-completion repair using logical job identity and persisted cursor, plus two local children. Production admission, interrupted recovery, cost continuity, and laptop-off useful execution remain HOLD.
+Next: Run one admitted interrupted workcell to independently accepted useful closure with durable terminal evidence and no routine human routing.
+
+Income — BLOCKED_EVIDENCE_IN_REVIEWED_TASK
+Evidence: 2026-09-05 / DATED_TASK_CLOSEOUT_NOT_CURRENT_BUSINESS_CENSUS
+The reviewed paid-pilot task stopped at missing sent-copy and reconciled campaign-ledger evidence. No paid pilot or cash outcome was established by this task review. Newer commercial conversations were not available in this Codex census.
+Next: Recover the missing evidence and current buyer conversation before commissioning more speculative work.
+
+Always-on recovery and admission — CANDIDATE_RUNNER_TESTS_PASSED_PRODUCTION_BLOCKED
+Evidence: 2026-09-12T03:13:19Z / GITHUB_RUN_API_AND_CANDIDATE_RECEIPT_READBACK
+GitHub run readback confirms successful remote runner and candidate Linux/tooling portability tests. Private-control read was skipped by design. The draft has advanced beyond the tested commit; later source is not covered by that PASS. Production cutover and autonomous useful delivery remain unproven.
+Next: Existing owners must finish protected-control approval, the protected-main read-only assay and workload authority gates before production or provider effects.
+
+Permanent publication — EXISTING_ARNS_SETUP_BACKLOGGED_NO_NEW_UPLOAD
+Evidence: 2026-09-12T22:57:59Z / OPERATOR_OWNERSHIP_REPORT_AND_BACKLOG_READBACK
+The operator reports ownership of the Worldweaver ArNS name. A setup backlog now covers a reviewed static recovery baseline, current upload cost, receipt and retrieval checks, then the existing owner-signed name update. This cycle did not inspect the current wallet/name target, upload, pay or change ArNS. The earlier permanent package remains dated.
+Next: Prepare one complete verified static baseline before daily deltas or monthly archive automation. The signing step comes after frozen public bytes and a concrete upload decision.
+
+Packing optimization and evolution — CROWN_AND_ORIGINAL_ALGORITHM_UNPROVEN
+Evidence: 2026-09-13T00:25:10Z / SOURCE_READBACK_NOT_NATIVE_EXECUTION_OR_INDEPENDENT_RESULT_REPLAY
+Reviewed source receipts report no crown and no reference improvement. The latest source readback says an earlier combined patch was rejected and replaced with a tested candidate; independent integration and deployment remain open. No native image, geometry, or algorithm result is newly established. Two workcell gates remain red: laptop-off useful execution and added-model useful throughput/quality are not yet demonstrated. Details and original source timestamps remain in /packing.txt.
+Next: Existing owners should execute the internal finalist reducer and two-verifier acceptance policy, while keeping keeper formatting separate from acceptance. Recheck current comparators before any submission and retain the distinct runtime/reliability acceptance tests.
+
+Operator effort and launch activity — OPERATOR_REPORTED_ACTIVITY
+Evidence: 2026-09-12T03:41:10Z / DIRECT_OPERATOR_REPORT_IN_THIS_CONVERSATION
+Tao reports substantial ongoing activity and manual resumption/support. Counts are approximate launch and operator-effort estimates, not measured concurrent workers, completed tasks, useful throughput or autonomy. Approximately 6 manually supported tasks and 20 Lings/Roaches launched per hour.
+Next: Record launches, terminal outcomes and manual interventions with separate UTC timestamps; reconcile against receipts.
+
+UUID audit trail activity — MEASURED_REPOSITORY_ACTIVITY
+Evidence: 2026-09-12T11:58:49Z / PAGINATED_GITHUB_RECORD_CENSUS_WITH_UUID_DEDUPLICATION
+GitHub audit found 394 distinct episode UUIDs in 600 linked records, among 877 total records across 74 issue/PR conversation surfaces. Window 2026-09-11T11:58:49Z to 2026-09-12T11:58:49Z. This measures recorded participation, not live concurrency or accepted useful completions.
+Next: Read /activity/uuid.txt and /activity/uuid-latest.json; reconcile schema changes and separately verify terminal outcomes.
+
+A2A and Agent Skills handoff — REFERENCE_SOURCE_LOCAL_ASSAYS_LIVE_BINDING_UNPROVEN
+Evidence: 2026-09-12T22:59:12Z / STANDARDS_BATON_AND_RUNTIME_OWNER_RECEIPT_READBACK
+The standards owner has an official-SDK reference service and common evidence-review skill. Local install and wire assays are recorded, while independent executable replay and full conformance retain explicit holds. The runtime owner has no newly verified admitted Sigrun actor/profile binding. A durable generic cell does not establish that binding.
+Next: Independently replay the frozen reference, then use the existing standard card and skill once the runtime owner supplies an admitted actor/profile binding. Add no competing identity registry.
+
+One next action: Run the two bounded acceptance tests: an admitted laptop-off interrupted workcell to useful closure, and an added-model baseline comparison with independent quality acceptance. Keep crown/keeper selection gated on two exact-byte verifier implementations.
+
+A receipt readback verifies the recorded claim, not its underlying experiment. Source/test success is not deployed recovery or useful autonomy.

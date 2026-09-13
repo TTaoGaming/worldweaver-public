@@ -1,3 +1,7 @@
+# Packing handoff — source snapshot September 13, 2026
+
+[Read the dated packing readiness update](releases/20260913T003943Z/README.md) · [JSON](releases/20260913T003943Z/packing.json). Keeper-packet readiness, algorithm improvement, laptop-off work and useful added model capacity have separate evidence gates. This is a static public fallback; it grants no authority and supplies no candidate download until reviewed bytes are published.
+
 # CURRENT READING FALLBACK — 2026-09-12
 
 This [dated, read-only capture](releases/20260912T231855Z/rehydrate.txt) is a `DATED_READING_FALLBACK`: [manifest](releases/20260912T231855Z/release.json), [V5.2 full poem](releases/20260912T231855Z/public/drapa/v5-poem.md), and [V5.2 decoder](releases/20260912T231855Z/public/drapa/v5.md). Source observations were not renewed; `current_execution` is `UNKNOWN`; no automatic refresh or authority is granted. Optional absolute website paths below may need a live host. No runtime, SOS, or autonomous functions execute from this archive. Live reader paths: [/start.txt](https://worldweaver.dev/start.txt), [/rehydrate.txt](https://worldweaver.dev/rehydrate.txt), and [/read/rehydrate](https://worldweaver.dev/read/rehydrate).

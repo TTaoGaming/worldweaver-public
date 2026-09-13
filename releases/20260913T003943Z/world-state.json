@@ -1,0 +1,154 @@
+{
+  "schema": "worldweaver.world_state_checkpoint.v1",
+  "recorded_at_utc": "2026-09-13T00:39:43Z",
+  "kind": "DATED_CLOSEOUT_NOT_LIVE_FLEET_CENSUS",
+  "status": "PARTIAL_CLOSEOUT_WITH_EXPLICIT_HOLDS",
+  "authority_granted": false,
+  "scope": {
+    "cycle": "WORLDWEAVER_PDSA_20260913T002154Z",
+    "update_scope": "Packing readiness and two workcell acceptance-gate source-readback refresh only. Unrelated lanes retain their prior source dates without recheck.",
+    "source_coverage": "Selected packing/workcell source receipts read through 2026-09-13T00:25:10Z. This is not a full task, provider, fleet, native-execution, or deployment census.",
+    "independent_runtime_retest": false,
+    "archived_tasks_included": false,
+    "private_personal_records": "Excluded",
+    "limits": "A receipt readback verifies the recorded claim, not its underlying experiment. Source/test success is not deployed recovery or useful autonomy."
+  },
+  "lanes": [
+    {
+      "lane": "Public website",
+      "status": "V35_1_PUBLIC_RECOVERY_DEPLOYED_PROVENANCE_REPAIR_IN_PROGRESS",
+      "evidence_at": "2026-09-12T22:05:13.435643Z",
+      "evidence_class": "DIRECT_PUBLIC_HTTP_READBACK_AND_DATED_COLD_READER_FIXTURE",
+      "finding": "The self-contained TXT recovery packet and script-free HTML reader passed 28 default-Python GET/HEAD checks over seven approved routes on both public hosts. One cold worker completed a synthetic task but confused provenance fields; its failure is retained. Other reader environments remain unverified.",
+      "next": "Keep publication revision, fetched body hash and each source observation UTC separate. Independently verify the deterministic provenance repair before interpreting future model trials."
+    },
+    {
+      "lane": "Selected Cloudflare state",
+      "status": "OBSERVED_PARTIAL_SYSTEM",
+      "evidence_at": "2026-09-12T02:00:32.636Z",
+      "evidence_class": "DIRECT_PUBLIC_HTTP_READ",
+      "finding": "GONDUL idle; HLOKK, SKULD and SKOGUL unknown. Stored native workflow totals: 15 completed, 9 rejected, 0 unresolved. Newly observed completed/rejected records: 0/0. Useful delivery is not measured.",
+      "next": "Require two consecutive useful cycles with independent acceptance and zero operator relay before expanding."
+    },
+    {
+      "lane": "Model launchers",
+      "status": "HISTORICAL_PAUSE_CURRENT_STATE_UNVERIFIED",
+      "evidence_at": "2026-09-11",
+      "evidence_class": "TASK_REPORT_AND_GITHUB_CHECKPOINT",
+      "finding": "Five selected launchers were reported paused: two cloud-chat, two Kimi and one Ollama. Automatic quota enforcement and pacing remain unfinished. This closeout did not query or change those schedulers.",
+      "next": "Preserve pauses until the existing owner verifies quota binding and the failed work."
+    },
+    {
+      "lane": "Desktop tool recovery",
+      "status": "RECOVERY_REPORTED_COMPLETE_WITH_INDEX_WARNING",
+      "evidence_at": "2026-09-12T02:06:50Z",
+      "evidence_class": "TASK_REPORTED_CHECKS_NOT_INDEPENDENT_RETEST",
+      "finding": "Desktop tool live response and session query succeeded. Local model/network services, database containers and workflow service passed the source task checks. Memory service responds but its search index is stale. Services recovered without manual restart. This publisher did not retest them.",
+      "next": "Keep the stale memory index explicit; consume the separate VPS recovery receipt when ready."
+    },
+    {
+      "lane": "Autonomous hatchery",
+      "status": "LOCAL_REPAIR_REPORTED_LAPTOP_OFF_USEFUL_EXECUTION_UNDEMONSTRATED",
+      "evidence_at": "2026-09-12T23:46:17Z",
+      "evidence_class": "SOURCE_READBACK_NOT_NATIVE_EXECUTION_OR_INDEPENDENT_RESULT_REPLAY",
+      "finding": "A source/review report describes a local PID-reuse false-completion repair using logical job identity and persisted cursor, plus two local children. Production admission, interrupted recovery, cost continuity, and laptop-off useful execution remain HOLD.",
+      "next": "Run one admitted interrupted workcell to independently accepted useful closure with durable terminal evidence and no routine human routing."
+    },
+    {
+      "lane": "Income",
+      "status": "BLOCKED_EVIDENCE_IN_REVIEWED_TASK",
+      "evidence_at": "2026-09-05",
+      "evidence_class": "DATED_TASK_CLOSEOUT_NOT_CURRENT_BUSINESS_CENSUS",
+      "finding": "The reviewed paid-pilot task stopped at missing sent-copy and reconciled campaign-ledger evidence. No paid pilot or cash outcome was established by this task review. Newer commercial conversations were not available in this Codex census.",
+      "next": "Recover the missing evidence and current buyer conversation before commissioning more speculative work."
+    },
+    {
+      "lane": "Always-on recovery and admission",
+      "status": "CANDIDATE_RUNNER_TESTS_PASSED_PRODUCTION_BLOCKED",
+      "evidence_at": "2026-09-12T03:13:19Z",
+      "evidence_class": "GITHUB_RUN_API_AND_CANDIDATE_RECEIPT_READBACK",
+      "finding": "GitHub run readback confirms successful remote runner and candidate Linux/tooling portability tests. Private-control read was skipped by design. The draft has advanced beyond the tested commit; later source is not covered by that PASS. Production cutover and autonomous useful delivery remain unproven.",
+      "next": "Existing owners must finish protected-control approval, the protected-main read-only assay and workload authority gates before production or provider effects."
+    },
+    {
+      "lane": "Permanent publication",
+      "status": "EXISTING_ARNS_SETUP_BACKLOGGED_NO_NEW_UPLOAD",
+      "evidence_at": "2026-09-12T22:57:59Z",
+      "evidence_class": "OPERATOR_OWNERSHIP_REPORT_AND_BACKLOG_READBACK",
+      "finding": "The operator reports ownership of the Worldweaver ArNS name. A setup backlog now covers a reviewed static recovery baseline, current upload cost, receipt and retrieval checks, then the existing owner-signed name update. This cycle did not inspect the current wallet/name target, upload, pay or change ArNS. The earlier permanent package remains dated.",
+      "next": "Prepare one complete verified static baseline before daily deltas or monthly archive automation. The signing step comes after frozen public bytes and a concrete upload decision."
+    },
+    {
+      "lane": "Packing optimization and evolution",
+      "status": "CROWN_AND_ORIGINAL_ALGORITHM_UNPROVEN",
+      "evidence_at": "2026-09-13T00:25:10Z",
+      "evidence_class": "SOURCE_READBACK_NOT_NATIVE_EXECUTION_OR_INDEPENDENT_RESULT_REPLAY",
+      "finding": "Reviewed source receipts report no crown and no reference improvement. The latest source readback says an earlier combined patch was rejected and replaced with a tested candidate; independent integration and deployment remain open. No native image, geometry, or algorithm result is newly established. Two workcell gates remain red: laptop-off useful execution and added-model useful throughput/quality are not yet demonstrated. Details and original source timestamps remain in /packing.txt.",
+      "next": "Existing owners should execute the internal finalist reducer and two-verifier acceptance policy, while keeping keeper formatting separate from acceptance. Recheck current comparators before any submission and retain the distinct runtime/reliability acceptance tests."
+    },
+    {
+      "lane": "Operator effort and launch activity",
+      "status": "OPERATOR_REPORTED_ACTIVITY",
+      "evidence_at": "2026-09-12T03:41:10Z",
+      "evidence_class": "DIRECT_OPERATOR_REPORT_IN_THIS_CONVERSATION",
+      "finding": "Tao reports substantial ongoing activity and manual resumption/support. Counts are approximate launch and operator-effort estimates, not measured concurrent workers, completed tasks, useful throughput or autonomy. Approximately 6 manually supported tasks and 20 Lings/Roaches launched per hour.",
+      "next": "Record launches, terminal outcomes and manual interventions with separate UTC timestamps; reconcile against receipts."
+    },
+    {
+      "lane": "UUID audit trail activity",
+      "status": "MEASURED_REPOSITORY_ACTIVITY",
+      "evidence_at": "2026-09-12T11:58:49Z",
+      "evidence_class": "PAGINATED_GITHUB_RECORD_CENSUS_WITH_UUID_DEDUPLICATION",
+      "finding": "GitHub audit found 394 distinct episode UUIDs in 600 linked records, among 877 total records across 74 issue/PR conversation surfaces. Window 2026-09-11T11:58:49Z to 2026-09-12T11:58:49Z. This measures recorded participation, not live concurrency or accepted useful completions.",
+      "next": "Read /activity/uuid.txt and /activity/uuid-latest.json; reconcile schema changes and separately verify terminal outcomes."
+    },
+    {
+      "lane": "A2A and Agent Skills handoff",
+      "status": "REFERENCE_SOURCE_LOCAL_ASSAYS_LIVE_BINDING_UNPROVEN",
+      "evidence_at": "2026-09-12T22:59:12Z",
+      "evidence_class": "STANDARDS_BATON_AND_RUNTIME_OWNER_RECEIPT_READBACK",
+      "finding": "The standards owner has an official-SDK reference service and common evidence-review skill. Local install and wire assays are recorded, while independent executable replay and full conformance retain explicit holds. The runtime owner has no newly verified admitted Sigrun actor/profile binding. A durable generic cell does not establish that binding.",
+      "next": "Independently replay the frozen reference, then use the existing standard card and skill once the runtime owner supplies an admitted actor/profile binding. Add no competing identity registry."
+    }
+  ],
+  "next_safe_action": "Run the two bounded acceptance tests: an admitted laptop-off interrupted workcell to useful closure, and an added-model baseline comparison with independent quality acceptance. Keep crown/keeper selection gated on two exact-byte verifier implementations.",
+  "links": {
+    "live_state": "/state.json",
+    "live_cop": "/cop.txt",
+    "text": "/world-state.txt",
+    "history": "/world-state/20260913T003943Z.json",
+    "packing": "/packing.txt",
+    "packing_json": "/packing.json",
+    "uuid_activity": "/activity/uuid.txt"
+  },
+  "publication": "Publication success is established by the separate hosted readback receipt, not this prepared packet.",
+  "supersedes": "/world-state/20260913T003121Z.json",
+  "recovery_receipt": {
+    "path": "/world-state/recovery-20260912T021200Z.json",
+    "bytes": 2166,
+    "sha256": "ad6183130fec5415ed05973aa9cd87b01fd51a81b4fd9334e9781826f76dd709"
+  },
+  "vps_candidate_receipt": {
+    "path": "/world-state/vps-candidate-20260912T033427Z.json",
+    "bytes": 1319,
+    "sha256": "caa8e525280ba82f04b352ecfb11ee05a07f72bcf4607d44a847555d66f8e1a5"
+  },
+  "operator_activity": {
+    "recorded_at_utc": "2026-09-12T03:41:10Z",
+    "source": "DIRECT_OPERATOR_REPORT_IN_THIS_CONVERSATION",
+    "approximate_threads_manually_supported": 6,
+    "approximate_ling_roach_launches_per_hour": 20,
+    "interpretation": "Tao reports substantial ongoing activity and manual resumption/support. Counts are approximate launch and operator-effort estimates, not measured concurrent workers, completed tasks, useful throughput or autonomy.",
+    "measurement_window": "Not supplied; report current at intake."
+  },
+  "packing_receipt": {
+    "path": "/world-state/packing-20260913T003943Z.json",
+    "bytes": 12751,
+    "sha256": "4047bc2dc4d56b40b51044e8e27daab5615d27e2ca42c6b536bdd6691087ead9"
+  },
+  "uuid_activity_receipt": {
+    "path": "/activity/uuid-20260912T115849Z.json",
+    "bytes": 26629,
+    "sha256": "1a35707db817a1ce7d15070c86793d5c4d7193613f21b973706be1baf390e69a"
+  }
+}

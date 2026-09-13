@@ -1,0 +1,150 @@
+{
+  "schema": "worldweaver.packing_progress.v1",
+  "recorded_at_utc": "2026-09-13T00:39:43Z",
+  "scope": "Selected packing and related algorithm receipts; no exhaustive result ledger or live fleet census.",
+  "summary": "N389 remains a donor-derived table correction; N118 remains overtaken; N18 remains separate. For this reviewed selection, crown/keeper-packet readiness and original algorithm/QD improvement are not established. Laptop-off useful execution and useful added model capacity have not yet been demonstrated.",
+  "evidence_class": "SOURCE_READBACK_NOT_NATIVE_EXECUTION_OR_INDEPENDENT_RESULT_REPLAY",
+  "supersedes": "/world-state/packing-20260913T003121Z.json",
+  "operator_activity": {
+    "recorded_at_utc": "2026-09-12T03:41:10Z",
+    "source": "DIRECT_OPERATOR_REPORT_IN_THIS_CONVERSATION",
+    "approximate_threads_manually_supported": 6,
+    "approximate_ling_roach_launches_per_hour": 20,
+    "interpretation": "Tao reports substantial ongoing activity and manual resumption/support. Counts are approximate launch and operator-effort estimates, not measured concurrent workers, completed tasks, useful throughput or autonomy.",
+    "measurement_window": "Not supplied; report current at intake."
+  },
+  "results": [
+    {
+      "name": "Equal circles in a 1 by 0.8 rectangle, N389",
+      "problem_family": "EQUAL_CIRCLE_RECTANGLE_PACKING",
+      "source_utc": "2026-09-12T16:38:56Z",
+      "status": "DONOR_DERIVED_TABLE_CORRECTION",
+      "finding": "A source-bound table correction is derived from David W. Cantrell's 2010 N390 packing. Removing one circle preserves feasibility. The conservative radius 0.023848376538816648640120148446 exceeds the then-served N389 row 0.023840209433828469161245150244 by approximately 0.03425769%.",
+      "limits": "This is a subset-monotonicity/table correction, not an original geometry discovery or evidence of a new optimizer. Donor-byte provenance and prior distinct internal geometry replay are reported. Global currentness, derivative attribution and keeper acceptance remain unresolved. The publisher did not rerun geometry.",
+      "artifact_sha256": "d388ebc334df5e5c7fb2b03cd120623e15c06362876993c87362813837d588ca"
+    },
+    {
+      "name": "Variable-circle square packing, N118",
+      "problem_family": "VARIABLE_CIRCLE_SQUARE_PACKING",
+      "source_utc": "2026-09-12T14:42:17.491796Z",
+      "status": "VERIFIED_RESEARCH_RESULT_OVERTAKEN",
+      "finding": "The internally verified 8-decimal candidate has sum of radii 5.71008939. A September 12 published incumbent of 5.723940934671 exceeds it. Exact geometry and a bounded fixed-center optimum certificate remain useful research evidence.",
+      "limits": "The candidate is not a current record. The restricted fixed-center certificate does not establish global packing optimality. Comparator values are dated observations; served host variants can diverge and must be checked again for any submission. The publisher did not rerun the verifiers.",
+      "verification_source_utc": "2026-09-12T14:00:56.541Z",
+      "artifact_sha256": "d04db56a800bddf163e27955095d42b0df20dd6503e26a0e230423063166100f"
+    },
+    {
+      "name": "Packing evolution runtime and recovery",
+      "problem_family": "EVOLUTION_RUNTIME_EVIDENCE",
+      "source_utc": "2026-09-12T16:50:57Z",
+      "status": "CHECKPOINT_PROGRESS_WITH_PORTABILITY_AND_RECOVERY_HOLDS",
+      "finding": "A 15:02:10 UTC checkpoint audit reported 19 accepted program descendants and 91 failed proposal attempts. One identical program/evaluator replay scored 2.6267396694728546 versus its stored 2.6215338522405767. The 16:50:57 UTC verifier receipt still reports quota-blocked retries.",
+      "limits": "Cross-environment score portability remains unresolved. Fresh alternate-environment service state and accepted-descendant restart recovery were not verified. These task-specific scores do not establish a public packing champion. Process activity, checkpoints and accepted evaluator results are not proof of unattended useful delivery.",
+      "checkpoint_source_utc": "2026-09-12T15:02:10Z",
+      "currentness": "DATED_HISTORICAL_RUNTIME_EVIDENCE_NOT_RECHECKED_IN_THIS_PUBLICATION"
+    }
+  ],
+  "related_algorithms": [
+    {
+      "name": "Related algorithm research: N18 sorting network",
+      "problem_family": "SORTING_NETWORK_NOT_PACKING",
+      "source_utc": "2026-09-12T16:40:39Z",
+      "status": "INTERNAL_REPLAY_EVIDENCE_EXTERNAL_ACCEPTANCE_UNESTABLISHED",
+      "finding": "The N18 network reports exact expected swaps 8367727/306306, approximately 27.318194877018406, at 77 comparators and depth 12. This is approximately 0.880698% fewer expected swaps than its frozen comparator. Internal correctness and replay evidence exists.",
+      "limits": "This is a separate problem family and cannot substitute for a Packomania packing submission. No outside acceptance, global optimality or runtime speedup is established by the reviewed evidence."
+    }
+  ],
+  "historical_results_not_rechecked": [
+    {
+      "name": "Scheduled packing pilot, N26",
+      "source_utc": "2026-09-11",
+      "status": "FEASIBLE_VARIANT_REJECTED",
+      "finding": "Incumbent objective 2.6209440432263132541527427; seed variant objective 2.61433973696384070042181956. The exact certificate passed feasibility, but the selector rejected the non-improving variant and retained the incumbent.",
+      "limits": "One bounded seed variant demonstrates selection behavior, not population evolution or useful unattended closure. Separate bulk replay task has no terminal result in the reviewed comments.",
+      "artifact_sha256": "95db529b1c5c6145f47556b403c20a6dac18a6f2f3e3343460d046d2aa9abc2d",
+      "currentness": "HISTORICAL_RESULT_NOT_RECHECKED_IN_THIS_PUBLICATION"
+    },
+    {
+      "name": "Variable-circle square packing, N117 packet",
+      "source_utc": "2026-09-10T23:35:24Z",
+      "status": "REPAIR_CANDIDATE_DISTINCT_REPLAY_REQUIRED",
+      "finding": "A packet-byte falsifier led to an author-only coordinate repair on source 06f7e0c140d1003de094f5a15cf939d64df74942. Producer-side exact geometry passed; distinct replay was still required at the reviewed checkpoint.",
+      "limits": "Draft, unmerged; no keeper-ready or record claim. Later evidence may supersede this dated repair status.",
+      "artifact_sha256": "3c0b9489102d0fd9ce605f461a7baef6afe8b0390ad54e1a73497c8c22290730",
+      "currentness": "HISTORICAL_RESULT_NOT_RECHECKED_IN_THIS_PUBLICATION"
+    }
+  ],
+  "public_sources": [
+    "https://www.packomania.com/crc_800/crc.html",
+    "https://packomania.com/csqv/csqv.html",
+    "https://www.packomania.com/csqv/csqv.html",
+    "https://www.packomania.com/hints.html"
+  ],
+  "provenance": "Sanitized summaries of authorized coordination receipts, with original source UTC. Private source bodies and access details are excluded. Public readers cannot independently confirm those private receipts from this projection; the public comparison sources are listed separately.",
+  "next": "Existing owners should execute the internal finalist reducer and two-verifier acceptance policy, while keeping keeper formatting separate from acceptance. Recheck current comparators before any submission and retain the distinct runtime/reliability acceptance tests.",
+  "authority_granted": false,
+  "external_record_acceptance": "NOT_ESTABLISHED_BY_REVIEWED_EVIDENCE",
+  "readiness": {
+    "latest_source_utc": "2026-09-13T00:25:10Z",
+    "summary": "N389 remains a donor-derived table correction; N118 remains overtaken; N18 remains separate. For this reviewed selection, crown/keeper-packet readiness and original algorithm/QD improvement are not established. Laptop-off useful execution and useful added model capacity have not yet been demonstrated.",
+    "readback_ceiling": "The 2026-09-13T00:25:10Z source readback says an earlier combined patch was rejected and replaced with a tested candidate. Independent integration and deployment remain open; no native image, geometry, or algorithm result is established."
+  },
+  "acceptance_gates": [
+    {
+      "id": "CROWN_KEEPER_PACKET",
+      "question": "Is a crown/keeper packet established?",
+      "state": "NOT_ESTABLISHED_BY_REVIEWED_EVIDENCE",
+      "source_utc": "2026-09-12T23:19:03Z",
+      "evidence_class": "SOURCE_READBACK_NOT_NATIVE_EXECUTION_OR_INDEPENDENT_RESULT_REPLAY",
+      "evidence": "A runtime-owner source receipt reports a completed bounded recipe experiment (32 ticks, 64 reported-valid evaluations, six calls) with no crown. Its reported best 2.63598308468034769 did not improve reference 2.635983084919. Reported-valid evaluations are not independent replays.",
+      "next_test": "Refresh and compare finalists, then independently verify exact serialized candidate bytes with two independently authored verifier implementations.",
+      "owner_role": "existing packing reducer and independent geometry verifiers"
+    },
+    {
+      "id": "ORIGINAL_ALGORITHM_QD",
+      "question": "Is original-algorithm or QD improvement proven?",
+      "state": "UNPROVEN",
+      "source_utc": "2026-09-12T23:19:03Z",
+      "evidence_class": "SOURCE_READBACK_NOT_NATIVE_EXECUTION_OR_INDEPENDENT_RESULT_REPLAY",
+      "evidence": "The reviewed bounded experiment did not improve its reference. Donor-derived table correction and source-continuation repair evidence remain distinct from an original algorithm or QD improvement.",
+      "next_test": "Compare a frozen algorithm baseline and challenger on held-out instances under comparable declared budgets, then retain actual archive and selection-feedback evidence before any QD claim.",
+      "owner_role": "packing workcell owner"
+    },
+    {
+      "id": "LAPTOP_OFF_USEFUL_EXECUTION",
+      "question": "Is laptop-off useful execution demonstrated?",
+      "state": "NOT_YET_DEMONSTRATED",
+      "source_utc": "2026-09-12T23:46:17Z",
+      "evidence_class": "SOURCE_READBACK_NOT_NATIVE_EXECUTION_OR_INDEPENDENT_RESULT_REPLAY",
+      "evidence": "A source/review report describes a local repair for PID-reuse false completion using logical job identity and a persisted cursor, plus two local children. Production admission, interrupted recovery, and cost continuity remain HOLD.",
+      "next_test": "With the laptop powered off for two hours, demonstrate two independently accepted persistent useful results plus interruption and budget-continuity evidence.",
+      "owner_role": "workcell reliability owner"
+    },
+    {
+      "id": "ADDED_MODEL_USEFUL_CAPACITY",
+      "question": "Is added-model useful throughput or quality demonstrated?",
+      "state": "NOT_YET_DEMONSTRATED",
+      "source_utc": "2026-09-13T00:25:10Z",
+      "evidence_class": "SOURCE_READBACK_NOT_NATIVE_EXECUTION_OR_INDEPENDENT_RESULT_REPLAY",
+      "evidence": "The latest source readback says an earlier combined patch was rejected and replaced with a tested candidate. Independent integration and deployment remain open; this is not native execution, useful throughput, or quality evidence.",
+      "next_test": "Compare a declared added model and retained baseline on the same goal and evaluator, with independent quality acceptance and no extra manual coordination.",
+      "owner_role": "model-capacity owner"
+    }
+  ],
+  "submission": {
+    "publication_state": "NOT_PUBLISHED_IN_THIS_PROJECTION",
+    "external_submission_state": "UNKNOWN_NOT_ESTABLISHED_BY_REVIEWED_EVIDENCE",
+    "this_projection_send_state": "NO_SEND_PERFORMED_BY_THIS_PUBLICATION",
+    "primary_result_id": null,
+    "candidate_download_url": null,
+    "proof_download_url": null,
+    "coverage": "This is selected reviewed-list coverage, not a claim that no public candidate, proof packet, or keeper contact exists elsewhere. Absence of a reviewed receipt does not disprove an earlier external submission.",
+    "selection_policy": "Internal Monday handoff policy: refresh and compare finalists; independently verify exact serialized bytes with two independently authored verifiers; preserve donor credit, minimum slack, and a conservative backup; then select 1 PRIMARY and normally 0–3 supports. Selection is not established here.",
+    "public_github_fallback": "https://github.com/TTaoGaming/worldweaver-public (dated public mirror; no automatic synchronization assumed)",
+    "keeper_format_hints": {
+      "source_url": "https://www.packomania.com/hints.html",
+      "source_utc": "2026-09-13T00:25:00Z",
+      "meaning": "Official keeper documentation: one .pck per packing using family-prefix plus instance; first line is common radius for equal objects or largest radius for unequal objects, not objective sum; second line is author; coordinates follow, with unequal radii last in increasing order; use container-normalized full decimals; ZIP is allowed."
+    }
+  }
+}

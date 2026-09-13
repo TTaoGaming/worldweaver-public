@@ -1,0 +1,48 @@
+{
+  "schema": "worldweaver.portable_public_release.v1",
+  "release_id": "20260913T003943Z",
+  "recorded_at": "2026-09-13T00:39:43Z",
+  "kind": "DATED_PACKING_READING_FALLBACK",
+  "automatic_refresh": false,
+  "read_only": true,
+  "authority_granted": false,
+  "source_commit": "280f0830c830d5bb474a6f9e96f27ac07a1270f1",
+  "source_observations_renewed": false,
+  "current_execution": "UNKNOWN",
+  "privacy_scope": "REVIEWED_PUBLIC_ASSETS_ONLY",
+  "entry": "README.md",
+  "llm_entry": "packing.json",
+  "files": [
+    {
+      "path": "packing.json",
+      "bytes": 12751,
+      "sha256": "4047bc2dc4d56b40b51044e8e27daab5615d27e2ca42c6b536bdd6691087ead9",
+      "media_type": "application/json"
+    },
+    {
+      "path": "packing.md",
+      "bytes": 9986,
+      "sha256": "235a754622672c7482abfb660311e8fd60fe85a8132a22f4d76818c14b7d7bcc",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1579,
+      "sha256": "604bc79aa264d04f139eea40d9cdeb0c999d0c47003c396cd0c628f0d3ac71f6",
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "world-state.json",
+      "bytes": 11555,
+      "sha256": "2a0515c8f9f6721dfabbb0afea86b33901f9dffbd759406463afc3666db74a22",
+      "media_type": "application/json"
+    },
+    {
+      "path": "world-state.txt",
+      "bytes": 7865,
+      "sha256": "42b2d7c32cf6e087f8b5f2e2341295bec8bf66ff9fdfbbaae7ade8982064e68e",
+      "media_type": "text/plain"
+    }
+  ],
+  "integrity_note": "Excludes itself. Hashes bind bytes, not scientific acceptance, actor authority, useful execution or permanent-storage finality."
+}

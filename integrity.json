@@ -1,6 +1,6 @@
 {
   "schema": "worldweaver.public_mirror_integrity.v3",
-  "recorded_at": "2026-09-12T23:44:19Z",
+  "recorded_at": "2026-09-13T00:47:52Z",
   "algorithm": "SHA-256",
   "files": [
     {
@@ -10,13 +10,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 5463,
-      "sha256": "db0b4a63681cc7c6525f6b50c6cad4fa3b2de8edcb6abfde55c911a5e3df7532"
+      "bytes": 5906,
+      "sha256": "1801d6944a137eee37442026777423f38e6693f7613058812751d6c3623f4f9f"
     },
     {
       "path": "START_HERE.md",
-      "bytes": 5463,
-      "sha256": "db0b4a63681cc7c6525f6b50c6cad4fa3b2de8edcb6abfde55c911a5e3df7532"
+      "bytes": 5906,
+      "sha256": "1801d6944a137eee37442026777423f38e6693f7613058812751d6c3623f4f9f"
     },
     {
       "path": "activity/providers.json",
@@ -180,8 +180,8 @@
     },
     {
       "path": "llms.txt",
-      "bytes": 5746,
-      "sha256": "0bafd3b0cc8532c6bc1bd437cd01accdb9b70b77c0f9b3ff44740e7ac34542fb"
+      "bytes": 6189,
+      "sha256": "992a71fe94dae9f844fe6e85443a25d5a9b850e65e08e53631174223b2656232"
     },
     {
       "path": "manifest.json",
@@ -747,6 +747,36 @@
       "path": "releases/20260912T231855Z/release.json",
       "bytes": 4114,
       "sha256": "7735a0cba77f27bec5249490dabf8be35c44fe940aa961ab53665cedc78e3ed8"
+    },
+    {
+      "path": "releases/20260913T003943Z/README.md",
+      "bytes": 1579,
+      "sha256": "604bc79aa264d04f139eea40d9cdeb0c999d0c47003c396cd0c628f0d3ac71f6"
+    },
+    {
+      "path": "releases/20260913T003943Z/packing.json",
+      "bytes": 12751,
+      "sha256": "4047bc2dc4d56b40b51044e8e27daab5615d27e2ca42c6b536bdd6691087ead9"
+    },
+    {
+      "path": "releases/20260913T003943Z/packing.md",
+      "bytes": 9986,
+      "sha256": "235a754622672c7482abfb660311e8fd60fe85a8132a22f4d76818c14b7d7bcc"
+    },
+    {
+      "path": "releases/20260913T003943Z/release.json",
+      "bytes": 1596,
+      "sha256": "27205954ce70c616d38be283dab162ba7546dd4b1e84b3f1c9c87654ead17950"
+    },
+    {
+      "path": "releases/20260913T003943Z/world-state.json",
+      "bytes": 11555,
+      "sha256": "2a0515c8f9f6721dfabbb0afea86b33901f9dffbd759406463afc3666db74a22"
+    },
+    {
+      "path": "releases/20260913T003943Z/world-state.txt",
+      "bytes": 7865,
+      "sha256": "42b2d7c32cf6e087f8b5f2e2341295bec8bf66ff9fdfbbaae7ade8982064e68e"
     },
     {
       "path": "sigrun-latest.md",
