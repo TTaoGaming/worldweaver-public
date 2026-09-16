@@ -1,0 +1,80 @@
+{
+  "schema": "hfo.zerg-capacity-fca.v1",
+  "generated_utc": "2026-09-16T23:45:00Z",
+  "status": "PUBLIC_DESIGN_PROJECTION_NOT_AUTHORITY",
+  "hard_laws": [
+    "ARCHETYPE != ACTOR != MODEL != SKILL != TOOL != AUTHORITY",
+    "AVAILABLE_CAPACITY != WORK_DEMAND",
+    "LOCAL_TERMINAL != TELOS_PROGRESS != GLOBAL_COMPLETION",
+    "producer != verifier",
+    "technology/vendor may change without changing the capacity archetype"
+  ],
+  "formal_definition": "CapacityArchetype = <mission_function,time_horizon,state_class,cost_class,effect_ceiling,spawn_rights,recovery_policy,verification_contract,morph_edges>",
+  "archetypes": [
+    {"id":"LARVA","function":"uncommitted compatible capacity before work selection","state":"ephemeral/unbound","cost":"none until admitted","lifetime":"until morph or expire","authority":"none","spawn":"none","retry":"n/a","verification":"admission + capability + authority checks before morph","morph":["LING","BANELING","ROACH","other admitted phenotype"],"jadc2":"available capacity tile","mosaic":"unassigned tile"},
+    {"id":"LING","function":"cheap breadth: scout, gather, mutate, probe one hypothesis","state":"ephemeral","cost":"low","lifetime":"minutes","authority":"observe/draft/sandbox only by default","spawn":"none","retry":"0-1 bounded attempt","verification":"evidence receipt; promotion only if information gain is real","morph":["ROACH when persistence is justified","BANELING when a single destructive falsifier is needed"],"jadc2":"attritable sensor/effect node","mosaic":"cheap composable tile"},
+    {"id":"BANELING","function":"single-use hostile falsifier aimed at one claim, artifact, or integration seam","state":"ephemeral","cost":"low-medium","lifetime":"one detonation/test","authority":"sandboxed destructive test only; target hash required","spawn":"none","retry":"0; a repeat is a new Baneling","verification":"must be independent of producer; emits STRIFE evidence and dies","morph":[],"jadc2":"attritable countermeasure/red-team effect","mosaic":"sacrificial test tile"},
+    {"id":"ROACH","function":"recoverable bounded worker that owns one meaningful work item through turbulence","state":"durable checkpoint","cost":"medium","lifetime":"tens of minutes to hours","authority":"bounded reversible internal effects","spawn":"requests children through Queen/Hatchery, never self-mints authority","retry":"bounded retry/resume with deadline","verification":"terminal evidence + independent verifier + ConsumerAck for promotion","morph":["RAVAGER for one hard blocker","ULTRALISK_CANDIDATE after champion evidence"],"jadc2":"persistent mission element","mosaic":"stateful reusable tile"},
+    {"id":"RAVAGER","function":"Roach promoted for a specific hard blocker requiring stronger targeted tools","state":"durable checkpoint","cost":"medium-high","lifetime":"bounded mission","authority":"narrow escalated effect ceiling tied to blocker","spawn":"none","retry":"bounded","verification":"must show blocker removal without collateral scope expansion","morph":["ROACH after blocker cleared"],"jadc2":"precision effects node","mosaic":"specialized breaker tile"},
+    {"id":"HYDRALISK","function":"general-purpose throughput worker for ordinary coding/research/tool execution","state":"short-lived or checkpointed","cost":"medium","lifetime":"bounded task","authority":"standard workload effect ceiling","spawn":"none","retry":"small bounded","verification":"task-specific tests/verifier","morph":["LURKER when condition-watch/sentinel behavior is needed"],"jadc2":"general-purpose effect node","mosaic":"balanced utility tile"},
+    {"id":"LURKER","function":"latent sentinel/condition watcher that wakes only on relevant state change","state":"durable event-triggered","cost":"low idle / bounded active","lifetime":"until condition or expiry","authority":"observe by default; bounded reaction if pre-authorized","spawn":"none","retry":"event-driven","verification":"freshness + condition proof","morph":[],"jadc2":"persistent sensor/area-watch node","mosaic":"hidden sentinel tile"},
+    {"id":"MUTALISK","function":"high-mobility scout/harasser for cross-domain reconnaissance and quick pivots","state":"ephemeral/short checkpoint","cost":"medium","lifetime":"short sorties","authority":"read/observe; narrow reversible probes","spawn":"none","retry":"low","verification":"coverage/information-gain receipt","morph":[],"jadc2":"mobile ISR node","mosaic":"fast cross-domain tile"},
+    {"id":"OVERLORD","function":"telemetry, relay, capacity beacon and current-state projection","state":"durable projection","cost":"low","lifetime":"persistent","authority":"no material effects by default","spawn":"none","retry":"continuous read/relay","verification":"source freshness + provenance","morph":["OVERSEER when active detection/attestation is required"],"jadc2":"communications/data relay","mosaic":"network/telemetry tile"},
+    {"id":"OVERSEER","function":"active observation, anomaly detection, identity/currentness attestation","state":"durable projection","cost":"low-medium","lifetime":"persistent or mission-bounded","authority":"observe/flag/hold; no self-promotion","spawn":"none","retry":"continuous/periodic","verification":"independent readback where possible","morph":[],"jadc2":"ISR/assurance node","mosaic":"sensor + detection tile"},
+    {"id":"QUEEN","function":"local macro allocator: match admitted demand to eligible capacity and maintain local production","state":"durable policy/state","cost":"medium","lifetime":"persistent","authority":"allocation within admitted policy; not semantic truth authority","spawn":"through Hatchery/platform only","retry":"policy-driven","verification":"allocation receipts + capacity readback","morph":[],"jadc2":"local C2 / resource manager","mosaic":"decision node"},
+    {"id":"BROODMOTHER","function":"delegated mission commander for a heterogeneous force package, able to continue under broken upstream comms using bounded intent","state":"durable mission state","cost":"high","lifetime":"mission/epoch","authority":"bounded mission command derived from explicit intent","spawn":"may request heterogeneous package through Queen/Hatchery","retry":"mission-level replanning within bounds","verification":"mission outcome + Telos gate + independent verifier","morph":[],"jadc2":"mission command node","mosaic":"resilient decentralized decision tile"},
+    {"id":"SWARM_HOST","function":"periodic wave emitter using an existing scheduler to generate disposable workers","state":"durable emitter","cost":"medium","lifetime":"mission epoch","authority":"may emit only pre-admitted child phenotype","spawn":"yes, bounded ephemeral waves","retry":"cadence-limited","verification":"wave receipts + stop conditions","morph":[],"jadc2":"scheduled force-generation node","mosaic":"wave emitter"},
+    {"id":"BROOD_LORD","function":"mission-scoped parent that stays durable while projecting disposable subworkers at range","state":"durable parent","cost":"high","lifetime":"mission","authority":"bounded child emission; no child self-authority","spawn":"yes, disposable broodlings","retry":"bounded","verification":"parent + child effects independently accounted","morph":[],"jadc2":"remote effects coordinator","mosaic":"standoff generator tile"},
+    {"id":"VIPER","function":"surgical integration/repositioning: pull a blocked component, isolate dependencies, reshape local environment","state":"short durable","cost":"medium-high","lifetime":"bounded intervention","authority":"narrow integration changes only","spawn":"none","retry":"low","verification":"dependency graph/readback after move","morph":[],"jadc2":"battle-management / dynamic re-tasking node","mosaic":"reposition/control tile"},
+    {"id":"INFESTOR","function":"controlled adaptation of external systems through adapters/plugins/context injection","state":"durable adapter","cost":"medium","lifetime":"mission","authority":"strictly scoped external-system influence; high policy scrutiny","spawn":"none","retry":"bounded","verification":"external-system readback + authority proof","morph":[],"jadc2":"cross-system integration/control","mosaic":"interface/influence tile"},
+    {"id":"ULTRALISK","function":"rare evidence-promoted heavy executor/integrator that concentrates resources on a proven high-value lane","state":"durable rich checkpoint","cost":"high","lifetime":"hours to day","authority":"broader reversible internal effects, never self-expanding authority","spawn":"cannot recursively self-spawn; requests support through Queen","retry":"bounded expensive retries","verification":"requires prior evidence before hatch and independent verifier after completion","morph":[],"jadc2":"heavy mission effect package","mosaic":"high-capacity effect tile"},
+    {"id":"LEVIATHAN","function":"capital capacity platform that carries multiple force packages or large compute contexts; platform, not smarter identity","state":"durable platform","cost":"very high","lifetime":"long","authority":"hosts admitted workloads; does not define Telos","spawn":"hosts multiple packages through scheduler","retry":"platform recovery/failover","verification":"platform health + workload isolation","morph":[],"jadc2":"theater-scale transport/compute platform","mosaic":"large carrier tile"},
+    {"id":"DRONE","function":"effectful builder converting disposable capacity into durable infrastructure/state","state":"ephemeral actuator -> durable artifact","cost":"low-medium","lifetime":"one build/effect","authority":"explicit infrastructure mutation required","spawn":"none","retry":"new Drone if needed","verification":"artifact readback + infrastructure tests","morph":[],"jadc2":"engineering/logistics actuator","mosaic":"builder tile"},
+    {"id":"NYDUS","function":"routing/handoff overlay connecting separated execution domains","state":"durable route","cost":"medium","lifetime":"persistent while useful","authority":"transport only; no semantic authority","spawn":"none","retry":"route failover","verification":"end-to-end delivery/readback","morph":[],"jadc2":"resilient transport path","mosaic":"routing tile"},
+    {"id":"CREEP","function":"shared operating substrate/context fabric that improves coordination where present","state":"distributed substrate","cost":"low incremental","lifetime":"persistent","authority":"none by itself","spawn":"none","retry":"replicate/refresh","verification":"freshness/integrity","morph":[],"jadc2":"data fabric / common operating environment","mosaic":"shared substrate"},
+    {"id":"EVOLUTION_CHAMBER","function":"mutation, archive, frozen evaluation and selection; never producer self-scoring","state":"durable archive/evaluator","cost":"variable","lifetime":"persistent","authority":"selection only against frozen admitted fitness; no task invention","spawn":"emits proposals through existing Hatchery","retry":"successive halving / QD policy","verification":"independent evaluator + later consumption assay for heritage","morph":[],"jadc2":"experimentation/learning enterprise","mosaic":"adaptation tile"},
+    {"id":"HIVE","function":"compound virtual actor/control loop integrating Telos, memory, capacity, evidence and heterogeneous packages","state":"distributed durable identity","cost":"system-wide","lifetime":"persistent","authority":"only through explicit reference monitor/effect ceilings","spawn":"composes through Queen/Hatchery","retry":"regeneration across failure domains","verification":"system-level chaos/recovery + useful closure + memory continuity","morph":[],"jadc2":"enterprise sense-make-sense-act fabric","mosaic":"the composed whole, not a tile"}
+  ],
+  "fca": {
+    "formal_context": "K=(G,M,I), where G is the source Zerg game/lore object set, M is engineering capacity attributes, and I marks whether an object materially exhibits an attribute. Archetype names are retained only when ablation shows a distinct reachable capability.",
+    "stable_concepts": [
+      {"concept":"ATTRITABLE_SWARM","source_extent":["Zergling","Baneling","Scourge","Locust","Broodling"],"intent":["disposable","parallel","effect"],"engineering":["LING","BANELING"]},
+      {"concept":"SACRIFICIAL_FALSIFIER","source_extent":["Baneling","Scourge"],"intent":["disposable","sacrificial","single-target effect"],"engineering":["BANELING"]},
+      {"concept":"RECOVERABLE_WORKER","source_extent":["Roach","Ravager"],"intent":["persistent","recoverable","effect"],"engineering":["ROACH","RAVAGER"]},
+      {"concept":"OBSERVE_RELAY","source_extent":["Overlord","Overseer"],"intent":["observe","relay"],"engineering":["OVERLORD","OVERSEER"]},
+      {"concept":"DELEGATED_COMMAND","source_extent":["Broodmother","Cerebrate"],"intent":["local command","relay"],"engineering":["BROODMOTHER"],"note":"Cerebrate retained as central-dependency anti-pattern, not preferred production archetype."},
+      {"concept":"REMOTE_EPHEMERAL_GENERATION","source_extent":["Swarm Host","Brood Lord"],"intent":["persistent","spawn ephemeral"],"engineering":["SWARM_HOST","BROOD_LORD"]},
+      {"concept":"HEAVY_CONCENTRATION","source_extent":["Ultralisk","Brutalisk/Omegalisk","Leviathan"],"intent":["persistent","heavy"],"engineering":["ULTRALISK","LEVIATHAN"]},
+      {"concept":"CONTROL_SUPPORT","source_extent":["Viper","Infestor","Defiler","Devourer"],"intent":["control/support"],"engineering":["VIPER","INFESTOR"],"note":"Legacy forms collapse unless they add a distinct measurable capacity."},
+      {"concept":"DISTRIBUTED_SUBSTRATE","source_extent":["Nydus","Creep","Hatchery/Hive"],"intent":["persistent","network/logistics"],"engineering":["NYDUS","CREEP","HATCHERY"]},
+      {"concept":"EVOLUTION_SELECTION","source_extent":["Evolution Chamber","Abathur-function"],"intent":["mutation","selection","archive"],"engineering":["EVOLUTION_CHAMBER"]}
+    ]
+  },
+  "source_inventory": {
+    "current_sc2": ["Larva","Cocoon","Drone","Queen","Zergling","Baneling","Roach","Ravager","Hydralisk","Lurker","Infestor","Swarm Host","Locust","Ultralisk","Broodling","Changeling","Nydus Worm","Overlord","Overseer","Mutalisk","Corruptor","Brood Lord","Viper"],
+    "legacy_sc_bw": ["Drone","Zergling","Hydralisk","Lurker","Ultralisk","Defiler","Broodling","Infested Terran","Overlord","Mutalisk","Scourge","Queen","Guardian","Devourer"],
+    "lore_command_caste": ["Overmind","Cerebrate","Queen of Blades/Overqueen","Broodmother","Overlord","Queen"],
+    "lore_heavy_special": ["Leviathan","Brutalisk","Omegalisk"],
+    "variant_policy": "Campaign/co-op/evolution variants are folded into their parent concept unless an ablation shows a distinct engineering capacity. A new name alone does not mint a new archetype."
+  },
+  "mission_control_jadc2": {
+    "sense": ["OVERLORD","OVERSEER","MUTALISK","LURKER"],
+    "make_sense": ["QUEEN","BROODMOTHER","EVOLUTION_CHAMBER","HIVE"],
+    "act": ["LING","BANELING","ROACH","RAVAGER","HYDRALISK","ULTRALISK"],
+    "data_transport": ["CREEP","NYDUS","OVERLORD","LEVIATHAN"],
+    "assurance": ["OVERSEER","independent VERIFIER role"],
+    "adapt": ["EVOLUTION_CHAMBER"],
+    "resilience": ["BROODMOTHER federation","ROACH recovery","NYDUS alternate routes","multiple replaceable carriers"],
+    "mosaic_principle": "compose force packages from capability tiles; loss or vendor removal should trigger substitution, not identity death"
+  },
+  "sources": [
+    "https://liquipedia.net/starcraft2/Zerg_Units_%28Legacy_of_the_Void%29",
+    "https://liquipedia.net/starcraft/Shortcuts",
+    "https://starcraft.fandom.com/wiki/Broodmother",
+    "https://starcraft.fandom.com/wiki/Cerebrate",
+    "https://starcraft.fandom.com/wiki/Overlord",
+    "https://starcraft.fandom.com/wiki/Leviathan",
+    "https://www.darpa.mil/news/mosaic-warfare",
+    "https://media.defense.gov/2022/Mar/17/2002958406/-1/-1/1/SUMMARY-OF-THE-JOINT-ALL-DOMAIN-COMMAND-AND-CONTROL-STRATEGY.pdf"
+  ]
+}
