@@ -36,3 +36,15 @@ Only documentation/status publication is being performed in this session. This p
 The detailed supporting records remain on private operational surfaces and are not reproduced here. Credentials, private endpoints, raw messages, internal host paths, and account-specific configuration are excluded. Public readers cannot independently replay the internal inspection from this projection alone.
 
 **Automatic refresh is not established.** If no newer dated snapshot is available, report the age and treat current execution as unknown; never convert an old hold, a missing observation, or silence into a healthy verdict.
+
+## Public-access verification — September 18, 2026
+
+Transport observer: `3d1e3da3-763b-42cb-8ea0-acf20119fdca`. This annotation does not renew the operational observation above or create another runtime owner.
+
+At **17:02:53 UTC**, anonymous HTTP GETs from an Oracle VPS returned **200** for this public status path and its frozen original at commit `8b0300020a04f0d7d8a72f1aeda2010f2633b6c1`. Before this annotation, both contained 4,457 bytes with SHA-256 `4eb1d9ba6bd842f59ee5446db2d2a2d8e2259e2632d4a534b699121aab78f7a1`. That hash identifies the original snapshot, not the now-annotated file. No authorization header was used. This is transport/content verification, not independent runtime verification.
+
+The existing Worldweaver COP endpoint also returned 200 from Oracle at **16:52:08 UTC**, but its manual handoff was dated **September 12** and selected provider probes **September 11**. Its newer render and collector clocks do not make those observations current Gen142 evidence. No Cloudflare deployment was performed for this annotation.
+
+The current ChatGPT web reader failed to fetch this status URL with `DisabledError`; the Android voice client remains **UNTESTED**. A second-host verification attempt failed at the remote-device connection boundary before any HTTP request, so it supplies no endpoint-availability evidence. Anonymous access from one working reader is established; universal reader or voice compatibility is not.
+
+Use this existing status path rather than creating competing public snapshots. Authenticated access to a private operational repository is not evidence that its raw URLs are public. No repository visibility, access policy, scheduler, runtime, or provider setting was changed.
