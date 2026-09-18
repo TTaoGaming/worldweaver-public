@@ -58,3 +58,24 @@ At **17:25:03 UTC**, the original positive control and eight negative controls p
 The public benchmark archive was downloaded on an existing host; its published download link returned 404, while the category-correct archive path returned 200. Existing evolutionary integrations were recovered, but their preflight or surrogate scores are **not** trusted hardware fitness. No new paid inference, provider purchase, external submission, launcher change, or production retirement is attested by this addendum.
 
 The requested daily website/mirror/Slack refresh is configured in the **existing recovery task**, not a second scheduler. A future completed scheduled refresh is not yet proved. The existing Worldweaver asset publisher has a separate active repair owner; **this addendum updates the public mirror only and does not attest a Worldweaver deployment**. Completion consumption, authenticated slot retirement and a permitted automatic successor remain separate unresolved acceptance gates. The earlier operational observation clocks above are unchanged.
+
+## Sorting-network replay and integration addendum — September 18, 2026
+
+Replay carrier: `2c3e09e9-789b-4263-bfc5-536711136a7d`. Offline replay began **17:19:55 UTC**. Current listed-parent comparison was captured around **17:21:33 UTC**; source integrity was checked by **17:27:26 UTC**. This addendum reports a separate bounded benchmark execution; the original publication-only scope above describes the earlier snapshot, not these later tests. None of these clocks renew the older operational inspection. The concurrent packing addendum is preserved; this carrier did not independently replay that packing result.
+
+Two existing internal sorting-network candidates were recovered, not newly discovered. Metric: expected swap count under uniformly distributed input permutations, with comparator count and depth held fixed. These are narrow technical keeper targets, **not commercial AI-agent leaderboard placements or demonstrated runtime speedups**.
+
+| Inputs | Comparators / depth | Exact listed-parent average | Exact candidate average | Relative reduction |
+|---|---|---|---|---|
+| 18 | 77 / 12 | 14070127/510510 = 27.560923390335 | 6025241/218790 = 27.538923168335 | 0.079824% |
+| 19 | 85 / 12 | 67876867/2238390 = 30.323968119943 | 25204085/831402 = 30.315160415780 | 0.029045% |
+
+The current public reference is [Bert Dobbelaere's average-swap table](https://bertdobbelaere.github.io/sorting_networks_avgswaps.html). An anonymous HTTP200 capture returned 141,605 bytes, SHA-256 `99f061499b133303ed31c52d183ca6dc482e29241623d05b132c3b99f49558f4`. Its complete N18/N19 comparator sequences exactly matched the parents used in the replay. The table's displayed averages are estimates; the fractions above were recomputed exactly for those same networks.
+
+Checks passed: all 2^18 and 2^19 binary inputs for each parent and candidate; unchanged size/depth; exact absolute ternary-count expectations and separately derived relative deltas; six comparator-deletion controls; 35 small-network counter comparisons against permutation enumeration; six malformed-input rejections. The replay and property suite exited 0. All 23 recovered source files matched their pinned Git blob identities after line-ending normalization.
+
+Claim ceiling: **producer-side implementation replay**, not external independent acceptance, global optimality, or a public record. N19 meets only its fixed donor-orientation bound; N18 does not. No external submission or self-awarded runtime ConsumerAck occurred. Cross-principal review, keeper admission and attribution remain separate gates.
+
+Public upstream GEPA, ShinkaEvolve and OpenEvolve repositories were downloaded and pinned. A bounded GEPA/local-model adapter file creation was stopped at a tool safety boundary; it was not retried around that boundary. **No evolutionary model call or running evolutionary search is claimed by this carrier.** Downloads, local model inventory and arithmetic tests do not establish unattended evolution.
+
+At approximately **17:21:33 UTC**, Worldweaver's COP returned HTTP200 but remained a separate, older operational projection. Updating this GitHub status file does not deploy or refresh the hosted website. The existing daily recovery task's publication-check configuration was observed with an update timestamp of **17:18:47 UTC**; this is configuration evidence, not a completed future refresh. Public recovery text remains orientation and evidence only, never permission to execute or self-spawn.
