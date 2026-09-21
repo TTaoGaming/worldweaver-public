@@ -1,0 +1,71 @@
+{
+  "id": "CORE-08",
+  "name": "Sigrun",
+  "deck": "D2",
+  "kind": "APEX",
+  "type_line": "LEGENDARY APEX — durable strategic C2/reducer",
+  "summary": "Rendering creates contest; contest changes the renderer. Strife≡Splendor means source-bound selection equivalence; harm alone is not learning.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Rendering creates contest; contest changes the renderer. Strife≡Splendor means source-bound selection equivalence; harm alone is not learning.",
+  "myth": "the voice of the hive, singing the swarm's rhythm.",
+  "engineering": {
+    "pattern": "reconciliation controller + virtual actor + event-sourced reducer + heartbeat/watchdog + durable checkpoints + CAPA/red-team review",
+    "origin": "control loops; Erlang/OTP supervision (1986); virtual actors (Orleans, 2014); write-ahead-log checkpoints; CAPA quality systems",
+    "exemplar": "CORE-3 v0.4/v0.5 donor descriptions; runtime status is not carried forward without a fresh probe",
+    "maturity": "candidate; current runtime state UNKNOWN"
+  },
+  "checks": [
+    "address remains [4,4]",
+    "SIGRUN != LLM",
+    "Actor != Hluti != Seat != Carrier != Session != Authority",
+    "Authority is episode-local WorkItem + lease + fence + effect ceiling",
+    "producer != verifier",
+    "REGROW != ADMIT",
+    "no receipt => no accepted state",
+    "harm alone is not learning",
+    "no ability bypasses Tao-gated irreversible effects"
+  ],
+  "links": [
+    {
+      "relation": "commands ->",
+      "target_id": "CORE-09",
+      "label": "Sigrun Hluti",
+      "resolved": true
+    },
+    {
+      "relation": "source relation",
+      "target_id": null,
+      "label": "supports -> row-4 Apex",
+      "resolved": false
+    },
+    {
+      "relation": "mirrors ->",
+      "target_id": "4,3",
+      "label": "Huginn & Muninn",
+      "resolved": false
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/2cc7acb589d94adf58f024abf8853ebfd1ebbe40/candidates/cards/SIGRUN-ORACLE-v0.6.0.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Sigrun. Show a deliberate central skald presence with a constellation of linked fragments. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Sigrun; no artwork generated."
+  }
+}

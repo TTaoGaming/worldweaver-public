@@ -1,0 +1,187 @@
+{
+  "checked_at": "2026-09-21T02:50:16.1194185Z",
+  "source_commit": "084372d5d3d4e69e64df89f5bd3efea6de51998d",
+  "cloudflare_version": "39b8c9d7-8e40-429e-8771-1ce2ae964598",
+  "checks": [
+    {
+      "path": "/cards/",
+      "method": "GET",
+      "status": 200,
+      "sha256": "e4bc2a66f08accd93a8405996768abfe12d33ebbfb0e0e12cbb392defc569ad4",
+      "source_bytes_match": false,
+      "edge_transformation": "EXISTING_CLOUDFLARE_INSIGHTS_SCRIPT; remaining HTML matches exact source",
+      "content_type": "text/html"
+    },
+    {
+      "path": "/cards/cards.css",
+      "method": "GET",
+      "status": 200,
+      "sha256": "7509aaadab7149e2c89a54901d423c39c64ba28ed354120983daa5991fc854e8",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "text/css"
+    },
+    {
+      "path": "/cards/cards.js",
+      "method": "GET",
+      "status": 200,
+      "sha256": "cd4b2b2d91775c5f2e022699aae0b1140554f77b8225ffe9a6ddd289cd34f144",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "/cards/catalog.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "2f1216cbbb797eae34de0d1ce97985cdc18d48b4e97c42dc80633dfe689d1938",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/index.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "44ec8e999e8fd769a90e5d417451cbc8b9e02f5aa2dcfb94a612f7666b083a8f",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/hand.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "b3a3e64601fbca0025a4e0350ac138bff1431b16a67c1366964f56dca3fe8b79",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/battlefield.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "7e1f967e3426d66d87b5967ec4c3f868a64b27247ac4dd73e838df08d35bb016",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/art-guide.md",
+      "method": "GET",
+      "status": 200,
+      "sha256": "362b79de50b2af88d7ae937b958962a15317e9b173d5b7954c0dc0f08f603817",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "/cards/behavior-assay.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "637b3cedfe716c4ebe6e768772ae8bd44c7d2011272fb052ec71d1e91dfbf56d",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/image-prompts.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "6d946d184395f899a59871384f26f98a37b80507802f642ccf4fd329643b75b1",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/source-lock.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "0917b9e48e0527130e6f425b2062eb9f8713fde31cc862cd4dd5c1ceb807131b",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/integrity.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "57503c43a70c1eb066f96e5925c1ac0f9eef2a567e73c7a6f831193f9c96ef85",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/definitions/WW-EQ-CLOUDFLARE-DURABILITY-001.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "47104d7f7b32188c1fa874fe3fe7941c09bd2fe3134450f4c1b6be0838381233",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/definitions/WW-EQ-CLOUDFLARE-DURABILITY-001.md",
+      "method": "GET",
+      "status": 200,
+      "sha256": "e70556cb5e78d4adedf40892e1f7dfc7af04be24b264a6a6623fe7499ea20f7a",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "/manifest.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "c44403b8b8cee22326e862bf2d3154d12434baaf0e8d52db81387020e14a1432",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    }
+  ],
+  "homepage_discovery": true,
+  "correct_revision": true,
+  "existing_rehydration_reader_status": 200,
+  "head_status": 200,
+  "head_body_bytes": 0,
+  "unsupported_post_status": 405,
+  "conclusion": "PUBLICATION_VERIFIED_NOT_BEHAVIORAL_OR_RUNTIME_BINDING_PROOF",
+  "schema": "worldweaver.card-publication-receipt.v1",
+  "revision": "worldweaver-card-library-v42-20260921",
+  "source_review": "https://github.com/TTaoGaming/hfo-swarm-factory/pull/102",
+  "local_tests": {
+    "node": {
+      "passed": 74,
+      "failed": 0
+    },
+    "browser": {
+      "passed": 10,
+      "failed": 0,
+      "viewports": [
+        1440,
+        390
+      ]
+    },
+    "release_artifact_hashes": 201
+  },
+  "coverage": {
+    "cards": 130,
+    "full_definitions": 37,
+    "index_only": 93,
+    "verified_bindings_imported": 0,
+    "images_generated": 0,
+    "behavioral_assay": "NOT_RUN"
+  },
+  "public_review": {
+    "scope": "Current descriptive projection and navigation views",
+    "literal_scan": "No literal host addresses, emails, local paths or credential patterns identified in the bounded review",
+    "limits": "Not a general privacy guarantee; future free-text changes require review"
+  },
+  "preserved": [
+    "Cloudflare route configuration",
+    "Durable Object binding and migrations",
+    "Existing observation cron",
+    "Original source observation timestamps",
+    "Existing reader security rules"
+  ]
+}

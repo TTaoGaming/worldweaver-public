@@ -1,0 +1,66 @@
+{
+  "id": "GG-D1-GAS",
+  "name": "Gas",
+  "deck": "D1",
+  "kind": "RESOURCE",
+  "type_line": "RESOURCE — Metered / Marginal-Cost Capacity",
+  "summary": "The hive never spends scarce gas silently.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "The hive never spends scarce gas silently.",
+  "myth": "Vespene is potent because it is scarce; the swarm never vents it unnoticed.",
+  "engineering": {
+    "pattern": "budget envelope + circuit breaker + cost accounting",
+    "origin": "financial controls and SRE circuit breakers; mature",
+    "exemplar": "max_marginal_usd gate + observed_cost receipt + paid-fallback deny",
+    "maturity": "tested"
+  },
+  "checks": [
+    "default max_marginal_usd = 0",
+    "paid fallback requires explicit authority",
+    "unknown cost is HOLD",
+    "gas cannot be substituted for minerals silently"
+  ],
+  "links": [
+    {
+      "relation": "produced-by ->",
+      "target_id": "CORE-10",
+      "label": "Vendor",
+      "resolved": true
+    },
+    {
+      "relation": "gated-by ->",
+      "target_id": "HFO-G143-C049",
+      "label": "Tao's Seal",
+      "resolved": true
+    },
+    {
+      "relation": "metered-by ->",
+      "target_id": "GG-D9-DRONE-QUOTA-METER",
+      "label": "Drone Quota Meter",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-GAS.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Gas. Show a measured reservoir with an explicit containing boundary. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Gas; no artwork generated."
+  }
+}

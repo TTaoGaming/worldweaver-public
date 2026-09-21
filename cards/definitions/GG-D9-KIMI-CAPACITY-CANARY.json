@@ -1,0 +1,66 @@
+{
+  "id": "GG-D9-KIMI-CAPACITY-CANARY",
+  "name": "Kimi Capacity Canary",
+  "deck": "D9",
+  "kind": "AGENT_SKILL",
+  "type_line": "AGENT SKILL — Deterministic Capacity Observer",
+  "summary": "Kimi never fails silently and no stale green becomes quota truth.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Kimi never fails silently and no stale green becomes quota truth.",
+  "myth": "A drone tastes the mineral field before the brood feeds.",
+  "engineering": {
+    "pattern": "synthetic monitoring + provider-native readback + TTL + bounded regression canary",
+    "origin": "monitoring canaries / health probes / SRE",
+    "exemplar": "C0 no-inference quota readback; C1 isolated tool regression",
+    "maturity": "running"
+  },
+  "checks": [
+    "C0 consumes no model quota",
+    "monthly rows missing from provider stay UNKNOWN",
+    "C1 runs only on admission/drift/recovery or >=6h cadence",
+    "temporary local token never persists"
+  ],
+  "links": [
+    {
+      "relation": "meters ->",
+      "target_id": "GG-D8-LAND-KIMI-CODE",
+      "label": "Kimi Code Subscription",
+      "resolved": true
+    },
+    {
+      "relation": "observes ->",
+      "target_id": "GG-D9-KIMI-VENDOR-OWNER",
+      "label": "Kimi Vendor Owner",
+      "resolved": true
+    },
+    {
+      "relation": "emits ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck9/GG-D9-KIMI-CAPACITY-CANARY.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Kimi Capacity Canary. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Kimi Capacity Canary; no artwork generated."
+  }
+}

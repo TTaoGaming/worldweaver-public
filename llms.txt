@@ -1,3 +1,8 @@
+HFO card library: https://worldweaver.dev/cards/
+Compact card index: https://worldweaver.dev/cards/index.json
+Card details: https://worldweaver.dev/cards/definitions/<card-id>.json
+Behavior assays NOT_RUN; runtime bindings UNVERIFIED; source history partial.
+
 # Packing handoff — source snapshot September 13, 2026
 
 [Read the dated packing readiness update](releases/20260913T003943Z/README.md) · [JSON](releases/20260913T003943Z/packing.json). Keeper-packet readiness, algorithm improvement, laptop-off work and useful added model capacity have separate evidence gates. This is a static public fallback; it grants no authority and supplies no candidate download until reviewed bytes are published.

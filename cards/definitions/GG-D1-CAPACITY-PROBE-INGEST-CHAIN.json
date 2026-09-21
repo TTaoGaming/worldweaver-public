@@ -1,0 +1,74 @@
+{
+  "id": "GG-D1-CAPACITY-PROBE-INGEST-CHAIN",
+  "name": "Recurring Capacity Probe + Ingest Chain",
+  "deck": "D1",
+  "kind": "WORKFLOW",
+  "type_line": "WORKFLOW — External Fast-TTL Capacity Observation Chain",
+  "summary": "Fast-expiring lands refresh themselves without Tao or a high-frequency frontier LLM wake.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Fast-expiring lands refresh themselves without Tao or a high-frequency frontier LLM wake.",
+  "myth": "Drones taste each mineral field on their own rhythm and carry the signal home before it rots.",
+  "engineering": {
+    "pattern": "scheduled synthetic probe + durable receipt + idempotent fan-in + reconciliation",
+    "origin": "monitoring agents and controller loops; mature",
+    "exemplar": "target design: existing COTS recurring probes feeding Capacity Receipt Fan-In and Sigrun Capacity Ledger",
+    "maturity": "candidate"
+  },
+  "checks": [
+    "exact surface binding is known",
+    "probe is zero-effect or separately admitted",
+    "receipt TTL matches surface freshness need",
+    "ingest is deduplicated",
+    "no high-frequency ChatGPT scheduler used as substitute",
+    "coverage is measured per selected fast-TTL surface"
+  ],
+  "links": [
+    {
+      "relation": "probes ->",
+      "target_id": "CORE-10",
+      "label": "Vendor",
+      "resolved": true
+    },
+    {
+      "relation": "feeds ->",
+      "target_id": "GG-D1-CAPACITY-RECEIPT-FANIN",
+      "label": "Capacity Receipt Fan-In",
+      "resolved": true
+    },
+    {
+      "relation": "supports ->",
+      "target_id": "GG-D9-SIGRUN-CAPACITY-LEDGER",
+      "label": "Sigrun Capacity Ledger",
+      "resolved": true
+    },
+    {
+      "relation": "records ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-CAPACITY-PROBE-INGEST-CHAIN.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Recurring Capacity Probe + Ingest Chain. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Recurring Capacity Probe + Ingest Chain; no artwork generated."
+  }
+}

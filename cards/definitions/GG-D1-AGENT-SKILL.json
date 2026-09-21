@@ -1,0 +1,66 @@
+{
+  "id": "GG-D1-AGENT-SKILL",
+  "name": "Agent Skill",
+  "deck": "D1",
+  "kind": "ARCHETYPE",
+  "type_line": "ARCHETYPE — Versioned Executable Role Procedure",
+  "summary": "A skill is reusable procedure and constraints, not a personality or hidden authority.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "A skill is reusable procedure and constraints, not a personality or hidden authority.",
+  "myth": "A sliver shares a capability through the brood without becoming the creature that uses it.",
+  "engineering": {
+    "pattern": "versioned plugin/capability module + contract",
+    "origin": "plugin systems, runbooks and capability-based software modules; mature",
+    "exemplar": "Gen143 .agents/skills/* and D9 Agent Skill cards",
+    "maturity": "running"
+  },
+  "checks": [
+    "skill names procedure/capability, not actor identity",
+    "effect ceiling is explicit",
+    "skill cannot grant itself authority",
+    "version/provenance is recoverable"
+  ],
+  "links": [
+    {
+      "relation": "instantiated-by ->",
+      "target_id": "GG-D9-GOOGLE-API-STEWARD",
+      "label": "Google API Steward",
+      "resolved": true
+    },
+    {
+      "relation": "instantiated-by ->",
+      "target_id": "GG-D9-KIMI-VENDOR-OWNER",
+      "label": "Kimi Vendor Owner",
+      "resolved": true
+    },
+    {
+      "relation": "equipped-through ->",
+      "target_id": "CORE-11",
+      "label": "Loadout",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-AGENT-SKILL.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Agent Skill. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Agent Skill; no artwork generated."
+  }
+}

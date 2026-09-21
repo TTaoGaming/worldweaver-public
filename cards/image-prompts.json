@@ -1,0 +1,917 @@
+{
+  "version": "1.0.0",
+  "images_generated": 0,
+  "style": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only.",
+  "prompts": [
+    {
+      "id": "CORE-01",
+      "name": "Hive Fleet Obsidian",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Hive Fleet Obsidian. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Hive Fleet Obsidian; no artwork generated."
+    },
+    {
+      "id": "CORE-02",
+      "name": "Hyperfractal Octree",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Hyperfractal Octree. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Hyperfractal Octree; no artwork generated."
+    },
+    {
+      "id": "CORE-03",
+      "name": "Seat",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Seat. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Seat; no artwork generated."
+    },
+    {
+      "id": "CORE-04",
+      "name": "Actor",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Actor. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Actor; no artwork generated."
+    },
+    {
+      "id": "CORE-07",
+      "name": "Receipt",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Receipt. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Receipt; no artwork generated."
+    },
+    {
+      "id": "CORE-10",
+      "name": "Vendor",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Vendor. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Vendor; no artwork generated."
+    },
+    {
+      "id": "CORE-11",
+      "name": "Loadout",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Loadout. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Loadout; no artwork generated."
+    },
+    {
+      "id": "CORE-12",
+      "name": "TO&E",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: TO&E. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for TO&E; no artwork generated."
+    },
+    {
+      "id": "CORE-13",
+      "name": "Card",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Card. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Card; no artwork generated."
+    },
+    {
+      "id": "CORE-14",
+      "name": "Topology Lint",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Topology Lint. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Topology Lint; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C003",
+      "name": "HIVE",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: HIVE. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for HIVE; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C004",
+      "name": "PDSA Ramp",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: PDSA Ramp. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for PDSA Ramp; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C005",
+      "name": "Frozen Judge",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Frozen Judge. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Frozen Judge; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C035",
+      "name": "Echelon Charter",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Echelon Charter. Show a bounded gateway with a visibly separate authorization seal. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Echelon Charter; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C036",
+      "name": "Legend Rule",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Legend Rule. Show a bounded gateway with a visibly separate authorization seal. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Legend Rule; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C037",
+      "name": "Loyalty Ledger",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Loyalty Ledger. Show a bounded gateway with a visibly separate authorization seal. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Loyalty Ledger; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C038",
+      "name": "Type Check",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Type Check. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Type Check; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C040",
+      "name": "Archetype Rosetta",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Archetype Rosetta. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Archetype Rosetta; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C041",
+      "name": "Circle Packing Force Package",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Circle Packing Force Package. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Circle Packing Force Package; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C042",
+      "name": "Reckoning Loom",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Reckoning Loom. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Reckoning Loom; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C043",
+      "name": "Night Watch",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Night Watch. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Night Watch; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C044",
+      "name": "Hatchery Gate",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Hatchery Gate. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Hatchery Gate; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C045",
+      "name": "Overlord Allocate",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Overlord Allocate. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Overlord Allocate; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C046",
+      "name": "Tao's Word",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Tao's Word. Show a bounded gateway with a visibly separate authorization seal. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Tao's Word; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C047",
+      "name": "Boot Page",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Boot Page. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Boot Page; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C048",
+      "name": "Herald",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Herald. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Herald; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C049",
+      "name": "Tao's Seal",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Tao's Seal. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Tao's Seal; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C050",
+      "name": "Crown the Champion",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Crown the Champion. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Crown the Champion; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C051",
+      "name": "Outbound Ledger",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Outbound Ledger. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Outbound Ledger; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C052",
+      "name": "Swarm Dispersion",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Swarm Dispersion. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Swarm Dispersion; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C053",
+      "name": "Brood Cycle",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Brood Cycle. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Brood Cycle; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C058",
+      "name": "ActorSeat r0",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: ActorSeat r0. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for ActorSeat r0; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C059",
+      "name": "Seat Seeder",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Seat Seeder. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Seat Seeder; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C060",
+      "name": "Strangler Map",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Strangler Map. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Strangler Map; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C061",
+      "name": "Vendor Reconciler",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Vendor Reconciler. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Vendor Reconciler; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C062",
+      "name": "Capacity Canary",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Capacity Canary. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Capacity Canary; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C064",
+      "name": "Circle-Packing Judge Pack",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Circle-Packing Judge Pack. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Circle-Packing Judge Pack; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C065",
+      "name": "Three-Surface Checkpoint",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Three-Surface Checkpoint. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Three-Surface Checkpoint; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C066",
+      "name": "Exotic Engineering",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Exotic Engineering. Show a visible fracture in a mechanism beside a recorded trace. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Exotic Engineering; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C067",
+      "name": "Surtr's Dawn",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Surtr's Dawn. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Surtr's Dawn; no artwork generated."
+    },
+    {
+      "id": "GG-D1-PERISHABLE-CAPACITY-RECONCILER",
+      "name": "Perishable Capacity Reconciler",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Perishable Capacity Reconciler. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Perishable Capacity Reconciler; no artwork generated."
+    },
+    {
+      "id": "GG-D1-EVERGREEN-REFILLER",
+      "name": "Evergreen Refiller",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Evergreen Refiller. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Evergreen Refiller; no artwork generated."
+    },
+    {
+      "id": "CORE-08",
+      "name": "Sigrun",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Sigrun. Show a deliberate central skald presence with a constellation of linked fragments. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Sigrun; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C012",
+      "name": "Fenrir",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Fenrir. Show a deliberate central skald presence with a constellation of linked fragments. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Fenrir; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C013",
+      "name": "Surtr",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Surtr. Show a deliberate central skald presence with a constellation of linked fragments. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Surtr; no artwork generated."
+    },
+    {
+      "id": "HR-10",
+      "name": "World Weaver",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: World Weaver. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for World Weaver; no artwork generated."
+    },
+    {
+      "id": "CORE-09",
+      "name": "Sigrun Hluti",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Sigrun Hluti. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Sigrun Hluti; no artwork generated."
+    },
+    {
+      "id": "GG-D3-GOOGLE-API-STEWARD",
+      "name": "Google API Steward Brood Mother",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Google API Steward Brood Mother. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Google API Steward Brood Mother; no artwork generated."
+    },
+    {
+      "id": "GG-D3-KIMI-VENDOR-OWNER",
+      "name": "Kimi Vendor Owner Brood Mother",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Kimi Vendor Owner Brood Mother. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Kimi Vendor Owner Brood Mother; no artwork generated."
+    },
+    {
+      "id": "GG-D3-OPENROUTER-OWNER",
+      "name": "OpenRouter Free Brood Mother",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: OpenRouter Free Brood Mother. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for OpenRouter Free Brood Mother; no artwork generated."
+    },
+    {
+      "id": "GG-D3-ACCOUNT-B-OWNER",
+      "name": "ChatGPT Account-B Brood Mother",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: ChatGPT Account-B Brood Mother. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for ChatGPT Account-B Brood Mother; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C016",
+      "name": "Larva",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Larva. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Larva; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C017",
+      "name": "Roach",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Roach. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Roach; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C018",
+      "name": "Twinling",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Twinling. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Twinling; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C019",
+      "name": "Overseer",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Overseer. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Overseer; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C020",
+      "name": "Drone",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Drone. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Drone; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C031",
+      "name": "Ling",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Ling. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Ling; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C032",
+      "name": "Undying Bruiser",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Undying Bruiser. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Undying Bruiser; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C033",
+      "name": "Strain-Weaver",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Strain-Weaver. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Strain-Weaver; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C034",
+      "name": "Essence Hunter",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Essence Hunter. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Essence Hunter; no artwork generated."
+    },
+    {
+      "id": "GG-D5-ADAPTATION",
+      "name": "Tyranid Adaptation",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Tyranid Adaptation. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Tyranid Adaptation; no artwork generated."
+    },
+    {
+      "id": "GG-D5-SYNAPSE",
+      "name": "Synapse Coordination",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Synapse Coordination. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Synapse Coordination; no artwork generated."
+    },
+    {
+      "id": "GG-D6-SKILL-SHARING",
+      "name": "Sliver Skill Sharing",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Sliver Skill Sharing. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Sliver Skill Sharing; no artwork generated."
+    },
+    {
+      "id": "GG-D6-AURA-HUB",
+      "name": "Shared Aura Hub",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Shared Aura Hub. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Shared Aura Hub; no artwork generated."
+    },
+    {
+      "id": "GG-D7-HARNESS-CHATGPT-TEXT",
+      "name": "ChatGPT Text Tool-Calling Harness",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: ChatGPT Text Tool-Calling Harness. Show a detachable instrument with an exposed adapter coupling. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for ChatGPT Text Tool-Calling Harness; no artwork generated."
+    },
+    {
+      "id": "GG-D7-HARNESS-ORACLE-ACTIONS",
+      "name": "Oracle GitHub Actions Harness",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Oracle GitHub Actions Harness. Show a detachable instrument with an exposed adapter coupling. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Oracle GitHub Actions Harness; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C023",
+      "name": "Kimi Code Harness",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Kimi Code Harness. Show a detachable instrument with an exposed adapter coupling. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Kimi Code Harness; no artwork generated."
+    },
+    {
+      "id": "GG-D7-HARNESS-CLOUDFLARE-SIGRUN",
+      "name": "Cloudflare Sigrun Service-Binding Harness",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Cloudflare Sigrun Service-Binding Harness. Show a detachable instrument with an exposed adapter coupling. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Cloudflare Sigrun Service-Binding Harness; no artwork generated."
+    },
+    {
+      "id": "GG-D7-MODEL-GPT-5-6-SOL",
+      "name": "GPT-5.6 Sol",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: GPT-5.6 Sol. Show a distinct crystalline reasoning lens beside a separate carrier vessel. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for GPT-5.6 Sol; no artwork generated."
+    },
+    {
+      "id": "GG-D7-MODEL-GEMINI-3-1-FL",
+      "name": "Gemini 3.1 Flash-Lite",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Gemini 3.1 Flash-Lite. Show a distinct crystalline reasoning lens beside a separate carrier vessel. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Gemini 3.1 Flash-Lite; no artwork generated."
+    },
+    {
+      "id": "GG-D7-MODEL-GEMINI-3-5-FL",
+      "name": "Gemini 3.5 Flash-Lite",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Gemini 3.5 Flash-Lite. Show a distinct crystalline reasoning lens beside a separate carrier vessel. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Gemini 3.5 Flash-Lite; no artwork generated."
+    },
+    {
+      "id": "GG-D7-MODEL-GEMINI-3-5-F",
+      "name": "Gemini 3.5 Flash",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Gemini 3.5 Flash. Show a distinct crystalline reasoning lens beside a separate carrier vessel. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Gemini 3.5 Flash; no artwork generated."
+    },
+    {
+      "id": "GG-D7-MODEL-GEMMA-4-31B",
+      "name": "Gemma 4 31B IT",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Gemma 4 31B IT. Show a distinct crystalline reasoning lens beside a separate carrier vessel. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Gemma 4 31B IT; no artwork generated."
+    },
+    {
+      "id": "GG-D7-MODEL-K2-8",
+      "name": "Kimi K2.8 Preview",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Kimi K2.8 Preview. Show a distinct crystalline reasoning lens beside a separate carrier vessel. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Kimi K2.8 Preview; no artwork generated."
+    },
+    {
+      "id": "GG-D7-MODEL-K3-256K",
+      "name": "Kimi K3-256k",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Kimi K3-256k. Show a distinct crystalline reasoning lens beside a separate carrier vessel. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Kimi K3-256k; no artwork generated."
+    },
+    {
+      "id": "GG-D7-MODEL-NEX-MINI",
+      "name": "Nex N2.5 Mini Free",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Nex N2.5 Mini Free. Show a distinct crystalline reasoning lens beside a separate carrier vessel. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Nex N2.5 Mini Free; no artwork generated."
+    },
+    {
+      "id": "GG-D7-MODEL-NEX-PRO",
+      "name": "Nex N2.5 Pro Free",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Nex N2.5 Pro Free. Show a distinct crystalline reasoning lens beside a separate carrier vessel. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Nex N2.5 Pro Free; no artwork generated."
+    },
+    {
+      "id": "GG-D8-LAND-CHATGPT-A-CLOUD",
+      "name": "ChatGPT Account A Cloud Chat",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: ChatGPT Account A Cloud Chat. Show layered terrain and bounded reservoirs connected by measured channels. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for ChatGPT Account A Cloud Chat; no artwork generated."
+    },
+    {
+      "id": "GG-D8-LAND-CHATGPT-SCHEDULED",
+      "name": "ChatGPT Scheduled Tasks",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: ChatGPT Scheduled Tasks. Show layered terrain and bounded reservoirs connected by measured channels. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for ChatGPT Scheduled Tasks; no artwork generated."
+    },
+    {
+      "id": "GG-D8-LAND-CHATGPT-B-ORACLE",
+      "name": "ChatGPT Account B on Oracle",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: ChatGPT Account B on Oracle. Show layered terrain and bounded reservoirs connected by measured channels. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for ChatGPT Account B on Oracle; no artwork generated."
+    },
+    {
+      "id": "GG-D8-LAND-GOOGLE-API",
+      "name": "Google API Project / Oracle Route",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Google API Project / Oracle Route. Show layered terrain and bounded reservoirs connected by measured channels. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Google API Project / Oracle Route; no artwork generated."
+    },
+    {
+      "id": "GG-D8-LAND-KIMI-CODE",
+      "name": "Kimi Code Subscription",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Kimi Code Subscription. Show layered terrain and bounded reservoirs connected by measured channels. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Kimi Code Subscription; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C024",
+      "name": "OpenRouter Free",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: OpenRouter Free. Show layered terrain and bounded reservoirs connected by measured channels. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for OpenRouter Free; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C022",
+      "name": "Oracle ARM64 Runner",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Oracle ARM64 Runner. Show layered terrain and bounded reservoirs connected by measured channels. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Oracle ARM64 Runner; no artwork generated."
+    },
+    {
+      "id": "GG-D8-LAND-OVH-ACTIONS",
+      "name": "OVH x64 Actions Runner",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: OVH x64 Actions Runner. Show layered terrain and bounded reservoirs connected by measured channels. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for OVH x64 Actions Runner; no artwork generated."
+    },
+    {
+      "id": "GG-D8-LAND-LENOVO",
+      "name": "Lenovo Local Host",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Lenovo Local Host. Show layered terrain and bounded reservoirs connected by measured channels. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Lenovo Local Host; no artwork generated."
+    },
+    {
+      "id": "GG-D8-LAND-CLOUDFLARE-SIGRUN",
+      "name": "Cloudflare Sigrun Durable Actor",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Cloudflare Sigrun Durable Actor. Show layered terrain and bounded reservoirs connected by measured channels. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Cloudflare Sigrun Durable Actor; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C028",
+      "name": "Preflight",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Preflight. Show a surrounding field whose boundary is clearly visible. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Preflight; no artwork generated."
+    },
+    {
+      "id": "HFO-G143-C029",
+      "name": "Stranger's Eye",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Stranger's Eye. Show a surrounding field whose boundary is clearly visible. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Stranger's Eye; no artwork generated."
+    },
+    {
+      "id": "GG-D9-SIGRUN-VENDOR-RECONCILER",
+      "name": "Sigrun Vendor Reconciler",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Sigrun Vendor Reconciler. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Sigrun Vendor Reconciler; no artwork generated."
+    },
+    {
+      "id": "GG-D9-GOOGLE-API-STEWARD",
+      "name": "Google API Steward",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Google API Steward. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Google API Steward; no artwork generated."
+    },
+    {
+      "id": "GG-D9-KIMI-VENDOR-OWNER",
+      "name": "Kimi Vendor Owner",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Kimi Vendor Owner. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Kimi Vendor Owner; no artwork generated."
+    },
+    {
+      "id": "GG-D9-KIMI-CAPACITY-CANARY",
+      "name": "Kimi Capacity Canary",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Kimi Capacity Canary. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Kimi Capacity Canary; no artwork generated."
+    },
+    {
+      "id": "GG-D9-ZERG-DRONE-RING",
+      "name": "Zerg Drone Ring",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Zerg Drone Ring. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Zerg Drone Ring; no artwork generated."
+    },
+    {
+      "id": "GG-D9-OVERLORD-QUOTA-REGISTRY",
+      "name": "Overlord Quota Registry",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Overlord Quota Registry. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Overlord Quota Registry; no artwork generated."
+    },
+    {
+      "id": "GG-D9-DRONE-QUOTA-METER",
+      "name": "Drone Quota Meter",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Drone Quota Meter. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Drone Quota Meter; no artwork generated."
+    },
+    {
+      "id": "GG-D9-DRONE-IDLE-SENTINEL",
+      "name": "Drone Idle Sentinel",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Drone Idle Sentinel. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Drone Idle Sentinel; no artwork generated."
+    },
+    {
+      "id": "GG-D9-DRONE-THROTTLE-SENTINEL",
+      "name": "Drone Throttle Sentinel",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Drone Throttle Sentinel. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Drone Throttle Sentinel; no artwork generated."
+    },
+    {
+      "id": "GG-D9-OVERLORD-ALLOCATE",
+      "name": "Overlord Allocate Skill",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Overlord Allocate Skill. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Overlord Allocate Skill; no artwork generated."
+    },
+    {
+      "id": "GG-D9-DRONE-WASTE-AUDIT",
+      "name": "Drone Waste Audit",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Drone Waste Audit. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Drone Waste Audit; no artwork generated."
+    },
+    {
+      "id": "GG-D9-QUOTA-DAILY-BRIEF",
+      "name": "Quota Daily Brief",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Quota Daily Brief. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Quota Daily Brief; no artwork generated."
+    },
+    {
+      "id": "GG-D1-READY-WORK-RESERVOIR",
+      "name": "READY Work Reservoir",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: READY Work Reservoir. Show an architectural archive with visible ingress and egress. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for READY Work Reservoir; no artwork generated."
+    },
+    {
+      "id": "GG-D1-SOURCE-BOUND-GENERATOR",
+      "name": "Source-Bound Generator",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Source-Bound Generator. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Source-Bound Generator; no artwork generated."
+    },
+    {
+      "id": "GG-D1-ZERG-MISSION-COMMAND",
+      "name": "Zerg Mission Command",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Zerg Mission Command. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Zerg Mission Command; no artwork generated."
+    },
+    {
+      "id": "GG-D1-MINERAL",
+      "name": "Mineral",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Mineral. Show a measured reservoir with an explicit containing boundary. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Mineral; no artwork generated."
+    },
+    {
+      "id": "GG-D1-GAS",
+      "name": "Gas",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Gas. Show a measured reservoir with an explicit containing boundary. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Gas; no artwork generated."
+    },
+    {
+      "id": "GG-D1-SUPPLY",
+      "name": "Supply",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Supply. Show a measured reservoir with an explicit containing boundary. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Supply; no artwork generated."
+    },
+    {
+      "id": "GG-D9-SIGRUN-CAPACITY-LEDGER",
+      "name": "Sigrun Capacity Ledger",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Sigrun Capacity Ledger. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Sigrun Capacity Ledger; no artwork generated."
+    },
+    {
+      "id": "GG-D1-GRIMOIRE-EXECUTION-PROJECTOR",
+      "name": "Grimoire Execution Projector",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Execution Projector. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Grimoire Execution Projector; no artwork generated."
+    },
+    {
+      "id": "GG-D1-GRIMOIRE-BINDING-FANIN",
+      "name": "Grimoire Binding Fan-In",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Binding Fan-In. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Grimoire Binding Fan-In; no artwork generated."
+    },
+    {
+      "id": "GG-D1-GRIMOIRE-EXECUTION-REPORT",
+      "name": "Grimoire Execution Report",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Execution Report. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Grimoire Execution Report; no artwork generated."
+    },
+    {
+      "id": "GG-D1-CARD-LINT",
+      "name": "CARD-LINT",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: CARD-LINT. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for CARD-LINT; no artwork generated."
+    },
+    {
+      "id": "GG-D9-GRIMOIRE-CURRENTNESS-DRONE",
+      "name": "Grimoire Currentness Drone",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Currentness Drone. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Grimoire Currentness Drone; no artwork generated."
+    },
+    {
+      "id": "GG-D1-GRIMOIRE-LINK-AUDIT",
+      "name": "Grimoire Link Audit",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Link Audit. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Grimoire Link Audit; no artwork generated."
+    },
+    {
+      "id": "GG-D1-GRIMOIRE-LINK-PIN",
+      "name": "Grimoire Link Pin",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Link Pin. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Grimoire Link Pin; no artwork generated."
+    },
+    {
+      "id": "GG-D1-WORKITEM",
+      "name": "WorkItem",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: WorkItem. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for WorkItem; no artwork generated."
+    },
+    {
+      "id": "GG-D1-ANDON",
+      "name": "ANDON",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: ANDON. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for ANDON; no artwork generated."
+    },
+    {
+      "id": "GG-D1-SOURCE-FRONTIER",
+      "name": "Source Frontier",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Source Frontier. Show an architectural archive with visible ingress and egress. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Source Frontier; no artwork generated."
+    },
+    {
+      "id": "GG-D1-GRIMOIRE-DECKLIST",
+      "name": "Grimoire Decklist",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Decklist. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Grimoire Decklist; no artwork generated."
+    },
+    {
+      "id": "GG-D1-EXECUTION-BINDING",
+      "name": "Execution Binding",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Execution Binding. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Execution Binding; no artwork generated."
+    },
+    {
+      "id": "GG-D1-EXECUTION-SNAPSHOT",
+      "name": "Execution Snapshot",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Execution Snapshot. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Execution Snapshot; no artwork generated."
+    },
+    {
+      "id": "GG-D1-OPERATOR-REPORT",
+      "name": "Operator Report",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Operator Report. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Operator Report; no artwork generated."
+    },
+    {
+      "id": "GG-D1-AGENT-SKILL",
+      "name": "Agent Skill",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Agent Skill. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Agent Skill; no artwork generated."
+    },
+    {
+      "id": "GG-D1-HOST",
+      "name": "Host",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Host. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Host; no artwork generated."
+    },
+    {
+      "id": "GG-D1-AUTOMATION",
+      "name": "Automation",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Automation. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Automation; no artwork generated."
+    },
+    {
+      "id": "GG-D1-CAPACITY-RECEIPT-FANIN",
+      "name": "Capacity Receipt Fan-In",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Capacity Receipt Fan-In. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Capacity Receipt Fan-In; no artwork generated."
+    },
+    {
+      "id": "GG-D1-CAPACITY-PROBE-INGEST-CHAIN",
+      "name": "Recurring Capacity Probe + Ingest Chain",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Recurring Capacity Probe + Ingest Chain. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Recurring Capacity Probe + Ingest Chain; no artwork generated."
+    },
+    {
+      "id": "GG-D1-GLEIPNIR-GRIMOIRE",
+      "name": "Gleipnir Grimoire",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Gleipnir Grimoire. Show an architectural archive with visible ingress and egress. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Gleipnir Grimoire; no artwork generated."
+    },
+    {
+      "id": "GG-D1-GRIMOIRE-RELATION-GUARD",
+      "name": "Grimoire Critical Relation Guard",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Critical Relation Guard. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+      "alt": "Planned conceptual illustration for Grimoire Critical Relation Guard; no artwork generated."
+    },
+    {
+      "id": "WW-EQ-CLOUDFLARE-DURABILITY-001",
+      "name": "Cloudflare Durability",
+      "status": "PROMPT_READY",
+      "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: a detachable obsidian archive module with layered chambers and an exposed adapter attached to a separate worker silhouette. Depict recoverable inscription, not immortality or infinite capacity. No vendor logo.",
+      "alt": "Planned detachable archive module attached to a separate worker; artwork pending."
+    }
+  ]
+}

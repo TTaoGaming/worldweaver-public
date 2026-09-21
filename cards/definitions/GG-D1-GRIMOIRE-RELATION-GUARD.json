@@ -1,0 +1,69 @@
+{
+  "id": "GG-D1-GRIMOIRE-RELATION-GUARD",
+  "name": "Grimoire Critical Relation Guard",
+  "deck": "D1",
+  "kind": "TOOL",
+  "type_line": "TOOL — Critical Typed-Link Semantic Guard",
+  "summary": "The most dangerous graph edges cannot silently connect to the wrong kind of thing.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "The most dangerous graph edges cannot silently connect to the wrong kind of thing.",
+  "myth": "A synapse may connect only to the organs its signal can lawfully move; dangerous miswiring is rejected before the impulse spreads.",
+  "engineering": {
+    "pattern": "semantic validation rules + referential constraints",
+    "origin": "compiler type checking and database integrity constraints; mature",
+    "exemplar": "tools/gleipnir_relation_guard.py",
+    "maturity": "tested"
+  },
+  "checks": [
+    "records targets Receipt",
+    "carries targets Actor",
+    "commands targets Agent Skill on the Git-backed Grimoire surface",
+    "equips targets Loadout",
+    "gated-by targets Tao's Seal",
+    "queue allocation/matching targets the Perishable Capacity Reconciler",
+    "unconstrained verbs remain explicitly outside this claim ceiling"
+  ],
+  "links": [
+    {
+      "relation": "reads ->",
+      "target_id": "GG-D1-GRIMOIRE-DECKLIST",
+      "label": "Grimoire Decklist",
+      "resolved": true
+    },
+    {
+      "relation": "supports ->",
+      "target_id": "CORE-14",
+      "label": "Topology Lint",
+      "resolved": true
+    },
+    {
+      "relation": "records ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-GRIMOIRE-RELATION-GUARD.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Critical Relation Guard. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Grimoire Critical Relation Guard; no artwork generated."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "GG-D1-GRIMOIRE-BINDING-FANIN",
+  "name": "Grimoire Binding Fan-In",
+  "deck": "D1",
+  "kind": "TOOL",
+  "type_line": "TOOL — Multi-Owner Evidence Reducer",
+  "summary": "Every brood can report its own state without forcing Tao to reconcile contradictions.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Every brood can report its own state without forcing Tao to reconcile contradictions.",
+  "myth": "Many synapses feed one hive mind; conflicting impulses trigger pain instead of hallucination.",
+  "engineering": {
+    "pattern": "deterministic merge/reduce + last-observation-wins + conflict fail-closed",
+    "origin": "log compaction/materialized-view reducers; mature",
+    "exemplar": "tools/gleipnir_binding_merge.py",
+    "maturity": "tested"
+  },
+  "checks": [
+    "newer evidence wins only by observed_utc",
+    "equal-time equivalent claims coalesce",
+    "equal-time contradictory claims become HOLD",
+    "unknown card identifiers are rejected"
+  ],
+  "links": [
+    {
+      "relation": "consumes ->",
+      "target_id": "GG-D1-EXECUTION-BINDING",
+      "label": "Execution Binding",
+      "resolved": true
+    },
+    {
+      "relation": "feeds ->",
+      "target_id": "GG-D1-GRIMOIRE-EXECUTION-PROJECTOR",
+      "label": "Grimoire Execution Projector",
+      "resolved": true
+    },
+    {
+      "relation": "records ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-GRIMOIRE-BINDING-FANIN.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Binding Fan-In. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Grimoire Binding Fan-In; no artwork generated."
+  }
+}

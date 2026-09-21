@@ -1,0 +1,72 @@
+{
+  "id": "GG-D1-READY-WORK-RESERVOIR",
+  "name": "READY Work Reservoir",
+  "deck": "D1",
+  "kind": "STRUCTURE",
+  "type_line": "STRUCTURE — Durable Work Queue / Songline",
+  "summary": "The swarm always has useful admitted work without waiting for the World Weaver to choose the next task.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "The swarm always has useful admitted work without waiting for the World Weaver to choose the next task.",
+  "myth": "Creep stores the swarm's unfinished intent; any larva can follow the next scent.",
+  "engineering": {
+    "pattern": "producer-consumer queue + durable work ledger + high/low-water refill",
+    "origin": "operating systems and message brokers; mature decades-old patterns",
+    "exemplar": "Celery/Sidekiq ready queues; Kubernetes controller work queues; current Gen143 source-bound queue projection",
+    "maturity": "tested"
+  },
+  "checks": [
+    "continuity lives in READY work, not direct worker successor chains",
+    "every work item is source-bound and effect-bounded",
+    "READY != ACTIVE != RESULT != VERDICT != CONSUMED",
+    "duplicate semantic scope is forbidden"
+  ],
+  "links": [
+    {
+      "relation": "fed-by ->",
+      "target_id": "GG-D1-SOURCE-BOUND-GENERATOR",
+      "label": "Source-Bound Generator",
+      "resolved": true
+    },
+    {
+      "relation": "drained-by ->",
+      "target_id": "GG-D1-ZERG-MISSION-COMMAND",
+      "label": "Zerg Mission Command",
+      "resolved": true
+    },
+    {
+      "relation": "matched-by ->",
+      "target_id": "GG-D1-PERISHABLE-CAPACITY-RECONCILER",
+      "label": "Perishable Capacity Reconciler",
+      "resolved": true
+    },
+    {
+      "relation": "records ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-READY-WORK-RESERVOIR.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: READY Work Reservoir. Show an architectural archive with visible ingress and egress. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for READY Work Reservoir; no artwork generated."
+  }
+}

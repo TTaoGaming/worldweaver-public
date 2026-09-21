@@ -1,0 +1,60 @@
+{
+  "id": "GG-D1-HOST",
+  "name": "Host",
+  "deck": "D1",
+  "kind": "ARCHETYPE",
+  "type_line": "ARCHETYPE — Execution Machine / Runtime Substrate",
+  "summary": "The swarm knows which machine is alive without confusing host failure with provider failure.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "The swarm knows which machine is alive without confusing host failure with provider failure.",
+  "myth": "Bodies and planets may fail; the hive keeps the map of where flesh can still move.",
+  "engineering": {
+    "pattern": "compute node inventory + health check + worker-slot accounting",
+    "origin": "cluster schedulers and systems monitoring; mature",
+    "exemplar": "Oracle/OVH/Lenovo self-hosted runners and host telemetry",
+    "maturity": "running"
+  },
+  "checks": [
+    "host identity is distinct from provider/vendor/model",
+    "liveness has observed UTC + TTL",
+    "runner queue delay is separate from provider latency",
+    "host loss downgrades only dependent routes"
+  ],
+  "links": [
+    {
+      "relation": "provides ->",
+      "target_id": "GG-D1-SUPPLY",
+      "label": "Supply",
+      "resolved": true
+    },
+    {
+      "relation": "observed-by ->",
+      "target_id": "GG-D9-ZERG-DRONE-RING",
+      "label": "Zerg Drone Ring",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-HOST.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Host. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Host; no artwork generated."
+  }
+}

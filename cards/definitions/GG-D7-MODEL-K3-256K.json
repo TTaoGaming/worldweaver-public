@@ -1,0 +1,42 @@
+{
+  "id": "GG-D7-MODEL-K3-256K",
+  "name": "Kimi K3-256k",
+  "deck": "D7",
+  "kind": "MODEL",
+  "type_line": "MODEL",
+  "summary": "Kimi K3-256k: a model in the Harnesses / tools / models deck. Full source contract remains to be imported.",
+  "summary_origin": "EDITORIAL_PROPOSAL",
+  "hyperstition": "",
+  "myth": "",
+  "engineering": {
+    "pattern": "",
+    "origin": "",
+    "exemplar": "",
+    "maturity": ""
+  },
+  "checks": [],
+  "links": [],
+  "sources": [
+    {
+      "label": "Pinned catalog entry (definition incomplete)",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/gleipnir-grimoire/DECKLIST_v1.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "index",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Resolve the exact contract, check applicable constraints, and return source-bound evidence.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Kimi K3-256k. Show a distinct crystalline reasoning lens beside a separate carrier vessel. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Kimi K3-256k; no artwork generated."
+  }
+}

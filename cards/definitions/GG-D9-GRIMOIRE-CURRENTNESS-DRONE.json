@@ -1,0 +1,67 @@
+{
+  "id": "GG-D9-GRIMOIRE-CURRENTNESS-DRONE",
+  "name": "Grimoire Currentness Drone",
+  "deck": "D9",
+  "kind": "AGENT_SKILL",
+  "type_line": "AGENT SKILL / TOOL — Execution-Projection Watchdog",
+  "summary": "The Grimoire can never go stale silently and make Tao trust yesterday's battlefield.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "The Grimoire can never go stale silently and make Tao trust yesterday's battlefield.",
+  "myth": "A patrol drone circles the creep map; when the song stops changing, it screams before the hive goes blind.",
+  "engineering": {
+    "pattern": "watchdog + freshness TTL + invariant monitor",
+    "origin": "watchdog timers and synthetic monitoring; mature",
+    "exemplar": "tools/gleipnir_snapshot_watchdog.py",
+    "maturity": "tested"
+  },
+  "checks": [
+    "stale snapshot emits ANDON",
+    "future timestamp is P0",
+    "deck snapshot mismatch is P0",
+    "unbound inherited RUNNING emits ANDON",
+    "high HOLD pressure is surfaced"
+  ],
+  "links": [
+    {
+      "relation": "observes ->",
+      "target_id": "GG-D1-EXECUTION-SNAPSHOT",
+      "label": "Execution Snapshot",
+      "resolved": true
+    },
+    {
+      "relation": "feeds ->",
+      "target_id": "GG-D9-SIGRUN-CAPACITY-LEDGER",
+      "label": "Sigrun Capacity Ledger",
+      "resolved": true
+    },
+    {
+      "relation": "records ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck9/GG-D9-GRIMOIRE-CURRENTNESS-DRONE.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Currentness Drone. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Grimoire Currentness Drone; no artwork generated."
+  }
+}

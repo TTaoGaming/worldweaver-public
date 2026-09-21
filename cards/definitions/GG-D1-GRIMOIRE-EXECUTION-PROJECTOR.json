@@ -1,0 +1,66 @@
+{
+  "id": "GG-D1-GRIMOIRE-EXECUTION-PROJECTOR",
+  "name": "Grimoire Execution Projector",
+  "deck": "D1",
+  "kind": "TOOL",
+  "type_line": "TOOL — Receipt-to-Execution-State Reducer",
+  "summary": "No card stays green because someone forgot to refresh the board.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "No card stays green because someone forgot to refresh the board.",
+  "myth": "A sliver's aura fades when the source creature leaves the battlefield.",
+  "engineering": {
+    "pattern": "materialized view + TTL cache invalidation + fail-closed reducer",
+    "origin": "database views and cache-expiry controls; mature",
+    "exemplar": "tools/gleipnir_execution_projector.py",
+    "maturity": "tested"
+  },
+  "checks": [
+    "RUNNING requires fresh observed_utc + positive TTL",
+    "stale/incomplete/future runtime evidence becomes HOLD",
+    "tested persistent artifacts may remain EXECUTABLE",
+    "explicit HOLD outranks RUNNING"
+  ],
+  "links": [
+    {
+      "relation": "reads ->",
+      "target_id": "GG-D1-EXECUTION-BINDING",
+      "label": "Execution Binding",
+      "resolved": true
+    },
+    {
+      "relation": "projects ->",
+      "target_id": "GG-D1-EXECUTION-SNAPSHOT",
+      "label": "Execution Snapshot",
+      "resolved": true
+    },
+    {
+      "relation": "supports ->",
+      "target_id": "CORE-14",
+      "label": "Topology Lint",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-GRIMOIRE-EXECUTION-PROJECTOR.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Execution Projector. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Grimoire Execution Projector; no artwork generated."
+  }
+}

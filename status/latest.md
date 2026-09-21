@@ -1,3 +1,19 @@
+# Worldweaver v42 — HFO card library published
+
+Live: https://worldweaver.dev/cards/
+
+- Source commit: `084372d5d3d4e69e64df89f5bd3efea6de51998d`.
+- Cloudflare version: `39b8c9d7-8e40-429e-8771-1ce2ae964598`.
+- Coverage: 130 cards, 37 full definitions, 93 index entries; eight-card browser hand.
+- Validation: 74 Node tests, 10 local browser cases, 201 source-release hashes. Hosted readback matched 14 exact file hashes; HTML matched after accounting for the existing Cloudflare Insights injection. Homepage discovery, existing rehydration reader, HEAD and POST rejection passed.
+- Behavior assays remain NOT_RUN; no runtime binding or generated artwork is promoted by publication.
+
+See [the publication receipt](../receipts/20260921-card-library.json), [card files](../cards/README.md), and [art guide](../cards/art-guide.md).
+
+---
+
+## Preserved earlier release notes
+
 # HFO Gen142 — public operating status
 
 **Disposition: DEGRADED. Unattended operation is not established.**

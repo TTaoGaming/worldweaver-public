@@ -1,0 +1,72 @@
+{
+  "id": "GG-D1-PERISHABLE-CAPACITY-RECONCILER",
+  "name": "Perishable Capacity Reconciler",
+  "deck": "D1",
+  "kind": "WORKFLOW",
+  "type_line": "WORKFLOW — Demand/Supply Matcher",
+  "summary": "Useful READY work always finds the safest compatible mineral before that mineral expires.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Useful READY work always finds the safest compatible mineral before that mineral expires.",
+  "myth": "An overlord directs biomass to the brood that can still use it before it rots.",
+  "engineering": {
+    "pattern": "earliest-deadline-first scheduling + admission control + capability matching",
+    "origin": "real-time scheduling / queueing; mature decades-old patterns",
+    "exemplar": "EDF scheduler, batch queue admission, token-bucket bulkheads",
+    "maturity": "tested"
+  },
+  "checks": [
+    "never invent work to burn quota",
+    "queue priority outranks quota utilization",
+    "paid/uncertain/stale capacity is HOLD",
+    "provider != account != route != host != quota window"
+  ],
+  "links": [
+    {
+      "relation": "consumes ->",
+      "target_id": "GG-D1-READY-WORK-RESERVOIR",
+      "label": "READY Work Reservoir",
+      "resolved": true
+    },
+    {
+      "relation": "reads ->",
+      "target_id": "CORE-10",
+      "label": "Vendor",
+      "resolved": true
+    },
+    {
+      "relation": "supports ->",
+      "target_id": "HFO-G143-C045",
+      "label": "Overlord Allocate",
+      "resolved": true
+    },
+    {
+      "relation": "emits ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-PERISHABLE-CAPACITY-RECONCILER.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Perishable Capacity Reconciler. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Perishable Capacity Reconciler; no artwork generated."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "GG-D1-SOURCE-BOUND-GENERATOR",
+  "name": "Source-Bound Generator",
+  "deck": "D1",
+  "kind": "WORKFLOW",
+  "type_line": "WORKFLOW — Evergreen Work Materializer",
+  "summary": "Every evergreen frontier can replenish the queue without inventing work or laundering authority.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Every evergreen frontier can replenish the queue without inventing work or laundering authority.",
+  "myth": "Essence hunters return with one digestible strain at a time, never imaginary biomass.",
+  "engineering": {
+    "pattern": "cursor-based incremental crawler + idempotent materializer + bounded producer",
+    "origin": "incremental ETL/crawlers/message producers; mature patterns",
+    "exemplar": "source cursor + TTL + dependency gate -> typed WorkItem",
+    "maturity": "tested"
+  },
+  "checks": [
+    "generator needs fresh source_ref + cursor + TTL",
+    "dependencies_ready must be true",
+    "source effect ceiling may narrow but never widen lane authority",
+    "same-timestamp conflicting source envelopes HOLD",
+    "refill pressure never creates semantic content itself"
+  ],
+  "links": [
+    {
+      "relation": "reads ->",
+      "target_id": "GG-D1-SOURCE-FRONTIER",
+      "label": "Source Frontier",
+      "resolved": true
+    },
+    {
+      "relation": "feeds ->",
+      "target_id": "GG-D1-READY-WORK-RESERVOIR",
+      "label": "READY Work Reservoir",
+      "resolved": true
+    },
+    {
+      "relation": "requested-by ->",
+      "target_id": "GG-D1-EVERGREEN-REFILLER",
+      "label": "Evergreen Refiller",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-SOURCE-BOUND-GENERATOR.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Source-Bound Generator. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Source-Bound Generator; no artwork generated."
+  }
+}

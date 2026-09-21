@@ -1,0 +1,65 @@
+{
+  "id": "GG-D1-EXECUTION-SNAPSHOT",
+  "name": "Execution Snapshot",
+  "deck": "D1",
+  "kind": "PROJECTION",
+  "type_line": "PROJECTION — Volatile Card Execution State",
+  "summary": "One recomputable board says what is RUNNING, EXECUTABLE, HOLD, CANDIDATE or PROSE right now.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "One recomputable board says what is RUNNING, EXECUTABLE, HOLD, CANDIDATE or PROSE right now.",
+  "myth": "The battlefield map is alive only while fresh scouts keep painting it.",
+  "engineering": {
+    "pattern": "materialized view + TTL-aware state reduction",
+    "origin": "database materialized views and monitoring projections; mature",
+    "exemplar": "EXECUTION_SNAPSHOT_*.yaml produced by gleipnir_execution_projector.py",
+    "maturity": "executable"
+  },
+  "checks": [
+    "card set equals decklist",
+    "RUNNING is never inherited without a fresh binding",
+    "snapshot observed UTC is explicit"
+  ],
+  "links": [
+    {
+      "relation": "projected-by ->",
+      "target_id": "GG-D1-GRIMOIRE-EXECUTION-PROJECTOR",
+      "label": "Grimoire Execution Projector",
+      "resolved": true
+    },
+    {
+      "relation": "watched-by ->",
+      "target_id": "GG-D9-GRIMOIRE-CURRENTNESS-DRONE",
+      "label": "Grimoire Currentness Drone",
+      "resolved": true
+    },
+    {
+      "relation": "read-by ->",
+      "target_id": "GG-D1-GRIMOIRE-EXECUTION-REPORT",
+      "label": "Grimoire Execution Report",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-EXECUTION-SNAPSHOT.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Execution Snapshot. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Execution Snapshot; no artwork generated."
+  }
+}

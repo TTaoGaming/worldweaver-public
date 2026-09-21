@@ -1,0 +1,66 @@
+{
+  "id": "GG-D1-ANDON",
+  "name": "ANDON",
+  "deck": "D1",
+  "kind": "PRIMITIVE",
+  "type_line": "PRIMITIVE — Typed Failure / Stop Signal",
+  "summary": "Breakage becomes an explicit typed signal before it becomes Tao's surprise.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Breakage becomes an explicit typed signal before it becomes Tao's surprise.",
+  "myth": "Pain travels through the creep faster than the wound can spread.",
+  "engineering": {
+    "pattern": "industrial andon + typed incident event + circuit breaker",
+    "origin": "Toyota production system and modern reliability engineering; mature",
+    "exemplar": "Gen143 deterministic drone ANDON codes with severity owner evidence and allowed auto-action",
+    "maturity": "running"
+  },
+  "checks": [
+    "contains code severity subject owner and evidence",
+    "UNKNOWN is not green",
+    "LLM prose cannot clear it without fresh evidence",
+    "P0 blocks unsafe continuation"
+  ],
+  "links": [
+    {
+      "relation": "emitted-by ->",
+      "target_id": "GG-D9-ZERG-DRONE-RING",
+      "label": "Zerg Drone Ring",
+      "resolved": true
+    },
+    {
+      "relation": "consumed-by ->",
+      "target_id": "GG-D9-SIGRUN-CAPACITY-LEDGER",
+      "label": "Sigrun Capacity Ledger",
+      "resolved": true
+    },
+    {
+      "relation": "records ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-ANDON.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: ANDON. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for ANDON; no artwork generated."
+  }
+}

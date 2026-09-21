@@ -1,0 +1,67 @@
+{
+  "id": "GG-D1-GRIMOIRE-LINK-PIN",
+  "name": "Grimoire Link Pin",
+  "deck": "D1",
+  "kind": "TOOL",
+  "type_line": "TOOL — Exact Card-ID Link Migration Helper",
+  "summary": "Stable graph edges survive card renames because resolvable links are pinned to exact identities.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Stable graph edges survive card renames because resolvable links are pinned to exact identities.",
+  "myth": "The hive hardens a remembered synapse into a named nerve without changing what it means.",
+  "engineering": {
+    "pattern": "symbol resolution + semantics-preserving source rewrite",
+    "origin": "compiler symbol tables and linker relocation; mature",
+    "exemplar": "tools/gleipnir_link_pin.py",
+    "maturity": "tested"
+  },
+  "checks": [
+    "only unique exact display-name matches may be rewritten",
+    "ambiguous names are skipped",
+    "symbolic shorthand is skipped",
+    "existing explicit IDs are unchanged",
+    "post-rewrite CARD-LINT and link audit must pass"
+  ],
+  "links": [
+    {
+      "relation": "reads ->",
+      "target_id": "GG-D1-GRIMOIRE-LINK-AUDIT",
+      "label": "Grimoire Link Audit",
+      "resolved": true
+    },
+    {
+      "relation": "supports ->",
+      "target_id": "GG-D1-CARD-LINT",
+      "label": "CARD-LINT",
+      "resolved": true
+    },
+    {
+      "relation": "records ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-GRIMOIRE-LINK-PIN.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Link Pin. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Grimoire Link Pin; no artwork generated."
+  }
+}

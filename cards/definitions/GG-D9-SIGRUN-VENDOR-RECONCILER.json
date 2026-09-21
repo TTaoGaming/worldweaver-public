@@ -1,0 +1,72 @@
+{
+  "id": "GG-D9-SIGRUN-VENDOR-RECONCILER",
+  "name": "Sigrun Vendor Reconciler",
+  "deck": "D9",
+  "kind": "AGENT_SKILL",
+  "type_line": "AGENT SKILL — Global Fan-In and Capacity/Lifecycle Reconciliation",
+  "summary": "Tao never has to be the status poller, retry button, or vendor dispatcher.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Tao never has to be the status poller, retry button, or vendor dispatcher.",
+  "myth": "The queen hears every tremor in the creep and sends the nearest brood, not the World Weaver.",
+  "engineering": {
+    "pattern": "reconciliation controller + deterministic sentinels + fan-in before fan-out",
+    "origin": "control loops / Kubernetes operators / incident management",
+    "exemplar": "controller reconciliation over desired vs observed state",
+    "maturity": "running"
+  },
+  "checks": [
+    "deterministic drones run before model interpretation",
+    "one vendor failure bulkheads only its exact surface",
+    "Result -> Verifier -> ConsumerAck before refill when possible",
+    "healthy unchanged state stays silent"
+  ],
+  "links": [
+    {
+      "relation": "commands ->",
+      "target_id": "GG-D1-AGENT-SKILL",
+      "label": "Agent Skill",
+      "resolved": true
+    },
+    {
+      "relation": "reads ->",
+      "target_id": "CORE-10",
+      "label": "Vendor",
+      "resolved": true
+    },
+    {
+      "relation": "consumes ->",
+      "target_id": "GG-D1-ANDON",
+      "label": "ANDON",
+      "resolved": true
+    },
+    {
+      "relation": "supports ->",
+      "target_id": "CORE-08",
+      "label": "Sigrun",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck9/GG-D9-SIGRUN-VENDOR-RECONCILER.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Sigrun Vendor Reconciler. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Sigrun Vendor Reconciler; no artwork generated."
+  }
+}

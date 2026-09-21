@@ -1,0 +1,92 @@
+{
+  "id": "GG-D1-GLEIPNIR-GRIMOIRE",
+  "name": "Gleipnir Grimoire",
+  "deck": "D1",
+  "kind": "STRUCTURE",
+  "type_line": "LEGENDARY STRUCTURE — Topology-as-Code / Operator Exocortex",
+  "summary": "The whole swarm can be reasoned about as one typed living deck, so Tao sees the system instead of juggling its fragments.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "The whole swarm can be reasoned about as one typed living deck, so Tao sees the system instead of juggling its fragments.",
+  "myth": "A living sliver-web binds every strain, land, scar and signal into one shared map without making the map the queen.",
+  "engineering": {
+    "pattern": "typed knowledge graph + configuration registry + materialized operational view + static analysis",
+    "origin": "knowledge graphs, configuration management, database views and compiler linting; mature",
+    "exemplar": "Gen143 PR54 decklist + exact-ID card graph + execution bindings/snapshot/report + CARD-LINT/currentness tools",
+    "maturity": "tested"
+  },
+  "checks": [
+    "card governance state is distinct from execution state",
+    "decklist and execution snapshot contain the same card IDs",
+    "every RUNNING state requires fresh owner evidence and TTL",
+    "all Git-backed LINKS resolve to exact card IDs",
+    "myth/hyperstition never grant authority",
+    "operator report is a projection, not a truth source"
+  ],
+  "links": [
+    {
+      "relation": "contains ->",
+      "target_id": "GG-D1-GRIMOIRE-DECKLIST",
+      "label": "Grimoire Decklist",
+      "resolved": true
+    },
+    {
+      "relation": "projects ->",
+      "target_id": "GG-D1-EXECUTION-SNAPSHOT",
+      "label": "Execution Snapshot",
+      "resolved": true
+    },
+    {
+      "relation": "projects ->",
+      "target_id": "GG-D1-OPERATOR-REPORT",
+      "label": "Operator Report",
+      "resolved": true
+    },
+    {
+      "relation": "validated-by ->",
+      "target_id": "GG-D1-CARD-LINT",
+      "label": "CARD-LINT",
+      "resolved": true
+    },
+    {
+      "relation": "audited-by ->",
+      "target_id": "GG-D1-GRIMOIRE-LINK-AUDIT",
+      "label": "Grimoire Link Audit",
+      "resolved": true
+    },
+    {
+      "relation": "watched-by ->",
+      "target_id": "GG-D9-GRIMOIRE-CURRENTNESS-DRONE",
+      "label": "Grimoire Currentness Drone",
+      "resolved": true
+    },
+    {
+      "relation": "supports ->",
+      "target_id": "CORE-08",
+      "label": "Sigrun",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-GLEIPNIR-GRIMOIRE.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Gleipnir Grimoire. Show an architectural archive with visible ingress and egress. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Gleipnir Grimoire; no artwork generated."
+  }
+}

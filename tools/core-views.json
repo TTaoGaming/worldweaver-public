@@ -1,0 +1,200 @@
+{
+  "schema": "hfo.cards.navigation-proposal.v0.2",
+  "status": "PROPOSED_VIEWS_NOT_CANONICAL_CARDS",
+  "version": "0.2.0",
+  "catalog_size_budget": {
+    "minimum_intended": 64,
+    "maximum_intended": 512,
+    "semantics": "Intended canonical-definition scale; no padding requirement. Views, revisions, instances and receipts are counted separately."
+  },
+  "hand_limit": 8,
+  "views": [
+    {
+      "id": "VIEW-01",
+      "name": "Hive Fleet Obsidian",
+      "question": "What world are we building, for whom, and what counts as useful?",
+      "scope": [
+        "purpose",
+        "system boundary",
+        "beneficiaries",
+        "mission priorities",
+        "values",
+        "external environment"
+      ],
+      "source_refs": [
+        "CORE-01",
+        "CORE-02",
+        "CORE-12"
+      ],
+      "confidence": "HIGH for required function; MEDIUM for this grouping"
+    },
+    {
+      "id": "VIEW-02",
+      "name": "Sigrun and the Seats",
+      "question": "Who persists, who is acting now, and through which carrier?",
+      "scope": [
+        "Apex",
+        "actor",
+        "Hluti",
+        "seat",
+        "carrier",
+        "session",
+        "unit phenotypes",
+        "relationships"
+      ],
+      "source_refs": [
+        "CORE-08",
+        "CORE-09",
+        "CORE-03",
+        "CORE-04",
+        "HFO-G143-C016",
+        "HFO-G143-C017"
+      ],
+      "unresolved_source_refs": [
+        "CORE-05"
+      ],
+      "confidence": "HIGH for distinctions; MEDIUM for one combined view"
+    },
+    {
+      "id": "VIEW-03",
+      "name": "Lands and Capacity",
+      "question": "What resources exist, what is available, and what is already reserved?",
+      "scope": [
+        "provider accounts",
+        "hosts",
+        "shared quota pools",
+        "rate limits",
+        "budgets",
+        "reservations",
+        "freshness"
+      ],
+      "source_refs": [
+        "CORE-10",
+        "GG-D8-LAND-CHATGPT-B-ORACLE",
+        "GG-D1-MINERAL",
+        "GG-D1-GAS",
+        "GG-D1-SUPPLY"
+      ],
+      "confidence": "HIGH for explicit resource accounting"
+    },
+    {
+      "id": "VIEW-04",
+      "name": "Loadouts and Artifacts",
+      "question": "What capabilities and reusable resources can this actor use?",
+      "scope": [
+        "harnesses",
+        "tools",
+        "models",
+        "agent skills",
+        "datasets",
+        "repositories",
+        "schemas",
+        "interfaces",
+        "equipment compatibility"
+      ],
+      "source_refs": [
+        "CORE-11",
+        "GG-D1-AGENT-SKILL",
+        "HFO-G143-C023",
+        "HFO-G143-C064"
+      ],
+      "confidence": "HIGH for capability separation; MEDIUM for artifact placement"
+    },
+    {
+      "id": "VIEW-05",
+      "name": "Missions and Sagas",
+      "question": "What work should happen, in what order, and when does it end?",
+      "scope": [
+        "objectives",
+        "WorkItems",
+        "actions",
+        "spells",
+        "instants",
+        "workflows",
+        "events",
+        "queues",
+        "timeouts",
+        "recovery",
+        "consumer criteria"
+      ],
+      "source_refs": [
+        "GG-D1-WORKITEM",
+        "HFO-G143-C003",
+        "GG-D1-READY-WORK-RESERVOIR",
+        "GG-D1-ANDON"
+      ],
+      "confidence": "HIGH for explicit lifecycle and objectives"
+    },
+    {
+      "id": "VIEW-06",
+      "name": "Authority and Law",
+      "question": "Which effects are permitted, by whom, within what boundaries?",
+      "scope": [
+        "authority",
+        "effect ceilings",
+        "policy",
+        "admission",
+        "leases",
+        "fences",
+        "security",
+        "threats",
+        "exceptions"
+      ],
+      "source_refs": [
+        "HFO-G143-C049",
+        "HFO-G143-C035",
+        "HFO-G143-C036"
+      ],
+      "unresolved_source_refs": [
+        "CORE-06"
+      ],
+      "confidence": "HIGH for authority distinct from identity and competence"
+    },
+    {
+      "id": "VIEW-07",
+      "name": "Evidence and Judgment",
+      "question": "What do we know, what was tested, and who accepted it?",
+      "scope": [
+        "observations",
+        "claims",
+        "beliefs",
+        "receipts",
+        "provenance",
+        "verification",
+        "evaluators",
+        "consumer acceptance",
+        "uncertainty"
+      ],
+      "source_refs": [
+        "CORE-07",
+        "HFO-G143-C005",
+        "HFO-G143-C038",
+        "GG-D1-EXECUTION-SNAPSHOT"
+      ],
+      "confidence": "HIGH for scoped evidence and acceptance"
+    },
+    {
+      "id": "VIEW-08",
+      "name": "Memory and Evolution",
+      "question": "What should survive, change, or be retired after this cycle?",
+      "scope": [
+        "heritage",
+        "source precedence",
+        "versions",
+        "lineage",
+        "supersession",
+        "experiments",
+        "adaptation",
+        "failure lessons",
+        "learning policy"
+      ],
+      "source_refs": [
+        "GG-D1-GLEIPNIR-GRIMOIRE",
+        "HFO-G143-C004",
+        "HFO-G143-C033",
+        "GG-D5-ADAPTATION"
+      ],
+      "confidence": "HIGH for lineage; MEDIUM for this combined view"
+    }
+  ]
+}

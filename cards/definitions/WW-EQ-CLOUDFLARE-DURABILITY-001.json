@@ -1,0 +1,79 @@
+{
+  "id": "WW-EQ-CLOUDFLARE-DURABILITY-001",
+  "name": "Cloudflare Durability",
+  "deck": "D7",
+  "kind": "HARNESS",
+  "type_line": "EQUIPMENT — Durable Objects adapter (proposal)",
+  "summary": "A concrete durability capability: bind actor state to a named Cloudflare Durable Object and recover it through an explicit storage contract.",
+  "summary_origin": "EDITORIAL_PROPOSAL",
+  "hyperstition": "A carrier can end while a source-bound obligation remains recoverable.",
+  "myth": "The vessel rests; the inscription remains.",
+  "engineering": {
+    "pattern": "Cloudflare Durable Objects + durable storage + explicit adapter contract",
+    "origin": "Cloudflare platform documentation; HFO example source is separately pinned.",
+    "exemplar": "Worldweaver's PublicOasis class wraps OasisStore using Durable Object storage. This is an implementation example, not proof of Sigrun mission continuity.",
+    "maturity": "Documentation and implementation source linked; hosted recovery assay not performed for this card."
+  },
+  "checks": [
+    "Bind a specific actor ID, class and namespace; never treat the model session as the durable actor.",
+    "Declare the storage, schema, idempotency and recovery contract.",
+    "Test duplicate delivery and recovery against exact code/configuration before claiming the equipped system is durable.",
+    "Keep documented vendor capability, HFO implementation and observed hosted behavior separate."
+  ],
+  "links": [
+    {
+      "relation": "equips through ->",
+      "target_id": "CORE-11",
+      "label": "Loadout",
+      "resolved": true
+    },
+    {
+      "relation": "supports ->",
+      "target_id": "CORE-04",
+      "label": "Actor",
+      "resolved": true
+    },
+    {
+      "relation": "records ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "HFO Durable Object class — exact source",
+      "url": "https://github.com/TTaoGaming/hfo-swarm-factory/blob/42f8df9a5cc316670131310246ab4c4e51dc76fc/cloudflare/worldweaver-frontdoor/src/entry.js"
+    },
+    {
+      "label": "HFO storage adapter — exact source",
+      "url": "https://github.com/TTaoGaming/hfo-swarm-factory/blob/42f8df9a5cc316670131310246ab4c4e51dc76fc/cloudflare/worldweaver-frontdoor/src/oasis-store.js"
+    }
+  ],
+  "technology_refs": [
+    {
+      "label": "Cloudflare Durable Objects — official documentation",
+      "url": "https://developers.cloudflare.com/durable-objects/"
+    },
+    {
+      "label": "Cloudflare rules of Durable Objects",
+      "url": "https://developers.cloudflare.com/durable-objects/best-practices/rules-of-durable-objects/"
+    }
+  ],
+  "definition_status": "PROPOSED_PUBLIC_EXTENSION",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Choose actual Durable Object/storage interfaces when durability is required, and demand recovery evidence before claiming end-to-end continuity.",
+    "assay": "Given an ephemeral chat and a task needing resumable state, identify the missing durable binding; propose a bounded duplicate/restart test; refuse to equate a storage API link with tested mission recovery."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "No hosted recovery receipt was imported for this equipment card."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: a detachable obsidian archive module with layered chambers and an exposed adapter attached to a separate worker silhouette. Depict recoverable inscription, not immortality or infinite capacity. No vendor logo.",
+    "alt": "Planned detachable archive module attached to a separate worker; artwork pending."
+  }
+}

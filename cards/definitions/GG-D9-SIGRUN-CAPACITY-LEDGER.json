@@ -1,0 +1,104 @@
+{
+  "id": "GG-D9-SIGRUN-CAPACITY-LEDGER",
+  "name": "Sigrun Capacity Ledger",
+  "deck": "D9",
+  "kind": "AGENT_SKILL",
+  "type_line": "AGENT SKILL — Perishable Capacity / Evergreen Queue Reconciler",
+  "summary": "Tao never manually juggles ten quota surfaces; the ledger continuously reconciles useful work, minerals, gas, supply and holds.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Tao never manually juggles ten quota surfaces; the ledger continuously reconciles useful work, minerals, gas, supply and holds.",
+  "myth": "The queen counts biomass, bodies and scars before the next beat of the songline.",
+  "engineering": {
+    "pattern": "reconciliation controller + deterministic reducer + sparse supervisory wake",
+    "origin": "Kubernetes operator/control-loop pattern; mature",
+    "exemplar": "live ChatGPT Scheduled Task 'Sigrun Capacity Ledger' consuming Gen143 #53 and PR24/27 state",
+    "maturity": "running"
+  },
+  "checks": [
+    "short control wake only; long work moves to external executors",
+    "source-bound generator law enforced",
+    "capacity probes are normal WorkItems only when read-only and admitted",
+    "owner-wake defer prevents duplicate probes",
+    "effects_applied=false at pure reduction layer",
+    "max_incremental_usd=0"
+  ],
+  "links": [
+    {
+      "relation": "implements ->",
+      "target_id": "GG-D1-ZERG-MISSION-COMMAND",
+      "label": "Zerg Mission Command",
+      "resolved": true
+    },
+    {
+      "relation": "reads ->",
+      "target_id": "GG-D1-READY-WORK-RESERVOIR",
+      "label": "READY Work Reservoir",
+      "resolved": true
+    },
+    {
+      "relation": "uses ->",
+      "target_id": "GG-D1-PERISHABLE-CAPACITY-RECONCILER",
+      "label": "Perishable Capacity Reconciler",
+      "resolved": true
+    },
+    {
+      "relation": "uses ->",
+      "target_id": "GG-D1-EVERGREEN-REFILLER",
+      "label": "Evergreen Refiller",
+      "resolved": true
+    },
+    {
+      "relation": "reads ->",
+      "target_id": "CORE-10",
+      "label": "Vendor",
+      "resolved": true
+    },
+    {
+      "relation": "reads ->",
+      "target_id": "GG-D1-MINERAL",
+      "label": "Mineral",
+      "resolved": true
+    },
+    {
+      "relation": "reads ->",
+      "target_id": "GG-D1-GAS",
+      "label": "Gas",
+      "resolved": true
+    },
+    {
+      "relation": "reads ->",
+      "target_id": "GG-D1-SUPPLY",
+      "label": "Supply",
+      "resolved": true
+    },
+    {
+      "relation": "emits ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck9/GG-D9-SIGRUN-CAPACITY-LEDGER.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Sigrun Capacity Ledger. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Sigrun Capacity Ledger; no artwork generated."
+  }
+}

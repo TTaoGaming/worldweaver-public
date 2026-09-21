@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111113">
+  <meta name="description" content="Browse the HFO card atlas: source-bound concepts, engineering patterns, behavior checks, and an eight-card reading hand. Runtime claims remain separate from definitions.">
+  <title>The Card Atlas · World Weaver</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./cards.css">
+  <script src="./cards.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#library">Skip to the card library</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="/" aria-label="World Weaver home"><span class="brand-glyph" aria-hidden="true">◈</span><span>WORLD WEAVER<span class="wordmark-sub">THE WAKING WEB</span></span></a>
+    <nav aria-label="Page navigation"><a href="#library">Atlas</a><a href="#hand">Your hand <span id="nav-hand-count">0/8</span></a><a href="#battlefield">Battlefield</a></nav>
+    <span class="edition">HFO / PUBLIC EDITION</span>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="atlas-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="red-dot" aria-hidden="true"></span> A FIELD GUIDE TO THE HIVE</p>
+        <h1 id="atlas-title">A small hand.<br><em>A deeper hive.</em></h1>
+        <p class="hero-description">Hold eight ideas at a time. Follow each card from its mythic handle to the engineering beneath it, the checks it needs, and the source it came from.</p>
+        <a class="button primary" href="#library">Explore the atlas <span aria-hidden="true">↗</span></a>
+        <span class="hero-note">Read. Connect. Inspect the evidence.</span>
+      </div>
+      <div class="hero-emblem" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="orbit-label label-top">SOURCE · PATTERN · BEHAVIOR</span>
+        <div class="emblem-card emblem-back"></div>
+        <div class="emblem-card emblem-front"><span class="emblem-index">HFO / 08</span><div class="sigil"><span></span><span></span><span></span></div><span class="emblem-title">THE WEAVE</span><span class="emblem-caption">MANY HANDLES. ONE THREAD.</span></div>
+        <span class="orbit-label label-bottom">A MAP IS A BEGINNING.</span>
+      </div>
+    </section>
+
+    <div class="coverage-bar" aria-label="Catalog coverage">
+      <div><strong id="indexed-count">—</strong><span>indexed cards</span></div>
+      <div><strong id="full-count">—</strong><span>full definitions</span></div>
+      <div><strong>00</strong><span>verified battlefield bindings</span></div>
+      <p>Source-bound snapshot.<br><span>Historical coverage remains incomplete.</span></p>
+    </div>
+
+    <section class="hand-section section-block" id="hand" aria-labelledby="hand-heading">
+      <div class="section-heading"><div><p class="eyebrow">01 / YOUR WORKING SET</p><h2 id="hand-heading">An eight-card hand <span id="hand-count" class="count-label">0 / 8</span></h2></div><div class="section-actions"><button id="reset-hand" class="text-button" type="button" disabled>Restore starting hand</button><button id="clear-hand" class="text-button" type="button" disabled>Clear</button></div></div>
+      <p class="section-intro">A personal selection for reading and comparison. Saved in this browser when storage is available.</p>
+      <ol class="hand-grid" id="hand-cards" aria-label="Your selected cards"></ol>
+      <p class="hand-boundary"><span aria-hidden="true">↳</span> Adding a card to your hand grants no execution authority.</p>
+    </section>
+
+    <section class="library-section section-block" id="library" aria-labelledby="library-heading">
+      <div class="section-heading"><div><p class="eyebrow">02 / THE COLLECTION</p><h2 id="library-heading">The card atlas<span class="heading-period">.</span></h2></div><a class="text-link" href="./catalog.json">Read the catalog JSON <span aria-hidden="true">↗</span></a></div>
+      <form class="filters" id="filters" role="search">
+        <div class="search-field"><label for="search">Search the atlas</label><div class="search-input"><span aria-hidden="true">⌕</span><input id="search" name="search" type="search" placeholder="Name, handle, pattern…" autocomplete="off" disabled></div></div>
+        <div class="filter-field"><label for="deck-filter">Deck</label><select id="deck-filter" disabled><option value="">All decks</option></select></div>
+        <div class="filter-field"><label for="type-filter">Kind</label><select id="type-filter" disabled><option value="">All kinds</option></select></div>
+        <div class="filter-field"><label for="depth-filter">Definition</label><select id="depth-filter" disabled><option value="">All depths</option><option value="full">Full definitions</option><option value="index">Index entries</option></select></div>
+      </form>
+      <div class="results-line"><p id="results-count" role="status" aria-live="polite">Loading the source-bound catalog…</p><button class="text-button" id="clear-filters" type="button" hidden>Clear filters</button><span class="results-hint">Open a card to unfold its layers.</span></div>
+      <div class="load-error" id="load-error" role="alert" hidden><h3>The atlas could not be loaded.</h3><p id="load-error-message">The catalog is unavailable. No card or runtime state has been assumed.</p><button class="button" id="retry-load" type="button">Try again</button></div>
+      <div class="card-grid" id="card-grid" aria-label="Card library" aria-busy="true"></div>
+      <div class="empty-results" id="empty-results" hidden><span aria-hidden="true">∅</span><h3>No cards match these filters.</h3><p>Try a shorter phrase or choose another deck.</p></div>
+      <noscript><p class="load-error">This interactive atlas needs JavaScript. You can still <a href="./catalog.json">read the complete source-bound catalog as JSON</a>.</p></noscript>
+    </section>
+
+    <section class="core-section section-block" aria-labelledby="core-heading" id="core-section" hidden>
+      <div class="section-heading"><div><p class="eyebrow">03 / WAYS INTO THE SYSTEM</p><h2 id="core-heading">Eight doors into the hive.</h2></div></div>
+      <p class="section-intro">Each view starts with a question. Unfold it to follow the source.</p>
+      <div id="core-views" class="core-grid"></div>
+    </section>
+
+    <section class="battlefield section-block" id="battlefield" aria-labelledby="battlefield-heading">
+      <div class="section-heading"><div><p class="eyebrow">04 / VERIFIED IN THE WORLD</p><h2 id="battlefield-heading">The battlefield</h2></div><span class="status-tag">NO VERIFIED BINDINGS IMPORTED</span></div>
+      <div class="battlefield-empty"><div class="empty-marker" aria-hidden="true">∅</div><div><h3>Reserved for what demonstrably works.</h3><p>No verified runtime bindings are included in this catalog. A definition, a mature engineering pattern, or a selected card cannot establish that a system is running.</p><p class="small">A future entry needs a specific runtime, a fresh verification receipt, and a bound source. There is no manual “mark verified” control.</p></div><span class="battlefield-count" aria-label="Zero verified bindings">00</span></div>
+    </section>
+
+    <footer class="site-footer"><div><a class="footer-brand" href="/">WORLD WEAVER</a><p>Myth gives us a handle. Evidence gives it weight.</p></div><div class="footer-source"><span id="source-info">Catalog source pending</span><a id="catalog-source" hidden>Inspect source revision ↗</a><a href="./catalog.json">Machine-readable catalog ↗</a></div></footer>
+  </main>
+
+  <dialog id="card-dialog" aria-labelledby="detail-name" aria-describedby="detail-summary">
+    <div class="dialog-toolbar"><span class="eyebrow">CARD / INSPECTOR</span><button type="button" class="close-button" id="close-dialog" aria-label="Close card details">Close <span aria-hidden="true">×</span></button></div>
+    <div id="card-detail"></div>
+  </dialog>
+  <p id="announcement" class="toast" role="status" aria-live="polite" aria-atomic="true" hidden></p>
+</body>
+</html>

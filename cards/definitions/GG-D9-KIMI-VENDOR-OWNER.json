@@ -1,0 +1,66 @@
+{
+  "id": "GG-D9-KIMI-VENDOR-OWNER",
+  "name": "Kimi Vendor Owner",
+  "deck": "D9",
+  "kind": "AGENT_SKILL",
+  "type_line": "AGENT SKILL — Single-Threaded Vendor Owner",
+  "summary": "One Kimi owner turns subscription minerals into bounded useful work while every other Kimi observer stays read-only.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "One Kimi owner turns subscription minerals into bounded useful work while every other Kimi observer stays read-only.",
+  "myth": "One brood mother spends the moonlit biomass; drones count it but never seize the brood.",
+  "engineering": {
+    "pattern": "single-writer ownership + quota reserve + role adapter + checkpoint/restart",
+    "origin": "single-writer systems, SRE admission control, resumable jobs",
+    "exemplar": "one semantic in-flight lease with independent observer canaries",
+    "maturity": "running"
+  },
+  "checks": [
+    "MAX_KIMI_SEMANTIC_INFLIGHT = 1",
+    "Capacity Canary is observer only",
+    "Extra Usage and paid fallback remain off",
+    "role selects model; caller does not pin model"
+  ],
+  "links": [
+    {
+      "relation": "uses ->",
+      "target_id": "GG-D8-LAND-KIMI-CODE",
+      "label": "Kimi Code Subscription",
+      "resolved": true
+    },
+    {
+      "relation": "equips ->",
+      "target_id": "CORE-11",
+      "label": "Loadout",
+      "resolved": true
+    },
+    {
+      "relation": "observed-by ->",
+      "target_id": "GG-D9-KIMI-CAPACITY-CANARY",
+      "label": "Kimi Capacity Canary",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck9/GG-D9-KIMI-VENDOR-OWNER.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Kimi Vendor Owner. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Kimi Vendor Owner; no artwork generated."
+  }
+}

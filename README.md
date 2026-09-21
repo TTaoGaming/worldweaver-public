@@ -1,3 +1,15 @@
+# HFO card library — September 21, 2026
+
+[Browse the cards on Worldweaver](https://worldweaver.dev/cards/) · [Browse versioned card files](cards/README.md) · [Compact agent index](cards/index.json) · [Art guide](cards/art-guide.md)
+
+130 browseable cards: the pinned 129-entry Grimoire and one explicit Cloudflare Durability equipment proposal. This snapshot contains 37 full definitions and 93 index-only entries. Use search and filters, save an eight-card hand, and unfold individual cards into engineering, checks, sources, behavior targets and future art prompts.
+
+Start with [Cloudflare Durability](https://worldweaver.dev/cards/#card=WW-EQ-CLOUDFLARE-DURABILITY-001) to see official vendor documentation and exact implementation references. Card framing is a testable design proposal: behavioral assays have not run, runtime bindings remain unverified in this projection, and no generated art is claimed. The battlefield imports no verified bindings; it is not a census of the whole system.
+
+[Publication receipt](receipts/20260921-card-library.json) · [Rebuild instructions](tools/README.md) · [Card integrity](cards/integrity.json)
+
+---
+
 # Packing handoff — source snapshot September 13, 2026
 
 [Read the dated packing readiness update](releases/20260913T003943Z/README.md) · [JSON](releases/20260913T003943Z/packing.json). Keeper-packet readiness, algorithm improvement, laptop-off work and useful added model capacity have separate evidence gates. This is a static public fallback; it grants no authority and supplies no candidate download until reviewed bytes are published.

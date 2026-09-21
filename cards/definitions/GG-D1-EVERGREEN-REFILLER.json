@@ -1,0 +1,68 @@
+{
+  "id": "GG-D1-EVERGREEN-REFILLER",
+  "name": "Evergreen Refiller",
+  "deck": "D1",
+  "kind": "WORKFLOW",
+  "type_line": "WORKFLOW — READY Reservoir Pressure",
+  "summary": "The work reservoir stays deep enough that no useful mineral waits for Tao to invent the next task.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "The work reservoir stays deep enough that no useful mineral waits for Tao to invent the next task.",
+  "myth": "The hatchery keeps larvae ready, but only the environment decides what they become.",
+  "engineering": {
+    "pattern": "producer-consumer queue watermarks + bounded replenishment + backlog caps",
+    "origin": "high/low-water marks in operating systems, brokers and batch queues",
+    "exemplar": "message broker queue depth alarms; Kubernetes controller reconciliation",
+    "maturity": "tested"
+  },
+  "checks": [
+    "refiller owns pressure, not semantic meaning",
+    "domain generator must be READY and source-bound",
+    "READY floor and nonterminal ceiling are both enforced",
+    "global refill budget is bounded",
+    "per-lane refill cap prevents one lane monopolizing the reservoir",
+    "STAGE_ONLY lanes do not gain send/apply/publish authority"
+  ],
+  "links": [
+    {
+      "relation": "feeds ->",
+      "target_id": "GG-D1-READY-WORK-RESERVOIR",
+      "label": "READY Work Reservoir",
+      "resolved": true
+    },
+    {
+      "relation": "requests ->",
+      "target_id": "GG-D1-SOURCE-BOUND-GENERATOR",
+      "label": "Source-Bound Generator",
+      "resolved": true
+    },
+    {
+      "relation": "supports ->",
+      "target_id": "GG-D1-PERISHABLE-CAPACITY-RECONCILER",
+      "label": "Perishable Capacity Reconciler",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-EVERGREEN-REFILLER.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Evergreen Refiller. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Evergreen Refiller; no artwork generated."
+  }
+}

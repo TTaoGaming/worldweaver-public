@@ -1,0 +1,79 @@
+{
+  "id": "GG-D1-ZERG-MISSION-COMMAND",
+  "name": "Zerg Mission Command",
+  "deck": "D1",
+  "kind": "CONTROLLER",
+  "type_line": "CONTROLLER — Queue Drain / Refill Battle Rhythm",
+  "summary": "The swarm drains useful work at its own battle rhythm while Tao sets intent instead of routing tasks.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "The swarm drains useful work at its own battle rhythm while Tao sets intent instead of routing tasks.",
+  "myth": "The songline is the creep's pulse: broods move because the whole hive is singing, not because Tao taps each unit.",
+  "engineering": {
+    "pattern": "mission command + reconciliation controller + pull-based worker queue",
+    "origin": "military mission command; controller loops; producer-consumer systems",
+    "exemplar": "Sigrun Capacity Ledger consuming source-bound queue and capacity plans",
+    "maturity": "running"
+  },
+  "checks": [
+    "does not require worker-to-worker successor spawning",
+    "fan-in precedes refill when lifecycle debt exists",
+    "workers pull by capability/effect fit",
+    "deterministic queue/capacity reducers precede neural interpretation",
+    "Tao is authority, never heartbeat"
+  ],
+  "links": [
+    {
+      "relation": "drains ->",
+      "target_id": "GG-D1-READY-WORK-RESERVOIR",
+      "label": "READY Work Reservoir",
+      "resolved": true
+    },
+    {
+      "relation": "uses ->",
+      "target_id": "GG-D1-PERISHABLE-CAPACITY-RECONCILER",
+      "label": "Perishable Capacity Reconciler",
+      "resolved": true
+    },
+    {
+      "relation": "requests ->",
+      "target_id": "GG-D1-EVERGREEN-REFILLER",
+      "label": "Evergreen Refiller",
+      "resolved": true
+    },
+    {
+      "relation": "commands ->",
+      "target_id": "GG-D1-AGENT-SKILL",
+      "label": "Agent Skill",
+      "resolved": true
+    },
+    {
+      "relation": "records ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-ZERG-MISSION-COMMAND.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Zerg Mission Command. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Zerg Mission Command; no artwork generated."
+  }
+}

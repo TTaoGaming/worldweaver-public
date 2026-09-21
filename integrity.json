@@ -1,6 +1,6 @@
 {
   "schema": "worldweaver.public_mirror_integrity.v3",
-  "recorded_at": "2026-09-13T00:47:52Z",
+  "recorded_at": "2026-09-21T02:51:21.698764+00:00",
   "algorithm": "SHA-256",
   "files": [
     {
@@ -10,18 +10,1383 @@
     },
     {
       "path": "README.md",
-      "bytes": 5906,
-      "sha256": "1801d6944a137eee37442026777423f38e6693f7613058812751d6c3623f4f9f"
+      "bytes": 7058,
+      "sha256": "8e5ac68ea41510663d79ce3bc97ec24836a167fc907fa54a1f0a11f7c5f42c3a"
     },
     {
       "path": "START_HERE.md",
-      "bytes": 5906,
-      "sha256": "1801d6944a137eee37442026777423f38e6693f7613058812751d6c3623f4f9f"
+      "bytes": 7058,
+      "sha256": "8e5ac68ea41510663d79ce3bc97ec24836a167fc907fa54a1f0a11f7c5f42c3a"
     },
     {
       "path": "activity/providers.json",
       "bytes": 4569,
       "sha256": "ffd559df802460d5166f2328629288141021155b8021a3b2e95de6ffd890d20c"
+    },
+    {
+      "path": "cards/README.md",
+      "bytes": 2591,
+      "sha256": "34b48089400098f94711cc58c251754575f5d8a9a2b6bbbd58e9325982d6d238"
+    },
+    {
+      "path": "cards/art-guide.md",
+      "bytes": 7652,
+      "sha256": "362b79de50b2af88d7ae937b958962a15317e9b173d5b7954c0dc0f08f603817"
+    },
+    {
+      "path": "cards/battlefield.json",
+      "bytes": 209,
+      "sha256": "7e1f967e3426d66d87b5967ec4c3f868a64b27247ac4dd73e838df08d35bb016"
+    },
+    {
+      "path": "cards/behavior-assay.json",
+      "bytes": 2545,
+      "sha256": "637b3cedfe716c4ebe6e768772ae8bd44c7d2011272fb052ec71d1e91dfbf56d"
+    },
+    {
+      "path": "cards/cards.css",
+      "bytes": 23255,
+      "sha256": "7509aaadab7149e2c89a54901d423c39c64ba28ed354120983daa5991fc854e8"
+    },
+    {
+      "path": "cards/cards.js",
+      "bytes": 23845,
+      "sha256": "cd4b2b2d91775c5f2e022699aae0b1140554f77b8225ffe9a6ddd289cd34f144"
+    },
+    {
+      "path": "cards/catalog.json",
+      "bytes": 340827,
+      "sha256": "2f1216cbbb797eae34de0d1ce97985cdc18d48b4e97c42dc80633dfe689d1938"
+    },
+    {
+      "path": "cards/definitions/CORE-01.json",
+      "bytes": 1984,
+      "sha256": "5104db2d5691a68676f8fb82e2f6248628f1d15addece8433946d996ad284314"
+    },
+    {
+      "path": "cards/definitions/CORE-01.md",
+      "bytes": 1575,
+      "sha256": "ece7e11c943b435960f2c378d8c0f8b60d1f355023b9b51e74312803476a40e6"
+    },
+    {
+      "path": "cards/definitions/CORE-02.json",
+      "bytes": 2008,
+      "sha256": "37e2742e1d5b1b14a5304ccf218aa23b8707c1e214a0ec65dd8abed150bb498e"
+    },
+    {
+      "path": "cards/definitions/CORE-02.md",
+      "bytes": 1602,
+      "sha256": "27ab2829dd46650b31c5ab78edae684000cf13c5ccd37a5b2e831b40f82387f1"
+    },
+    {
+      "path": "cards/definitions/CORE-03.json",
+      "bytes": 1937,
+      "sha256": "77f9220718d47d87d54a572e0ebca893daeaa41446c62d06e66e6dfaaf654ee2"
+    },
+    {
+      "path": "cards/definitions/CORE-03.md",
+      "bytes": 1545,
+      "sha256": "047e67e6f5d8a5c672a96d40bf5f7e3d45019f4fe808f51f1fb72bceddcd487c"
+    },
+    {
+      "path": "cards/definitions/CORE-04.json",
+      "bytes": 1965,
+      "sha256": "7937e579569dbacfca41acbc67c1257c22ace7276e3b347aac3657ba07137c4f"
+    },
+    {
+      "path": "cards/definitions/CORE-04.md",
+      "bytes": 1572,
+      "sha256": "8ae1318a1fa841959f55787e08de7322810096e41ac4fb618c80817f7c1ebae0"
+    },
+    {
+      "path": "cards/definitions/CORE-07.json",
+      "bytes": 1962,
+      "sha256": "04ce8006bb3a1bef2a73683471593d761205afece334581e70ccee6a43e9d392"
+    },
+    {
+      "path": "cards/definitions/CORE-07.md",
+      "bytes": 1567,
+      "sha256": "749529992d88e54e4ddaa88c615bd9565663673b91b614e57e0beaf3809f7df0"
+    },
+    {
+      "path": "cards/definitions/CORE-08.json",
+      "bytes": 3419,
+      "sha256": "96ddd58a2ed210eddc5601f94a3976ca5028db5f2e8c76bda208974d63d390ea"
+    },
+    {
+      "path": "cards/definitions/CORE-08.md",
+      "bytes": 2622,
+      "sha256": "43f651df9532ae8e812a2a138857d6cbc0fafc8d34208c3e22d3ae68719a9d5c"
+    },
+    {
+      "path": "cards/definitions/CORE-09.json",
+      "bytes": 2090,
+      "sha256": "d9662f8b875a19e0a6d555d00c37eac0d2df64386f13caa76e9f82a24e7f8f85"
+    },
+    {
+      "path": "cards/definitions/CORE-09.md",
+      "bytes": 1690,
+      "sha256": "e73d5447d23d9a93e08a79ce00f3a403ee9ed97ec15cdf1c14fc625e1ca79af5"
+    },
+    {
+      "path": "cards/definitions/CORE-10.json",
+      "bytes": 1978,
+      "sha256": "0da39ce8b17d7b38e1d68b49d39a820e595ebf1b70ae5765dc5e7471ba932282"
+    },
+    {
+      "path": "cards/definitions/CORE-10.md",
+      "bytes": 1584,
+      "sha256": "8e09af2cc4e47a626e9a61918201278869021314c1b87d7d8f64b6c72d128ef5"
+    },
+    {
+      "path": "cards/definitions/CORE-11.json",
+      "bytes": 1959,
+      "sha256": "a3ce0419b3fe99b2b40329821f844233b1be2f01ce30ea37b55f7a350af31645"
+    },
+    {
+      "path": "cards/definitions/CORE-11.md",
+      "bytes": 1564,
+      "sha256": "2f4e2b8a029e830676fa925b58fcd19808d6abdd62e4d308f6473c4211ae26a9"
+    },
+    {
+      "path": "cards/definitions/CORE-12.json",
+      "bytes": 1960,
+      "sha256": "a5ed44d67bf669595e5ff355d7cda9ba816430c2fc1e5c1daebd99ca7ff34df0"
+    },
+    {
+      "path": "cards/definitions/CORE-12.md",
+      "bytes": 1568,
+      "sha256": "2bc1cf0b4088da8878ff6fba04d3d35bbf3173e949ca88ec477c108a69dab34f"
+    },
+    {
+      "path": "cards/definitions/CORE-13.json",
+      "bytes": 1962,
+      "sha256": "94e5671c86bb7dc0cc131b06e3b100e64b412c631747d347a8d976cf207c3c41"
+    },
+    {
+      "path": "cards/definitions/CORE-13.md",
+      "bytes": 1575,
+      "sha256": "e8da1a91c707eda6fc04ed6084155fcc3067dcb483ca64625b453a4ae475ea49"
+    },
+    {
+      "path": "cards/definitions/CORE-14.json",
+      "bytes": 1947,
+      "sha256": "362776d6562eebfd0859ad36ca3e495b02b65939b5754107459b1ef6075dfbdb"
+    },
+    {
+      "path": "cards/definitions/CORE-14.md",
+      "bytes": 1551,
+      "sha256": "39cfd19527050c3b9cc14584c7ce49a0e95cf98d7a100938392e4217995b55a0"
+    },
+    {
+      "path": "cards/definitions/GG-D1-AGENT-SKILL.json",
+      "bytes": 3004,
+      "sha256": "d9c7cb590af6ead4149993b4ccc7c33eefd30192fc5322b993e07349b187e1f7"
+    },
+    {
+      "path": "cards/definitions/GG-D1-AGENT-SKILL.md",
+      "bytes": 2226,
+      "sha256": "063ffa5a86effc877252bee9cd5ef71f1ca55ee44972ab3b0b8ec5d29f6f8ca0"
+    },
+    {
+      "path": "cards/definitions/GG-D1-ANDON.json",
+      "bytes": 2958,
+      "sha256": "a48b9b8962e833c63a34ad1f6ee463806fbd97cc1ed8b5b0b1dda938460445d3"
+    },
+    {
+      "path": "cards/definitions/GG-D1-ANDON.md",
+      "bytes": 2186,
+      "sha256": "4806236f2ab23bc74f1c164f0e3b00f1dfa32ea59b75de698a2d9ab276925e43"
+    },
+    {
+      "path": "cards/definitions/GG-D1-AUTOMATION.json",
+      "bytes": 2922,
+      "sha256": "619e0434d4cc332ef577224062f147b77379f1ab240810cf0362f77ec78bdbfb"
+    },
+    {
+      "path": "cards/definitions/GG-D1-AUTOMATION.md",
+      "bytes": 2145,
+      "sha256": "290230071560c5fed7fd1e1fbc8fe2e7bb5df0adf3dbf9a35b043b1c7240ac51"
+    },
+    {
+      "path": "cards/definitions/GG-D1-CAPACITY-PROBE-INGEST-CHAIN.json",
+      "bytes": 3420,
+      "sha256": "396adc2c894ce9ec524a2202001ea86e2aa91471dfb376c2ac93d09a26f849b6"
+    },
+    {
+      "path": "cards/definitions/GG-D1-CAPACITY-PROBE-INGEST-CHAIN.md",
+      "bytes": 2510,
+      "sha256": "f8c2b58a3d1001ab2e331b656efb7934a404f612a3ef783de85dce5f7bd804cd"
+    },
+    {
+      "path": "cards/definitions/GG-D1-CAPACITY-RECEIPT-FANIN.json",
+      "bytes": 3277,
+      "sha256": "91d1686fc0081bd4dab9c698c1ee81f585e2c999a2e2a4b911223b38d98fecd8"
+    },
+    {
+      "path": "cards/definitions/GG-D1-CAPACITY-RECEIPT-FANIN.md",
+      "bytes": 2392,
+      "sha256": "1793003f224405699ea15a06bc0e523b10cc6bcc1dc98ed67fb39cfd61f580b5"
+    },
+    {
+      "path": "cards/definitions/GG-D1-CARD-LINT.json",
+      "bytes": 2978,
+      "sha256": "78d00671e58a48eca3df1f8913789f593fcd2e9888739f66391fc33bc83a709b"
+    },
+    {
+      "path": "cards/definitions/GG-D1-CARD-LINT.md",
+      "bytes": 2192,
+      "sha256": "9e7b3babbcfe736a5d882b23c8bf4fa07ce9fd46d7d8dce39ada49082de61e0f"
+    },
+    {
+      "path": "cards/definitions/GG-D1-EVERGREEN-REFILLER.json",
+      "bytes": 3286,
+      "sha256": "50bcb4eee5155854fb3e0cae2536fde3b06fb8df9f5c7ace8d67ba5ab5ad9c1a"
+    },
+    {
+      "path": "cards/definitions/GG-D1-EVERGREEN-REFILLER.md",
+      "bytes": 2492,
+      "sha256": "16c9070d1473a60ed0272be3ffc26bbff1b7d5c4f89baef27001e1a94f16fa29"
+    },
+    {
+      "path": "cards/definitions/GG-D1-EXECUTION-BINDING.json",
+      "bytes": 2864,
+      "sha256": "a16dcd43e0df827350c30c11655b66a68e83bdf46566bc8aca281e1fb6fe57a9"
+    },
+    {
+      "path": "cards/definitions/GG-D1-EXECUTION-BINDING.md",
+      "bytes": 2181,
+      "sha256": "3b3d96d99c1a675b6b1343234691d84a0d7631ce19d340c5f81976d53b0e880f"
+    },
+    {
+      "path": "cards/definitions/GG-D1-EXECUTION-SNAPSHOT.json",
+      "bytes": 3061,
+      "sha256": "363e3730770f78021cea6e13d6b48ce16cf86d2ea020b283c1f5eb0d44165d2a"
+    },
+    {
+      "path": "cards/definitions/GG-D1-EXECUTION-SNAPSHOT.md",
+      "bytes": 2280,
+      "sha256": "11b80ef5515505d830457c63d415edc5708640fe5278a65b284743d5716b10b0"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GAS.json",
+      "bytes": 2790,
+      "sha256": "631630218840db3d7ad6d46c4fec6438641a5ccd666b347f5c5fc734749da8a6"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GAS.md",
+      "bytes": 2021,
+      "sha256": "6c5d5f8856433c091875b6975a8c69007e8c3391ba6bbee707b43bf3303e7bcd"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GLEIPNIR-GRIMOIRE.json",
+      "bytes": 4010,
+      "sha256": "9c042608bc547285194356eaa2ae20411b1e7a32bde60c2bbef8b51c73a64da2"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GLEIPNIR-GRIMOIRE.md",
+      "bytes": 2836,
+      "sha256": "a1d208080a09c71a72cd4d6add304bd7bf6de90aed0398210f2d23da15d8cd0d"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-BINDING-FANIN.json",
+      "bytes": 3021,
+      "sha256": "03b645be22b2a2ae8a42ae0b014c2e45a28214b84c17f2c2de82c39d2bd0aaab"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-BINDING-FANIN.md",
+      "bytes": 2236,
+      "sha256": "a56dcfac853b53170906d2ce64f83846d22ec0f1e46b92148497694acdce303a"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-DECKLIST.json",
+      "bytes": 2800,
+      "sha256": "7f52464f88b275e8ff28d8a15b51bd4e08597efe13139e8a1a5f16b4b4c901e6"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-DECKLIST.md",
+      "bytes": 2117,
+      "sha256": "bfb700335a9ef3ddddceda27f155ada7e65439979cabdd454f0bea43d47d79a5"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-EXECUTION-PROJECTOR.json",
+      "bytes": 2997,
+      "sha256": "74c7941ffd43aed2e5296ff7af0e9ec3e9645f8f32e54baf0620e407f2de859e"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-EXECUTION-PROJECTOR.md",
+      "bytes": 2207,
+      "sha256": "412b9637e1485294481d2f8794bcd2e3ef84cebba35de008470ec19de54f6384"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-EXECUTION-REPORT.json",
+      "bytes": 3019,
+      "sha256": "844d3b73cf9718be23f1d6f1be82b3d668abe330f879dc38aad90af569930619"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-EXECUTION-REPORT.md",
+      "bytes": 2237,
+      "sha256": "64afc8b457e6d9c28e996d471c922a6fb939b993b26a99235b624e5e5cde7ecc"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-LINK-AUDIT.json",
+      "bytes": 3140,
+      "sha256": "89ea1fa161a99e97d00ebc0b98bb05be46e1ed0b836aecf882e3328bf5555dbc"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-LINK-AUDIT.md",
+      "bytes": 2259,
+      "sha256": "9fee45b748474056efce8652b0afd398c489f29b3544f2d094928b10b796f235"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-LINK-PIN.json",
+      "bytes": 3007,
+      "sha256": "d7307f70da6c5cdec2ede84001f8a118065ae1a583444a6cbabe7ed07254daeb"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-LINK-PIN.md",
+      "bytes": 2223,
+      "sha256": "139133db27f103731167d811e0daa2a4817f189012308d41cd20aae2129f9890"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-RELATION-GUARD.json",
+      "bytes": 3195,
+      "sha256": "8a5628cb868a53189844ae4d38571b4adf9277ff9b9c954c58991d7e49988e4d"
+    },
+    {
+      "path": "cards/definitions/GG-D1-GRIMOIRE-RELATION-GUARD.md",
+      "bytes": 2386,
+      "sha256": "4656791a085d6a0a381ade17c8b422093763af00132d43e90953bf4f21a5fd0e"
+    },
+    {
+      "path": "cards/definitions/GG-D1-HOST.json",
+      "bytes": 2840,
+      "sha256": "61476ba3672b674f41280359b4870949753f2cfd8862bbc5d4cf689221a1b2a3"
+    },
+    {
+      "path": "cards/definitions/GG-D1-HOST.md",
+      "bytes": 2164,
+      "sha256": "1e4458427e938370693e557e2bf7bc07a4c7ccb065a1cb94f1ea57b05242569f"
+    },
+    {
+      "path": "cards/definitions/GG-D1-MINERAL.json",
+      "bytes": 2994,
+      "sha256": "9b4efb62d26284492116d61639c6276bc9c95382505ab83629f7a92ed022594f"
+    },
+    {
+      "path": "cards/definitions/GG-D1-MINERAL.md",
+      "bytes": 2221,
+      "sha256": "e74a8e700707326f7ca832776a4d8a9e4955b8a1c9b3d54ebfc5bb987eeeccba"
+    },
+    {
+      "path": "cards/definitions/GG-D1-OPERATOR-REPORT.json",
+      "bytes": 2880,
+      "sha256": "09933eef1693d52622fa85628c118e97da605f0c7fa0e8dc3c09517505301ef6"
+    },
+    {
+      "path": "cards/definitions/GG-D1-OPERATOR-REPORT.md",
+      "bytes": 2197,
+      "sha256": "bf894b2e8f22fbcb57ddccfffa81b22b2a7d751bd69c020c7f8ca484ccb4eecd"
+    },
+    {
+      "path": "cards/definitions/GG-D1-PERISHABLE-CAPACITY-RECONCILER.json",
+      "bytes": 3203,
+      "sha256": "6280de1938efd8def5ab68a30a7055626ca67d33fadc64d3cdc0588f5920b5d3"
+    },
+    {
+      "path": "cards/definitions/GG-D1-PERISHABLE-CAPACITY-RECONCILER.md",
+      "bytes": 2312,
+      "sha256": "c2f3a9899e1323a4460c8c64c0cdb9750ce1367843e08c089cd22eef586edac8"
+    },
+    {
+      "path": "cards/definitions/GG-D1-READY-WORK-RESERVOIR.json",
+      "bytes": 3347,
+      "sha256": "05006e417d221363464eecfa50feb8e3b18821f3a562386b1a3809a1b4932975"
+    },
+    {
+      "path": "cards/definitions/GG-D1-READY-WORK-RESERVOIR.md",
+      "bytes": 2465,
+      "sha256": "37bf8b9c4bc890eff0388f75f28b3fb0233047ad1bc9f43feba1f3087b049786"
+    },
+    {
+      "path": "cards/definitions/GG-D1-SOURCE-BOUND-GENERATOR.json",
+      "bytes": 3188,
+      "sha256": "67aedc61b3cff1b515ef217270b6239973719082afcd69141fc95ffa1e3684e8"
+    },
+    {
+      "path": "cards/definitions/GG-D1-SOURCE-BOUND-GENERATOR.md",
+      "bytes": 2395,
+      "sha256": "4fc350053a0cf5781a94a2c551c06ce7911e9e558373b8fee82ed8e4025b1da1"
+    },
+    {
+      "path": "cards/definitions/GG-D1-SOURCE-FRONTIER.json",
+      "bytes": 2932,
+      "sha256": "ec2eae26d01f2470f56d0d86bc596b68b1af46b69c208c15d07ec7624cfe4dc2"
+    },
+    {
+      "path": "cards/definitions/GG-D1-SOURCE-FRONTIER.md",
+      "bytes": 2245,
+      "sha256": "5b3ad97e7cf1e0fe290078ffc9889126a9f83bb104742fdae3e20d2de118278b"
+    },
+    {
+      "path": "cards/definitions/GG-D1-SUPPLY.json",
+      "bytes": 2971,
+      "sha256": "ca8aa54e5691fac064df2c3f32fd8c0f911506156b261a059b4e2008944d6487"
+    },
+    {
+      "path": "cards/definitions/GG-D1-SUPPLY.md",
+      "bytes": 2199,
+      "sha256": "c1f49f234e65f43d1dd2d34e53d3d14b28829051a082e84ee18f4c65c3611ce9"
+    },
+    {
+      "path": "cards/definitions/GG-D1-WORKITEM.json",
+      "bytes": 3063,
+      "sha256": "f4b71c0f6fbf48c6c6bec8076f5397cc5aa2c44091f1e5090a47af3cad4d1eff"
+    },
+    {
+      "path": "cards/definitions/GG-D1-WORKITEM.md",
+      "bytes": 2288,
+      "sha256": "ac237e8a4ae0d67f3bb11f156d0731d39f383498783a59eb231bc1e7fb1059a1"
+    },
+    {
+      "path": "cards/definitions/GG-D1-ZERG-MISSION-COMMAND.json",
+      "bytes": 3543,
+      "sha256": "605e2b634276da9dc53003f71514a2644ab092aeba35106215ca6c1f45646afa"
+    },
+    {
+      "path": "cards/definitions/GG-D1-ZERG-MISSION-COMMAND.md",
+      "bytes": 2560,
+      "sha256": "cf2abd3d7d566fec39b69292c5edbde128a90e02222d9c928b0000154f619c5b"
+    },
+    {
+      "path": "cards/definitions/GG-D3-ACCOUNT-B-OWNER.json",
+      "bytes": 2139,
+      "sha256": "a1030c7e74496a87f8e1702624bae08dcb625279fbac79dd207d33ba0d386403"
+    },
+    {
+      "path": "cards/definitions/GG-D3-ACCOUNT-B-OWNER.md",
+      "bytes": 1726,
+      "sha256": "c43e5bff94ee060c8fe67068ba4e39467d235dc6ba9cda4fb3402edb3467eaa3"
+    },
+    {
+      "path": "cards/definitions/GG-D3-GOOGLE-API-STEWARD.json",
+      "bytes": 2146,
+      "sha256": "77a4c644a06d31899e84f4029a73f659fb8c2e85e39895d226965dfe60b722d4"
+    },
+    {
+      "path": "cards/definitions/GG-D3-GOOGLE-API-STEWARD.md",
+      "bytes": 1732,
+      "sha256": "2ddca1af9f3e1137d4a6896a3fb9749d472f9a917e933a5b25a4f1eecf5472bb"
+    },
+    {
+      "path": "cards/definitions/GG-D3-KIMI-VENDOR-OWNER.json",
+      "bytes": 2141,
+      "sha256": "91ad95c95084325e4e27fbaaf4f0542ac579826ecd9563a9c656c7c8c9ad5f28"
+    },
+    {
+      "path": "cards/definitions/GG-D3-KIMI-VENDOR-OWNER.md",
+      "bytes": 1728,
+      "sha256": "408a3d3edd4c98c734e9a94a862d12281cf5a2f20a5ed8780a54f9071bae5b29"
+    },
+    {
+      "path": "cards/definitions/GG-D3-OPENROUTER-OWNER.json",
+      "bytes": 2132,
+      "sha256": "4b1e061833000e6a717f0bcf8b956e845cc6e737057576610b6a252a39bdbe52"
+    },
+    {
+      "path": "cards/definitions/GG-D3-OPENROUTER-OWNER.md",
+      "bytes": 1721,
+      "sha256": "0f0e59eaf992369a0ec7a6e3667cc9a30eaa60a9ba18cfed10018518acb678b3"
+    },
+    {
+      "path": "cards/definitions/GG-D5-ADAPTATION.json",
+      "bytes": 2085,
+      "sha256": "1e588b67935a753e872a1252a6c5f0eea17dafb71e625f6466287447627f5d5a"
+    },
+    {
+      "path": "cards/definitions/GG-D5-ADAPTATION.md",
+      "bytes": 1679,
+      "sha256": "da7c25090f55b9d942a90b3b8573b3acbc1688a7dc7bafcd0f5e170f5a7a0778"
+    },
+    {
+      "path": "cards/definitions/GG-D5-SYNAPSE.json",
+      "bytes": 2090,
+      "sha256": "58bec6e29e663087303204c9003b54ea597a94a0bb8a873f8d163605461343e6"
+    },
+    {
+      "path": "cards/definitions/GG-D5-SYNAPSE.md",
+      "bytes": 1682,
+      "sha256": "8894ef6a8e3d4f4745344657bf5d0a73f4ebb4cf0b7025fb4d105c0ab6ab28a8"
+    },
+    {
+      "path": "cards/definitions/GG-D6-AURA-HUB.json",
+      "bytes": 2077,
+      "sha256": "30d4ffa708a6bd2a88647bcd167226bc048835ae3bb82e3674f6a274215149ef"
+    },
+    {
+      "path": "cards/definitions/GG-D6-AURA-HUB.md",
+      "bytes": 1674,
+      "sha256": "8658ed6a4646f64128f06f491b1ff6499d3c3837d29a7e715b261eab6b8b99f4"
+    },
+    {
+      "path": "cards/definitions/GG-D6-SKILL-SHARING.json",
+      "bytes": 2102,
+      "sha256": "effd1da754f19249c995695a402597a63b427a721d415d32e11e858cb2c0a644"
+    },
+    {
+      "path": "cards/definitions/GG-D6-SKILL-SHARING.md",
+      "bytes": 1694,
+      "sha256": "295f0c1bc08ff7c0d36c039a252b5fc91a000deb71987f2193638a49ead13bf5"
+    },
+    {
+      "path": "cards/definitions/GG-D7-HARNESS-CHATGPT-TEXT.json",
+      "bytes": 2120,
+      "sha256": "dd287ab379e9212d4f4525af9cbbae2abe36e2b9d6ad4ab00eaf41c6530e4d0b"
+    },
+    {
+      "path": "cards/definitions/GG-D7-HARNESS-CHATGPT-TEXT.md",
+      "bytes": 1701,
+      "sha256": "791223044ee9d45dab96d1d4547ae96dbe9534c279b461733a3959aa9a57d732"
+    },
+    {
+      "path": "cards/definitions/GG-D7-HARNESS-CLOUDFLARE-SIGRUN.json",
+      "bytes": 2383,
+      "sha256": "a753e77ef19bb53fd21142887a4834a8d8517424bdf11f0e87ba9fafa2622723"
+    },
+    {
+      "path": "cards/definitions/GG-D7-HARNESS-CLOUDFLARE-SIGRUN.md",
+      "bytes": 1872,
+      "sha256": "9e3d267aa12f6b6dcb2e55b802889cda9ed9513915b90cb225d9568e653cdf2a"
+    },
+    {
+      "path": "cards/definitions/GG-D7-HARNESS-ORACLE-ACTIONS.json",
+      "bytes": 2106,
+      "sha256": "2f5430ff0da2ba0094dca9f11e61c43d39106ea3f073bb76de82cd05d7bf67b7"
+    },
+    {
+      "path": "cards/definitions/GG-D7-HARNESS-ORACLE-ACTIONS.md",
+      "bytes": 1691,
+      "sha256": "87c54db497c39f16d8bcf873947479d17a33484329b738b487184ea5236c5d0c"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-GEMINI-3-1-FL.json",
+      "bytes": 2079,
+      "sha256": "f4f4b016c6ed68bc3de62a52aa31e1072352d6ea6d3bc261576373591c0320ef"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-GEMINI-3-1-FL.md",
+      "bytes": 1674,
+      "sha256": "33ccb8ff02548ebbf7694da67c195957ced2f16b02a462ba965d86ed9632eef3"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-GEMINI-3-5-F.json",
+      "bytes": 2058,
+      "sha256": "a8a064fda0c30abf722e6edbc56304154608c159bb61989927424347a1b5cc57"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-GEMINI-3-5-F.md",
+      "bytes": 1658,
+      "sha256": "07e49fdeae37ae2d56efbaccd01705f93d84efc09d390250873d1ed29a4f23c2"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-GEMINI-3-5-FL.json",
+      "bytes": 2079,
+      "sha256": "07d8c2e123c08c2a049b858f10267c9ed841a4eafa79acb11bcf4e4da49a2aa1"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-GEMINI-3-5-FL.md",
+      "bytes": 1674,
+      "sha256": "7a02736b9a3663be44287392617e1fde37c1352124cf06352c978cc5320117bc"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-GEMMA-4-31B.json",
+      "bytes": 2049,
+      "sha256": "1f8e19f3ccb6c16c994943330a175fe79f101be87c110aaba633c9d8828ed662"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-GEMMA-4-31B.md",
+      "bytes": 1651,
+      "sha256": "76f12cc05850eed40cfd271ad0122150add982c9bd457d3012f38b5eed54f1f9"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-GPT-5-6-SOL.json",
+      "bytes": 2037,
+      "sha256": "8bf8db2da75bd5fdfe4d8c2bf037a0f3a7066f44280aa6601c280863f53471f9"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-GPT-5-6-SOL.md",
+      "bytes": 1642,
+      "sha256": "18e30daf25902975a09fdd6fef3801612001b034717f52e251f7c44adfb3b9fa"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-K2-8.json",
+      "bytes": 2054,
+      "sha256": "7399845401ab74f14ef83120bbbc7e012a3f424d8dfff04daf9e2fc1f2bb1ae6"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-K2-8.md",
+      "bytes": 1653,
+      "sha256": "ffcc67d380ee361099ae7b4d401d2412297d1c4acf93202c4596043ab35b4d7b"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-K3-256K.json",
+      "bytes": 2037,
+      "sha256": "c6ea87ea9dbb33b6e5ee88711b1daef1aff67333e991633235060811d46181c3"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-K3-256K.md",
+      "bytes": 1641,
+      "sha256": "8265589c25f36556aad4a0906cace390f25f577a8a35711cac5f3624f370c468"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-NEX-MINI.json",
+      "bytes": 2062,
+      "sha256": "28f27af64b306bf102691af8f83a97af8bf0a4b873a642054ba0392ed010f135"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-NEX-MINI.md",
+      "bytes": 1660,
+      "sha256": "a10fa9a027d7b607d59309976d6f5d56b7ac4a370f5634e33d31381e99436cae"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-NEX-PRO.json",
+      "bytes": 2057,
+      "sha256": "78030201d5a23b0aff50d271ad75670c9424fd5318e720739f07c2774b7d7db9"
+    },
+    {
+      "path": "cards/definitions/GG-D7-MODEL-NEX-PRO.md",
+      "bytes": 1656,
+      "sha256": "e8ace5a2f296b213bc1b9979ab77cd535d01f28a9228fd05e117e65aa5408f7f"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-CHATGPT-A-CLOUD.json",
+      "bytes": 2128,
+      "sha256": "d842fb68710fc8bd1e4e11c6b1bcb7abe9d26249f3787179a29bbce95818a700"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-CHATGPT-A-CLOUD.md",
+      "bytes": 1717,
+      "sha256": "5e57b6212e96677d30658b788054fcba205ae33e1e55e4d86604e3a8a5f6cf11"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-CHATGPT-B-ORACLE.json",
+      "bytes": 2033,
+      "sha256": "ec8958c92f89b178a387ba9695a9e81ca8da9e1056b2cc88d55ebf08a12bd3a5"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-CHATGPT-B-ORACLE.md",
+      "bytes": 1623,
+      "sha256": "bd0756a190ac9c3d76fae0e8b3ea7e45042ccdd43dcaf5a49cf570ad6b7d5a9d"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-CHATGPT-SCHEDULED.json",
+      "bytes": 2110,
+      "sha256": "69a8032b1cd4e65727438db959df8292c6963538dda2a8b49ea6dc8c05920858"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-CHATGPT-SCHEDULED.md",
+      "bytes": 1704,
+      "sha256": "5f7ffc6cc9d1e8f892fe1769a4c4945fdb66afe0814cdec7b7f0242eba746ffc"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-CLOUDFLARE-SIGRUN.json",
+      "bytes": 2282,
+      "sha256": "ff3e40bf9950528602406f5f6b450188b328c392ff602eb273897d4b8b01f2f6"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-CLOUDFLARE-SIGRUN.md",
+      "bytes": 1825,
+      "sha256": "c1170fb160de450224655f287368726b0ef36178e858e596df35cee5bf8f2d48"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-GOOGLE-API.json",
+      "bytes": 2143,
+      "sha256": "cd15016b24936a8ef5bf05b89ea508ab0e06961e39cdf319c187552c87855ced"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-GOOGLE-API.md",
+      "bytes": 1727,
+      "sha256": "57669231e818a56eef281bc09832c9638b14431f838b57c3586866fbac2be350"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-KIMI-CODE.json",
+      "bytes": 2098,
+      "sha256": "b7d6ca27ee1fcd3e9f3b88de2c0a24236fcfc6b3ed0561e5450b5ab2038c090f"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-KIMI-CODE.md",
+      "bytes": 1693,
+      "sha256": "2bc077c666587d7ece1f9179146c6a19672c59d27942a7af5144d49006e34244"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-LENOVO.json",
+      "bytes": 2075,
+      "sha256": "71bd602d240c51cff20277588555d2bcda403448c6b6b596fc4d6f8f1a974abf"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-LENOVO.md",
+      "bytes": 1675,
+      "sha256": "cc753a99762677e2f2cd64282077cca1b77a565a8f5b30365ddde553638d8e04"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-OVH-ACTIONS.json",
+      "bytes": 2100,
+      "sha256": "273c374354e6b209c71fd4708f175c43cbea975895f9b0b626da9c4c0c019f8d"
+    },
+    {
+      "path": "cards/definitions/GG-D8-LAND-OVH-ACTIONS.md",
+      "bytes": 1695,
+      "sha256": "8a2f6027c4ee3a93c18678aac4e43a3454b57a2d200f2c52770b1c5e48a6be5f"
+    },
+    {
+      "path": "cards/definitions/GG-D9-DRONE-IDLE-SENTINEL.json",
+      "bytes": 2108,
+      "sha256": "c9eb4a4ee161f47f1c435fea517ae68bd9f9016ba37c573fb2b6526f3ba1561e"
+    },
+    {
+      "path": "cards/definitions/GG-D9-DRONE-IDLE-SENTINEL.md",
+      "bytes": 1699,
+      "sha256": "be5fb5612d3e535ed39e2f1c93babe103d210b98c830c9d2325cd51e758b8fe7"
+    },
+    {
+      "path": "cards/definitions/GG-D9-DRONE-QUOTA-METER.json",
+      "bytes": 2098,
+      "sha256": "bbe9fc58053875667e0bf95e4799bd27bf3e28d844ed03b6b01780d3ee3c93b9"
+    },
+    {
+      "path": "cards/definitions/GG-D9-DRONE-QUOTA-METER.md",
+      "bytes": 1691,
+      "sha256": "f47cf9a13d3aa8af808840264c191873ee4f8f378ccec124c59b84d8f44b6958"
+    },
+    {
+      "path": "cards/definitions/GG-D9-DRONE-THROTTLE-SENTINEL.json",
+      "bytes": 2128,
+      "sha256": "cd7bfec04915a21176a6c27c67d24832969c93d6893ddce7d2452dbe0001ac3e"
+    },
+    {
+      "path": "cards/definitions/GG-D9-DRONE-THROTTLE-SENTINEL.md",
+      "bytes": 1715,
+      "sha256": "12dbc813eabda9791f4bcb1a5fad526b6186977fcdb943336a0900bf64a2e751"
+    },
+    {
+      "path": "cards/definitions/GG-D9-DRONE-WASTE-AUDIT.json",
+      "bytes": 2098,
+      "sha256": "4a30bf5bdc868f958b57e1764cbd58fd82d8da6091b138bb3741e4056d96ec83"
+    },
+    {
+      "path": "cards/definitions/GG-D9-DRONE-WASTE-AUDIT.md",
+      "bytes": 1691,
+      "sha256": "2d7391fe920ca89103a54b449e10ce5eb536015506ff19d5e56f0e6b63dca63e"
+    },
+    {
+      "path": "cards/definitions/GG-D9-GOOGLE-API-STEWARD.json",
+      "bytes": 3089,
+      "sha256": "0b7f7274e23dd3fe873b0dafff54ef5e9584e418e0d33eaf841b4822386b2594"
+    },
+    {
+      "path": "cards/definitions/GG-D9-GOOGLE-API-STEWARD.md",
+      "bytes": 2297,
+      "sha256": "5890eb194cc78c69075f207272549f6c4db34e0b53b9d897e42c7c4ac638537d"
+    },
+    {
+      "path": "cards/definitions/GG-D9-GRIMOIRE-CURRENTNESS-DRONE.json",
+      "bytes": 3029,
+      "sha256": "da733ab4e7525d5cd4fa339986f6fd18783f9d251766a15272bff73dc59f38c7"
+    },
+    {
+      "path": "cards/definitions/GG-D9-GRIMOIRE-CURRENTNESS-DRONE.md",
+      "bytes": 2229,
+      "sha256": "fe16e5baec42a7cb99711afad92fad874edb0f052ce158b20327104f7d9fee79"
+    },
+    {
+      "path": "cards/definitions/GG-D9-KIMI-CAPACITY-CANARY.json",
+      "bytes": 2964,
+      "sha256": "0708a89b89ccce8ed9b4d7520336401335e4a19911b2bf79202ce6ff463292d5"
+    },
+    {
+      "path": "cards/definitions/GG-D9-KIMI-CAPACITY-CANARY.md",
+      "bytes": 2175,
+      "sha256": "60ca797f07d707315d331d4d3902169394b1ff81c3d61b7b79f1eb5fa6d6f99d"
+    },
+    {
+      "path": "cards/definitions/GG-D9-KIMI-VENDOR-OWNER.json",
+      "bytes": 3086,
+      "sha256": "513c8139959dfe9f2ad234106f7340d3ab550aecd2aa5dafb84304ae14fa084e"
+    },
+    {
+      "path": "cards/definitions/GG-D9-KIMI-VENDOR-OWNER.md",
+      "bytes": 2300,
+      "sha256": "800cf7d5c91f1d28e6bf0916a2f6ea155c0b904f1c88d2bb37a64803b98aca74"
+    },
+    {
+      "path": "cards/definitions/GG-D9-OVERLORD-ALLOCATE.json",
+      "bytes": 2122,
+      "sha256": "bb3cc6fae7d914f3fd35b5e1455afa675718e56e65e22b62ad8ce16e1d783310"
+    },
+    {
+      "path": "cards/definitions/GG-D9-OVERLORD-ALLOCATE.md",
+      "bytes": 1709,
+      "sha256": "83436ec167ddde43bd558b569aa4062c64c127b11965eee53d0a3ef0a2263a67"
+    },
+    {
+      "path": "cards/definitions/GG-D9-OVERLORD-QUOTA-REGISTRY.json",
+      "bytes": 2128,
+      "sha256": "e20d60790399ec230e2db7827e109e0062a5b4fe84b5a4e4a2ec5215dff6782b"
+    },
+    {
+      "path": "cards/definitions/GG-D9-OVERLORD-QUOTA-REGISTRY.md",
+      "bytes": 1715,
+      "sha256": "22e43fd71419c56d70542e4321ed61def6182336fb89f3b4cc5cd3bd1e8bda7f"
+    },
+    {
+      "path": "cards/definitions/GG-D9-QUOTA-DAILY-BRIEF.json",
+      "bytes": 2098,
+      "sha256": "26342466c35f4ccd3fba0bef340bc5020cb86e6db6e4fa381ec51d3001b2943c"
+    },
+    {
+      "path": "cards/definitions/GG-D9-QUOTA-DAILY-BRIEF.md",
+      "bytes": 1691,
+      "sha256": "8759ee8ead6cb53ebe92bba901110f33fd26f7792fd549a85fcecfaa1172d268"
+    },
+    {
+      "path": "cards/definitions/GG-D9-SIGRUN-CAPACITY-LEDGER.json",
+      "bytes": 4125,
+      "sha256": "ec02f6a167bb85bbc22624d39d85fc571d410be8ad2c23f81722eea2521f2cc7"
+    },
+    {
+      "path": "cards/definitions/GG-D9-SIGRUN-CAPACITY-LEDGER.md",
+      "bytes": 2754,
+      "sha256": "9bdac60bdd10f786d93e61b56d188cd587f08ee9320ccfb0554dcaf9aa1ce9f5"
+    },
+    {
+      "path": "cards/definitions/GG-D9-SIGRUN-VENDOR-RECONCILER.json",
+      "bytes": 3188,
+      "sha256": "f8bf2156aa816d02fb2cfc4477548e7e223ab5b4e786d1b1bdd42dd7eef69f19"
+    },
+    {
+      "path": "cards/definitions/GG-D9-SIGRUN-VENDOR-RECONCILER.md",
+      "bytes": 2300,
+      "sha256": "52aae2d6d29cd3c8390754db091931ebc69e7e21a8d1afd77add7e4f5f003395"
+    },
+    {
+      "path": "cards/definitions/GG-D9-ZERG-DRONE-RING.json",
+      "bytes": 3212,
+      "sha256": "6156aa20344d631123ee122ca0a48c1c2fd186a51cb8e9b61905194375e05eac"
+    },
+    {
+      "path": "cards/definitions/GG-D9-ZERG-DRONE-RING.md",
+      "bytes": 2238,
+      "sha256": "66ab12ae4e20b45cd45d273518f693df89d1c6f5a72ea088289873bf552f165c"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C003.json",
+      "bytes": 1965,
+      "sha256": "f0b265178be75f1536955ee6ff648d555f19dfe9251b103412d07bfd44ac49df"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C003.md",
+      "bytes": 1574,
+      "sha256": "66aca18256010213039af21d60b134d92aabad2ee152c9aa3ba02b38c4757537"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C004.json",
+      "bytes": 2065,
+      "sha256": "555ab81c4957c8e3649a88a3e9b421b4c8a230009a0dd6f681ff45620c7fbce2"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C004.md",
+      "bytes": 1669,
+      "sha256": "292dd523b048ce37621d19925bada1e531399b03a7745314880738acdc7c9ae0"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C005.json",
+      "bytes": 1961,
+      "sha256": "fe4c0b2c4cae757dab2a4b4d82c45fda077a94f4d008d9b0d6ade48449f228bb"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C005.md",
+      "bytes": 1566,
+      "sha256": "efa372416a30c5361c82c8a7c8c67403068ac947953ecc3fd41b6669dcd4fbb8"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C012.json",
+      "bytes": 2012,
+      "sha256": "fee6e873c9ee26ec1cbaf18554cf4ff4a3354f011bfdd5ff5f325abc7d834a36"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C012.md",
+      "bytes": 1623,
+      "sha256": "9c0de532c7ec3d9fc041677d193fa01712b6a41b54ecbae522f001a51212edd0"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C013.json",
+      "bytes": 2008,
+      "sha256": "2ab11a2b16e982f92354b86504e77dd374e8732cb58102ff7207a3aaa2ded2cf"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C013.md",
+      "bytes": 1620,
+      "sha256": "486d1d08bd3bc12f0586a60d4a19af5bb28f34dd14f5ba165996cb94a35134aa"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C016.json",
+      "bytes": 1951,
+      "sha256": "d7cf3fb760672e269bec3f3707e3fb9cde365cf16144e5b343c673948b32206f"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C016.md",
+      "bytes": 1563,
+      "sha256": "9842d5c1c111fc42fb12cbc7c1d2493d67201b52b49a73d819c6b271d9088f5b"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C017.json",
+      "bytes": 1940,
+      "sha256": "5861477d20d13accff0659b0a8d9b3ccd6fe2cd867d63f6e36abfd3e9829b353"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C017.md",
+      "bytes": 1552,
+      "sha256": "c141b95700918a4579107484f9506cf3c0dfadc05177a7528c1951e6475e8ff9"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C018.json",
+      "bytes": 2006,
+      "sha256": "03212a8918d8fd9791225384b933f0e988a6105ef311c1fd0159d126e04f75bb"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C018.md",
+      "bytes": 1615,
+      "sha256": "24cdfc9560dbc473f6dd29ad707e774321bd4e498b6eee01cb68e394368230a8"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C019.json",
+      "bytes": 2006,
+      "sha256": "f72831d70b271b3d95914e062d64c9dee6f65c78af2650b015214b61d7b1363a"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C019.md",
+      "bytes": 1615,
+      "sha256": "3320a33958ee00436633b2ad649d275973f71f2a67092b97885b38e251abeeee"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C020.json",
+      "bytes": 1994,
+      "sha256": "8ce5ee9e464babafdaf2c3e4a48b64465f3d0d18cf4104799c8bbcabdc29b725"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C020.md",
+      "bytes": 1606,
+      "sha256": "4b1608566c9660a05c27ef642c3d4a0899a0318bf8a461fca2e4c7c3bbb3b520"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C022.json",
+      "bytes": 2079,
+      "sha256": "98e7cbd786e2b7424dc8f9328d519754925391ca1856a0dacaf41fef678a02c9"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C022.md",
+      "bytes": 1677,
+      "sha256": "9ea78411ff2f747e62d5f60996809c2acd57528e33071cd03af3372cd2f1eeee"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C023.json",
+      "bytes": 1983,
+      "sha256": "3920ab3f6374f47cc824016feacd247981d5f4a08e55ffdb96dc9950daa5f065"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C023.md",
+      "bytes": 1580,
+      "sha256": "0cf0e238a71c5f890ded878154164aa1823642ecf8b10629331a112ddfbc50b9"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C024.json",
+      "bytes": 2063,
+      "sha256": "bb5811cb6eda2699ec0b6ef1f6eb9049a2fcac45890d5e08974f0af68749917d"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C024.md",
+      "bytes": 1665,
+      "sha256": "3f9d2b1c0f9008c52662e4b4b9ddade1bfef75c92ca26842de90619dfa49888b"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C028.json",
+      "bytes": 1939,
+      "sha256": "31c94e6c54d133bcd7d8db6a6827087916c859ce9728edbc2ca4aff15d02f7e6"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C028.md",
+      "bytes": 1547,
+      "sha256": "27ea744d5969816235a8658d74405f08bdf099437fe9f5dca2f4c8d718f12343"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C029.json",
+      "bytes": 1957,
+      "sha256": "13e5517eee360140fcdd3867207958cb724b3c9ba0f9dc00287144bb1bc88147"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C029.md",
+      "bytes": 1560,
+      "sha256": "23ffa49fbe4298540a418d438a5bc1b052923c6f353528acdb7c7020aa3c5018"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C031.json",
+      "bytes": 1923,
+      "sha256": "4987f53c3b726bc0eb9b722ea8454926378baac36e8d660ac6bc8e63d008398a"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C031.md",
+      "bytes": 1536,
+      "sha256": "e1a67aa4980375e33840b853d66199c4a1e2d220f55700543d567a63bef88772"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C032.json",
+      "bytes": 2034,
+      "sha256": "c0a4d8c42b8c5319945b64a7da9a6a14d50edeee1d18fee3a6d00470ad180c04"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C032.md",
+      "bytes": 1636,
+      "sha256": "a9d3cf844866fbf10cdf782666221adfdb7aa52e49e27f6aeb98e0e5aac0a36b"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C033.json",
+      "bytes": 2026,
+      "sha256": "882780f79839994a26dd7935f1576b8b3b7db8a0361848b05d8b3088674d7696"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C033.md",
+      "bytes": 1630,
+      "sha256": "4603c9ddef577bc485087cba5c2c02686c252ed1c2225329f5bc1511b5022b9e"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C034.json",
+      "bytes": 2030,
+      "sha256": "e7e6a110954f8279908924d9e1eb1d59571934594fb52757a1d2d162bfbf4893"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C034.md",
+      "bytes": 1633,
+      "sha256": "03160af82f1b8a1638642ce6bd8ff808caf6f1e0d2e83b0250f737e221395c12"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C035.json",
+      "bytes": 2074,
+      "sha256": "49bb920217689f9d2db9023dcfdd06c71456c8a07d74b379ba16ea5777fd30da"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C035.md",
+      "bytes": 1674,
+      "sha256": "790f0b10a108133cd5789520d5d5c3b37825bc9124e30ed32b4c94f054f7f46c"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C036.json",
+      "bytes": 2058,
+      "sha256": "7c1eb38cda64921edd418cde44ca926d8a3b05e2ace500d6480d22ad0b1cf244"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C036.md",
+      "bytes": 1662,
+      "sha256": "5b30951cfbbd3eb9a9b2989f9552a24f06c1b04dba1f0840ba4da62b408093f6"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C037.json",
+      "bytes": 2070,
+      "sha256": "e854e032199308189af6b4d27e39a9226e0e42ecc4c758386edeff957df8fc08"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C037.md",
+      "bytes": 1671,
+      "sha256": "a90d0264b40f88bbd51b4ba3bdf597eb08bea367e626466faf803746de628cb7"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C038.json",
+      "bytes": 2049,
+      "sha256": "5279eed3bf9576fa6709616d60d3a776c9794cd30cd60804b153b36cd80011dd"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C038.md",
+      "bytes": 1656,
+      "sha256": "11dc19a407992b749f2f7fe00208602f3cda73e042c2944aa4838d60bd59bebf"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C040.json",
+      "bytes": 2110,
+      "sha256": "69a58f84ac0cb4296521d6c33cde594eeee441019cb54c98ce10a73aa353d264"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C040.md",
+      "bytes": 1706,
+      "sha256": "3b14aa5c61f1b27813822a6cd37a5e6fb4e14147f4fb280482674e504cc96d2e"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C041.json",
+      "bytes": 2169,
+      "sha256": "538229422949b9f16d9f8393b0e93f64d6426136a4b56def6a76d2a9ee95dc79"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C041.md",
+      "bytes": 1749,
+      "sha256": "9cbf80b7dbf4b8789b2d2f6e9b849e217cc862b1a2fd94f5f23fc23630437848"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C042.json",
+      "bytes": 2085,
+      "sha256": "2775e3c992b40548077a1ba3a322881ef44b2f405fe5d302699b9750503e7590"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C042.md",
+      "bytes": 1684,
+      "sha256": "ffe89b30ceb76027b6e1bdacbe1415fab52d42e49a076f4a8eb5d0015e19149a"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C043.json",
+      "bytes": 2073,
+      "sha256": "ae4911756c890c1b3070beedf4b6f0da1326523d64ac27c47642dc8dbce31a09"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C043.md",
+      "bytes": 1675,
+      "sha256": "76df99a2f8a5cecd509b058df4989fd09424be3d31560084fabda900eb30369f"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C044.json",
+      "bytes": 2081,
+      "sha256": "a414772044a97d9f11a5bf06c403004aec49aee929d441580f5d84ba339266d9"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C044.md",
+      "bytes": 1681,
+      "sha256": "8141aae74f9a800036061148e9d8833d1f6a3a06479d094e682c40d35a361079"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C045.json",
+      "bytes": 2097,
+      "sha256": "1268f7ed50bde355d17e980c96684ce43ccd717cb0b9e4dcab5d48dc417a2125"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C045.md",
+      "bytes": 1693,
+      "sha256": "b791dba2a91076e663bd4280ce98fe21f8b3f0fcba25cd007f0481ab75cca6fb"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C046.json",
+      "bytes": 2054,
+      "sha256": "eec8b28019b58640c6c8a3af19035540c98e4243bcfa68197beef7bf7f198f5a"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C046.md",
+      "bytes": 1659,
+      "sha256": "55c5894a838b88e1bdbc1a471ac6572e2445488001004bf01165e63d769f2045"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C047.json",
+      "bytes": 2078,
+      "sha256": "eabdd38138a6f18329f80a5f71c1a6718fd8864cf8222f3fefc5468b28664ba3"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C047.md",
+      "bytes": 1682,
+      "sha256": "e426af3165d29616e44f76214197dd566a5576b2226f0d114d5ff7b4b6b5f5fb"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C048.json",
+      "bytes": 2066,
+      "sha256": "6959c416406dd486de01b817493d23a6d6ddf3b46d6f91832a80fb8e8ec24a1f"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C048.md",
+      "bytes": 1673,
+      "sha256": "1ad39f5e8f39b2269b5ac6389a4bab4111e6092ad6ab0b3f5198739bb4830d0d"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C049.json",
+      "bytes": 1993,
+      "sha256": "3c8b6b766d61e25f74fb1aa457b39e95c73f3a7e12c0beccc62244b11408fb08"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C049.md",
+      "bytes": 1590,
+      "sha256": "ff35ba8668ab374f39e56f421845294796ab3ec93ee3cb6eeb66fb2c3e2ebddb"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C050.json",
+      "bytes": 2101,
+      "sha256": "ed7383d4d45c57cd975b581c9209aa52c64b591816a92495b07759513be3eec3"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C050.md",
+      "bytes": 1696,
+      "sha256": "87f475c25db81bfa3465e64b2b4dbe5b1d771b583d5d603278e1615831b281d1"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C051.json",
+      "bytes": 2096,
+      "sha256": "497cd91614640007445346e5b3397520630f4c437524d61f9ce24e1c7dc69afd"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C051.md",
+      "bytes": 1696,
+      "sha256": "9c49939be8dd2e5a71a08e0671f51e4d45eec9b4dcb7032657f86acd5b8c9d6d"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C052.json",
+      "bytes": 2093,
+      "sha256": "56ec04dee5584058e77497ea5de9427535d35e1f61c8c6a4c9064b6569013625"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C052.md",
+      "bytes": 1690,
+      "sha256": "2e4e410448209a6dfc78d0180e7f2dd695613026b999d1423c84055740be9b82"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C053.json",
+      "bytes": 2073,
+      "sha256": "e0d0fe6a4f20a404308e3dfa1e9d88f28a7d43a5546100268adcdde1866acbff"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C053.md",
+      "bytes": 1675,
+      "sha256": "53914973160de18ac9c0a131b8f358d21faeca61849b612859f7e950eb18d3e1"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C058.json",
+      "bytes": 2057,
+      "sha256": "a3ce802c203690b2f95540fbb0a4c2aa1b47099401e42d3d8ea06e6d47628119"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C058.md",
+      "bytes": 1662,
+      "sha256": "06b1b3a60624bcbdf6d5afc507e093870f81924127358302b07d2d696828d46b"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C059.json",
+      "bytes": 2073,
+      "sha256": "76e63ecbfedd12efb06be1f51d7442abb88f40ca073a4bcd2427c46fd6105d11"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C059.md",
+      "bytes": 1675,
+      "sha256": "81e87aebbbbad32a229e4c850408b1bf926fd12ad47f154248ea1bf3053f9b3b"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C060.json",
+      "bytes": 2081,
+      "sha256": "ec2e74ea6d076d86e6a61a53e3338ae5098311050f214fe0c81279f0673277dd"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C060.md",
+      "bytes": 1681,
+      "sha256": "a7f7dc94ae6fd4eb135f9b76ac6bad752039eb8d142714809ca1d38235d9a1e0"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C061.json",
+      "bytes": 2097,
+      "sha256": "fcbd5b1881e68b11d6cdb0521e46ae6914b6d0b17d4d59901df831ee247b354f"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C061.md",
+      "bytes": 1693,
+      "sha256": "5e9c07f314b93a74e4334ec6eb02ca13f67bf26634bdf6f813ea3991b7ed2f61"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C062.json",
+      "bytes": 2089,
+      "sha256": "510ccca7ee639e0ed2118f6f66ebdc4e22713306e3d85df3701434903d53b6e1"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C062.md",
+      "bytes": 1687,
+      "sha256": "50cf5c23011f8480718fcc39a47812bf2d6da04c7725312a8bb53cf1d31fa309"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C064.json",
+      "bytes": 2109,
+      "sha256": "67a25b05b4009e029de216acdea02d17882e4dfed5a6e1bd827b9ee92bbe2085"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C064.md",
+      "bytes": 1701,
+      "sha256": "f2c0c7d0339d6574b45e256f5f615b2c1a73bc58ee556868d0279df4067e82bb"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C065.json",
+      "bytes": 2125,
+      "sha256": "94ff644af948d2ad10981adfee9517413a6e88cad840dd52708a7478ca138c07"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C065.md",
+      "bytes": 1714,
+      "sha256": "b288fdddd87a56297ba32968ca3d1700a4f3d938c5e6a8ce8e236099c589ecbb"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C066.json",
+      "bytes": 2080,
+      "sha256": "98e1308a9db7fb2fef5fd3d1990f87e94a9b80fb06c86845e7cce36b92e6f2ae"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C066.md",
+      "bytes": 1678,
+      "sha256": "f06c374cc07d9fdd4dd0f297eaaaf772911147a83dbf9eb136774b56ab5dda6f"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C067.json",
+      "bytes": 2087,
+      "sha256": "9370f563edcc5f5f5fd30babbd46f05739e5f99d5853b3e9e1756531c6b2dd04"
+    },
+    {
+      "path": "cards/definitions/HFO-G143-C067.md",
+      "bytes": 1689,
+      "sha256": "5598da33ae4d7e0c12be0f726fb2997ff0a0d96a690785e41ebd071563de7e0f"
+    },
+    {
+      "path": "cards/definitions/HR-10.json",
+      "bytes": 2063,
+      "sha256": "94d38da2ccb4e332305e2c61f5f97716d80a06c42a1eeb01e9c4bbc068361248"
+    },
+    {
+      "path": "cards/definitions/HR-10.md",
+      "bytes": 1658,
+      "sha256": "9f60ede7c0ed9e703e788724ad37eb6ac827dc386cb07ccd7129783c1b92115b"
+    },
+    {
+      "path": "cards/definitions/WW-EQ-CLOUDFLARE-DURABILITY-001.json",
+      "bytes": 4053,
+      "sha256": "47104d7f7b32188c1fa874fe3fe7941c09bd2fe3134450f4c1b6be0838381233"
+    },
+    {
+      "path": "cards/definitions/WW-EQ-CLOUDFLARE-DURABILITY-001.md",
+      "bytes": 3162,
+      "sha256": "e70556cb5e78d4adedf40892e1f7dfc7af04be24b264a6a6623fe7499ea20f7a"
+    },
+    {
+      "path": "cards/hand.json",
+      "bytes": 921,
+      "sha256": "b3a3e64601fbca0025a4e0350ac138bff1431b16a67c1366964f56dca3fe8b79"
+    },
+    {
+      "path": "cards/image-prompts.json",
+      "bytes": 100202,
+      "sha256": "6d946d184395f899a59871384f26f98a37b80507802f642ccf4fd329643b75b1"
+    },
+    {
+      "path": "cards/index.html",
+      "bytes": 8239,
+      "sha256": "47232f147d713941db5bd3ea593748aee41f112799d7ae11b7c230ef18263442"
+    },
+    {
+      "path": "cards/index.json",
+      "bytes": 51531,
+      "sha256": "44ec8e999e8fd769a90e5d417451cbc8b9e02f5aa2dcfb94a612f7666b083a8f"
+    },
+    {
+      "path": "cards/integrity.json",
+      "bytes": 45781,
+      "sha256": "57503c43a70c1eb066f96e5925c1ac0f9eef2a567e73c7a6f831193f9c96ef85"
+    },
+    {
+      "path": "cards/source-lock.json",
+      "bytes": 539,
+      "sha256": "0917b9e48e0527130e6f425b2062eb9f8713fde31cc862cd4dd5c1ceb807131b"
     },
     {
       "path": "coala/manifest.json",
@@ -32,6 +1397,21 @@
       "path": "collector-receipt.json",
       "bytes": 1384,
       "sha256": "3cfd82707eb0d34525c5fb7b331261f312f97478cddea8bcd20220fe4eb8e3eb"
+    },
+    {
+      "path": "concepts/zerg-capacity-archetypes-fca-v1.json",
+      "bytes": 15808,
+      "sha256": "3bc65ec2e1794db823a94126ac89044fa821acb385d729c8bfd183d7a20b54c0"
+    },
+    {
+      "path": "concepts/zerg-capacity-archetypes-fca-v1.md",
+      "bytes": 17122,
+      "sha256": "841aadbc3f569001b0573f03f92d07e8b37b82f1e4f41867b1d866f54a7509da"
+    },
+    {
+      "path": "concepts/zerg-memory-palace-capacity-map-v2.md",
+      "bytes": 9646,
+      "sha256": "1978c0fb9614ff132ccd499b2f6352081acf81a07ad6d925686dee2fde5e16d2"
     },
     {
       "path": "cop-snapshot.json",
@@ -139,9 +1519,24 @@
       "sha256": "b46b278fd3973abfb5de874418eeb2005e24ea9bb23f984642eb098e6483041d"
     },
     {
+      "path": "gen142-world-state.md",
+      "bytes": 5442,
+      "sha256": "c7fbc528ded7d936275fd4e2bcd6502b72e879c0bcf741b1e24ba486732501e9"
+    },
+    {
       "path": "germline/seed.md",
       "bytes": 2011,
       "sha256": "3a7bcaf9dffb5d0bb48f60f2e36e11f048ca5eedbf644a6e5a05e08a284390b1"
+    },
+    {
+      "path": "grimoire.md",
+      "bytes": 13791,
+      "sha256": "55dd63f79694bac2c61d35e5d9c8efaf6c01fe0f2c6bd83a7faa33b8fe75f501"
+    },
+    {
+      "path": "grimoire.txt",
+      "bytes": 1721,
+      "sha256": "6e438442150b13fe398cf2b8b1805e9f8861885a31a2baf6794da682e71dd733"
     },
     {
       "path": "heritage/README.md",
@@ -180,8 +1575,8 @@
     },
     {
       "path": "llms.txt",
-      "bytes": 6189,
-      "sha256": "992a71fe94dae9f844fe6e85443a25d5a9b850e65e08e53631174223b2656232"
+      "bytes": 6449,
+      "sha256": "17bfaae73831c094c04f60073d9a9abc93b2caeaf0d95be553c82cd945f189a9"
     },
     {
       "path": "manifest.json",
@@ -207,6 +1602,11 @@
       "path": "receipts/20260911T143800Z/website-readback.json",
       "bytes": 16646,
       "sha256": "04d8c0b11f0a3edf9fc34df70959c2b714f554a61c525d1dd4123c8e1a3690ac"
+    },
+    {
+      "path": "receipts/20260921-card-library.json",
+      "bytes": 6064,
+      "sha256": "2ec2f8afa511dd6ca64f8e660c2fc1f6264d24ee543293eab9133a311ba3de93"
     },
     {
       "path": "releases/20260911T143800Z/activity/daily.json",
@@ -812,6 +2212,26 @@
       "path": "state-snapshot.json",
       "bytes": 6871,
       "sha256": "e1dbe7e556cac019c8de3f0a8a397f893c44a98ebe985931de894bb4c0d4e6cf"
+    },
+    {
+      "path": "status/latest.md",
+      "bytes": 16588,
+      "sha256": "8df41e27c19749eb56500236e895df69af80af6088b7ddb565b342c471c3e857"
+    },
+    {
+      "path": "tools/README.md",
+      "bytes": 1436,
+      "sha256": "be619d71994ce67f43dda3473f0e75dedae3032dfae5b36fa3c0c4fc37639138"
+    },
+    {
+      "path": "tools/build-card-projection.py",
+      "bytes": 19035,
+      "sha256": "bf277e61dff830f3147ab18a1fd18d5366c5534329738e692360c86f9a6cdf3d"
+    },
+    {
+      "path": "tools/core-views.json",
+      "bytes": 5094,
+      "sha256": "7112907799eb800741c3054540bb220dc798fa1fa1fad08f275f6952d042fe7e"
     },
     {
       "path": "voice/latest.json",

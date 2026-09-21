@@ -1,0 +1,59 @@
+{
+  "id": "GG-D1-GRIMOIRE-DECKLIST",
+  "name": "Grimoire Decklist",
+  "deck": "D1",
+  "kind": "MANIFEST",
+  "type_line": "MANIFEST — Higher-Order Card Registry",
+  "summary": "The whole system is enumerable as cards without confusing the catalog with live state.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "The whole system is enumerable as cards without confusing the catalog with live state.",
+  "myth": "The hive genome lists every strain without pretending every strain is awake.",
+  "engineering": {
+    "pattern": "manifest/registry + immutable identifiers",
+    "origin": "package manifests and configuration registries; mature",
+    "exemplar": "cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+    "maturity": "executable"
+  },
+  "checks": [
+    "card IDs are unique",
+    "every indexed card belongs to exactly one deck",
+    "governance state is separate from execution state"
+  ],
+  "links": [
+    {
+      "relation": "validated-by ->",
+      "target_id": "GG-D1-CARD-LINT",
+      "label": "CARD-LINT",
+      "resolved": true
+    },
+    {
+      "relation": "read-by ->",
+      "target_id": "GG-D1-GRIMOIRE-EXECUTION-REPORT",
+      "label": "Grimoire Execution Report",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-GRIMOIRE-DECKLIST.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Grimoire Decklist. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Grimoire Decklist; no artwork generated."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "GG-D9-ZERG-DRONE-RING",
+  "name": "Zerg Drone Ring",
+  "deck": "D9",
+  "kind": "AGENT_SKILL",
+  "type_line": "AGENT SKILL / TOOL — Deterministic ANDON Reducer",
+  "summary": "Breakage becomes a typed signal before Tao discovers it by clicking.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Breakage becomes a typed signal before Tao discovers it by clicking.",
+  "myth": "Small drones patrol the creep; the queen hears the rupture before the brood is lost.",
+  "engineering": {
+    "pattern": "health predicates + watchdogs + leases + invariants",
+    "origin": "industrial andon, watchdog timers, health checks",
+    "exemplar": "pure reducer over scheduler/capacity/lease/lifecycle/host snapshots",
+    "maturity": "executable"
+  },
+  "checks": [
+    "LLM may not clear an ANDON without fresh machine evidence",
+    "missing telemetry is not healthy",
+    "duplicate semantic starts are P0",
+    "nonzero cost or paid fallback is P0"
+  ],
+  "links": [
+    {
+      "relation": "feeds ->",
+      "target_id": "GG-D9-SIGRUN-VENDOR-RECONCILER",
+      "label": "Sigrun Vendor Reconciler",
+      "resolved": true
+    },
+    {
+      "relation": "observes ->",
+      "target_id": "GG-D1-WORKITEM",
+      "label": "WorkItem",
+      "resolved": true
+    },
+    {
+      "relation": "observes ->",
+      "target_id": "CORE-10",
+      "label": "Vendor",
+      "resolved": true
+    },
+    {
+      "relation": "observes ->",
+      "target_id": "GG-D1-HOST",
+      "label": "Host",
+      "resolved": true
+    },
+    {
+      "relation": "observes ->",
+      "target_id": "GG-D1-AUTOMATION",
+      "label": "Automation",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck9/GG-D9-ZERG-DRONE-RING.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Zerg Drone Ring. Show an etched procedural instrument attached to a separate worker. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Zerg Drone Ring; no artwork generated."
+  }
+}

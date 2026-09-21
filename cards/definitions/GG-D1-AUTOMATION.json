@@ -1,0 +1,66 @@
+{
+  "id": "GG-D1-AUTOMATION",
+  "name": "Automation",
+  "deck": "D1",
+  "kind": "ARCHETYPE",
+  "type_line": "ARCHETYPE — Scheduled / Conditional Wake Carrier",
+  "summary": "A wake is just a clocked carrier; it never becomes the actor or the mission.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "A wake is just a clocked carrier; it never becomes the actor or the mission.",
+  "myth": "A spawning pulse opens the hatchery; it does not decide what the larva becomes.",
+  "engineering": {
+    "pattern": "cron/scheduled job + condition watch + idempotent controller wake",
+    "origin": "cron and batch schedulers; mature",
+    "exemplar": "ChatGPT Scheduled Tasks and GitHub Actions schedule/workflow_dispatch",
+    "maturity": "running"
+  },
+  "checks": [
+    "automation != actor != authority",
+    "cadence and last-run time are observable",
+    "missed wake is an ANDON condition",
+    "scheduler mutation needs explicit authority"
+  ],
+  "links": [
+    {
+      "relation": "carries ->",
+      "target_id": "CORE-04",
+      "label": "Actor",
+      "resolved": true
+    },
+    {
+      "relation": "observed-by ->",
+      "target_id": "GG-D9-ZERG-DRONE-RING",
+      "label": "Zerg Drone Ring",
+      "resolved": true
+    },
+    {
+      "relation": "records ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-AUTOMATION.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Automation. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Automation; no artwork generated."
+  }
+}

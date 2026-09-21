@@ -1,0 +1,66 @@
+{
+  "id": "GG-D1-MINERAL",
+  "name": "Mineral",
+  "deck": "D1",
+  "kind": "RESOURCE",
+  "type_line": "RESOURCE — Included / Free / Prepaid Perishable Capacity",
+  "summary": "Useful included capacity is harvested before expiry whenever admitted work exists.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Useful included capacity is harvested before expiry whenever admitted work exists.",
+  "myth": "Biomass spoils; the hive consumes it only when there is real prey.",
+  "engineering": {
+    "pattern": "inventory accounting + expiring-capacity/yield management",
+    "origin": "inventory control and airline yield management; mature",
+    "exemplar": "provider quota rows with limit/window/reset/used/remaining and TTL",
+    "maturity": "tested"
+  },
+  "checks": [
+    "mineral amount is never inferred from subscription ownership",
+    "UNKNOWN remains UNKNOWN",
+    "quota window is distinct from Supply",
+    "idle expiry is opportunity cost, not a command to invent work"
+  ],
+  "links": [
+    {
+      "relation": "produced-by ->",
+      "target_id": "CORE-10",
+      "label": "Vendor",
+      "resolved": true
+    },
+    {
+      "relation": "metered-by ->",
+      "target_id": "GG-D9-DRONE-QUOTA-METER",
+      "label": "Drone Quota Meter",
+      "resolved": true
+    },
+    {
+      "relation": "allocated-by ->",
+      "target_id": "GG-D1-PERISHABLE-CAPACITY-RECONCILER",
+      "label": "Perishable Capacity Reconciler",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-MINERAL.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Mineral. Show a measured reservoir with an explicit containing boundary. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Mineral; no artwork generated."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "GG-D1-SOURCE-FRONTIER",
+  "name": "Source Frontier",
+  "deck": "D1",
+  "kind": "STRUCTURE",
+  "type_line": "STRUCTURE — Cursor-Bound Evergreen Evidence Frontier",
+  "summary": "Evergreen work grows from a recoverable frontier, never from an agent inventing tasks to stay busy.",
+  "summary_origin": "SOURCE_SUMMARY",
+  "hyperstition": "Evergreen work grows from a recoverable frontier, never from an agent inventing tasks to stay busy.",
+  "myth": "The essence hunter marks the last consumed carcass so the next brood begins where the trail truly ends.",
+  "engineering": {
+    "pattern": "incremental crawler cursor + append-only checkpoint + dedupe key",
+    "origin": "incremental indexing and ETL; mature",
+    "exemplar": "heritage resume cursors, leaderboard currentness cursors, source-bound generator envelopes",
+    "maturity": "tested"
+  },
+  "checks": [
+    "source identity and cursor are durable",
+    "resume does not restart completed prefix",
+    "freshness/TTL is explicit where source currentness matters",
+    "generator cannot widen source authority"
+  ],
+  "links": [
+    {
+      "relation": "read-by ->",
+      "target_id": "GG-D1-SOURCE-BOUND-GENERATOR",
+      "label": "Source-Bound Generator",
+      "resolved": true
+    },
+    {
+      "relation": "records ->",
+      "target_id": "CORE-07",
+      "label": "Receipt",
+      "resolved": true
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pinned card definition",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/deck1/GG-D1-SOURCE-FRONTIER.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "full",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "Apply this card's explicit checks before making its associated claim or action.",
+    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Source engineering maturity is a historical author assertion, not fresh runtime evidence."
+  },
+  "art": {
+    "status": "PROMPT_READY",
+    "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Source Frontier. Show an architectural archive with visible ingress and egress. Express the intended role without depicting deployment, victory or authority.",
+    "alt": "Planned conceptual illustration for Source Frontier; no artwork generated."
+  }
+}
