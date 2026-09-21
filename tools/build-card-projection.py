@@ -94,6 +94,14 @@ def card_markdown(card):
       "","## Myth",card['myth'] or "Not imported.","","## Sources and technology"]
     lines += [f"- [{x['label']}]({x['url']})" for x in card['sources']+card['technology_refs']]
     lines += ["","## Typed links"]+[f"- {x['relation']} {x['target_id'] or ''} {x['label']}" for x in card['links']]
+    contract=card.get('behavior_contract')
+    if contract:
+        lines += ['', '## Use this card', 'Status: EDITORIAL_PROPOSAL_NOT_EXECUTED', '', contract['intent'], '', 'When: '+contract['when_to_use']]
+        for label,key in [('Inputs','inputs'),('Procedure','procedure'),('Outputs','outputs'),('Failure modes','failure_modes')]:
+            lines += ['', '### '+label]+['- '+item for item in contract[key]]
+        lines += ['', '### Worked example']+[f"- {k}: {v}" for k,v in contract['example'].items()]
+        lines += ['', '### Neurosymbolic division of work']+[f"- {k}: {v}" for k,v in contract['neurosymbolic'].items()]
+        lines += ['', '### Evolution contract', 'Mutable: '+'; '.join(contract['evolution']['mutable']), 'Frozen: '+'; '.join(contract['evolution']['frozen']), 'Fitness: '+contract['evolution']['fitness']]
     lines += ["","## Art prompt",card['art']['prompt'],"","This public projection grants no authority. No behavioral improvement or live binding is claimed."]
     return "\n".join(lines)+"\n"
 
@@ -103,6 +111,7 @@ def main():
     ap.add_argument('--source',type=Path,required=True)
     ap.add_argument('--sigrun',type=Path,required=True)
     ap.add_argument('--views',type=Path,required=True)
+    ap.add_argument('--enrichments',type=Path,default=Path(__file__).with_name('behavior-enrichments.v1.json'))
     ap.add_argument('--out',type=Path,required=True)
     ap.add_argument('--generated-at',required=True)
     args=ap.parse_args()
@@ -163,13 +172,33 @@ def main():
       "art":{"status":"PROMPT_READY","prompt":STYLE+" Subject: a detachable obsidian archive module with layered chambers and an exposed adapter attached to a separate worker silhouette. Depict recoverable inscription, not immortality or infinite capacity. No vendor logo.","alt":"Planned detachable archive module attached to a separate worker; artwork pending."}})
     ids={c['id'] for c in cards}
     if len(ids)!=len(cards): raise ValueError('Duplicate card ID')
+    enrichment=json.loads(args.enrichments.read_text(encoding='utf-8'))
+    if enrichment.get('schema')!='worldweaver.card-behavior-enrichments.v1' or enrichment.get('status')!='EDITORIAL_PROPOSAL_NOT_EXECUTED':
+        raise ValueError('Behavior enrichments require their separate proposal schema/status')
+    required={'intent','when_to_use','inputs','procedure','outputs','failure_modes','example','neurosymbolic','evolution'}
+    if not set(enrichment['cards']).issubset(ids): raise ValueError('Enrichment references an unknown card')
+    for cid,body in enrichment['cards'].items():
+        if set(body)!=required: raise ValueError('Unexpected enrichment fields: '+cid)
+        for field in ['intent','when_to_use']:
+            if not isinstance(body[field],str) or not body[field].strip(): raise ValueError('Empty enrichment text: '+cid)
+        for field in ['inputs','procedure','outputs','failure_modes']:
+            if not isinstance(body[field],list) or not body[field] or not all(isinstance(x,str) and x.strip() for x in body[field]): raise ValueError('Invalid enrichment list: '+cid)
+        for field,keys in [('example',{'situation','action','evidence'}),('neurosymbolic',{'neural','symbolic'})]:
+            if set(body[field])!=keys or not all(isinstance(x,str) and x.strip() for x in body[field].values()): raise ValueError('Invalid enrichment section: '+cid)
+        evo=body['evolution']
+        if set(evo)!={'mutable','frozen','fitness'} or not isinstance(evo['fitness'],str) or not evo['fitness'].strip(): raise ValueError('Invalid evolution contract: '+cid)
+        for field in ['mutable','frozen']:
+            if not isinstance(evo[field],list) or not evo[field] or not all(isinstance(x,str) and x.strip() for x in evo[field]): raise ValueError('Unbounded evolution contract: '+cid)
+    for card in cards:
+        if card['id'] in enrichment['cards']:
+            card['behavior_contract']={'status':enrichment['status'],**enrichment['cards'][card['id']]}
     for card in cards:
         for link in card['links']: link['resolved']=link['target_id'] in ids if link['target_id'] else False
     views=json.loads(args.views.read_text(encoding='utf-8'))['views']
     hand=['CORE-01','CORE-08','HFO-G143-C016','GG-D8-LAND-CHATGPT-B-ORACLE','WW-EQ-CLOUDFLARE-DURABILITY-001','GG-D1-WORKITEM','HFO-G143-C005','HFO-G143-C003']
-    catalog={"schema":"worldweaver.public-card-projection.v1","version":"0.3.0","generated_at":args.generated_at,
+    catalog={"schema":"worldweaver.public-card-projection.v1","version":"0.4.0","generated_at":args.generated_at,
       "source":{"url":SOURCE_BASE+CATALOG_PATH,"commit":SOURCE_COMMIT},
-      "coverage":{"indexed":len(cards),"inherited_index":129,"full":sum(c['definition_depth']=='full' for c in cards),"history_complete":False,"note":"Complete pinned index plus one public equipment proposal. Index-only cards retain missing-definition labels. No whole-history completeness claim."},
+      "coverage":{"indexed":len(cards),"inherited_index":129,"full":sum(c['definition_depth']=='full' for c in cards),"behavior_enriched":len(enrichment['cards']),"history_complete":False,"note":"Complete pinned index plus one public equipment proposal. Behavioral enrichments are editorial proposals, not newly recovered canonical definitions. Index-only cards retain missing-definition labels. No whole-history completeness claim."},
       "decks":deck['decks'],"core_views":views,"default_hand":hand,"battlefield":[],"cards":cards}
     allowed={'index.html','cards.css','cards.js','catalog.json','index.json','hand.json','battlefield.json','image-prompts.json','art-guide.md','behavior-assay.json','README.md','source-lock.json','integrity.json'}
     allowed.update(f"definitions/{c['id']}.{ext}" for c in cards for ext in ('json','md'))
@@ -177,8 +206,8 @@ def main():
     if unexpected:
         raise ValueError('Unexpected files in publication output; review separately: '+', '.join(unexpected))
     write_json(args.out/'catalog.json',catalog)
-    write_json(args.out/'source-lock.json',{'schema':'worldweaver.card-source-lock.v1','catalog_commit':SOURCE_COMMIT,'catalog_path':CATALOG_PATH,'sigrun_commit':'2cc7acb589d94adf58f024abf8853ebfd1ebbe40','sigrun_blob':oracle_blob,'views_sha256':hashlib.sha256(args.views.read_bytes()).hexdigest(),'structured_private_runtime_fields':'EXCLUDED_BY_FIELD_SELECTION','free_text_privacy':'REQUIRES_PUBLICATION_REVIEW','history_complete':False})
-    write_json(args.out/'index.json',{"version":catalog['version'],"source":catalog['source'],"coverage":catalog['coverage'],"cards":[{"id":c['id'],"name":c['name'],"kind":c['kind'],"summary":c['summary'],"definition_depth":c['definition_depth'],"detail":f"/cards/definitions/{c['id']}.json","text":f"/cards/definitions/{c['id']}.md"} for c in cards]})
+    write_json(args.out/'source-lock.json',{'schema':'worldweaver.card-source-lock.v1','catalog_commit':SOURCE_COMMIT,'catalog_path':CATALOG_PATH,'sigrun_commit':'2cc7acb589d94adf58f024abf8853ebfd1ebbe40','sigrun_blob':oracle_blob,'views_sha256':hashlib.sha256(args.views.read_bytes()).hexdigest(),'enrichments_sha256':hashlib.sha256(args.enrichments.read_bytes()).hexdigest(),'enrichments_status':enrichment['status'],'structured_private_runtime_fields':'EXCLUDED_BY_FIELD_SELECTION','free_text_privacy':'REQUIRES_PUBLICATION_REVIEW','history_complete':False})
+    write_json(args.out/'index.json',{"version":catalog['version'],"source":catalog['source'],"coverage":catalog['coverage'],"cards":[{"id":c['id'],"name":c['name'],"kind":c['kind'],"summary":c['summary'],"definition_depth":c['definition_depth'],"behavior_enriched":bool(c.get('behavior_contract')),"detail":f"/cards/definitions/{c['id']}.json","text":f"/cards/definitions/{c['id']}.md"} for c in cards]})
     write_json(args.out/'hand.json',{"mission":"Public orientation; no execution authority","limit":8,"entries":[{"id":cid,"detail":f"/cards/definitions/{cid}.json"} for cid in hand]})
     write_json(args.out/'battlefield.json',{"status":"NO_VERIFIED_BINDINGS_IMPORTED","entries":[],"claim":"The public catalog has not imported applicable runtime verification evidence; this is not a census of all working HFO components."})
     for card in cards:

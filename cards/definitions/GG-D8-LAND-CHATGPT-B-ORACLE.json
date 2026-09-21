@@ -38,5 +38,48 @@
     "status": "PROMPT_READY",
     "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: ChatGPT Account B on Oracle. Show layered terrain and bounded reservoirs connected by measured channels. Express the intended role without depicting deployment, victory or authority.",
     "alt": "Planned conceptual illustration for ChatGPT Account B on Oracle; no artwork generated."
+  },
+  "behavior_contract": {
+    "status": "EDITORIAL_PROPOSAL_NOT_EXECUTED",
+    "intent": "Candidate behavior: turn a named capacity surface into an evidence-based allocation recommendation.",
+    "when_to_use": "When selecting capacity for a bounded task or explaining why it should wait.",
+    "inputs": [
+      "Admitted capacity observation and its validity conditions",
+      "Shared-pool reservations, unresolved sends, task demand and budget ceiling"
+    ],
+    "procedure": [
+      "Identify which routes draw on the same quota pool.",
+      "Reconcile reservations and unresolved sends before estimating usable headroom.",
+      "Compare the task's requirements with currently evidenced capacity.",
+      "Recommend the smallest sufficient allocation or a queue/recheck action, with an expiry condition."
+    ],
+    "outputs": [
+      "Allocation recommendation with assumptions and source timestamps",
+      "Unresolved-capacity list and next observation needed"
+    ],
+    "failure_modes": [
+      "Counting two routes as two independent quotas",
+      "Treating unknown sends as unused capacity",
+      "Raising a cap to make a task fit"
+    ],
+    "example": {
+      "situation": "Two possible worker routes share one quota pool.",
+      "action": "Account for their combined reservations and recommend one task-fit route.",
+      "evidence": "Expected: a capacity calculation tied to current observations; no account or host values in public output."
+    },
+    "neurosymbolic": {
+      "neural": "Match the task's needs to available options.",
+      "symbolic": "Track shared capacity, reservations, ceilings and observation freshness."
+    },
+    "evolution": {
+      "mutable": [
+        "Matching heuristics and explanations"
+      ],
+      "frozen": [
+        "Pool identity, budget caps and episode authority",
+        "Evaluation conditions"
+      ],
+      "fitness": "Evaluate correct allocation recommendations under fixed stale-data and shared-pool cases, without claiming capacity from labels."
+    }
   }
 }

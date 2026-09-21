@@ -38,5 +38,48 @@
     "status": "PROMPT_READY",
     "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Frozen Judge. Show a precise inspection instrument with a clear input and output. Express the intended role without depicting deployment, victory or authority.",
     "alt": "Planned conceptual illustration for Frozen Judge; no artwork generated."
+  },
+  "behavior_contract": {
+    "status": "EDITORIAL_PROPOSAL_NOT_EXECUTED",
+    "intent": "Candidate behavior: keep the comparison lens still while a candidate changes.",
+    "when_to_use": "Before comparing a baseline with a proposed improvement or reviewing a claimed gain.",
+    "inputs": [
+      "Baseline and candidate revisions",
+      "Fixed task set, budget, evaluator revision and acceptance criteria",
+      "Independently held-out cases and evidence-retention plan"
+    ],
+    "procedure": [
+      "Record the comparison protocol before inspecting candidate outcomes.",
+      "Keep evaluator access and unseen ground truth separate from candidate authors.",
+      "Evaluate both versions under matched conditions through the authorized evaluator.",
+      "Report outcomes, failures, costs and uncertainty; route evaluator changes to a separate comparison proposal."
+    ],
+    "outputs": [
+      "Frozen comparison specification",
+      "Evidence-indexed comparison report or missing-evaluation list"
+    ],
+    "failure_modes": [
+      "Changing criteria after seeing results",
+      "Treating public examples as unseen cases",
+      "Counting self-scored assertions as independent acceptance"
+    ],
+    "example": {
+      "situation": "A richer card claims to improve task routing.",
+      "action": "Compare it with matched factual instructions using evaluator-held cases and the same budget.",
+      "evidence": "Expected: protocol revision, paired artifacts, failures and independent scoring; this example supplies no score."
+    },
+    "neurosymbolic": {
+      "neural": "Suggest useful candidates and interpret failures.",
+      "symbolic": "Fix the comparison protocol and preserve outcome provenance."
+    },
+    "evolution": {
+      "mutable": [
+        "Candidate behavior within the declared search space"
+      ],
+      "frozen": [
+        "Judge, task conditions and acceptance criteria during comparison"
+      ],
+      "fitness": "Use the predefined evaluator's evidence-backed comparison; improving the judge's generosity is not a candidate improvement."
+    }
   }
 }

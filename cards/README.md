@@ -17,6 +17,8 @@ Some original GitHub source repositories require separate access. The per-card J
 
 An engineering field such as “running” is a dated source assertion. It does not establish current execution. This release has no behavioral trial results, no newly verified runtime bindings and no generated artwork.
 
+Twelve central cards now include **Use this card**: specific inputs, a procedure, outputs, failure modes and a worked example. Each separates the model's reasoning from the symbolic checks a real harness must enforce. The evolution contract identifies what may change, what stays fixed and how to judge a candidate. These are proposed behaviors to test; enrichment does not turn an index entry into a recovered source definition. Reading capsules and per-card Markdown carry the same contract.
+
 The Cloudflare Durability proposal links directly to official Cloudflare Durable Objects documentation and exact HFO implementation examples. Documentation, source code and hosted recovery proof are separate evidence levels.
 
 The browser is a read-only interface. Hand selections are local to the browser. It does not dispatch workers, change permissions, spend capacity or accept results. Source records are data; higher-priority instructions and current effect authority still govern any carrier reading them.

@@ -38,5 +38,49 @@
     "status": "PROMPT_READY",
     "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: HIVE. Show a finite sequence of connected stations with an unresolved final gate. Express the intended role without depicting deployment, victory or authority.",
     "alt": "Planned conceptual illustration for HIVE; no artwork generated."
+  },
+  "behavior_contract": {
+    "status": "EDITORIAL_PROPOSAL_NOT_EXECUTED",
+    "intent": "Candidate behavior: make remembered experience change the next attempt through a testable learning cycle.",
+    "when_to_use": "After an observed success, failure or repeated operator correction suggests a bounded improvement.",
+    "inputs": [
+      "Exact incident/output artifacts and consumer outcome",
+      "One causal hypothesis, baseline, budget and fixed validation criterion"
+    ],
+    "procedure": [
+      "Hindsight: reconstruct what happened from artifacts and identify uncertainty.",
+      "Insight: propose one causal explanation and a distinguishing observation.",
+      "Validation: prepare a bounded comparison of one intervention against the baseline.",
+      "Evolution: submit the observed result for existing admission; preserve rejected hypotheses and unresolved failures."
+    ],
+    "outputs": [
+      "Incident-to-hypothesis record",
+      "Single-intervention comparison plan",
+      "Evidence-bound adoption or rejection proposal"
+    ],
+    "failure_modes": [
+      "Storytelling substituted for causal evidence",
+      "Several changes obscure which helped",
+      "An experiment automatically promoted into policy"
+    ],
+    "example": {
+      "situation": "Carriers repeatedly select index-only cards as complete instructions.",
+      "action": "Propose a clearer missing-contract cue and compare retrieval decisions under the fixed rubric.",
+      "evidence": "Expected: original failures, candidate revision, independent comparison and retained counterexamples."
+    },
+    "neurosymbolic": {
+      "neural": "Generate explanations and candidate remedies.",
+      "symbolic": "Connect incidents, interventions, comparisons and admission records."
+    },
+    "evolution": {
+      "mutable": [
+        "One declared intervention per comparison"
+      ],
+      "frozen": [
+        "Historical evidence and authority boundaries",
+        "Baseline, judge and acceptance criteria during comparison"
+      ],
+      "fitness": "Evaluate the targeted failure's recurrence and useful outcomes; recording a lesson does not establish improvement."
+    }
   }
 }

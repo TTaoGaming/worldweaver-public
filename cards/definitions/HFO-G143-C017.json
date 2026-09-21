@@ -38,5 +38,48 @@
     "status": "PROMPT_READY",
     "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Roach. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
     "alt": "Planned conceptual illustration for Roach; no artwork generated."
+  },
+  "behavior_contract": {
+    "status": "EDITORIAL_PROPOSAL_NOT_EXECUTED",
+    "intent": "Candidate behavior: carry unfinished work through interruption without losing identity or repeating uncertain effects.",
+    "when_to_use": "When resuming a bounded task from durable evidence after an attempt ends.",
+    "inputs": [
+      "Original WorkItem, ownership/lease evidence and remaining budget",
+      "Last durable checkpoint, candidate artifacts and effect observations"
+    ],
+    "procedure": [
+      "Reconstruct completed, pending and uncertain steps from the checkpoint and artifacts.",
+      "Reconcile ownership and uncertain effects through permitted evidence before retrying.",
+      "Choose one continuation step within the original ceiling and remaining budget.",
+      "Return a new checkpoint, exact output references and a bounded next-action handoff."
+    ],
+    "outputs": [
+      "Recovery plan tied to the original work identity",
+      "Updated checkpoint candidate and unresolved-effect list"
+    ],
+    "failure_modes": [
+      "A restart creates duplicate ownership",
+      "Unknown effects are repeated blindly",
+      "Retries silently reset the budget"
+    ],
+    "example": {
+      "situation": "An extraction attempt ends after saving part of its output.",
+      "action": "Compare the saved artifact with required fields and continue only the missing portion under valid ownership.",
+      "evidence": "Expected: original identity, prior checkpoint, preserved completed output and independently checked continuation."
+    },
+    "neurosymbolic": {
+      "neural": "Diagnose the interruption and select a useful recovery step.",
+      "symbolic": "Preserve ownership, checkpoints, effect history and budget accounting."
+    },
+    "evolution": {
+      "mutable": [
+        "Checkpoint clarity and bounded recovery heuristics"
+      ],
+      "frozen": [
+        "Work identity, ownership rules and effect ceiling",
+        "Retry budget and comparison judge"
+      ],
+      "fitness": "Evaluate recovered useful output, duplicate effects and operator intervention under fixed interruption cases."
+    }
   }
 }

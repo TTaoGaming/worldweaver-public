@@ -1,3 +1,17 @@
+# Worldweaver v43 — twelve cards enriched
+
+[Browse Larva](https://worldweaver.dev/cards/#card=HFO-G143-C016) or [Cloudflare Durability](https://worldweaver.dev/cards/#card=WW-EQ-CLOUDFLARE-DURABILITY-001), then unfold **Use this card**.
+
+Twelve central cards now describe specific inputs, procedures, outputs, examples, neural/symbolic responsibilities and bounded evolution contracts. They remain editorial proposals awaiting behavioral evaluation. Coverage remains 130 cards: 37 source/full definitions and 93 index-only entries; enrichment does not promote those entries.
+
+Source: `975df4897aeb81b183fdcc7f2a72e779873b0eea`. Cloudflare version: `24dcb80f-0d0b-447f-a074-1646f6a16683`. Validation: 75 tests, 201 release hashes, all 12 live inspectors and copied capsules, desktop/phone layout, 14 exact hosted file hashes and the preserved reader/method checks.
+
+[Publication receipt](../receipts/20260921-card-behaviors-v43.json) · [Versioned behavior proposals](../tools/behavior-enrichments.v1.json)
+
+---
+
+## Preserved earlier publication
+
 # Worldweaver v42 — HFO card library published
 
 Live: https://worldweaver.dev/cards/

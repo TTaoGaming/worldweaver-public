@@ -38,5 +38,48 @@
     "status": "PROMPT_READY",
     "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Ling. Show a compact modular seed-engine with visible attachment points. Express the intended role without depicting deployment, victory or authority.",
     "alt": "Planned conceptual illustration for Ling; no artwork generated."
+  },
+  "behavior_contract": {
+    "status": "EDITORIAL_PROPOSAL_NOT_EXECUTED",
+    "intent": "Candidate behavior: complete one small, task-fit transformation and leave an exact reviewable artifact.",
+    "when_to_use": "When work can be bounded to a short attempt with a clear input and output.",
+    "inputs": [
+      "Admitted WorkItem and exact input revision",
+      "Compatible loadout, effort limit, output contract and relevant check"
+    ],
+    "procedure": [
+      "Restate the requested transformation and its stopping condition.",
+      "Inspect the supplied inputs and perform only the permitted change.",
+      "Run the authorized relevant check or document why it could not run.",
+      "Return the candidate artifact, source references and remaining acceptance step."
+    ],
+    "outputs": [
+      "Exact candidate diff or transformed artifact",
+      "Scoped check evidence and concise reviewer handoff"
+    ],
+    "failure_modes": [
+      "Expanding a small edit into an unrelated refactor",
+      "Omitting the actual artifact",
+      "Claiming consumer acceptance from a local check"
+    ],
+    "example": {
+      "situation": "A card's typed link uses an obsolete target identifier.",
+      "action": "Resolve the intended target from supplied sources, edit the allowed reference, and check that link.",
+      "evidence": "Expected: input revision, minimal diff and target-resolution evidence for independent review."
+    },
+    "neurosymbolic": {
+      "neural": "Interpret the required change and choose a precise implementation.",
+      "symbolic": "Constrain files, effects, effort and observable output."
+    },
+    "evolution": {
+      "mutable": [
+        "Transformation instructions and implementation choices within scope"
+      ],
+      "frozen": [
+        "Work identity, input revision and effect ceiling",
+        "Comparison rubric"
+      ],
+      "fitness": "Evaluate correct minimal results, review effort and boundary adherence on fixed tasks."
+    }
   }
 }

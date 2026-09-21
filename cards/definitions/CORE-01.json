@@ -38,5 +38,47 @@
     "status": "PROMPT_READY",
     "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Hive Fleet Obsidian. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
     "alt": "Planned conceptual illustration for Hive Fleet Obsidian; no artwork generated."
+  },
+  "behavior_contract": {
+    "status": "EDITORIAL_PROPOSAL_NOT_EXECUTED",
+    "intent": "Candidate behavior: turn the hive's shared purpose into one useful outcome a named consumer can recognize.",
+    "when_to_use": "When choosing the next bounded mission or explaining why existing work matters.",
+    "inputs": [
+      "Current operator intent and source precedence",
+      "Consumer need, acceptance criterion, available effort and effect ceiling"
+    ],
+    "procedure": [
+      "Describe the beneficiary and observable outcome in one sentence.",
+      "Compare feasible next actions using expected usefulness, effort and unresolved assumptions.",
+      "Select one bounded action and state why it advances the outcome.",
+      "Prepare a WorkItem proposal naming its consumer and completion evidence."
+    ],
+    "outputs": [
+      "Purpose-to-outcome explanation",
+      "One reviewable WorkItem proposal with unresolved assumptions"
+    ],
+    "failure_modes": [
+      "Treating agent activity as beneficiary value",
+      "Replacing operator intent with an attractive internal project"
+    ],
+    "example": {
+      "situation": "A reader cannot identify which card explains worker continuity.",
+      "action": "Propose one navigation improvement and ask the designated evaluator to test the reader's task.",
+      "evidence": "Expected: an exact candidate change and an independently observed retrieval outcome."
+    },
+    "neurosymbolic": {
+      "neural": "Interpret the need and generate useful alternatives.",
+      "symbolic": "Bind intent, consumer, scope and acceptance to explicit records."
+    },
+    "evolution": {
+      "mutable": [
+        "Explanations and action hypotheses"
+      ],
+      "frozen": [
+        "Operator intent and effect ceiling",
+        "Evaluator and criteria during comparison"
+      ],
+      "fitness": "Compare useful accepted outcomes and operator corrections against the fixed baseline; activity alone earns no credit."
+    }
   }
 }

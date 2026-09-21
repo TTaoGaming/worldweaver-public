@@ -75,5 +75,49 @@
     "status": "PROMPT_READY",
     "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: a detachable obsidian archive module with layered chambers and an exposed adapter attached to a separate worker silhouette. Depict recoverable inscription, not immortality or infinite capacity. No vendor logo.",
     "alt": "Planned detachable archive module attached to a separate worker; artwork pending."
+  },
+  "behavior_contract": {
+    "status": "EDITORIAL_PROPOSAL_NOT_EXECUTED",
+    "intent": "Candidate behavior: make a work obligation recoverable across carrier replacement through an explicit, testable storage contract.",
+    "when_to_use": "When considering an approved durable binding for state that must survive a session ending.",
+    "inputs": [
+      "Actor identity and proposed class/namespace binding references",
+      "Official documentation, pinned adapter source and configuration",
+      "State schema, allowed effects and recovery acceptance criteria"
+    ],
+    "procedure": [
+      "Separate vendor capability, implementation source and observed hosted behavior.",
+      "Describe identity, stored state, idempotency and recovery using only interfaces recovered from source.",
+      "Prepare bounded duplicate-delivery and interruption/recovery fixtures with expected outcomes.",
+      "Submit the contract and assay plan to the implementation owner; require independent observations before claiming durability."
+    ],
+    "outputs": [
+      "Adapter-contract candidate",
+      "Recovery test matrix and unresolved bindings"
+    ],
+    "failure_modes": [
+      "A documentation link treated as a working binding",
+      "Storage persistence mistaken for complete mission continuity",
+      "Invented adapter methods"
+    ],
+    "example": {
+      "situation": "A task must resume after its carrier ends.",
+      "action": "Specify the minimum checkpoint and a duplicate/recovery comparison against the pinned adapter.",
+      "evidence": "Expected: source references and planned assertions; runtime proof requires a separately executed, scoped assay."
+    },
+    "neurosymbolic": {
+      "neural": "Identify the obligation and propose recovery cases.",
+      "symbolic": "Bind state, identity, adapter revision and expected transitions."
+    },
+    "evolution": {
+      "mutable": [
+        "Checkpoint proposals and fixture coverage"
+      ],
+      "frozen": [
+        "Identity and effect boundaries",
+        "Judge and recovery criteria during comparison"
+      ],
+      "fitness": "Evaluate recovered state and duplicate handling against fixed criteria; vendor documentation alone earns no runtime credit."
+    }
   }
 }

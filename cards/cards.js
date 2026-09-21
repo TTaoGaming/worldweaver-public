@@ -230,6 +230,59 @@
     return list;
   }
 
+  function behaviorContractSection(contract) {
+    if (!contract || typeof contract !== "object" || Array.isArray(contract)) return null;
+    const section = detailsSection("Use this card");
+    section.classList.add("behavior-contract");
+    const summaryLabel = el("span", "contract-summary-label", "Use this card");
+    summaryLabel.append(el("span", "contract-status", "Proposed behavior • not yet evaluated"));
+    section.querySelector("summary").replaceChildren(summaryLabel);
+
+    const present = (value) => valueText(value, "").trim().length > 0;
+    const textBlock = (title, value) => {
+      if (!present(value)) return null;
+      const block = el("div", "contract-block");
+      block.append(el("h3", "", title), el("p", "", valueText(value)));
+      return block;
+    };
+    const listBlock = (title, items, ordered = false) => {
+      if (!Array.isArray(items)) return null;
+      const entries = items.filter(present);
+      if (!entries.length) return null;
+      const block = el("div", "contract-block");
+      const list = el(ordered ? "ol" : "ul", ordered ? "contract-procedure" : "");
+      entries.forEach((item) => list.append(el("li", "", valueText(item))));
+      block.append(el("h3", "", title), list);
+      return block;
+    };
+    const appendBlocks = (parent, ...blocks) => blocks.filter(Boolean).forEach((block) => parent.append(block));
+
+    appendBlocks(section, textBlock("Intent", contract.intent), textBlock("When to use", contract.when_to_use));
+    appendBlocks(section, listBlock("Bring these inputs", contract.inputs), listBlock("Proposed procedure", contract.procedure, true), listBlock("Expected outputs", contract.outputs));
+
+    const exampleRows = [
+      ["Situation", contract.example?.situation],
+      ["Proposed action", contract.example?.action],
+      ["Evidence to seek", contract.example?.evidence]
+    ].filter(([, value]) => present(value));
+    if (exampleRows.length) {
+      const example = el("div", "contract-block contract-example");
+      example.append(el("h3", "", "Worked example"), definitionList(exampleRows));
+      section.append(example);
+    }
+
+    const roles = el("div", "contract-role-grid");
+    appendBlocks(roles, textBlock("Neural reasoning", contract.neurosymbolic?.neural), textBlock("Symbolic enforcement", contract.neurosymbolic?.symbolic));
+    if (roles.childElementCount) section.append(roles);
+    appendBlocks(section, listBlock("Failure modes to watch", contract.failure_modes));
+
+    const evolution = el("div", "contract-evolution");
+    appendBlocks(evolution, listBlock("What may evolve", contract.evolution?.mutable), listBlock("What remains frozen", contract.evolution?.frozen), textBlock("Fitness to evaluate", contract.evolution?.fitness));
+    if (evolution.childElementCount) section.append(evolution);
+    if (section.childElementCount === 1) section.append(el("p", "", "The proposed behavior contract has no instructions recorded yet."));
+    return section;
+  }
+
   function appendLinkList(parent, links, emptyText) {
     if (!Array.isArray(links) || !links.length) {
       parent.append(el("p", "", emptyText));
@@ -264,6 +317,8 @@
       definition_status: card.definition_status,
       definition_depth: card.definition_depth,
       engineering: card.engineering,
+      hyperstition: card.hyperstition || "",
+      behavior_contract: card.behavior_contract || null,
       behavior: card.behavior || { status: "NOT_TESTED" },
       runtime: card.runtime || { status: "UNVERIFIED" },
       sources: card.sources || [], technology_refs: card.technology_refs || [],
@@ -313,6 +368,8 @@
     content.append(el("span", "card-deck", `${card.deck || "Unclassified"} / ${card.id}`), title, el("p", "detail-type", card.type_line || card.kind || "Card"), summary, statusTags(card));
     content.append(el("p", "detail-smallnote", `Summary provenance: ${humanStatus(card.summary_origin, "UNKNOWN")}. Definition depth and editorial provenance are separate.`));
     if (card.hyperstition) content.append(el("blockquote", "detail-myth", valueText(card.hyperstition)));
+    const useCard = behaviorContractSection(card.behavior_contract);
+    if (useCard) content.append(useCard);
     const engineering = detailsSection("Engineering", true);
     engineering.append(definitionList([
       ["Pattern", card.engineering?.pattern], ["Origin", card.engineering?.origin], ["Exemplar", card.engineering?.exemplar], ["Recorded maturity", card.engineering?.maturity]

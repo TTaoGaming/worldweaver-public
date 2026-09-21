@@ -1,0 +1,270 @@
+{
+  "schema": "worldweaver.card-behavior-enrichments.v1",
+  "status": "EDITORIAL_PROPOSAL_NOT_EXECUTED",
+  "cards": {
+    "CORE-01": {
+      "intent": "Candidate behavior: turn the hive's shared purpose into one useful outcome a named consumer can recognize.",
+      "when_to_use": "When choosing the next bounded mission or explaining why existing work matters.",
+      "inputs": ["Current operator intent and source precedence", "Consumer need, acceptance criterion, available effort and effect ceiling"],
+      "procedure": ["Describe the beneficiary and observable outcome in one sentence.", "Compare feasible next actions using expected usefulness, effort and unresolved assumptions.", "Select one bounded action and state why it advances the outcome.", "Prepare a WorkItem proposal naming its consumer and completion evidence."],
+      "outputs": ["Purpose-to-outcome explanation", "One reviewable WorkItem proposal with unresolved assumptions"],
+      "failure_modes": ["Treating agent activity as beneficiary value", "Replacing operator intent with an attractive internal project"],
+      "example": {
+        "situation": "A reader cannot identify which card explains worker continuity.",
+        "action": "Propose one navigation improvement and ask the designated evaluator to test the reader's task.",
+        "evidence": "Expected: an exact candidate change and an independently observed retrieval outcome."
+      },
+      "neurosymbolic": {
+        "neural": "Interpret the need and generate useful alternatives.",
+        "symbolic": "Bind intent, consumer, scope and acceptance to explicit records."
+      },
+      "evolution": {
+        "mutable": ["Explanations and action hypotheses"],
+        "frozen": ["Operator intent and effect ceiling", "Evaluator and criteria during comparison"],
+        "fitness": "Compare useful accepted outcomes and operator corrections against the fixed baseline; activity alone earns no credit."
+      }
+    },
+    "CORE-08": {
+      "intent": "Candidate behavior: make strife yield an evidenced correction while Sigrun's identity survives replacement carriers.",
+      "when_to_use": "When reconciling conflicting reports, handing off work, or selecting a recovery action.",
+      "inputs": ["Last accepted state and incoming source-bound reports", "WorkItem, lease, fence, effect ceiling and remaining budget"],
+      "procedure": ["Separate Actor, Hluti, Seat, Carrier, Session and Authority.", "Compare reports with accepted state; retain contradictions and missing receipts explicitly.", "Propose one next action or explain why no transition is justified.", "Send the candidate transition for distinct verification and required consumer disposition; preserve Tao's irreversible-effect gate."],
+      "outputs": ["Reconciliation proposal with evidence references", "Next-action handoff preserving work identity and unresolved claims"],
+      "failure_modes": ["REGROW treated as ADMIT", "Producer accepting its own transition", "Harm described as learning without a demonstrated correction"],
+      "example": {
+        "situation": "A replacement carrier receives conflicting completion reports.",
+        "action": "Reconstruct the last accepted state and propose the smallest evidence-gathering step.",
+        "evidence": "Expected: conflicting sources, preserved checkpoint, proposed transition and independent disposition."
+      },
+      "neurosymbolic": {
+        "neural": "Interpret conflicts and propose a corrective action.",
+        "symbolic": "Preserve identity, provenance, authority boundaries and accepted-state transitions."
+      },
+      "evolution": {
+        "mutable": ["Recovery hypotheses and handoff explanations"],
+        "frozen": ["Address [4,4] and identity distinctions", "Episode authority and comparison judge"],
+        "fitness": "Evaluate continuity and useful independently accepted corrections; renamed sessions and repeated prose do not establish progress."
+      }
+    },
+    "HFO-G143-C016": {
+      "intent": "Candidate behavior: turn an admitted work packet into one bounded worker attempt with a reviewable result.",
+      "when_to_use": "When preparing a worker for a specific task; recover its admitted ABI before launch.",
+      "inputs": ["WorkItem identity, scope, lease, effect ceiling and budget", "Exact input artifacts, admitted ABI reference, compatible loadout and result contract"],
+      "procedure": ["Map supplied inputs and required outputs to the recovered ABI without inventing fields.", "Resolve the carrier and loadout against the task's requirements.", "Prepare an attempt packet; identify missing bindings before execution.", "For an authorized attempt, perform the bounded step and return its candidate artifact plus remaining work."],
+      "outputs": ["Source-bound attempt packet", "Candidate artifact or explicit missing-binding report", "Verification handoff"],
+      "failure_modes": ["Starting from a role name alone", "Expanding scope to keep a worker busy", "Reporting dispatch as completion"],
+      "example": {
+        "situation": "A WorkItem requests extraction of three supplied document fields.",
+        "action": "Bind those inputs, extract only the requested fields, and attach source locations.",
+        "evidence": "Expected: the output table, input revisions and an independent field check."
+      },
+      "neurosymbolic": {
+        "neural": "Interpret the task and transform its inputs.",
+        "symbolic": "Constrain the attempt through its ABI, scope and result contract."
+      },
+      "evolution": {
+        "mutable": ["Task decomposition and extraction instructions"],
+        "frozen": ["Work identity, admitted ABI and effect ceiling", "Comparison judge"],
+        "fitness": "Evaluate correct bounded outputs, resource use and handoff completeness against the fixed task rubric."
+      }
+    },
+    "GG-D8-LAND-CHATGPT-B-ORACLE": {
+      "intent": "Candidate behavior: turn a named capacity surface into an evidence-based allocation recommendation.",
+      "when_to_use": "When selecting capacity for a bounded task or explaining why it should wait.",
+      "inputs": ["Admitted capacity observation and its validity conditions", "Shared-pool reservations, unresolved sends, task demand and budget ceiling"],
+      "procedure": ["Identify which routes draw on the same quota pool.", "Reconcile reservations and unresolved sends before estimating usable headroom.", "Compare the task's requirements with currently evidenced capacity.", "Recommend the smallest sufficient allocation or a queue/recheck action, with an expiry condition."],
+      "outputs": ["Allocation recommendation with assumptions and source timestamps", "Unresolved-capacity list and next observation needed"],
+      "failure_modes": ["Counting two routes as two independent quotas", "Treating unknown sends as unused capacity", "Raising a cap to make a task fit"],
+      "example": {
+        "situation": "Two possible worker routes share one quota pool.",
+        "action": "Account for their combined reservations and recommend one task-fit route.",
+        "evidence": "Expected: a capacity calculation tied to current observations; no account or host values in public output."
+      },
+      "neurosymbolic": {
+        "neural": "Match the task's needs to available options.",
+        "symbolic": "Track shared capacity, reservations, ceilings and observation freshness."
+      },
+      "evolution": {
+        "mutable": ["Matching heuristics and explanations"],
+        "frozen": ["Pool identity, budget caps and episode authority", "Evaluation conditions"],
+        "fitness": "Evaluate correct allocation recommendations under fixed stale-data and shared-pool cases, without claiming capacity from labels."
+      }
+    },
+    "WW-EQ-CLOUDFLARE-DURABILITY-001": {
+      "intent": "Candidate behavior: make a work obligation recoverable across carrier replacement through an explicit, testable storage contract.",
+      "when_to_use": "When considering an approved durable binding for state that must survive a session ending.",
+      "inputs": ["Actor identity and proposed class/namespace binding references", "Official documentation, pinned adapter source and configuration", "State schema, allowed effects and recovery acceptance criteria"],
+      "procedure": ["Separate vendor capability, implementation source and observed hosted behavior.", "Describe identity, stored state, idempotency and recovery using only interfaces recovered from source.", "Prepare bounded duplicate-delivery and interruption/recovery fixtures with expected outcomes.", "Submit the contract and assay plan to the implementation owner; require independent observations before claiming durability."],
+      "outputs": ["Adapter-contract candidate", "Recovery test matrix and unresolved bindings"],
+      "failure_modes": ["A documentation link treated as a working binding", "Storage persistence mistaken for complete mission continuity", "Invented adapter methods"],
+      "example": {
+        "situation": "A task must resume after its carrier ends.",
+        "action": "Specify the minimum checkpoint and a duplicate/recovery comparison against the pinned adapter.",
+        "evidence": "Expected: source references and planned assertions; runtime proof requires a separately executed, scoped assay."
+      },
+      "neurosymbolic": {
+        "neural": "Identify the obligation and propose recovery cases.",
+        "symbolic": "Bind state, identity, adapter revision and expected transitions."
+      },
+      "evolution": {
+        "mutable": ["Checkpoint proposals and fixture coverage"],
+        "frozen": ["Identity and effect boundaries", "Judge and recovery criteria during comparison"],
+        "fitness": "Evaluate recovered state and duplicate handling against fixed criteria; vendor documentation alone earns no runtime credit."
+      }
+    },
+    "GG-D1-WORKITEM": {
+      "intent": "Candidate behavior: make one unit of effort recoverable, bounded and decidable by its verifier and consumer.",
+      "when_to_use": "When admitting work, transferring an attempt, or deciding whether a result closes the task.",
+      "inputs": ["Stable semantic identity, exact inputs and requested output", "Owner, lease/fence, effect ceiling, budget, evaluator and consumer criteria"],
+      "procedure": ["Describe one semantic scope and retain its identity across carriers.", "Check the existing ownership record before proposing a claim or handoff.", "Record the bounded action, expected artifact and stopping condition.", "Attach returned output to the same work identity; retain open verifier and ConsumerAck requirements until fulfilled."],
+      "outputs": ["Reviewable work packet or handoff proposal", "Result-to-work evidence mapping", "Explicit remaining acceptance conditions"],
+      "failure_modes": ["New identity minted for the same unfinished scope", "Concurrent owners admitted for overlapping work", "Result presence treated as completion"],
+      "example": {
+        "situation": "A broken card link needs a source edit but no deployment.",
+        "action": "Bind the file revision, permitted edit, link check and designated consumer in one work packet.",
+        "evidence": "Expected: exact diff, relevant check output and the required independent dispositions."
+      },
+      "neurosymbolic": {
+        "neural": "Translate a request into a useful bounded task.",
+        "symbolic": "Preserve identity, ownership, effects and acceptance transitions."
+      },
+      "evolution": {
+        "mutable": ["Task instructions and handoff clarity"],
+        "frozen": ["Semantic identity and single-owner rule", "Effect ceiling and comparison criteria"],
+        "fitness": "Evaluate traceable outcomes and correct closure decisions under fixed handoff and duplicate-work cases."
+      }
+    },
+    "HFO-G143-C005": {
+      "intent": "Candidate behavior: keep the comparison lens still while a candidate changes.",
+      "when_to_use": "Before comparing a baseline with a proposed improvement or reviewing a claimed gain.",
+      "inputs": ["Baseline and candidate revisions", "Fixed task set, budget, evaluator revision and acceptance criteria", "Independently held-out cases and evidence-retention plan"],
+      "procedure": ["Record the comparison protocol before inspecting candidate outcomes.", "Keep evaluator access and unseen ground truth separate from candidate authors.", "Evaluate both versions under matched conditions through the authorized evaluator.", "Report outcomes, failures, costs and uncertainty; route evaluator changes to a separate comparison proposal."],
+      "outputs": ["Frozen comparison specification", "Evidence-indexed comparison report or missing-evaluation list"],
+      "failure_modes": ["Changing criteria after seeing results", "Treating public examples as unseen cases", "Counting self-scored assertions as independent acceptance"],
+      "example": {
+        "situation": "A richer card claims to improve task routing.",
+        "action": "Compare it with matched factual instructions using evaluator-held cases and the same budget.",
+        "evidence": "Expected: protocol revision, paired artifacts, failures and independent scoring; this example supplies no score."
+      },
+      "neurosymbolic": {
+        "neural": "Suggest useful candidates and interpret failures.",
+        "symbolic": "Fix the comparison protocol and preserve outcome provenance."
+      },
+      "evolution": {
+        "mutable": ["Candidate behavior within the declared search space"],
+        "frozen": ["Judge, task conditions and acceptance criteria during comparison"],
+        "fitness": "Use the predefined evaluator's evidence-backed comparison; improving the judge's generosity is not a candidate improvement."
+      }
+    },
+    "HFO-G143-C003": {
+      "intent": "Candidate behavior: make remembered experience change the next attempt through a testable learning cycle.",
+      "when_to_use": "After an observed success, failure or repeated operator correction suggests a bounded improvement.",
+      "inputs": ["Exact incident/output artifacts and consumer outcome", "One causal hypothesis, baseline, budget and fixed validation criterion"],
+      "procedure": ["Hindsight: reconstruct what happened from artifacts and identify uncertainty.", "Insight: propose one causal explanation and a distinguishing observation.", "Validation: prepare a bounded comparison of one intervention against the baseline.", "Evolution: submit the observed result for existing admission; preserve rejected hypotheses and unresolved failures."],
+      "outputs": ["Incident-to-hypothesis record", "Single-intervention comparison plan", "Evidence-bound adoption or rejection proposal"],
+      "failure_modes": ["Storytelling substituted for causal evidence", "Several changes obscure which helped", "An experiment automatically promoted into policy"],
+      "example": {
+        "situation": "Carriers repeatedly select index-only cards as complete instructions.",
+        "action": "Propose a clearer missing-contract cue and compare retrieval decisions under the fixed rubric.",
+        "evidence": "Expected: original failures, candidate revision, independent comparison and retained counterexamples."
+      },
+      "neurosymbolic": {
+        "neural": "Generate explanations and candidate remedies.",
+        "symbolic": "Connect incidents, interventions, comparisons and admission records."
+      },
+      "evolution": {
+        "mutable": ["One declared intervention per comparison"],
+        "frozen": ["Historical evidence and authority boundaries", "Baseline, judge and acceptance criteria during comparison"],
+        "fitness": "Evaluate the targeted failure's recurrence and useful outcomes; recording a lesson does not establish improvement."
+      }
+    },
+    "CORE-11": {
+      "intent": "Candidate behavior: assemble the smallest compatible capability set that can produce the requested result.",
+      "when_to_use": "When equipping a worker or checking whether an existing composition fits a new task.",
+      "inputs": ["WorkItem inputs, required outputs and effect ceiling", "Versioned equipment/interface references, carrier requirements and budget"],
+      "procedure": ["Map each task requirement to a needed capability.", "Select attachments with explicit revisions and identify their dependencies.", "Check interface compatibility and distinguish capability availability from permission to use it.", "Produce a composition proposal and bounded verification plan; name unresolved bindings."],
+      "outputs": ["Requirement-to-equipment mapping", "Versioned loadout proposal with compatibility evidence and gaps"],
+      "failure_modes": ["Accumulating tools without a task need", "Treating a model as the durable actor", "Assuming installed equipment grants effect authority"],
+      "example": {
+        "situation": "A worker must summarize supplied documents and produce a cited table.",
+        "action": "Select only compatible reading and table-output capabilities; explain every attachment's purpose.",
+        "evidence": "Expected: interface references, output contract and a relevant bounded verification plan."
+      },
+      "neurosymbolic": {
+        "neural": "Reason about task needs and alternative compositions.",
+        "symbolic": "Bind interfaces, revisions, dependencies, effects and budget."
+      },
+      "evolution": {
+        "mutable": ["Attachment selection within authorized compatible options"],
+        "frozen": ["Task output contract and effect ceiling", "Comparison conditions and judge"],
+        "fitness": "Evaluate task correctness, compatibility failures and resource use against the same requirement set; more equipment earns no automatic credit."
+      }
+    },
+    "HFO-G143-C031": {
+      "intent": "Candidate behavior: complete one small, task-fit transformation and leave an exact reviewable artifact.",
+      "when_to_use": "When work can be bounded to a short attempt with a clear input and output.",
+      "inputs": ["Admitted WorkItem and exact input revision", "Compatible loadout, effort limit, output contract and relevant check"],
+      "procedure": ["Restate the requested transformation and its stopping condition.", "Inspect the supplied inputs and perform only the permitted change.", "Run the authorized relevant check or document why it could not run.", "Return the candidate artifact, source references and remaining acceptance step."],
+      "outputs": ["Exact candidate diff or transformed artifact", "Scoped check evidence and concise reviewer handoff"],
+      "failure_modes": ["Expanding a small edit into an unrelated refactor", "Omitting the actual artifact", "Claiming consumer acceptance from a local check"],
+      "example": {
+        "situation": "A card's typed link uses an obsolete target identifier.",
+        "action": "Resolve the intended target from supplied sources, edit the allowed reference, and check that link.",
+        "evidence": "Expected: input revision, minimal diff and target-resolution evidence for independent review."
+      },
+      "neurosymbolic": {
+        "neural": "Interpret the required change and choose a precise implementation.",
+        "symbolic": "Constrain files, effects, effort and observable output."
+      },
+      "evolution": {
+        "mutable": ["Transformation instructions and implementation choices within scope"],
+        "frozen": ["Work identity, input revision and effect ceiling", "Comparison rubric"],
+        "fitness": "Evaluate correct minimal results, review effort and boundary adherence on fixed tasks."
+      }
+    },
+    "HFO-G143-C017": {
+      "intent": "Candidate behavior: carry unfinished work through interruption without losing identity or repeating uncertain effects.",
+      "when_to_use": "When resuming a bounded task from durable evidence after an attempt ends.",
+      "inputs": ["Original WorkItem, ownership/lease evidence and remaining budget", "Last durable checkpoint, candidate artifacts and effect observations"],
+      "procedure": ["Reconstruct completed, pending and uncertain steps from the checkpoint and artifacts.", "Reconcile ownership and uncertain effects through permitted evidence before retrying.", "Choose one continuation step within the original ceiling and remaining budget.", "Return a new checkpoint, exact output references and a bounded next-action handoff."],
+      "outputs": ["Recovery plan tied to the original work identity", "Updated checkpoint candidate and unresolved-effect list"],
+      "failure_modes": ["A restart creates duplicate ownership", "Unknown effects are repeated blindly", "Retries silently reset the budget"],
+      "example": {
+        "situation": "An extraction attempt ends after saving part of its output.",
+        "action": "Compare the saved artifact with required fields and continue only the missing portion under valid ownership.",
+        "evidence": "Expected: original identity, prior checkpoint, preserved completed output and independently checked continuation."
+      },
+      "neurosymbolic": {
+        "neural": "Diagnose the interruption and select a useful recovery step.",
+        "symbolic": "Preserve ownership, checkpoints, effect history and budget accounting."
+      },
+      "evolution": {
+        "mutable": ["Checkpoint clarity and bounded recovery heuristics"],
+        "frozen": ["Work identity, ownership rules and effect ceiling", "Retry budget and comparison judge"],
+        "fitness": "Evaluate recovered useful output, duplicate effects and operator intervention under fixed interruption cases."
+      }
+    },
+    "GG-D7-HARNESS-CLOUDFLARE-SIGRUN": {
+      "intent": "Candidate behavior: turn the named harness into a source-resolved compatibility proposal for Sigrun's required service interaction.",
+      "when_to_use": "When a WorkItem needs an existing service capability and the catalog alone cannot establish its interface.",
+      "inputs": ["Requested operation, actor identity and effect ceiling", "Pinned harness/source configuration, interface references and budget"],
+      "procedure": ["Locate the existing service contract in supplied source; retain missing interfaces explicitly.", "Map the caller's required input and output to that contract without guessing methods.", "Separate actor identity, carrier session, service binding and permission.", "Prepare source-derived request/response fixtures and a bounded verification handoff to the runtime owner."],
+      "outputs": ["Interface compatibility mapping", "Candidate fixtures, missing bindings and verification scope"],
+      "failure_modes": ["A harness name treated as a callable interface", "Service binding assumed to prove durable storage", "Invented endpoints or implied execution authority"],
+      "example": {
+        "situation": "A consumer needs information exposed by an existing service.",
+        "action": "Recover the relevant read contract and prepare a fixture within the WorkItem's scope.",
+        "evidence": "Expected: pinned interface references and fixture expectations; source inspection supplies no hosted-call receipt."
+      },
+      "neurosymbolic": {
+        "neural": "Interpret the consumer need and locate a compatible operation.",
+        "symbolic": "Bind the recovered interface, identity, revision and effect ceiling."
+      },
+      "evolution": {
+        "mutable": ["Mapping explanations and source-derived fixture coverage"],
+        "frozen": ["Recovered interface and episode authority", "Evaluation criteria during comparison"],
+        "fitness": "Evaluate accurate contract mapping and useful handoffs under fixed source fixtures; naming a harness earns no runtime credit."
+      }
+    }
+  }
+}

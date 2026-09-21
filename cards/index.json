@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "source": {
     "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
     "commit": "c4427795dbd64510fdef162dfcff616c33f27558"
@@ -8,8 +8,9 @@
     "indexed": 130,
     "inherited_index": 129,
     "full": 37,
+    "behavior_enriched": 12,
     "history_complete": false,
-    "note": "Complete pinned index plus one public equipment proposal. Index-only cards retain missing-definition labels. No whole-history completeness claim."
+    "note": "Complete pinned index plus one public equipment proposal. Behavioral enrichments are editorial proposals, not newly recovered canonical definitions. Index-only cards retain missing-definition labels. No whole-history completeness claim."
   },
   "cards": [
     {
@@ -18,6 +19,7 @@
       "kind": "INSTITUTION",
       "summary": "A shared institution for useful human–AI work.",
       "definition_depth": "index",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/CORE-01.json",
       "text": "/cards/definitions/CORE-01.md"
     },
@@ -27,6 +29,7 @@
       "kind": "TOPOLOGY",
       "summary": "A typed addressing and navigation structure for the HFO ontology.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/CORE-02.json",
       "text": "/cards/definitions/CORE-02.md"
     },
@@ -36,6 +39,7 @@
       "kind": "PRIMITIVE",
       "summary": "A bounded role position that an actor may occupy.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/CORE-03.json",
       "text": "/cards/definitions/CORE-03.md"
     },
@@ -45,6 +49,7 @@
       "kind": "PRIMITIVE",
       "summary": "A continuing logical identity with recoverable state and responsibilities.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/CORE-04.json",
       "text": "/cards/definitions/CORE-04.md"
     },
@@ -54,6 +59,7 @@
       "kind": "PRIMITIVE",
       "summary": "A source-bound record supporting a specific claim.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/CORE-07.json",
       "text": "/cards/definitions/CORE-07.md"
     },
@@ -63,6 +69,7 @@
       "kind": "ARCHETYPE",
       "summary": "A provider relationship with distinct capacity, accounting and interfaces.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/CORE-10.json",
       "text": "/cards/definitions/CORE-10.md"
     },
@@ -72,6 +79,7 @@
       "kind": "ARCHETYPE",
       "summary": "A versioned composition of capabilities for a role.",
       "definition_depth": "index",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/CORE-11.json",
       "text": "/cards/definitions/CORE-11.md"
     },
@@ -81,6 +89,7 @@
       "kind": "ARCHETYPE",
       "summary": "A declared organization of roles, equipment and relationships.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/CORE-12.json",
       "text": "/cards/definitions/CORE-12.md"
     },
@@ -90,6 +99,7 @@
       "kind": "META",
       "summary": "A compact, versioned entrance to a typed concept and its sources.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/CORE-13.json",
       "text": "/cards/definitions/CORE-13.md"
     },
@@ -99,6 +109,7 @@
       "kind": "TOOL",
       "summary": "A checker for declared structural invariants.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/CORE-14.json",
       "text": "/cards/definitions/CORE-14.md"
     },
@@ -108,6 +119,7 @@
       "kind": "WORKFLOW",
       "summary": "A learning cycle connecting hindsight, insight, validation and evolution.",
       "definition_depth": "index",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/HFO-G143-C003.json",
       "text": "/cards/definitions/HFO-G143-C003.md"
     },
@@ -117,6 +129,7 @@
       "kind": "WORKFLOW",
       "summary": "PDSA Ramp: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C004.json",
       "text": "/cards/definitions/HFO-G143-C004.md"
     },
@@ -126,6 +139,7 @@
       "kind": "TOOL",
       "summary": "An evaluator whose revision stays fixed during a comparison.",
       "definition_depth": "index",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/HFO-G143-C005.json",
       "text": "/cards/definitions/HFO-G143-C005.md"
     },
@@ -135,6 +149,7 @@
       "kind": "POLICY",
       "summary": "Echelon Charter: a policy in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C035.json",
       "text": "/cards/definitions/HFO-G143-C035.md"
     },
@@ -144,6 +159,7 @@
       "kind": "POLICY",
       "summary": "Legend Rule: a policy in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C036.json",
       "text": "/cards/definitions/HFO-G143-C036.md"
     },
@@ -153,6 +169,7 @@
       "kind": "POLICY",
       "summary": "Loyalty Ledger: a policy in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C037.json",
       "text": "/cards/definitions/HFO-G143-C037.md"
     },
@@ -162,6 +179,7 @@
       "kind": "TOOL",
       "summary": "Type Check: a tool in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C038.json",
       "text": "/cards/definitions/HFO-G143-C038.md"
     },
@@ -171,6 +189,7 @@
       "kind": "ONTOLOGY",
       "summary": "Archetype Rosetta: a ontology in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C040.json",
       "text": "/cards/definitions/HFO-G143-C040.md"
     },
@@ -180,6 +199,7 @@
       "kind": "FORCE_PACKAGE",
       "summary": "Circle Packing Force Package: a force package in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C041.json",
       "text": "/cards/definitions/HFO-G143-C041.md"
     },
@@ -189,6 +209,7 @@
       "kind": "WORKFLOW",
       "summary": "Reckoning Loom: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C042.json",
       "text": "/cards/definitions/HFO-G143-C042.md"
     },
@@ -198,6 +219,7 @@
       "kind": "WORKFLOW",
       "summary": "Night Watch: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C043.json",
       "text": "/cards/definitions/HFO-G143-C043.md"
     },
@@ -207,6 +229,7 @@
       "kind": "WORKFLOW",
       "summary": "Hatchery Gate: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C044.json",
       "text": "/cards/definitions/HFO-G143-C044.md"
     },
@@ -216,6 +239,7 @@
       "kind": "WORKFLOW",
       "summary": "Overlord Allocate: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C045.json",
       "text": "/cards/definitions/HFO-G143-C045.md"
     },
@@ -225,6 +249,7 @@
       "kind": "POLICY",
       "summary": "Tao's Word: a policy in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C046.json",
       "text": "/cards/definitions/HFO-G143-C046.md"
     },
@@ -234,6 +259,7 @@
       "kind": "MANIFEST",
       "summary": "Boot Page: a manifest in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C047.json",
       "text": "/cards/definitions/HFO-G143-C047.md"
     },
@@ -243,6 +269,7 @@
       "kind": "IDENTITY",
       "summary": "Herald: a identity in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C048.json",
       "text": "/cards/definitions/HFO-G143-C048.md"
     },
@@ -252,6 +279,7 @@
       "kind": "AUTHORITY_GATE",
       "summary": "The explicit authority boundary for protected effects.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C049.json",
       "text": "/cards/definitions/HFO-G143-C049.md"
     },
@@ -261,6 +289,7 @@
       "kind": "WORKFLOW",
       "summary": "Crown the Champion: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C050.json",
       "text": "/cards/definitions/HFO-G143-C050.md"
     },
@@ -270,6 +299,7 @@
       "kind": "LEDGER",
       "summary": "Outbound Ledger: a ledger in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C051.json",
       "text": "/cards/definitions/HFO-G143-C051.md"
     },
@@ -279,6 +309,7 @@
       "kind": "WORKFLOW",
       "summary": "Swarm Dispersion: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C052.json",
       "text": "/cards/definitions/HFO-G143-C052.md"
     },
@@ -288,6 +319,7 @@
       "kind": "WORKFLOW",
       "summary": "Brood Cycle: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C053.json",
       "text": "/cards/definitions/HFO-G143-C053.md"
     },
@@ -297,6 +329,7 @@
       "kind": "TOOL",
       "summary": "ActorSeat r0: a tool in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C058.json",
       "text": "/cards/definitions/HFO-G143-C058.md"
     },
@@ -306,6 +339,7 @@
       "kind": "WORKFLOW",
       "summary": "Seat Seeder: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C059.json",
       "text": "/cards/definitions/HFO-G143-C059.md"
     },
@@ -315,6 +349,7 @@
       "kind": "WORKFLOW",
       "summary": "Strangler Map: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C060.json",
       "text": "/cards/definitions/HFO-G143-C060.md"
     },
@@ -324,6 +359,7 @@
       "kind": "WORKFLOW",
       "summary": "Vendor Reconciler: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C061.json",
       "text": "/cards/definitions/HFO-G143-C061.md"
     },
@@ -333,6 +369,7 @@
       "kind": "WORKFLOW",
       "summary": "Capacity Canary: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C062.json",
       "text": "/cards/definitions/HFO-G143-C062.md"
     },
@@ -342,6 +379,7 @@
       "kind": "TOOL",
       "summary": "Circle-Packing Judge Pack: a tool in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C064.json",
       "text": "/cards/definitions/HFO-G143-C064.md"
     },
@@ -351,6 +389,7 @@
       "kind": "WORKFLOW",
       "summary": "Three-Surface Checkpoint: a workflow in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C065.json",
       "text": "/cards/definitions/HFO-G143-C065.md"
     },
@@ -360,6 +399,7 @@
       "kind": "CURSE",
       "summary": "Exotic Engineering: a curse in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C066.json",
       "text": "/cards/definitions/HFO-G143-C066.md"
     },
@@ -369,6 +409,7 @@
       "kind": "HORIZON",
       "summary": "Surtr's Dawn: a horizon in the Institution / topology / structures / workflows / force packages deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C067.json",
       "text": "/cards/definitions/HFO-G143-C067.md"
     },
@@ -378,6 +419,7 @@
       "kind": "WORKFLOW",
       "summary": "Useful READY work always finds the safest compatible mineral before that mineral expires.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-PERISHABLE-CAPACITY-RECONCILER.json",
       "text": "/cards/definitions/GG-D1-PERISHABLE-CAPACITY-RECONCILER.md"
     },
@@ -387,6 +429,7 @@
       "kind": "WORKFLOW",
       "summary": "The work reservoir stays deep enough that no useful mineral waits for Tao to invent the next task.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-EVERGREEN-REFILLER.json",
       "text": "/cards/definitions/GG-D1-EVERGREEN-REFILLER.md"
     },
@@ -396,6 +439,7 @@
       "kind": "APEX",
       "summary": "Rendering creates contest; contest changes the renderer. Strife≡Splendor means source-bound selection equivalence; harm alone is not learning.",
       "definition_depth": "full",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/CORE-08.json",
       "text": "/cards/definitions/CORE-08.md"
     },
@@ -405,6 +449,7 @@
       "kind": "APEX",
       "summary": "Fenrir: a apex in the Apex / legendary controllers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C012.json",
       "text": "/cards/definitions/HFO-G143-C012.md"
     },
@@ -414,6 +459,7 @@
       "kind": "APEX",
       "summary": "Surtr: a apex in the Apex / legendary controllers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C013.json",
       "text": "/cards/definitions/HFO-G143-C013.md"
     },
@@ -423,6 +469,7 @@
       "kind": "HUMAN_OPERATOR",
       "summary": "World Weaver: a human operator in the Apex / legendary controllers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HR-10.json",
       "text": "/cards/definitions/HR-10.md"
     },
@@ -432,6 +479,7 @@
       "kind": "ARCHETYPE",
       "summary": "Sigrun Hluti: a archetype in the Valkyries / Hluti / named specialist units and vendor brood mothers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/CORE-09.json",
       "text": "/cards/definitions/CORE-09.md"
     },
@@ -441,6 +489,7 @@
       "kind": "UNIT",
       "summary": "Google API Steward Brood Mother: a unit in the Valkyries / Hluti / named specialist units and vendor brood mothers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D3-GOOGLE-API-STEWARD.json",
       "text": "/cards/definitions/GG-D3-GOOGLE-API-STEWARD.md"
     },
@@ -450,6 +499,7 @@
       "kind": "UNIT",
       "summary": "Kimi Vendor Owner Brood Mother: a unit in the Valkyries / Hluti / named specialist units and vendor brood mothers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D3-KIMI-VENDOR-OWNER.json",
       "text": "/cards/definitions/GG-D3-KIMI-VENDOR-OWNER.md"
     },
@@ -459,6 +509,7 @@
       "kind": "UNIT",
       "summary": "OpenRouter Free Brood Mother: a unit in the Valkyries / Hluti / named specialist units and vendor brood mothers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D3-OPENROUTER-OWNER.json",
       "text": "/cards/definitions/GG-D3-OPENROUTER-OWNER.md"
     },
@@ -468,6 +519,7 @@
       "kind": "UNIT",
       "summary": "ChatGPT Account-B Brood Mother: a unit in the Valkyries / Hluti / named specialist units and vendor brood mothers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D3-ACCOUNT-B-OWNER.json",
       "text": "/cards/definitions/GG-D3-ACCOUNT-B-OWNER.md"
     },
@@ -477,6 +529,7 @@
       "kind": "UNIT",
       "summary": "A worker abstraction awaiting an admitted task and compatible loadout.",
       "definition_depth": "index",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/HFO-G143-C016.json",
       "text": "/cards/definitions/HFO-G143-C016.md"
     },
@@ -486,6 +539,7 @@
       "kind": "UNIT",
       "summary": "A worker phenotype emphasizing continuity and bounded recovery.",
       "definition_depth": "index",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/HFO-G143-C017.json",
       "text": "/cards/definitions/HFO-G143-C017.md"
     },
@@ -495,6 +549,7 @@
       "kind": "UNIT",
       "summary": "Twinling: a unit in the Zerg castes / tokens / strains deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C018.json",
       "text": "/cards/definitions/HFO-G143-C018.md"
     },
@@ -504,6 +559,7 @@
       "kind": "UNIT",
       "summary": "Overseer: a unit in the Zerg castes / tokens / strains deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C019.json",
       "text": "/cards/definitions/HFO-G143-C019.md"
     },
@@ -513,6 +569,7 @@
       "kind": "UNIT",
       "summary": "Drone: a unit in the Zerg castes / tokens / strains deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C020.json",
       "text": "/cards/definitions/HFO-G143-C020.md"
     },
@@ -522,6 +579,7 @@
       "kind": "UNIT",
       "summary": "A worker phenotype for a bounded, task-fit attempt.",
       "definition_depth": "index",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/HFO-G143-C031.json",
       "text": "/cards/definitions/HFO-G143-C031.md"
     },
@@ -531,6 +589,7 @@
       "kind": "UNIT",
       "summary": "Undying Bruiser: a unit in the Zerg castes / tokens / strains deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C032.json",
       "text": "/cards/definitions/HFO-G143-C032.md"
     },
@@ -540,6 +599,7 @@
       "kind": "UNIT",
       "summary": "Strain-Weaver: a unit in the Zerg castes / tokens / strains deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C033.json",
       "text": "/cards/definitions/HFO-G143-C033.md"
     },
@@ -549,6 +609,7 @@
       "kind": "UNIT",
       "summary": "Essence Hunter: a unit in the Zerg castes / tokens / strains deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C034.json",
       "text": "/cards/definitions/HFO-G143-C034.md"
     },
@@ -558,6 +619,7 @@
       "kind": "ARCHETYPE",
       "summary": "Tyranid Adaptation: a archetype in the Tyranid adaptation archetypes deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D5-ADAPTATION.json",
       "text": "/cards/definitions/GG-D5-ADAPTATION.md"
     },
@@ -567,6 +629,7 @@
       "kind": "ARCHETYPE",
       "summary": "Synapse Coordination: a archetype in the Tyranid adaptation archetypes deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D5-SYNAPSE.json",
       "text": "/cards/definitions/GG-D5-SYNAPSE.md"
     },
@@ -576,6 +639,7 @@
       "kind": "ARCHETYPE",
       "summary": "Sliver Skill Sharing: a archetype in the Sliver shared-capability archetypes deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D6-SKILL-SHARING.json",
       "text": "/cards/definitions/GG-D6-SKILL-SHARING.md"
     },
@@ -585,6 +649,7 @@
       "kind": "ARCHETYPE",
       "summary": "Shared Aura Hub: a archetype in the Sliver shared-capability archetypes deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D6-AURA-HUB.json",
       "text": "/cards/definitions/GG-D6-AURA-HUB.md"
     },
@@ -594,6 +659,7 @@
       "kind": "HARNESS",
       "summary": "ChatGPT Text Tool-Calling Harness: a harness in the Harnesses / tools / models deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-HARNESS-CHATGPT-TEXT.json",
       "text": "/cards/definitions/GG-D7-HARNESS-CHATGPT-TEXT.md"
     },
@@ -603,6 +669,7 @@
       "kind": "HARNESS",
       "summary": "Oracle GitHub Actions Harness: a harness in the Harnesses / tools / models deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-HARNESS-ORACLE-ACTIONS.json",
       "text": "/cards/definitions/GG-D7-HARNESS-ORACLE-ACTIONS.md"
     },
@@ -612,6 +679,7 @@
       "kind": "HARNESS",
       "summary": "A Kimi-compatible tool harness with an explicit capability interface.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C023.json",
       "text": "/cards/definitions/HFO-G143-C023.md"
     },
@@ -621,6 +689,7 @@
       "kind": "HARNESS",
       "summary": "A catalogued Cloudflare service-binding harness for Sigrun.",
       "definition_depth": "index",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/GG-D7-HARNESS-CLOUDFLARE-SIGRUN.json",
       "text": "/cards/definitions/GG-D7-HARNESS-CLOUDFLARE-SIGRUN.md"
     },
@@ -630,6 +699,7 @@
       "kind": "MODEL",
       "summary": "GPT-5.6 Sol: a model in the Harnesses / tools / models deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-MODEL-GPT-5-6-SOL.json",
       "text": "/cards/definitions/GG-D7-MODEL-GPT-5-6-SOL.md"
     },
@@ -639,6 +709,7 @@
       "kind": "MODEL",
       "summary": "Gemini 3.1 Flash-Lite: a model in the Harnesses / tools / models deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-MODEL-GEMINI-3-1-FL.json",
       "text": "/cards/definitions/GG-D7-MODEL-GEMINI-3-1-FL.md"
     },
@@ -648,6 +719,7 @@
       "kind": "MODEL",
       "summary": "Gemini 3.5 Flash-Lite: a model in the Harnesses / tools / models deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-MODEL-GEMINI-3-5-FL.json",
       "text": "/cards/definitions/GG-D7-MODEL-GEMINI-3-5-FL.md"
     },
@@ -657,6 +729,7 @@
       "kind": "MODEL",
       "summary": "Gemini 3.5 Flash: a model in the Harnesses / tools / models deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-MODEL-GEMINI-3-5-F.json",
       "text": "/cards/definitions/GG-D7-MODEL-GEMINI-3-5-F.md"
     },
@@ -666,6 +739,7 @@
       "kind": "MODEL",
       "summary": "Gemma 4 31B IT: a model in the Harnesses / tools / models deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-MODEL-GEMMA-4-31B.json",
       "text": "/cards/definitions/GG-D7-MODEL-GEMMA-4-31B.md"
     },
@@ -675,6 +749,7 @@
       "kind": "MODEL",
       "summary": "Kimi K2.8 Preview: a model in the Harnesses / tools / models deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-MODEL-K2-8.json",
       "text": "/cards/definitions/GG-D7-MODEL-K2-8.md"
     },
@@ -684,6 +759,7 @@
       "kind": "MODEL",
       "summary": "Kimi K3-256k: a model in the Harnesses / tools / models deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-MODEL-K3-256K.json",
       "text": "/cards/definitions/GG-D7-MODEL-K3-256K.md"
     },
@@ -693,6 +769,7 @@
       "kind": "MODEL",
       "summary": "Nex N2.5 Mini Free: a model in the Harnesses / tools / models deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-MODEL-NEX-MINI.json",
       "text": "/cards/definitions/GG-D7-MODEL-NEX-MINI.md"
     },
@@ -702,6 +779,7 @@
       "kind": "MODEL",
       "summary": "Nex N2.5 Pro Free: a model in the Harnesses / tools / models deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-MODEL-NEX-PRO.json",
       "text": "/cards/definitions/GG-D7-MODEL-NEX-PRO.md"
     },
@@ -711,6 +789,7 @@
       "kind": "LAND",
       "summary": "ChatGPT Account A Cloud Chat: a land in the Lands / hosts / provider-account-capacity surfaces deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D8-LAND-CHATGPT-A-CLOUD.json",
       "text": "/cards/definitions/GG-D8-LAND-CHATGPT-A-CLOUD.md"
     },
@@ -720,6 +799,7 @@
       "kind": "LAND",
       "summary": "ChatGPT Scheduled Tasks: a land in the Lands / hosts / provider-account-capacity surfaces deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D8-LAND-CHATGPT-SCHEDULED.json",
       "text": "/cards/definitions/GG-D8-LAND-CHATGPT-SCHEDULED.md"
     },
@@ -729,6 +809,7 @@
       "kind": "LAND",
       "summary": "A provider-account capacity surface with a particular carrier route.",
       "definition_depth": "index",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/GG-D8-LAND-CHATGPT-B-ORACLE.json",
       "text": "/cards/definitions/GG-D8-LAND-CHATGPT-B-ORACLE.md"
     },
@@ -738,6 +819,7 @@
       "kind": "LAND",
       "summary": "Google API Project / Oracle Route: a land in the Lands / hosts / provider-account-capacity surfaces deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D8-LAND-GOOGLE-API.json",
       "text": "/cards/definitions/GG-D8-LAND-GOOGLE-API.md"
     },
@@ -747,6 +829,7 @@
       "kind": "LAND",
       "summary": "Kimi Code Subscription: a land in the Lands / hosts / provider-account-capacity surfaces deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D8-LAND-KIMI-CODE.json",
       "text": "/cards/definitions/GG-D8-LAND-KIMI-CODE.md"
     },
@@ -756,6 +839,7 @@
       "kind": "LAND",
       "summary": "OpenRouter Free: a land in the Lands / hosts / provider-account-capacity surfaces deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C024.json",
       "text": "/cards/definitions/HFO-G143-C024.md"
     },
@@ -765,6 +849,7 @@
       "kind": "LAND",
       "summary": "Oracle ARM64 Runner: a land in the Lands / hosts / provider-account-capacity surfaces deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C022.json",
       "text": "/cards/definitions/HFO-G143-C022.md"
     },
@@ -774,6 +859,7 @@
       "kind": "LAND",
       "summary": "OVH x64 Actions Runner: a land in the Lands / hosts / provider-account-capacity surfaces deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D8-LAND-OVH-ACTIONS.json",
       "text": "/cards/definitions/GG-D8-LAND-OVH-ACTIONS.md"
     },
@@ -783,6 +869,7 @@
       "kind": "LAND",
       "summary": "Lenovo Local Host: a land in the Lands / hosts / provider-account-capacity surfaces deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D8-LAND-LENOVO.json",
       "text": "/cards/definitions/GG-D8-LAND-LENOVO.md"
     },
@@ -792,6 +879,7 @@
       "kind": "LAND",
       "summary": "Cloudflare Sigrun Durable Actor: a land in the Lands / hosts / provider-account-capacity surfaces deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D8-LAND-CLOUDFLARE-SIGRUN.json",
       "text": "/cards/definitions/GG-D8-LAND-CLOUDFLARE-SIGRUN.md"
     },
@@ -801,6 +889,7 @@
       "kind": "AURA",
       "summary": "A pre-action procedure attached through a canonical skill reference.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C028.json",
       "text": "/cards/definitions/HFO-G143-C028.md"
     },
@@ -810,6 +899,7 @@
       "kind": "AURA",
       "summary": "A reminder to obtain a distinct, evidence-bound review.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/HFO-G143-C029.json",
       "text": "/cards/definitions/HFO-G143-C029.md"
     },
@@ -819,6 +909,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Tao never has to be the status poller, retry button, or vendor dispatcher.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-SIGRUN-VENDOR-RECONCILER.json",
       "text": "/cards/definitions/GG-D9-SIGRUN-VENDOR-RECONCILER.md"
     },
@@ -828,6 +919,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Google capacity produces judged work without Tao juggling models, routes, runners, or reset windows.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-GOOGLE-API-STEWARD.json",
       "text": "/cards/definitions/GG-D9-GOOGLE-API-STEWARD.md"
     },
@@ -837,6 +929,7 @@
       "kind": "AGENT_SKILL",
       "summary": "One Kimi owner turns subscription minerals into bounded useful work while every other Kimi observer stays read-only.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-KIMI-VENDOR-OWNER.json",
       "text": "/cards/definitions/GG-D9-KIMI-VENDOR-OWNER.md"
     },
@@ -846,6 +939,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Kimi never fails silently and no stale green becomes quota truth.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-KIMI-CAPACITY-CANARY.json",
       "text": "/cards/definitions/GG-D9-KIMI-CAPACITY-CANARY.md"
     },
@@ -855,6 +949,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Breakage becomes a typed signal before Tao discovers it by clicking.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-ZERG-DRONE-RING.json",
       "text": "/cards/definitions/GG-D9-ZERG-DRONE-RING.md"
     },
@@ -864,6 +959,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Overlord Quota Registry: a agent skill in the Auras / Agent Skills / policies / behavioral modifiers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-OVERLORD-QUOTA-REGISTRY.json",
       "text": "/cards/definitions/GG-D9-OVERLORD-QUOTA-REGISTRY.md"
     },
@@ -873,6 +969,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Drone Quota Meter: a agent skill in the Auras / Agent Skills / policies / behavioral modifiers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-DRONE-QUOTA-METER.json",
       "text": "/cards/definitions/GG-D9-DRONE-QUOTA-METER.md"
     },
@@ -882,6 +979,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Drone Idle Sentinel: a agent skill in the Auras / Agent Skills / policies / behavioral modifiers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-DRONE-IDLE-SENTINEL.json",
       "text": "/cards/definitions/GG-D9-DRONE-IDLE-SENTINEL.md"
     },
@@ -891,6 +989,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Drone Throttle Sentinel: a agent skill in the Auras / Agent Skills / policies / behavioral modifiers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-DRONE-THROTTLE-SENTINEL.json",
       "text": "/cards/definitions/GG-D9-DRONE-THROTTLE-SENTINEL.md"
     },
@@ -900,6 +999,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Overlord Allocate Skill: a agent skill in the Auras / Agent Skills / policies / behavioral modifiers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-OVERLORD-ALLOCATE.json",
       "text": "/cards/definitions/GG-D9-OVERLORD-ALLOCATE.md"
     },
@@ -909,6 +1009,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Drone Waste Audit: a agent skill in the Auras / Agent Skills / policies / behavioral modifiers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-DRONE-WASTE-AUDIT.json",
       "text": "/cards/definitions/GG-D9-DRONE-WASTE-AUDIT.md"
     },
@@ -918,6 +1019,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Quota Daily Brief: a agent skill in the Auras / Agent Skills / policies / behavioral modifiers deck. Full source contract remains to be imported.",
       "definition_depth": "index",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-QUOTA-DAILY-BRIEF.json",
       "text": "/cards/definitions/GG-D9-QUOTA-DAILY-BRIEF.md"
     },
@@ -927,6 +1029,7 @@
       "kind": "STRUCTURE",
       "summary": "The swarm always has useful admitted work without waiting for the World Weaver to choose the next task.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-READY-WORK-RESERVOIR.json",
       "text": "/cards/definitions/GG-D1-READY-WORK-RESERVOIR.md"
     },
@@ -936,6 +1039,7 @@
       "kind": "WORKFLOW",
       "summary": "Every evergreen frontier can replenish the queue without inventing work or laundering authority.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-SOURCE-BOUND-GENERATOR.json",
       "text": "/cards/definitions/GG-D1-SOURCE-BOUND-GENERATOR.md"
     },
@@ -945,6 +1049,7 @@
       "kind": "CONTROLLER",
       "summary": "The swarm drains useful work at its own battle rhythm while Tao sets intent instead of routing tasks.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-ZERG-MISSION-COMMAND.json",
       "text": "/cards/definitions/GG-D1-ZERG-MISSION-COMMAND.md"
     },
@@ -954,6 +1059,7 @@
       "kind": "RESOURCE",
       "summary": "Useful included capacity is harvested before expiry whenever admitted work exists.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-MINERAL.json",
       "text": "/cards/definitions/GG-D1-MINERAL.md"
     },
@@ -963,6 +1069,7 @@
       "kind": "RESOURCE",
       "summary": "The hive never spends scarce gas silently.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-GAS.json",
       "text": "/cards/definitions/GG-D1-GAS.md"
     },
@@ -972,6 +1079,7 @@
       "kind": "RESOURCE",
       "summary": "The hive knows how many bodies can move now without confusing concurrency with quota.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-SUPPLY.json",
       "text": "/cards/definitions/GG-D1-SUPPLY.md"
     },
@@ -981,6 +1089,7 @@
       "kind": "AGENT_SKILL",
       "summary": "Tao never manually juggles ten quota surfaces; the ledger continuously reconciles useful work, minerals, gas, supply and holds.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-SIGRUN-CAPACITY-LEDGER.json",
       "text": "/cards/definitions/GG-D9-SIGRUN-CAPACITY-LEDGER.md"
     },
@@ -990,6 +1099,7 @@
       "kind": "TOOL",
       "summary": "No card stays green because someone forgot to refresh the board.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-GRIMOIRE-EXECUTION-PROJECTOR.json",
       "text": "/cards/definitions/GG-D1-GRIMOIRE-EXECUTION-PROJECTOR.md"
     },
@@ -999,6 +1109,7 @@
       "kind": "TOOL",
       "summary": "Every brood can report its own state without forcing Tao to reconcile contradictions.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-GRIMOIRE-BINDING-FANIN.json",
       "text": "/cards/definitions/GG-D1-GRIMOIRE-BINDING-FANIN.md"
     },
@@ -1008,6 +1119,7 @@
       "kind": "TOOL",
       "summary": "The World Weaver can see what is alive, executable, held, candidate, or only prose without manually reading a hundred receipts.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-GRIMOIRE-EXECUTION-REPORT.json",
       "text": "/cards/definitions/GG-D1-GRIMOIRE-EXECUTION-REPORT.md"
     },
@@ -1017,6 +1129,7 @@
       "kind": "TOOL",
       "summary": "Malformed cards cannot enter the Grimoire unnoticed.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-CARD-LINT.json",
       "text": "/cards/definitions/GG-D1-CARD-LINT.md"
     },
@@ -1026,6 +1139,7 @@
       "kind": "AGENT_SKILL",
       "summary": "The Grimoire can never go stale silently and make Tao trust yesterday's battlefield.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D9-GRIMOIRE-CURRENTNESS-DRONE.json",
       "text": "/cards/definitions/GG-D9-GRIMOIRE-CURRENTNESS-DRONE.md"
     },
@@ -1035,6 +1149,7 @@
       "kind": "TOOL",
       "summary": "Every important edge in the Grimoire eventually names exactly what it touches.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-GRIMOIRE-LINK-AUDIT.json",
       "text": "/cards/definitions/GG-D1-GRIMOIRE-LINK-AUDIT.md"
     },
@@ -1044,6 +1159,7 @@
       "kind": "TOOL",
       "summary": "Stable graph edges survive card renames because resolvable links are pinned to exact identities.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-GRIMOIRE-LINK-PIN.json",
       "text": "/cards/definitions/GG-D1-GRIMOIRE-LINK-PIN.md"
     },
@@ -1053,6 +1169,7 @@
       "kind": "PRIMITIVE",
       "summary": "Every unit of swarm effort has one recoverable identity, scope, authority ceiling, evaluator and consumer.",
       "definition_depth": "full",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/GG-D1-WORKITEM.json",
       "text": "/cards/definitions/GG-D1-WORKITEM.md"
     },
@@ -1062,6 +1179,7 @@
       "kind": "PRIMITIVE",
       "summary": "Breakage becomes an explicit typed signal before it becomes Tao's surprise.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-ANDON.json",
       "text": "/cards/definitions/GG-D1-ANDON.md"
     },
@@ -1071,6 +1189,7 @@
       "kind": "STRUCTURE",
       "summary": "Evergreen work grows from a recoverable frontier, never from an agent inventing tasks to stay busy.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-SOURCE-FRONTIER.json",
       "text": "/cards/definitions/GG-D1-SOURCE-FRONTIER.md"
     },
@@ -1080,6 +1199,7 @@
       "kind": "MANIFEST",
       "summary": "The whole system is enumerable as cards without confusing the catalog with live state.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-GRIMOIRE-DECKLIST.json",
       "text": "/cards/definitions/GG-D1-GRIMOIRE-DECKLIST.md"
     },
@@ -1089,6 +1209,7 @@
       "kind": "CONTRACT",
       "summary": "Every live card is tied to a fresh machine receipt instead of inherited green prose.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-EXECUTION-BINDING.json",
       "text": "/cards/definitions/GG-D1-EXECUTION-BINDING.md"
     },
@@ -1098,6 +1219,7 @@
       "kind": "PROJECTION",
       "summary": "One recomputable board says what is RUNNING, EXECUTABLE, HOLD, CANDIDATE or PROSE right now.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-EXECUTION-SNAPSHOT.json",
       "text": "/cards/definitions/GG-D1-EXECUTION-SNAPSHOT.md"
     },
@@ -1107,6 +1229,7 @@
       "kind": "PROJECTION",
       "summary": "Tao sees the swarm's actual executable state without manually reading threads, PRs or quota dashboards.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-OPERATOR-REPORT.json",
       "text": "/cards/definitions/GG-D1-OPERATOR-REPORT.md"
     },
@@ -1116,6 +1239,7 @@
       "kind": "ARCHETYPE",
       "summary": "A skill is reusable procedure and constraints, not a personality or hidden authority.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-AGENT-SKILL.json",
       "text": "/cards/definitions/GG-D1-AGENT-SKILL.md"
     },
@@ -1125,6 +1249,7 @@
       "kind": "ARCHETYPE",
       "summary": "The swarm knows which machine is alive without confusing host failure with provider failure.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-HOST.json",
       "text": "/cards/definitions/GG-D1-HOST.md"
     },
@@ -1134,6 +1259,7 @@
       "kind": "ARCHETYPE",
       "summary": "A wake is just a clocked carrier; it never becomes the actor or the mission.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-AUTOMATION.json",
       "text": "/cards/definitions/GG-D1-AUTOMATION.md"
     },
@@ -1143,6 +1269,7 @@
       "kind": "TOOL",
       "summary": "A completed probe cannot become useful capacity truth until its fresh receipt is consumed into the ledger exactly once.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-CAPACITY-RECEIPT-FANIN.json",
       "text": "/cards/definitions/GG-D1-CAPACITY-RECEIPT-FANIN.md"
     },
@@ -1152,6 +1279,7 @@
       "kind": "WORKFLOW",
       "summary": "Fast-expiring lands refresh themselves without Tao or a high-frequency frontier LLM wake.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-CAPACITY-PROBE-INGEST-CHAIN.json",
       "text": "/cards/definitions/GG-D1-CAPACITY-PROBE-INGEST-CHAIN.md"
     },
@@ -1161,6 +1289,7 @@
       "kind": "STRUCTURE",
       "summary": "The whole swarm can be reasoned about as one typed living deck, so Tao sees the system instead of juggling its fragments.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-GLEIPNIR-GRIMOIRE.json",
       "text": "/cards/definitions/GG-D1-GLEIPNIR-GRIMOIRE.md"
     },
@@ -1170,6 +1299,7 @@
       "kind": "TOOL",
       "summary": "The most dangerous graph edges cannot silently connect to the wrong kind of thing.",
       "definition_depth": "full",
+      "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D1-GRIMOIRE-RELATION-GUARD.json",
       "text": "/cards/definitions/GG-D1-GRIMOIRE-RELATION-GUARD.md"
     },
@@ -1179,6 +1309,7 @@
       "kind": "HARNESS",
       "summary": "A concrete durability capability: bind actor state to a named Cloudflare Durable Object and recover it through an explicit storage contract.",
       "definition_depth": "full",
+      "behavior_enriched": true,
       "detail": "/cards/definitions/WW-EQ-CLOUDFLARE-DURABILITY-001.json",
       "text": "/cards/definitions/WW-EQ-CLOUDFLARE-DURABILITY-001.md"
     }

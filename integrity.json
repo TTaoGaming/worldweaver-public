@@ -1,6 +1,6 @@
 {
   "schema": "worldweaver.public_mirror_integrity.v3",
-  "recorded_at": "2026-09-21T02:51:21.698764+00:00",
+  "recorded_at": "2026-09-21T03:44:16.252856+00:00",
   "algorithm": "SHA-256",
   "files": [
     {
@@ -10,13 +10,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 7058,
-      "sha256": "8e5ac68ea41510663d79ce3bc97ec24836a167fc907fa54a1f0a11f7c5f42c3a"
+      "bytes": 7338,
+      "sha256": "80d59d669f3d0251dc6a9fc6abbff1330f18693d65c47eb36741fbdaf53269a4"
     },
     {
       "path": "START_HERE.md",
-      "bytes": 7058,
-      "sha256": "8e5ac68ea41510663d79ce3bc97ec24836a167fc907fa54a1f0a11f7c5f42c3a"
+      "bytes": 7338,
+      "sha256": "80d59d669f3d0251dc6a9fc6abbff1330f18693d65c47eb36741fbdaf53269a4"
     },
     {
       "path": "activity/providers.json",
@@ -25,8 +25,8 @@
     },
     {
       "path": "cards/README.md",
-      "bytes": 2591,
-      "sha256": "34b48089400098f94711cc58c251754575f5d8a9a2b6bbbd58e9325982d6d238"
+      "bytes": 3086,
+      "sha256": "b88d3db4e7dbccb97f401a3fc936d8bd45e61aecbfc748fb60268c03e3b1982c"
     },
     {
       "path": "cards/art-guide.md",
@@ -45,28 +45,28 @@
     },
     {
       "path": "cards/cards.css",
-      "bytes": 23255,
-      "sha256": "7509aaadab7149e2c89a54901d423c39c64ba28ed354120983daa5991fc854e8"
+      "bytes": 24376,
+      "sha256": "e92193d9157b2cebe3b37a92aa963ee5f03c434ef7d040de6584021bd421e842"
     },
     {
       "path": "cards/cards.js",
-      "bytes": 23845,
-      "sha256": "cd4b2b2d91775c5f2e022699aae0b1140554f77b8225ffe9a6ddd289cd34f144"
+      "bytes": 27028,
+      "sha256": "ff5d067e033b8d2e045767fc9226b5abe8ed5cf2e289a8b4682c48f5044735c6"
     },
     {
       "path": "cards/catalog.json",
-      "bytes": 340827,
-      "sha256": "2f1216cbbb797eae34de0d1ce97985cdc18d48b4e97c42dc80633dfe689d1938"
+      "bytes": 368274,
+      "sha256": "02d2cf15f64c4a113ace5e4fe6cb5203b8f6d531b6442c440832d39de14ce6ae"
     },
     {
       "path": "cards/definitions/CORE-01.json",
-      "bytes": 1984,
-      "sha256": "5104db2d5691a68676f8fb82e2f6248628f1d15addece8433946d996ad284314"
+      "bytes": 3966,
+      "sha256": "f00385a3dfb3254e178fe98c5ba599018ec5c1391fa595da85c2e819f74218de"
     },
     {
       "path": "cards/definitions/CORE-01.md",
-      "bytes": 1575,
-      "sha256": "ece7e11c943b435960f2c378d8c0f8b60d1f355023b9b51e74312803476a40e6"
+      "bytes": 3275,
+      "sha256": "15270c654b2898b1d783caea20a6a9a370dedf9a77fae123c5966b24b90c1dfd"
     },
     {
       "path": "cards/definitions/CORE-02.json",
@@ -110,13 +110,13 @@
     },
     {
       "path": "cards/definitions/CORE-08.json",
-      "bytes": 3419,
-      "sha256": "96ddd58a2ed210eddc5601f94a3976ca5028db5f2e8c76bda208974d63d390ea"
+      "bytes": 5571,
+      "sha256": "9aeb56a43bf3912cd1cf5e8679faa0753cca5d947179f69e68fda760fd7e874c"
     },
     {
       "path": "cards/definitions/CORE-08.md",
-      "bytes": 2622,
-      "sha256": "43f651df9532ae8e812a2a138857d6cbc0fafc8d34208c3e22d3ae68719a9d5c"
+      "bytes": 4485,
+      "sha256": "86255cc670ca0946773b6f7633cca28e868f89cf3dac99f33aa1baf9419863fc"
     },
     {
       "path": "cards/definitions/CORE-09.json",
@@ -140,13 +140,13 @@
     },
     {
       "path": "cards/definitions/CORE-11.json",
-      "bytes": 1959,
-      "sha256": "a3ce0419b3fe99b2b40329821f844233b1be2f01ce30ea37b55f7a350af31645"
+      "bytes": 4063,
+      "sha256": "e3bdfd54341bdbe7ffe4e4028c60772b52869b4880a49174eb8bf7558fc5b0d3"
     },
     {
       "path": "cards/definitions/CORE-11.md",
-      "bytes": 1564,
-      "sha256": "2f4e2b8a029e830676fa925b58fcd19808d6abdd62e4d308f6473c4211ae26a9"
+      "bytes": 3379,
+      "sha256": "53137e1ac472ae3a5a36b860bea2dcd153d9f0937802bb9d180d824b48e9f15f"
     },
     {
       "path": "cards/definitions/CORE-12.json",
@@ -440,13 +440,13 @@
     },
     {
       "path": "cards/definitions/GG-D1-WORKITEM.json",
-      "bytes": 3063,
-      "sha256": "f4b71c0f6fbf48c6c6bec8076f5397cc5aa2c44091f1e5090a47af3cad4d1eff"
+      "bytes": 5164,
+      "sha256": "64f02042959b5a9b38da7936568d54eb476f0338d289829437f5c8d88f14686b"
     },
     {
       "path": "cards/definitions/GG-D1-WORKITEM.md",
-      "bytes": 2288,
-      "sha256": "ac237e8a4ae0d67f3bb11f156d0731d39f383498783a59eb231bc1e7fb1059a1"
+      "bytes": 4093,
+      "sha256": "4bd40a40516d789cf8c831785c76bb47c911a4001d3981a8f8d52cb71dabca9f"
     },
     {
       "path": "cards/definitions/GG-D1-ZERG-MISSION-COMMAND.json",
@@ -550,13 +550,13 @@
     },
     {
       "path": "cards/definitions/GG-D7-HARNESS-CLOUDFLARE-SIGRUN.json",
-      "bytes": 2383,
-      "sha256": "a753e77ef19bb53fd21142887a4834a8d8517424bdf11f0e87ba9fafa2622723"
+      "bytes": 4602,
+      "sha256": "f6f7a5e6f9923f2d299e57a2755e7d7f3ef83b73384c825845292e4472bdabe1"
     },
     {
       "path": "cards/definitions/GG-D7-HARNESS-CLOUDFLARE-SIGRUN.md",
-      "bytes": 1872,
-      "sha256": "9e3d267aa12f6b6dcb2e55b802889cda9ed9513915b90cb225d9568e653cdf2a"
+      "bytes": 3802,
+      "sha256": "78c1c8481b8b0b4cfd0c2f5e205f00ae2cf0f38ed1728f0c5fa225a6b0c55862"
     },
     {
       "path": "cards/definitions/GG-D7-HARNESS-ORACLE-ACTIONS.json",
@@ -670,13 +670,13 @@
     },
     {
       "path": "cards/definitions/GG-D8-LAND-CHATGPT-B-ORACLE.json",
-      "bytes": 2033,
-      "sha256": "ec8958c92f89b178a387ba9695a9e81ca8da9e1056b2cc88d55ebf08a12bd3a5"
+      "bytes": 4062,
+      "sha256": "6669f6990215e015866c3678615f1bc3f681426914d4cec1cf96b0a56ca65b28"
     },
     {
       "path": "cards/definitions/GG-D8-LAND-CHATGPT-B-ORACLE.md",
-      "bytes": 1623,
-      "sha256": "bd0756a190ac9c3d76fae0e8b3ea7e45042ccdd43dcaf5a49cf570ad6b7d5a9d"
+      "bytes": 3363,
+      "sha256": "ef0f180528b18dbced103afb41e0af5e0ec409f5ebd034515d7cd4d09ef4b5dd"
     },
     {
       "path": "cards/definitions/GG-D8-LAND-CHATGPT-SCHEDULED.json",
@@ -880,13 +880,13 @@
     },
     {
       "path": "cards/definitions/HFO-G143-C003.json",
-      "bytes": 1965,
-      "sha256": "f0b265178be75f1536955ee6ff648d555f19dfe9251b103412d07bfd44ac49df"
+      "bytes": 4138,
+      "sha256": "8afdc3eaddbfe132fe411d046d55ba78b12af0670b6668c44c4b74b877abc981"
     },
     {
       "path": "cards/definitions/HFO-G143-C003.md",
-      "bytes": 1574,
-      "sha256": "66aca18256010213039af21d60b134d92aabad2ee152c9aa3ba02b38c4757537"
+      "bytes": 3451,
+      "sha256": "47813d4c9c14336f6708895ff8e3056fdf0997ee58f49360eebc026eb8646734"
     },
     {
       "path": "cards/definitions/HFO-G143-C004.json",
@@ -900,13 +900,13 @@
     },
     {
       "path": "cards/definitions/HFO-G143-C005.json",
-      "bytes": 1961,
-      "sha256": "fe4c0b2c4cae757dab2a4b4d82c45fda077a94f4d008d9b0d6ade48449f228bb"
+      "bytes": 4054,
+      "sha256": "3b069f020bc1844bd20a4c11f91f08ef4c0b36d7abde64b9f9e87881b78828cd"
     },
     {
       "path": "cards/definitions/HFO-G143-C005.md",
-      "bytes": 1566,
-      "sha256": "efa372416a30c5361c82c8a7c8c67403068ac947953ecc3fd41b6669dcd4fbb8"
+      "bytes": 3373,
+      "sha256": "a017154b54e4c40a2edfb5ed3a724c918707a4c9e54bcbde2b89d5809d117b9c"
     },
     {
       "path": "cards/definitions/HFO-G143-C012.json",
@@ -930,23 +930,23 @@
     },
     {
       "path": "cards/definitions/HFO-G143-C016.json",
-      "bytes": 1951,
-      "sha256": "d7cf3fb760672e269bec3f3707e3fb9cde365cf16144e5b343c673948b32206f"
+      "bytes": 3984,
+      "sha256": "8cceab09945c93b52e0c248ed68faca4d8c788fdbb29edb5d8199c2ebf40b250"
     },
     {
       "path": "cards/definitions/HFO-G143-C016.md",
-      "bytes": 1563,
-      "sha256": "9842d5c1c111fc42fb12cbc7c1d2493d67201b52b49a73d819c6b271d9088f5b"
+      "bytes": 3300,
+      "sha256": "d7aa67a1346fa0f6afa4b2655c7a218362ce82f7c292e64639eede6ccc5e3539"
     },
     {
       "path": "cards/definitions/HFO-G143-C017.json",
-      "bytes": 1940,
-      "sha256": "5861477d20d13accff0659b0a8d9b3ccd6fe2cd867d63f6e36abfd3e9829b353"
+      "bytes": 4076,
+      "sha256": "2d66a20378400b001d9d64fe4d737df8bf2e5776268cc2d378130b438436285b"
     },
     {
       "path": "cards/definitions/HFO-G143-C017.md",
-      "bytes": 1552,
-      "sha256": "c141b95700918a4579107484f9506cf3c0dfadc05177a7528c1951e6475e8ff9"
+      "bytes": 3399,
+      "sha256": "d6c97b9165b9389d6e55420f9b6e507b73e2c361584fc60c7b298b5ebe889910"
     },
     {
       "path": "cards/definitions/HFO-G143-C018.json",
@@ -1030,13 +1030,13 @@
     },
     {
       "path": "cards/definitions/HFO-G143-C031.json",
-      "bytes": 1923,
-      "sha256": "4987f53c3b726bc0eb9b722ea8454926378baac36e8d660ac6bc8e63d008398a"
+      "bytes": 3912,
+      "sha256": "531ee484c5f28de161ae2d71bb5fb3a3fa7ac4529e4404253bc342c21201e0d5"
     },
     {
       "path": "cards/definitions/HFO-G143-C031.md",
-      "bytes": 1536,
-      "sha256": "e1a67aa4980375e33840b853d66199c4a1e2d220f55700543d567a63bef88772"
+      "bytes": 3236,
+      "sha256": "60dc421b1207bd79100d64cd35440c88537ae478632cf5232dd19b9abac6e5fc"
     },
     {
       "path": "cards/definitions/HFO-G143-C032.json",
@@ -1350,13 +1350,13 @@
     },
     {
       "path": "cards/definitions/WW-EQ-CLOUDFLARE-DURABILITY-001.json",
-      "bytes": 4053,
-      "sha256": "47104d7f7b32188c1fa874fe3fe7941c09bd2fe3134450f4c1b6be0838381233"
+      "bytes": 6293,
+      "sha256": "fc34987d48f644c42095b22a698b1da26fdef75f7f6ff40c78d3c2b88a9534be"
     },
     {
       "path": "cards/definitions/WW-EQ-CLOUDFLARE-DURABILITY-001.md",
-      "bytes": 3162,
-      "sha256": "e70556cb5e78d4adedf40892e1f7dfc7af04be24b264a6a6623fe7499ea20f7a"
+      "bytes": 5106,
+      "sha256": "26e96a58d3dcbb99e6a7754ddecdf44519c808260947e3facce6d3eb457cf2d9"
     },
     {
       "path": "cards/hand.json",
@@ -1375,18 +1375,18 @@
     },
     {
       "path": "cards/index.json",
-      "bytes": 51531,
-      "sha256": "44ec8e999e8fd769a90e5d417451cbc8b9e02f5aa2dcfb94a612f7666b083a8f"
+      "bytes": 56059,
+      "sha256": "a8cb0ac06dec93e610c670769eb0287b90a55613621295c97159319486bc5aeb"
     },
     {
       "path": "cards/integrity.json",
       "bytes": 45781,
-      "sha256": "57503c43a70c1eb066f96e5925c1ac0f9eef2a567e73c7a6f831193f9c96ef85"
+      "sha256": "c10e45b54283aceea22f13a5e0347a2a326ebdb37bd1477949ccb8ee6226db54"
     },
     {
       "path": "cards/source-lock.json",
-      "bytes": 539,
-      "sha256": "0917b9e48e0527130e6f425b2062eb9f8713fde31cc862cd4dd5c1ceb807131b"
+      "bytes": 690,
+      "sha256": "67c0069e9c29f3f076e4b340cc3357edf7abb3598fee16e582ecefe686372715"
     },
     {
       "path": "coala/manifest.json",
@@ -1602,6 +1602,11 @@
       "path": "receipts/20260911T143800Z/website-readback.json",
       "bytes": 16646,
       "sha256": "04d8c0b11f0a3edf9fc34df70959c2b714f554a61c525d1dd4123c8e1a3690ac"
+    },
+    {
+      "path": "receipts/20260921-card-behaviors-v43.json",
+      "bytes": 5668,
+      "sha256": "30be55f0b5c03e237684787d9fb8ed288b7b175b0ee2a317430d63ff3f942e2c"
     },
     {
       "path": "receipts/20260921-card-library.json",
@@ -2215,18 +2220,23 @@
     },
     {
       "path": "status/latest.md",
-      "bytes": 16588,
-      "sha256": "8df41e27c19749eb56500236e895df69af80af6088b7ddb565b342c471c3e857"
+      "bytes": 17636,
+      "sha256": "eb91a4ce906dbb2a9d8e5cf48ae04dec357a2415879cae02de9c9395cf13bf9d"
     },
     {
       "path": "tools/README.md",
-      "bytes": 1436,
-      "sha256": "be619d71994ce67f43dda3473f0e75dedae3032dfae5b36fa3c0c4fc37639138"
+      "bytes": 1576,
+      "sha256": "d9bd9af1a9cd682d11402d982c1be39add4fc477f132c2ed3fc7efa9a4c93136"
+    },
+    {
+      "path": "tools/behavior-enrichments.v1.json",
+      "bytes": 23723,
+      "sha256": "75013ea2b632cf592e9eccf0bf05aa6d0fa4c115a7f27a0163e5cc971e9b6b86"
     },
     {
       "path": "tools/build-card-projection.py",
-      "bytes": 19035,
-      "sha256": "bf277e61dff830f3147ab18a1fd18d5366c5534329738e692360c86f9a6cdf3d"
+      "bytes": 22283,
+      "sha256": "7f3cffa6ace6f966292181a5d79edadd363f27c5fab3dd5303cb74555adad901"
     },
     {
       "path": "tools/core-views.json",

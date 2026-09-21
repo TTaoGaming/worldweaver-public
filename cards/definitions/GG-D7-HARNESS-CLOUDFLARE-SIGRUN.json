@@ -47,5 +47,48 @@
     "status": "PROMPT_READY",
     "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Cloudflare Sigrun Service-Binding Harness. Show a detachable instrument with an exposed adapter coupling. Express the intended role without depicting deployment, victory or authority.",
     "alt": "Planned conceptual illustration for Cloudflare Sigrun Service-Binding Harness; no artwork generated."
+  },
+  "behavior_contract": {
+    "status": "EDITORIAL_PROPOSAL_NOT_EXECUTED",
+    "intent": "Candidate behavior: turn the named harness into a source-resolved compatibility proposal for Sigrun's required service interaction.",
+    "when_to_use": "When a WorkItem needs an existing service capability and the catalog alone cannot establish its interface.",
+    "inputs": [
+      "Requested operation, actor identity and effect ceiling",
+      "Pinned harness/source configuration, interface references and budget"
+    ],
+    "procedure": [
+      "Locate the existing service contract in supplied source; retain missing interfaces explicitly.",
+      "Map the caller's required input and output to that contract without guessing methods.",
+      "Separate actor identity, carrier session, service binding and permission.",
+      "Prepare source-derived request/response fixtures and a bounded verification handoff to the runtime owner."
+    ],
+    "outputs": [
+      "Interface compatibility mapping",
+      "Candidate fixtures, missing bindings and verification scope"
+    ],
+    "failure_modes": [
+      "A harness name treated as a callable interface",
+      "Service binding assumed to prove durable storage",
+      "Invented endpoints or implied execution authority"
+    ],
+    "example": {
+      "situation": "A consumer needs information exposed by an existing service.",
+      "action": "Recover the relevant read contract and prepare a fixture within the WorkItem's scope.",
+      "evidence": "Expected: pinned interface references and fixture expectations; source inspection supplies no hosted-call receipt."
+    },
+    "neurosymbolic": {
+      "neural": "Interpret the consumer need and locate a compatible operation.",
+      "symbolic": "Bind the recovered interface, identity, revision and effect ceiling."
+    },
+    "evolution": {
+      "mutable": [
+        "Mapping explanations and source-derived fixture coverage"
+      ],
+      "frozen": [
+        "Recovered interface and episode authority",
+        "Evaluation criteria during comparison"
+      ],
+      "fitness": "Evaluate accurate contract mapping and useful handoffs under fixed source fixtures; naming a harness earns no runtime credit."
+    }
   }
 }

@@ -4,7 +4,7 @@ Requirements: Python, Git and `PyYAML==6.0.3`. The generator makes no provider c
 
 1. Obtain an authorized checkout of `TTaoGaming/hfo-gen-143` at `c4427795dbd64510fdef162dfcff616c33f27558`, including its `cards` tree.
 2. Obtain `candidates/cards/SIGRUN-ORACLE-v0.6.0.yaml` from that repository at `2cc7acb589d94adf58f024abf8853ebfd1ebbe40` (Git blob `1de10bd6fd771c665b3765f8be747f4cace5e024`). Original repositories may require separate access.
-3. Preserve the reviewed browser files, art guide, assay and README in the output directory. Use the versioned `core-views.json` beside this script.
+3. Preserve the reviewed browser files, art guide, assay and README in the output directory. Use the versioned `core-views.json` and `behavior-enrichments.v1.json` beside this script. The latter supplies separately labeled editorial behavior contracts, not replacement source definitions.
 4. Run with the actual build time in UTC, or the prior catalog's `generated_at` for byte-for-byte reproduction:
 
 ```text

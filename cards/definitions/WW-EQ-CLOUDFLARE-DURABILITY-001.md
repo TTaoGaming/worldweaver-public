@@ -38,6 +38,47 @@ The vessel rests; the inscription remains.
 - supports -> CORE-04 Actor
 - records -> CORE-07 Receipt
 
+## Use this card
+Status: EDITORIAL_PROPOSAL_NOT_EXECUTED
+
+Candidate behavior: make a work obligation recoverable across carrier replacement through an explicit, testable storage contract.
+
+When: When considering an approved durable binding for state that must survive a session ending.
+
+### Inputs
+- Actor identity and proposed class/namespace binding references
+- Official documentation, pinned adapter source and configuration
+- State schema, allowed effects and recovery acceptance criteria
+
+### Procedure
+- Separate vendor capability, implementation source and observed hosted behavior.
+- Describe identity, stored state, idempotency and recovery using only interfaces recovered from source.
+- Prepare bounded duplicate-delivery and interruption/recovery fixtures with expected outcomes.
+- Submit the contract and assay plan to the implementation owner; require independent observations before claiming durability.
+
+### Outputs
+- Adapter-contract candidate
+- Recovery test matrix and unresolved bindings
+
+### Failure modes
+- A documentation link treated as a working binding
+- Storage persistence mistaken for complete mission continuity
+- Invented adapter methods
+
+### Worked example
+- situation: A task must resume after its carrier ends.
+- action: Specify the minimum checkpoint and a duplicate/recovery comparison against the pinned adapter.
+- evidence: Expected: source references and planned assertions; runtime proof requires a separately executed, scoped assay.
+
+### Neurosymbolic division of work
+- neural: Identify the obligation and propose recovery cases.
+- symbolic: Bind state, identity, adapter revision and expected transitions.
+
+### Evolution contract
+Mutable: Checkpoint proposals and fixture coverage
+Frozen: Identity and effect boundaries; Judge and recovery criteria during comparison
+Fitness: Evaluate recovered state and duplicate handling against fixed criteria; vendor documentation alone earns no runtime credit.
+
 ## Art prompt
 Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: a detachable obsidian archive module with layered chambers and an exposed adapter attached to a separate worker silhouette. Depict recoverable inscription, not immortality or infinite capacity. No vendor logo.
 

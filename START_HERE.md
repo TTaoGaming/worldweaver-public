@@ -1,5 +1,7 @@
 # HFO card library — September 21, 2026
 
+**v43 enrichment:** Twelve central cards now unfold into practical procedures, worked examples, neural/symbolic responsibilities and bounded evolution contracts. [Try Larva](https://worldweaver.dev/cards/#card=HFO-G143-C016). These remain proposed behaviors awaiting evaluation.
+
 [Browse the cards on Worldweaver](https://worldweaver.dev/cards/) · [Browse versioned card files](cards/README.md) · [Compact agent index](cards/index.json) · [Art guide](cards/art-guide.md)
 
 130 browseable cards: the pinned 129-entry Grimoire and one explicit Cloudflare Durability equipment proposal. This snapshot contains 37 full definitions and 93 index-only entries. Use search and filters, save an eight-card hand, and unfold individual cards into engineering, checks, sources, behavior targets and future art prompts.

@@ -67,5 +67,48 @@
     "status": "PROMPT_READY",
     "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Sigrun. Show a deliberate central skald presence with a constellation of linked fragments. Express the intended role without depicting deployment, victory or authority.",
     "alt": "Planned conceptual illustration for Sigrun; no artwork generated."
+  },
+  "behavior_contract": {
+    "status": "EDITORIAL_PROPOSAL_NOT_EXECUTED",
+    "intent": "Candidate behavior: make strife yield an evidenced correction while Sigrun's identity survives replacement carriers.",
+    "when_to_use": "When reconciling conflicting reports, handing off work, or selecting a recovery action.",
+    "inputs": [
+      "Last accepted state and incoming source-bound reports",
+      "WorkItem, lease, fence, effect ceiling and remaining budget"
+    ],
+    "procedure": [
+      "Separate Actor, Hluti, Seat, Carrier, Session and Authority.",
+      "Compare reports with accepted state; retain contradictions and missing receipts explicitly.",
+      "Propose one next action or explain why no transition is justified.",
+      "Send the candidate transition for distinct verification and required consumer disposition; preserve Tao's irreversible-effect gate."
+    ],
+    "outputs": [
+      "Reconciliation proposal with evidence references",
+      "Next-action handoff preserving work identity and unresolved claims"
+    ],
+    "failure_modes": [
+      "REGROW treated as ADMIT",
+      "Producer accepting its own transition",
+      "Harm described as learning without a demonstrated correction"
+    ],
+    "example": {
+      "situation": "A replacement carrier receives conflicting completion reports.",
+      "action": "Reconstruct the last accepted state and propose the smallest evidence-gathering step.",
+      "evidence": "Expected: conflicting sources, preserved checkpoint, proposed transition and independent disposition."
+    },
+    "neurosymbolic": {
+      "neural": "Interpret conflicts and propose a corrective action.",
+      "symbolic": "Preserve identity, provenance, authority boundaries and accepted-state transitions."
+    },
+    "evolution": {
+      "mutable": [
+        "Recovery hypotheses and handoff explanations"
+      ],
+      "frozen": [
+        "Address [4,4] and identity distinctions",
+        "Episode authority and comparison judge"
+      ],
+      "fitness": "Evaluate continuity and useful independently accepted corrections; renamed sessions and repeated prose do not establish progress."
+    }
   }
 }

@@ -1,0 +1,171 @@
+{
+  "checked_at": "2026-09-21T03:43:04.3613513Z",
+  "source_commit": "975df4897aeb81b183fdcc7f2a72e779873b0eea",
+  "cloudflare_version": "24dcb80f-0d0b-447f-a074-1646f6a16683",
+  "checks": [
+    {
+      "path": "/cards/",
+      "method": "GET",
+      "status": 200,
+      "sha256": "e4bc2a66f08accd93a8405996768abfe12d33ebbfb0e0e12cbb392defc569ad4",
+      "source_bytes_match": false,
+      "edge_transformation": "EXISTING_CLOUDFLARE_INSIGHTS_SCRIPT; remaining HTML matches exact source",
+      "content_type": "text/html"
+    },
+    {
+      "path": "/cards/cards.css",
+      "method": "GET",
+      "status": 200,
+      "sha256": "e92193d9157b2cebe3b37a92aa963ee5f03c434ef7d040de6584021bd421e842",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "text/css"
+    },
+    {
+      "path": "/cards/cards.js",
+      "method": "GET",
+      "status": 200,
+      "sha256": "ff5d067e033b8d2e045767fc9226b5abe8ed5cf2e289a8b4682c48f5044735c6",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "/cards/catalog.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "02d2cf15f64c4a113ace5e4fe6cb5203b8f6d531b6442c440832d39de14ce6ae",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/index.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "a8cb0ac06dec93e610c670769eb0287b90a55613621295c97159319486bc5aeb",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/hand.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "b3a3e64601fbca0025a4e0350ac138bff1431b16a67c1366964f56dca3fe8b79",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/battlefield.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "7e1f967e3426d66d87b5967ec4c3f868a64b27247ac4dd73e838df08d35bb016",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/art-guide.md",
+      "method": "GET",
+      "status": 200,
+      "sha256": "362b79de50b2af88d7ae937b958962a15317e9b173d5b7954c0dc0f08f603817",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "/cards/behavior-assay.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "637b3cedfe716c4ebe6e768772ae8bd44c7d2011272fb052ec71d1e91dfbf56d",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/image-prompts.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "6d946d184395f899a59871384f26f98a37b80507802f642ccf4fd329643b75b1",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/source-lock.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "67c0069e9c29f3f076e4b340cc3357edf7abb3598fee16e582ecefe686372715",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/integrity.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "c10e45b54283aceea22f13a5e0347a2a326ebdb37bd1477949ccb8ee6226db54",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/definitions/WW-EQ-CLOUDFLARE-DURABILITY-001.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "fc34987d48f644c42095b22a698b1da26fdef75f7f6ff40c78d3c2b88a9534be",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/cards/definitions/WW-EQ-CLOUDFLARE-DURABILITY-001.md",
+      "method": "GET",
+      "status": 200,
+      "sha256": "26e96a58d3dcbb99e6a7754ddecdf44519c808260947e3facce6d3eb457cf2d9",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "/manifest.json",
+      "method": "GET",
+      "status": 200,
+      "sha256": "ae2cee1c0cf84e8ea562609980553403b560d9452dc39a79757d59b945759eee",
+      "source_bytes_match": true,
+      "edge_transformation": null,
+      "content_type": "application/json"
+    }
+  ],
+  "homepage_discovery": true,
+  "correct_revision": true,
+  "existing_rehydration_reader_status": 200,
+  "head_status": 200,
+  "head_body_bytes": 0,
+  "unsupported_post_status": 405,
+  "conclusion": "PUBLICATION_VERIFIED_NOT_BEHAVIORAL_OR_RUNTIME_BINDING_PROOF",
+  "schema": "worldweaver.card-enrichment-publication.v1",
+  "revision": "worldweaver-card-behaviors-v43-20260921",
+  "card_count": 130,
+  "full_definitions": 37,
+  "index_entries": 93,
+  "behavior_enriched": 12,
+  "behavioral_effectiveness": "NOT_TESTED",
+  "source_tests": {
+    "passed": 75,
+    "failed": 0
+  },
+  "hosted_browser": {
+    "checked_at": "2026-09-21T03:43:07.643Z",
+    "base": "https://worldweaver.dev/cards/",
+    "status": "PASS",
+    "enriched_contracts": 12,
+    "all_inspectors_and_capsules_match": true,
+    "phone_overflow": false,
+    "browser_errors": [],
+    "scope": "UI and capsule fidelity only; no behavioral effectiveness assay"
+  },
+  "source_review": "https://github.com/TTaoGaming/hfo-swarm-factory/pull/102"
+}
