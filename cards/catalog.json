@@ -1,18 +1,18 @@
 {
   "schema": "worldweaver.public-card-projection.v1",
-  "version": "0.4.0",
-  "generated_at": "2026-09-21T03:39:45.4661879Z",
+  "version": "0.5.0",
+  "generated_at": "2026-09-22T00:49:03Z",
   "source": {
-    "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
-    "commit": "c4427795dbd64510fdef162dfcff616c33f27558"
+    "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+    "commit": "5e39eaaf66cba33632240f185dba6a197a9fcaf3"
   },
   "coverage": {
-    "indexed": 130,
-    "inherited_index": 129,
+    "indexed": 138,
+    "inherited_index": 137,
     "full": 37,
     "behavior_enriched": 12,
     "history_complete": false,
-    "note": "Complete pinned index plus one public equipment proposal. Behavioral enrichments are editorial proposals, not newly recovered canonical definitions. Index-only cards retain missing-definition labels. No whole-history completeness claim."
+    "note": "Complete pinned 137-card candidate index plus one public equipment proposal. Upstream reports 53 linted full definitions; this public import does not claim all 53 contracts were recovered. Index-only cards retain missing-definition labels. No whole-history completeness claim."
   },
   "decks": {
     "D1": "Institution / topology / structures / workflows / force packages",
@@ -215,14 +215,14 @@
     }
   ],
   "default_hand": [
-    "CORE-01",
     "CORE-08",
+    "CORE-02",
     "HFO-G143-C016",
-    "GG-D8-LAND-CHATGPT-B-ORACLE",
-    "WW-EQ-CLOUDFLARE-DURABILITY-001",
     "GG-D1-WORKITEM",
     "HFO-G143-C005",
-    "HFO-G143-C003"
+    "GG-D7-HARNESS-CLOUDFLARE-SIGRUN",
+    "HFO-G143-C065",
+    "HFO-G143-C049"
   ],
   "battlefield": [],
   "cards": [
@@ -434,6 +434,90 @@
         "status": "PROMPT_READY",
         "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Actor. Show an organized archive object with a visible relationship to another distinct object. Express the intended role without depicting deployment, victory or authority.",
         "alt": "Planned conceptual illustration for Actor; no artwork generated."
+      }
+    },
+    {
+      "id": "CORE-05",
+      "name": "Carrier",
+      "deck": "D1",
+      "kind": "PRIMITIVE",
+      "type_line": "PRIMITIVE",
+      "summary": "Carrier is listed as PRIMITIVE in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "summary_origin": "PINNED_INDEX_METADATA",
+      "hyperstition": "",
+      "myth": "",
+      "engineering": {
+        "pattern": "",
+        "origin": "",
+        "exemplar": "",
+        "maturity": ""
+      },
+      "checks": [],
+      "links": [],
+      "sources": [
+        {
+          "label": "Pinned 137-card candidate index (definition incomplete)",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml"
+        }
+      ],
+      "technology_refs": [],
+      "definition_status": "CANDIDATE",
+      "definition_depth": "index",
+      "behavior": {
+        "status": "NOT_TESTED",
+        "target": "No card-specific target behavior has been recovered.",
+        "assay": "Recover and review the exact source definition before proposing a behavioral assay."
+      },
+      "runtime": {
+        "status": "UNVERIFIED",
+        "note": "Index membership is not runtime, capacity, fitness or authority evidence."
+      },
+      "art": {
+        "status": "PROMPT_NOT_PREPARED",
+        "prompt": "",
+        "alt": "No artwork or art prompt has been prepared for Carrier."
+      }
+    },
+    {
+      "id": "CORE-06",
+      "name": "Authority",
+      "deck": "D1",
+      "kind": "PRIMITIVE",
+      "type_line": "PRIMITIVE",
+      "summary": "Authority is listed as PRIMITIVE in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "summary_origin": "PINNED_INDEX_METADATA",
+      "hyperstition": "",
+      "myth": "",
+      "engineering": {
+        "pattern": "",
+        "origin": "",
+        "exemplar": "",
+        "maturity": ""
+      },
+      "checks": [],
+      "links": [],
+      "sources": [
+        {
+          "label": "Pinned 137-card candidate index (definition incomplete)",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml"
+        }
+      ],
+      "technology_refs": [],
+      "definition_status": "CANDIDATE",
+      "definition_depth": "index",
+      "behavior": {
+        "status": "NOT_TESTED",
+        "target": "No card-specific target behavior has been recovered.",
+        "assay": "Recover and review the exact source definition before proposing a behavioral assay."
+      },
+      "runtime": {
+        "status": "UNVERIFIED",
+        "note": "Index membership is not runtime, capacity, fitness or authority evidence."
+      },
+      "art": {
+        "status": "PROMPT_NOT_PREPARED",
+        "prompt": "",
+        "alt": "No artwork or art prompt has been prepared for Authority."
       }
     },
     {
@@ -3940,6 +4024,258 @@
         "status": "PROMPT_READY",
         "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: Nex N2.5 Pro Free. Show a distinct crystalline reasoning lens beside a separate carrier vessel. Express the intended role without depicting deployment, victory or authority.",
         "alt": "Planned conceptual illustration for Nex N2.5 Pro Free; no artwork generated."
+      }
+    },
+    {
+      "id": "GG-D7-HARNESS-CODEX-CLI",
+      "name": "Codex CLI / Work Harness",
+      "deck": "D7",
+      "kind": "HARNESS",
+      "type_line": "HARNESS",
+      "summary": "Codex CLI / Work Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "summary_origin": "PINNED_INDEX_METADATA",
+      "hyperstition": "",
+      "myth": "",
+      "engineering": {
+        "pattern": "",
+        "origin": "",
+        "exemplar": "",
+        "maturity": ""
+      },
+      "checks": [],
+      "links": [],
+      "sources": [
+        {
+          "label": "Pinned 137-card candidate index (definition incomplete)",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml"
+        }
+      ],
+      "technology_refs": [],
+      "definition_status": "CANDIDATE",
+      "definition_depth": "index",
+      "behavior": {
+        "status": "NOT_TESTED",
+        "target": "No card-specific target behavior has been recovered.",
+        "assay": "Recover and review the exact source definition before proposing a behavioral assay."
+      },
+      "runtime": {
+        "status": "UNVERIFIED",
+        "note": "Index membership is not runtime, capacity, fitness or authority evidence."
+      },
+      "art": {
+        "status": "PROMPT_NOT_PREPARED",
+        "prompt": "",
+        "alt": "No artwork or art prompt has been prepared for Codex CLI / Work Harness."
+      }
+    },
+    {
+      "id": "GG-D7-HARNESS-CLAUDE-CODE",
+      "name": "Claude Code Harness",
+      "deck": "D7",
+      "kind": "HARNESS",
+      "type_line": "HARNESS",
+      "summary": "Claude Code Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "summary_origin": "PINNED_INDEX_METADATA",
+      "hyperstition": "",
+      "myth": "",
+      "engineering": {
+        "pattern": "",
+        "origin": "",
+        "exemplar": "",
+        "maturity": ""
+      },
+      "checks": [],
+      "links": [],
+      "sources": [
+        {
+          "label": "Pinned 137-card candidate index (definition incomplete)",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml"
+        }
+      ],
+      "technology_refs": [],
+      "definition_status": "CANDIDATE",
+      "definition_depth": "index",
+      "behavior": {
+        "status": "NOT_TESTED",
+        "target": "No card-specific target behavior has been recovered.",
+        "assay": "Recover and review the exact source definition before proposing a behavioral assay."
+      },
+      "runtime": {
+        "status": "UNVERIFIED",
+        "note": "Index membership is not runtime, capacity, fitness or authority evidence."
+      },
+      "art": {
+        "status": "PROMPT_NOT_PREPARED",
+        "prompt": "",
+        "alt": "No artwork or art prompt has been prepared for Claude Code Harness."
+      }
+    },
+    {
+      "id": "GG-D7-HARNESS-GEMINI-CLI",
+      "name": "Gemini CLI Harness",
+      "deck": "D7",
+      "kind": "HARNESS",
+      "type_line": "HARNESS",
+      "summary": "Gemini CLI Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "summary_origin": "PINNED_INDEX_METADATA",
+      "hyperstition": "",
+      "myth": "",
+      "engineering": {
+        "pattern": "",
+        "origin": "",
+        "exemplar": "",
+        "maturity": ""
+      },
+      "checks": [],
+      "links": [],
+      "sources": [
+        {
+          "label": "Pinned 137-card candidate index (definition incomplete)",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml"
+        }
+      ],
+      "technology_refs": [],
+      "definition_status": "CANDIDATE",
+      "definition_depth": "index",
+      "behavior": {
+        "status": "NOT_TESTED",
+        "target": "No card-specific target behavior has been recovered.",
+        "assay": "Recover and review the exact source definition before proposing a behavioral assay."
+      },
+      "runtime": {
+        "status": "UNVERIFIED",
+        "note": "Index membership is not runtime, capacity, fitness or authority evidence."
+      },
+      "art": {
+        "status": "PROMPT_NOT_PREPARED",
+        "prompt": "",
+        "alt": "No artwork or art prompt has been prepared for Gemini CLI Harness."
+      }
+    },
+    {
+      "id": "GG-D7-HARNESS-ANTIGRAVITY",
+      "name": "Google Antigravity Harness",
+      "deck": "D7",
+      "kind": "HARNESS",
+      "type_line": "HARNESS",
+      "summary": "Google Antigravity Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "summary_origin": "PINNED_INDEX_METADATA",
+      "hyperstition": "",
+      "myth": "",
+      "engineering": {
+        "pattern": "",
+        "origin": "",
+        "exemplar": "",
+        "maturity": ""
+      },
+      "checks": [],
+      "links": [],
+      "sources": [
+        {
+          "label": "Pinned 137-card candidate index (definition incomplete)",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml"
+        }
+      ],
+      "technology_refs": [],
+      "definition_status": "CANDIDATE",
+      "definition_depth": "index",
+      "behavior": {
+        "status": "NOT_TESTED",
+        "target": "No card-specific target behavior has been recovered.",
+        "assay": "Recover and review the exact source definition before proposing a behavioral assay."
+      },
+      "runtime": {
+        "status": "UNVERIFIED",
+        "note": "Index membership is not runtime, capacity, fitness or authority evidence."
+      },
+      "art": {
+        "status": "PROMPT_NOT_PREPARED",
+        "prompt": "",
+        "alt": "No artwork or art prompt has been prepared for Google Antigravity Harness."
+      }
+    },
+    {
+      "id": "GG-D7-HARNESS-OPENROUTER-API",
+      "name": "OpenRouter API Harness",
+      "deck": "D7",
+      "kind": "HARNESS",
+      "type_line": "HARNESS",
+      "summary": "OpenRouter API Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "summary_origin": "PINNED_INDEX_METADATA",
+      "hyperstition": "",
+      "myth": "",
+      "engineering": {
+        "pattern": "",
+        "origin": "",
+        "exemplar": "",
+        "maturity": ""
+      },
+      "checks": [],
+      "links": [],
+      "sources": [
+        {
+          "label": "Pinned 137-card candidate index (definition incomplete)",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml"
+        }
+      ],
+      "technology_refs": [],
+      "definition_status": "CANDIDATE",
+      "definition_depth": "index",
+      "behavior": {
+        "status": "NOT_TESTED",
+        "target": "No card-specific target behavior has been recovered.",
+        "assay": "Recover and review the exact source definition before proposing a behavioral assay."
+      },
+      "runtime": {
+        "status": "UNVERIFIED",
+        "note": "Index membership is not runtime, capacity, fitness or authority evidence."
+      },
+      "art": {
+        "status": "PROMPT_NOT_PREPARED",
+        "prompt": "",
+        "alt": "No artwork or art prompt has been prepared for OpenRouter API Harness."
+      }
+    },
+    {
+      "id": "GG-D7-HARNESS-OLLAMA-API",
+      "name": "Ollama Local API Harness",
+      "deck": "D7",
+      "kind": "HARNESS",
+      "type_line": "HARNESS",
+      "summary": "Ollama Local API Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "summary_origin": "PINNED_INDEX_METADATA",
+      "hyperstition": "",
+      "myth": "",
+      "engineering": {
+        "pattern": "",
+        "origin": "",
+        "exemplar": "",
+        "maturity": ""
+      },
+      "checks": [],
+      "links": [],
+      "sources": [
+        {
+          "label": "Pinned 137-card candidate index (definition incomplete)",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml"
+        }
+      ],
+      "technology_refs": [],
+      "definition_status": "CANDIDATE",
+      "definition_depth": "index",
+      "behavior": {
+        "status": "NOT_TESTED",
+        "target": "No card-specific target behavior has been recovered.",
+        "assay": "Recover and review the exact source definition before proposing a behavioral assay."
+      },
+      "runtime": {
+        "status": "UNVERIFIED",
+        "note": "Index membership is not runtime, capacity, fitness or authority evidence."
+      },
+      "art": {
+        "status": "PROMPT_NOT_PREPARED",
+        "prompt": "",
+        "alt": "No artwork or art prompt has been prepared for Ollama Local API Harness."
       }
     },
     {

@@ -912,6 +912,62 @@
       "status": "PROMPT_READY",
       "prompt": "Original HFO editorial science-fantasy. Obsidian, restrained crimson light, ivory highlights, etched technical geometry, tactile mineral and archival-paper textures. Vertical 4:5, one clear central silhouette, quiet crop margins. No text, numerals, logos, badges, evidence stamps, franchise characters or recognizable franchise art. Conceptual illustration only. Subject: a detachable obsidian archive module with layered chambers and an exposed adapter attached to a separate worker silhouette. Depict recoverable inscription, not immortality or infinite capacity. No vendor logo.",
       "alt": "Planned detachable archive module attached to a separate worker; artwork pending."
+    },
+    {
+      "id": "CORE-05",
+      "name": "Carrier",
+      "status": "PROMPT_NOT_PREPARED",
+      "prompt": "",
+      "alt": "No artwork or art prompt has been prepared for Carrier."
+    },
+    {
+      "id": "CORE-06",
+      "name": "Authority",
+      "status": "PROMPT_NOT_PREPARED",
+      "prompt": "",
+      "alt": "No artwork or art prompt has been prepared for Authority."
+    },
+    {
+      "id": "GG-D7-HARNESS-CODEX-CLI",
+      "name": "Codex CLI / Work Harness",
+      "status": "PROMPT_NOT_PREPARED",
+      "prompt": "",
+      "alt": "No artwork or art prompt has been prepared for Codex CLI / Work Harness."
+    },
+    {
+      "id": "GG-D7-HARNESS-CLAUDE-CODE",
+      "name": "Claude Code Harness",
+      "status": "PROMPT_NOT_PREPARED",
+      "prompt": "",
+      "alt": "No artwork or art prompt has been prepared for Claude Code Harness."
+    },
+    {
+      "id": "GG-D7-HARNESS-GEMINI-CLI",
+      "name": "Gemini CLI Harness",
+      "status": "PROMPT_NOT_PREPARED",
+      "prompt": "",
+      "alt": "No artwork or art prompt has been prepared for Gemini CLI Harness."
+    },
+    {
+      "id": "GG-D7-HARNESS-ANTIGRAVITY",
+      "name": "Google Antigravity Harness",
+      "status": "PROMPT_NOT_PREPARED",
+      "prompt": "",
+      "alt": "No artwork or art prompt has been prepared for Google Antigravity Harness."
+    },
+    {
+      "id": "GG-D7-HARNESS-OPENROUTER-API",
+      "name": "OpenRouter API Harness",
+      "status": "PROMPT_NOT_PREPARED",
+      "prompt": "",
+      "alt": "No artwork or art prompt has been prepared for OpenRouter API Harness."
+    },
+    {
+      "id": "GG-D7-HARNESS-OLLAMA-API",
+      "name": "Ollama Local API Harness",
+      "status": "PROMPT_NOT_PREPARED",
+      "prompt": "",
+      "alt": "No artwork or art prompt has been prepared for Ollama Local API Harness."
     }
   ]
 }

@@ -1,16 +1,52 @@
 {
   "algorithm": "SHA-256",
-  "source_commit": "c4427795dbd64510fdef162dfcff616c33f27558",
+  "source_commit": "5e39eaaf66cba33632240f185dba6a197a9fcaf3",
+  "world_state_revision": "worldweaver-battlefield-20260922-r1",
   "files": [
+    {
+      "path": "README.md",
+      "bytes": 3747,
+      "sha256": "12f8526a5a1b02ae978d0a0811563fc7b22a2b3b5aeeb63841311b8aa9626416"
+    },
     {
       "path": "art-guide.md",
       "bytes": 7652,
       "sha256": "362b79de50b2af88d7ae937b958962a15317e9b173d5b7954c0dc0f08f603817"
     },
     {
+      "path": "battlefield-world-state.json",
+      "bytes": 57437,
+      "sha256": "11b8b06a40937d6d3f28bcc510e17085cb2a7079489a5c2ff35af7f085811be7"
+    },
+    {
       "path": "battlefield.json",
       "bytes": 209,
       "sha256": "7e1f967e3426d66d87b5967ec4c3f868a64b27247ac4dd73e838df08d35bb016"
+    },
+    {
+      "path": "battlefield/battlefield.css",
+      "bytes": 14384,
+      "sha256": "c1f88d8a858bf2acc10361f2704528039e5bf2429a298082f9904d805c77c72b"
+    },
+    {
+      "path": "battlefield/battlefield.js",
+      "bytes": 16411,
+      "sha256": "3098226c24772680235f0ae07abc841cd79bd55ec7ea2a4979f5643b12b238b6"
+    },
+    {
+      "path": "battlefield/index.html",
+      "bytes": 5643,
+      "sha256": "7c5bd09e9f99c1434a455adf61f9243292856a91de4b73a558e2a7d2e56618e0"
+    },
+    {
+      "path": "battlefield/snapshot.html",
+      "bytes": 67012,
+      "sha256": "416a8d54bd0aa93e57a0208862a19a47348052fa16c6dc3b305eb20144e04d99"
+    },
+    {
+      "path": "battlefield/truth-status.js",
+      "bytes": 408,
+      "sha256": "10d84a7335646484d5306d5efbda12a92f4d370aedc5856977706bb12219e5e2"
     },
     {
       "path": "behavior-assay.json",
@@ -29,8 +65,8 @@
     },
     {
       "path": "catalog.json",
-      "bytes": 368274,
-      "sha256": "02d2cf15f64c4a113ace5e4fe6cb5203b8f6d531b6442c440832d39de14ce6ae"
+      "bytes": 380546,
+      "sha256": "ace6ea9cc3b9f4880b802f49bba32a2bd248b0e3f74b7f120ae36ca6cb268907"
     },
     {
       "path": "definitions/CORE-01.json",
@@ -71,6 +107,26 @@
       "path": "definitions/CORE-04.md",
       "bytes": 1572,
       "sha256": "8ae1318a1fa841959f55787e08de7322810096e41ac4fb618c80817f7c1ebae0"
+    },
+    {
+      "path": "definitions/CORE-05.json",
+      "bytes": 1319,
+      "sha256": "421fadcfb814d7b2fb2a5fd166a2dae97c066d48fcad2d90ed99ff8a46fa8737"
+    },
+    {
+      "path": "definitions/CORE-05.md",
+      "bytes": 645,
+      "sha256": "3686e8f48e1ce8d97feaa806a6083b2d9eca205201659e668a10f09149293366"
+    },
+    {
+      "path": "definitions/CORE-06.json",
+      "bytes": 1325,
+      "sha256": "ca695c6473290d43a9ddd399b1771852f9005fc9fae405c80799f65581f4c511"
+    },
+    {
+      "path": "definitions/CORE-06.md",
+      "bytes": 649,
+      "sha256": "6131ef47c05925f720ecc3c99d8382a77853b027822a4f537f291fc6ba2bb274"
     },
     {
       "path": "definitions/CORE-07.json",
@@ -513,6 +569,16 @@
       "sha256": "295f0c1bc08ff7c0d36c039a252b5fc91a000deb71987f2193638a49ead13bf5"
     },
     {
+      "path": "definitions/GG-D7-HARNESS-ANTIGRAVITY.json",
+      "bytes": 1388,
+      "sha256": "5eb099136d213488c7ef306e8ac214a516c822dee847f22e0e2762eb3a308fff"
+    },
+    {
+      "path": "definitions/GG-D7-HARNESS-ANTIGRAVITY.md",
+      "bytes": 697,
+      "sha256": "be2a633d9ed114df26e453921d68a969d314bccc5960f6c8c58a146c262875e7"
+    },
+    {
       "path": "definitions/GG-D7-HARNESS-CHATGPT-TEXT.json",
       "bytes": 2120,
       "sha256": "dd287ab379e9212d4f4525af9cbbae2abe36e2b9d6ad4ab00eaf41c6530e4d0b"
@@ -523,6 +589,16 @@
       "sha256": "791223044ee9d45dab96d1d4547ae96dbe9534c279b461733a3959aa9a57d732"
     },
     {
+      "path": "definitions/GG-D7-HARNESS-CLAUDE-CODE.json",
+      "bytes": 1367,
+      "sha256": "0457ec0f2ec0251c6f28aa67cbc5a6d352a14638585aee1d105df586d0135352"
+    },
+    {
+      "path": "definitions/GG-D7-HARNESS-CLAUDE-CODE.md",
+      "bytes": 683,
+      "sha256": "4a193ccdc2346a47a0ccca9135b8112ae4915f6b216d140a7fa24504fc76a9ce"
+    },
+    {
       "path": "definitions/GG-D7-HARNESS-CLOUDFLARE-SIGRUN.json",
       "bytes": 4602,
       "sha256": "f6f7a5e6f9923f2d299e57a2755e7d7f3ef83b73384c825845292e4472bdabe1"
@@ -531,6 +607,46 @@
       "path": "definitions/GG-D7-HARNESS-CLOUDFLARE-SIGRUN.md",
       "bytes": 3802,
       "sha256": "78c1c8481b8b0b4cfd0c2f5e205f00ae2cf0f38ed1728f0c5fa225a6b0c55862"
+    },
+    {
+      "path": "definitions/GG-D7-HARNESS-CODEX-CLI.json",
+      "bytes": 1380,
+      "sha256": "184a2682e55f30509918e01f9b74f21629dc01c3d7178cb17f4e6648a5e41685"
+    },
+    {
+      "path": "definitions/GG-D7-HARNESS-CODEX-CLI.md",
+      "bytes": 691,
+      "sha256": "1bc50b70ee69f636b7620858a4c54d46c89d1c602b387ad23e11a24b005e9c16"
+    },
+    {
+      "path": "definitions/GG-D7-HARNESS-GEMINI-CLI.json",
+      "bytes": 1363,
+      "sha256": "00d4ff9326f44c1fbe3d070ce7374076332db338e6ddc4feb59c61ffc0e5ec2a"
+    },
+    {
+      "path": "definitions/GG-D7-HARNESS-GEMINI-CLI.md",
+      "bytes": 680,
+      "sha256": "773347f9996d6a5f3fb32a864c47399a2c71cf3955f4afd726fb1a92dbb633f7"
+    },
+    {
+      "path": "definitions/GG-D7-HARNESS-OLLAMA-API.json",
+      "bytes": 1381,
+      "sha256": "7641b6e8268227df38919cbd5b0c2609b34b5dea738d5263f7176841835fa9ac"
+    },
+    {
+      "path": "definitions/GG-D7-HARNESS-OLLAMA-API.md",
+      "bytes": 692,
+      "sha256": "213527ae378c173950cb1e42f65cf7c0fb4dae79b2f2da271a28309ee53141a4"
+    },
+    {
+      "path": "definitions/GG-D7-HARNESS-OPENROUTER-API.json",
+      "bytes": 1379,
+      "sha256": "5ed194ec34e3c834a1c361159b48b7737781f6516979fa061d2e53494f1abe81"
+    },
+    {
+      "path": "definitions/GG-D7-HARNESS-OPENROUTER-API.md",
+      "bytes": 692,
+      "sha256": "1a8f1ad229a543d99a1aa8ca1748bdd22e85c41bba0d0034f2eb49cc5215dc74"
     },
     {
       "path": "definitions/GG-D7-HARNESS-ORACLE-ACTIONS.json",
@@ -1334,33 +1450,28 @@
     },
     {
       "path": "hand.json",
-      "bytes": 921,
-      "sha256": "b3a3e64601fbca0025a4e0350ac138bff1431b16a67c1366964f56dca3fe8b79"
+      "bytes": 957,
+      "sha256": "bc9d3e3bb480a1371c915379a61026aaed86263a4942488e593682e69cc624be"
     },
     {
       "path": "image-prompts.json",
-      "bytes": 100202,
-      "sha256": "6d946d184395f899a59871384f26f98a37b80507802f642ccf4fd329643b75b1"
+      "bytes": 102023,
+      "sha256": "549587029a0b4852e727c70a812fb61f1a377d49aad99f2aa7424b6bc3cc1a37"
     },
     {
       "path": "index.html",
-      "bytes": 8239,
-      "sha256": "47232f147d713941db5bd3ea593748aee41f112799d7ae11b7c230ef18263442"
+      "bytes": 8269,
+      "sha256": "5aec143c1a27ac8478c09b6de47ebb617fde4a0da4b2fb560a4a1cd4330563e0"
     },
     {
       "path": "index.json",
-      "bytes": 56059,
-      "sha256": "a8cb0ac06dec93e610c670769eb0287b90a55613621295c97159319486bc5aeb"
-    },
-    {
-      "path": "README.md",
-      "bytes": 3086,
-      "sha256": "b88d3db4e7dbccb97f401a3fc936d8bd45e61aecbfc748fb60268c03e3b1982c"
+      "bytes": 59934,
+      "sha256": "f1e9802235bac56eb6f38c19317f55c95cd9b623182480015ed2f1add6c23628"
     },
     {
       "path": "source-lock.json",
-      "bytes": 690,
-      "sha256": "67c0069e9c29f3f076e4b340cc3357edf7abb3598fee16e582ecefe686372715"
+      "bytes": 874,
+      "sha256": "0a9dd8d89c81cd0107699ce1996b14266c4b492d04f4e6083c3fb1bae972eb39"
     }
   ]
 }

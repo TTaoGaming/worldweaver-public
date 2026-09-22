@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="An evidence-backed, read-only HFO world state arranged as battlefield, hand, deck, graveyard and exile.">
+  <title>Battlefield · HFO World State</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./battlefield.css">
+  <script src="./battlefield.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#opening-hand">Skip to the opening hand</a>
+  <header class="site-header shell">
+    <a class="wordmark" href="/" aria-label="World Weaver home"><span aria-hidden="true">◈</span><b>WORLD WEAVER<small>THE WAKING WEB</small></b></a>
+    <nav aria-label="Card navigation"><a href="../">Card atlas</a><a href="#opening-hand">Eight-card hand</a><a href="#zones">Zones</a><a href="#orchestration">Orchestration</a></nav>
+    <span class="edition">HFO / PUBLIC READ ONLY</span>
+  </header>
+
+  <main>
+    <section class="hero shell" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> OBSERVED WORLD / EVIDENCE FIRST</p>
+        <h1 id="page-title">The field is alive.<br><em>The labels stay honest.</em></h1>
+        <p id="world-summary" class="lede">Loading the sanitized world-state projection…</p>
+        <div class="truth-line"><span id="world-truth" class="truth unknown">UNKNOWN</span><span id="world-as-of">Observation time pending</span></div>
+      </div>
+      <aside class="field-map" aria-label="Five card zones">
+        <span class="field-kicker">FIVE ZONES / ONE PUBLIC PROJECTION</span>
+        <div class="field-node field-node-battlefield">BATTLEFIELD</div>
+        <div class="field-node field-node-hand">HAND</div>
+        <div class="field-node field-node-deck">DECK</div>
+        <div class="field-node field-node-graveyard">GRAVEYARD</div>
+        <div class="field-node field-node-exile">EXILE</div>
+        <div class="field-core" aria-hidden="true"><i></i><i></i><i></i></div>
+      </aside>
+    </section>
+
+    <section class="boundary-band" aria-label="Projection boundaries">
+      <div class="shell boundary-grid">
+        <div><b>READ ONLY</b><span>No launch, dispatch or mutation controls</span></div>
+        <div><b>ZONE ≠ VERDICT</b><span>Unknown, completed, failed, retired and forbidden stay distinct</span></div>
+        <div><b>EVIDENCE PER CARD</b><span>Scope, freshness and claim ceilings travel with the face</span></div>
+        <p id="source-line">Awaiting source metadata</p>
+      </div>
+    </section>
+
+    <div id="load-error" class="load-error shell" role="alert" hidden>
+      <p class="eyebrow">PROJECTION UNAVAILABLE</p>
+      <h2>The world state could not be loaded.</h2>
+      <p id="load-error-message">No card placement or runtime status has been assumed.</p>
+      <button id="retry-load" type="button">Try again</button>
+    </div>
+
+    <section id="opening-hand" class="section shell" aria-labelledby="hand-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / CURATED ORIENTATION</p><h2 id="hand-title">The eight-card hand.</h2></div>
+        <span id="hand-count" class="section-count">— / 8</span>
+      </div>
+      <p class="section-intro">Eight compact handles for the current world. Open any face for its engineering record and evidence.</p>
+      <div id="hero-hand" class="hero-hand" aria-live="polite" aria-busy="true"></div>
+    </section>
+
+    <section id="zones" class="section zone-section" aria-labelledby="zones-title">
+      <div class="shell section-heading">
+        <div><p class="eyebrow">02 / STATE VIEWS</p><h2 id="zones-title">The five zones.</h2></div>
+        <p class="zone-note">Placement is an observed classification, never an effect command.</p>
+      </div>
+      <div id="zone-board" class="zone-board shell" aria-busy="true"></div>
+    </section>
+
+    <section id="orchestration" class="section shell orchestration" aria-labelledby="orchestration-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">03 / HYPEROCTREE ORCHESTRATION</p><h2 id="orchestration-title">Many cells. Bounded effects.</h2></div>
+        <span class="section-count">8 + 32</span>
+      </div>
+      <div class="orchestration-grid">
+        <article class="rhythm-panel"><h3>Battle rhythm</h3><div id="battle-rhythm"><p class="pending">No battle rhythm imported.</p></div></article>
+        <article class="champion-panel"><h3>Champion signals</h3><div id="champions"><p class="pending">No champion observations imported.</p></div></article>
+        <article class="inheritance-panel"><h3>Inheritance</h3><div id="inheritance"><p class="pending">No inheritance record imported.</p></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <div><a href="../">THE CARD ATLAS</a><p>Myth gives us a handle. Evidence gives it weight.</p></div>
+    <div><span id="footer-ceiling">Public projection. Evidence ceiling pending.</span><span id="footer-permaweb">Permaweb status pending.</span><a href="./snapshot.html" download>Download frozen HTML snapshot ↗</a><a href="../battlefield-world-state.json">Machine-readable world state ↗</a></div>
+  </footer>
+
+  <dialog id="card-dialog" aria-labelledby="detail-name">
+    <div class="dialog-toolbar"><span class="eyebrow">CARD / ENGINEERING VIEW</span><button id="close-dialog" type="button">Close <span aria-hidden="true">×</span></button></div>
+    <div id="card-detail"></div>
+  </dialog>
+</body>
+</html>

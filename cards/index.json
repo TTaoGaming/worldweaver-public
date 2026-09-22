@@ -1,16 +1,16 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "source": {
-    "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/c4427795dbd64510fdef162dfcff616c33f27558/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
-    "commit": "c4427795dbd64510fdef162dfcff616c33f27558"
+    "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+    "commit": "5e39eaaf66cba33632240f185dba6a197a9fcaf3"
   },
   "coverage": {
-    "indexed": 130,
-    "inherited_index": 129,
+    "indexed": 138,
+    "inherited_index": 137,
     "full": 37,
     "behavior_enriched": 12,
     "history_complete": false,
-    "note": "Complete pinned index plus one public equipment proposal. Behavioral enrichments are editorial proposals, not newly recovered canonical definitions. Index-only cards retain missing-definition labels. No whole-history completeness claim."
+    "note": "Complete pinned 137-card candidate index plus one public equipment proposal. Upstream reports 53 linted full definitions; this public import does not claim all 53 contracts were recovered. Index-only cards retain missing-definition labels. No whole-history completeness claim."
   },
   "cards": [
     {
@@ -52,6 +52,26 @@
       "behavior_enriched": false,
       "detail": "/cards/definitions/CORE-04.json",
       "text": "/cards/definitions/CORE-04.md"
+    },
+    {
+      "id": "CORE-05",
+      "name": "Carrier",
+      "kind": "PRIMITIVE",
+      "summary": "Carrier is listed as PRIMITIVE in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "definition_depth": "index",
+      "behavior_enriched": false,
+      "detail": "/cards/definitions/CORE-05.json",
+      "text": "/cards/definitions/CORE-05.md"
+    },
+    {
+      "id": "CORE-06",
+      "name": "Authority",
+      "kind": "PRIMITIVE",
+      "summary": "Authority is listed as PRIMITIVE in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "definition_depth": "index",
+      "behavior_enriched": false,
+      "detail": "/cards/definitions/CORE-06.json",
+      "text": "/cards/definitions/CORE-06.md"
     },
     {
       "id": "CORE-07",
@@ -782,6 +802,66 @@
       "behavior_enriched": false,
       "detail": "/cards/definitions/GG-D7-MODEL-NEX-PRO.json",
       "text": "/cards/definitions/GG-D7-MODEL-NEX-PRO.md"
+    },
+    {
+      "id": "GG-D7-HARNESS-CODEX-CLI",
+      "name": "Codex CLI / Work Harness",
+      "kind": "HARNESS",
+      "summary": "Codex CLI / Work Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "definition_depth": "index",
+      "behavior_enriched": false,
+      "detail": "/cards/definitions/GG-D7-HARNESS-CODEX-CLI.json",
+      "text": "/cards/definitions/GG-D7-HARNESS-CODEX-CLI.md"
+    },
+    {
+      "id": "GG-D7-HARNESS-CLAUDE-CODE",
+      "name": "Claude Code Harness",
+      "kind": "HARNESS",
+      "summary": "Claude Code Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "definition_depth": "index",
+      "behavior_enriched": false,
+      "detail": "/cards/definitions/GG-D7-HARNESS-CLAUDE-CODE.json",
+      "text": "/cards/definitions/GG-D7-HARNESS-CLAUDE-CODE.md"
+    },
+    {
+      "id": "GG-D7-HARNESS-GEMINI-CLI",
+      "name": "Gemini CLI Harness",
+      "kind": "HARNESS",
+      "summary": "Gemini CLI Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "definition_depth": "index",
+      "behavior_enriched": false,
+      "detail": "/cards/definitions/GG-D7-HARNESS-GEMINI-CLI.json",
+      "text": "/cards/definitions/GG-D7-HARNESS-GEMINI-CLI.md"
+    },
+    {
+      "id": "GG-D7-HARNESS-ANTIGRAVITY",
+      "name": "Google Antigravity Harness",
+      "kind": "HARNESS",
+      "summary": "Google Antigravity Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "definition_depth": "index",
+      "behavior_enriched": false,
+      "detail": "/cards/definitions/GG-D7-HARNESS-ANTIGRAVITY.json",
+      "text": "/cards/definitions/GG-D7-HARNESS-ANTIGRAVITY.md"
+    },
+    {
+      "id": "GG-D7-HARNESS-OPENROUTER-API",
+      "name": "OpenRouter API Harness",
+      "kind": "HARNESS",
+      "summary": "OpenRouter API Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "definition_depth": "index",
+      "behavior_enriched": false,
+      "detail": "/cards/definitions/GG-D7-HARNESS-OPENROUTER-API.json",
+      "text": "/cards/definitions/GG-D7-HARNESS-OPENROUTER-API.md"
+    },
+    {
+      "id": "GG-D7-HARNESS-OLLAMA-API",
+      "name": "Ollama Local API Harness",
+      "kind": "HARNESS",
+      "summary": "Ollama Local API Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+      "definition_depth": "index",
+      "behavior_enriched": false,
+      "detail": "/cards/definitions/GG-D7-HARNESS-OLLAMA-API.json",
+      "text": "/cards/definitions/GG-D7-HARNESS-OLLAMA-API.md"
     },
     {
       "id": "GG-D8-LAND-CHATGPT-A-CLOUD",

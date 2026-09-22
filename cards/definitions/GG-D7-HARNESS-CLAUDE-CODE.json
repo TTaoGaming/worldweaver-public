@@ -1,0 +1,42 @@
+{
+  "id": "GG-D7-HARNESS-CLAUDE-CODE",
+  "name": "Claude Code Harness",
+  "deck": "D7",
+  "kind": "HARNESS",
+  "type_line": "HARNESS",
+  "summary": "Claude Code Harness is listed as HARNESS in the pinned 137-card candidate index. Its full source contract has not been recovered into this public catalog.",
+  "summary_origin": "PINNED_INDEX_METADATA",
+  "hyperstition": "",
+  "myth": "",
+  "engineering": {
+    "pattern": "",
+    "origin": "",
+    "exemplar": "",
+    "maturity": ""
+  },
+  "checks": [],
+  "links": [],
+  "sources": [
+    {
+      "label": "Pinned 137-card candidate index (definition incomplete)",
+      "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml"
+    }
+  ],
+  "technology_refs": [],
+  "definition_status": "CANDIDATE",
+  "definition_depth": "index",
+  "behavior": {
+    "status": "NOT_TESTED",
+    "target": "No card-specific target behavior has been recovered.",
+    "assay": "Recover and review the exact source definition before proposing a behavioral assay."
+  },
+  "runtime": {
+    "status": "UNVERIFIED",
+    "note": "Index membership is not runtime, capacity, fitness or authority evidence."
+  },
+  "art": {
+    "status": "PROMPT_NOT_PREPARED",
+    "prompt": "",
+    "alt": "No artwork or art prompt has been prepared for Claude Code Harness."
+  }
+}

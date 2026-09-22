@@ -1,26 +1,18 @@
 {
-  "mission": "Public orientation; no execution authority",
+  "mission": "Proposed eight-card operator orientation; no canonical membership, launch readiness or execution authority",
   "limit": 8,
   "entries": [
-    {
-      "id": "CORE-01",
-      "detail": "/cards/definitions/CORE-01.json"
-    },
     {
       "id": "CORE-08",
       "detail": "/cards/definitions/CORE-08.json"
     },
     {
+      "id": "CORE-02",
+      "detail": "/cards/definitions/CORE-02.json"
+    },
+    {
       "id": "HFO-G143-C016",
       "detail": "/cards/definitions/HFO-G143-C016.json"
-    },
-    {
-      "id": "GG-D8-LAND-CHATGPT-B-ORACLE",
-      "detail": "/cards/definitions/GG-D8-LAND-CHATGPT-B-ORACLE.json"
-    },
-    {
-      "id": "WW-EQ-CLOUDFLARE-DURABILITY-001",
-      "detail": "/cards/definitions/WW-EQ-CLOUDFLARE-DURABILITY-001.json"
     },
     {
       "id": "GG-D1-WORKITEM",
@@ -31,8 +23,16 @@
       "detail": "/cards/definitions/HFO-G143-C005.json"
     },
     {
-      "id": "HFO-G143-C003",
-      "detail": "/cards/definitions/HFO-G143-C003.json"
+      "id": "GG-D7-HARNESS-CLOUDFLARE-SIGRUN",
+      "detail": "/cards/definitions/GG-D7-HARNESS-CLOUDFLARE-SIGRUN.json"
+    },
+    {
+      "id": "HFO-G143-C065",
+      "detail": "/cards/definitions/HFO-G143-C065.json"
+    },
+    {
+      "id": "HFO-G143-C049",
+      "detail": "/cards/definitions/HFO-G143-C049.json"
     }
   ]
 }

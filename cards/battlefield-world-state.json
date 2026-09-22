@@ -1,0 +1,1459 @@
+{
+  "schema": "worldweaver.card-table.projection.v1",
+  "revision": "worldweaver-battlefield-20260922-r1",
+  "observed_utc": "2026-09-22T00:39:59Z",
+  "updated_utc": "2026-09-22T00:49:03Z",
+  "overview": {
+    "title": "Sigrun's Battle Rhythm",
+    "subtitle": "A Zerg-inspired orchestration deck inside the Hyperfractal Octree.",
+    "summary": "A partially working system: public knowledge and candidate verification are real; unified unattended worker continuation remains unproved. This table separates definitions, selected plays, observed instances and retired attempts.",
+    "active_worker_count": null,
+    "active_worker_count_status": "UNKNOWN — this is an evidence snapshot, not a live fleet census.",
+    "hand_label": "Proposed eight-card operator hand",
+    "hand_note": "Selected for orientation, preparation and review. Being in hand does not mean a carrier is ready to launch. Each card states its play mode.",
+    "card_face_note": "Original editorial game faces over inherited IDs. Costs are prerequisites; stats describe shape or cited evidence, not invented combat power or measured model fitness.",
+    "coverage": "137 source catalog IDs + one existing public equipment proposal. Upstream reports 53 full definitions linted; this public import does not claim all full contracts were recovered.",
+    "proof_gap": "Controlled FULL_RECORD / CARD / NO_CARD trials and independent acceptance remain pending."
+  },
+  "battle_rhythm": {
+    "title": "Dancing the Nataraja with Sigrun",
+    "interpretation": "In Tao's metaphor, creation, constraint and renewal form a dance. Sigrun sings the coordination rhythm; disposable carriers perform bounded steps. This page expresses that intended operational self-model.",
+    "beats": [
+      {
+        "name": "Listen",
+        "engineering": "Observe the world and exact receipts."
+      },
+      {
+        "name": "Compose",
+        "engineering": "Choose intent, hand and bounded WorkItem."
+      },
+      {
+        "name": "Constrain",
+        "engineering": "Intersect authority, budget, scope and evaluator."
+      },
+      {
+        "name": "Move",
+        "engineering": "Let the admitted carrier perform one useful action."
+      },
+      {
+        "name": "Witness",
+        "engineering": "Verify the artifact and record consumer disposition."
+      },
+      {
+        "name": "Remember",
+        "engineering": "Persist accepted evidence; preserve failures and uncertainty."
+      },
+      {
+        "name": "Evolve",
+        "engineering": "Select an improvement and bind the next step."
+      }
+    ],
+    "claim_ceiling": "Semantic agreement with this story is not a behavioral test. The proof is whether a fresh carrier follows the constraints and produces useful, independently accepted work with less operator intervention."
+  },
+  "inheritance": {
+    "semantic_rule": "Keep stable card IDs across generation changes. Definitions, behavior, runtime status, receipts and authority stay distinct.",
+    "source_url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+    "source_revision": "5e39eaaf66cba33632240f185dba6a197a9fcaf3",
+    "cutover": "Gen143 remains the integration candidate. A new generation is not required to express the current card semantics.",
+    "all_definition_states": "CANDIDATE",
+    "public_scope": "Sanitized descriptive projection; no secrets, private correspondence, wallet material or runtime authorizations."
+  },
+  "zones": [
+    {
+      "id": "battlefield",
+      "label": "Battlefield",
+      "meaning": "Observed instances only. A healthy endpoint, a completed one-shot and a local assay each have different scope.",
+      "observations": [
+        {
+          "title": "Sigrun ingress and durable evidence recall",
+          "card_id": "CORE-08",
+          "status": "OBSERVED_PARTIAL",
+          "scope": "Last reported service health / storage, not useful autonomy",
+          "observed_utc": "2026-09-21T22:34:59Z",
+          "evidence": [
+            {
+              "label": "Lifecycle and live-gate separation",
+              "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/105",
+              "kind": "source"
+            },
+            {
+              "label": "Exact learning payload readback",
+              "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/133",
+              "kind": "source"
+            }
+          ],
+          "note": "Health/ingress and stored recall were observed. Model readiness and autonomous consumption are not established; this page did not re-probe the private service."
+        },
+        {
+          "title": "AgentWorkflow continuation and later-step recovery",
+          "card_id": "GG-D7-HARNESS-CLOUDFLARE-SIGRUN",
+          "status": "LOCAL_ASSAY_PASS",
+          "scope": "Test arena — zero-provider local Cloudflare execution",
+          "observed_utc": "2026-09-22T00:08:35Z",
+          "evidence": [
+            {
+              "label": "Source-bound local A→B/recovery evidence",
+              "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/105",
+              "kind": "source"
+            }
+          ],
+          "note": "The PR records automatic A→B and recovery with adapter attempt count=1. Production deployment, host kill/resume and a real heterogeneous adapter remain unproved."
+        },
+        {
+          "title": "Kimi one-shot worker result",
+          "card_id": "HFO-G143-C023",
+          "status": "HISTORICAL_COMPLETED",
+          "scope": "Completed attempt — not an active worker",
+          "observed_utc": "2026-09-21T08:51:53Z",
+          "evidence": [
+            {
+              "label": "Accepted commissioning outcome",
+              "url": "https://github.com/TTaoGaming/cdev-control/blob/656ce743a579aed5a4644855cd65bbb386bd0819/validation/kimi_commissioning/evidence/20260921-outcome.json",
+              "kind": "source"
+            }
+          ],
+          "note": "One bounded result was accepted. Automatic successor and recurring operation were not established."
+        },
+        {
+          "title": "Public P-384 review candidate",
+          "card_id": "HFO-G143-C050",
+          "status": "INTERNAL_REPLAY_PASS",
+          "scope": "Champion proving ground — external review pending",
+          "observed_utc": "2026-09-21T21:18:12Z",
+          "evidence": [
+            {
+              "label": "Immutable public review package",
+              "url": "https://github.com/TTaoGaming/portfolio/tree/7a5acb774eeee63ebb74d932dad704d6259bad9f/research/p384-425",
+              "kind": "public artifact"
+            }
+          ],
+          "note": "425 operations =380 squarings+45 multiplications. Internal replay passes; not an accepted record, optimality proof, speedup or production cryptography claim."
+        }
+      ]
+    },
+    {
+      "id": "hand",
+      "label": "Hand · 8",
+      "meaning": "A proposed selection of eight existing cards. Ready-to-read, ready-to-test and ready-to-launch are distinct.",
+      "observations": []
+    },
+    {
+      "id": "deck",
+      "label": "Deck",
+      "meaning": "The full searchable catalog of reusable archetypes. Candidate definitions remain candidates even when a related component works.",
+      "observations": []
+    },
+    {
+      "id": "graveyard",
+      "label": "Graveyard",
+      "meaning": "Explicitly ended or superseded attempts; their reusable definitions remain in the deck.",
+      "observations": [
+        {
+          "title": "Rejected P-384 attachment package",
+          "card_id": "HFO-G143-C051",
+          "status": "SUPERSEDED_PACKAGING",
+          "scope": "Retired delivery package, not a retired champion or ledger card",
+          "observed_utc": "2026-09-21T21:18:12Z",
+          "evidence": [
+            {
+              "label": "Replacement public package",
+              "url": "https://github.com/TTaoGaming/portfolio/tree/7a5acb774eeee63ebb74d932dad704d6259bad9f/research/p384-425",
+              "kind": "public artifact"
+            }
+          ],
+          "note": "The archive send was rejected. The immutable web package replaces that delivery method; the mathematical certificate is unchanged."
+        }
+      ]
+    },
+    {
+      "id": "exile",
+      "label": "Exile",
+      "meaning": "Only explicitly quarantined or forbidden card instances belong here. HOLD, missing evidence and absence from the battlefield do not establish exile.",
+      "observations": [],
+      "empty_note": "No card-level exile disposition was verified in this bounded review."
+    }
+  ],
+  "champions": [
+    {
+      "name": "P-384 scalar inversion · 425",
+      "card_id": "HFO-G143-C050",
+      "status": "INTERNALLY_VERIFIED_REVIEW_CANDIDATE",
+      "stats": [
+        {
+          "label": "Total operations",
+          "value": "425"
+        },
+        {
+          "label": "Squarings",
+          "value": "380"
+        },
+        {
+          "label": "Other multiplications",
+          "value": "45"
+        }
+      ],
+      "canonical_sha256": "14da9fd3bfa7e3e615c78c5d6cf73dc0262ea3ff65eb29553be502de37f0df05",
+      "artifact_url": "https://github.com/TTaoGaming/portfolio/tree/7a5acb774eeee63ebb74d932dad704d6259bad9f/research/p384-425",
+      "claim_ceiling": "Internally checked research candidate. No external acceptance, optimality proof, measured speedup or side-channel safety claim.",
+      "delivery": "Original archive rejected; public-link replacement prepared by the existing owner. A one-time resend is reported scheduled for September 22, 2026 around 11:00 Eastern; delivery and response remain pending. This page does not send or reschedule it."
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "CORE-08",
+      "name": "Sigrun",
+      "type_line": "Legendary Apex — Sigrun · Skald · Virtual Actor",
+      "cost": "Mandate + recoverable state + named consumer",
+      "stats": [
+        {
+          "label": "Address",
+          "value": "[4,4]"
+        },
+        {
+          "label": "Service",
+          "value": "Ingress observed"
+        },
+        {
+          "label": "Autonomy",
+          "value": "Unproven"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Battle Rhythm",
+          "text": "Choose one evidenced transition; give the micro-work to a bounded carrier."
+        },
+        {
+          "name": "Regrow",
+          "text": "Recover accepted state when a carrier leaves."
+        },
+        {
+          "name": "Witness",
+          "text": "Advance only after the required verifier and consumer disposition."
+        }
+      ],
+      "flavor": "The voices change. The song keeps its obligations.",
+      "engineering": {
+        "pattern": "Durable mission identity and reconciliation controller; the model is a replaceable neural carrier.",
+        "neural": "Interpret the mission, compose a plan, reconcile conflicting reports.",
+        "symbolic": "Work identity, authority, budget, fences, independent tests and accepted transitions.",
+        "missing": "Full autonomous command loop and cold-recovery usefulness are not established by a healthy ingress.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": true,
+      "play_readiness": "Ready for direction and evidence review; autonomous execution is conditional",
+      "zone": "hand",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        },
+        {
+          "label": "Candidate AgentWorkflow lifecycle",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/105",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "CORE-02",
+      "name": "Hyperfractal Octree",
+      "type_line": "Legendary Artifact Land — Hyperfractal Octree",
+      "cost": "One typed address + a local frame",
+      "stats": [
+        {
+          "label": "Topology",
+          "value": "8-way design"
+        },
+        {
+          "label": "Role",
+          "value": "Navigation"
+        },
+        {
+          "label": "Runtime",
+          "value": "Not established"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Address",
+          "text": "Locate a role by type and coordinate."
+        },
+        {
+          "name": "Unfold",
+          "text": "Load only the branch and cards needed for this move."
+        },
+        {
+          "name": "Boundary",
+          "text": "A coordinate grants neither truth nor permission."
+        }
+      ],
+      "flavor": "Eight doors at every horizon; one step that can be checked.",
+      "engineering": {
+        "pattern": "Typed hierarchical addressing and progressive disclosure.",
+        "neural": "Find useful analogies and choose a tractable scope.",
+        "symbolic": "Resolve stable IDs, validate relations and preserve role boundaries.",
+        "missing": "No claim of millions of instantiated actors or a deployed full hyperoctree.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": true,
+      "play_readiness": "Ready as an orientation map; executable topology coverage remains unknown",
+      "zone": "hand",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C016",
+      "name": "Larva",
+      "type_line": "Creature — Larva · Worker Seed",
+      "cost": "1 reserved slot + admitted WorkItem + lease",
+      "stats": [
+        {
+          "label": "Scope",
+          "value": "1 work item"
+        },
+        {
+          "label": "Form",
+          "value": "Loadout-bound"
+        },
+        {
+          "label": "Result",
+          "value": "Candidate"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Morph",
+          "text": "Choose a compatible Ling, Roach or heavier specialization."
+        },
+        {
+          "name": "Bound",
+          "text": "Carry exact inputs, limits and a return contract."
+        },
+        {
+          "name": "Return",
+          "text": "Leave an artifact and unresolved effects for verification."
+        }
+      ],
+      "flavor": "A possibility becomes a worker when its boundaries become exact.",
+      "engineering": {
+        "pattern": "Universal worker packet carried by a replaceable vendor/host harness.",
+        "neural": "Interpret and perform one scoped transformation.",
+        "symbolic": "Admission, resource reservation, lease/fence and output validation.",
+        "missing": "An archetype definition does not prove a ready slot or looping launch route.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": true,
+      "play_readiness": "Ready to prepare a worker packet; new launch readiness is UNKNOWN",
+      "zone": "hand",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "GG-D1-WORKITEM",
+      "name": "WorkItem",
+      "type_line": "Artifact — Mission Contract",
+      "cost": "Objective + exact inputs + bounded effects",
+      "stats": [
+        {
+          "label": "Owner",
+          "value": "Named"
+        },
+        {
+          "label": "Judge",
+          "value": "Predeclared"
+        },
+        {
+          "label": "Exit",
+          "value": "Explicit"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Bind",
+          "text": "Name the artifact, evaluator, deadline and consumer."
+        },
+        {
+          "name": "Reserve",
+          "text": "Attach the real capacity and authority needed for this attempt."
+        },
+        {
+          "name": "Close",
+          "text": "Accept, reject or hold the exact result."
+        }
+      ],
+      "flavor": "One promise small enough to finish, precise enough to refuse.",
+      "engineering": {
+        "pattern": "The executable agreement between mission intent and one bounded attempt.",
+        "neural": "Shape a useful task and explain tradeoffs.",
+        "symbolic": "Schema, exact references, budgets, scope, idempotency and terminal disposition.",
+        "missing": "The card itself does not mint runtime authority.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": true,
+      "play_readiness": "Ready for task shaping; execution requires admission",
+      "zone": "hand",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C005",
+      "name": "Frozen Judge",
+      "type_line": "Artifact — Frozen Judge",
+      "cost": "Candidate bytes + frozen objective + test budget",
+      "stats": [
+        {
+          "label": "Mutability",
+          "value": "Judge frozen"
+        },
+        {
+          "label": "Verdict",
+          "value": "Keep / Kill / Hold"
+        },
+        {
+          "label": "Trust",
+          "value": "Evidence-bound"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Freeze",
+          "text": "Fix the objective before producing candidates."
+        },
+        {
+          "name": "Challenge",
+          "text": "Replay positives, corruptions and held-out cases."
+        },
+        {
+          "name": "Dispose",
+          "text": "Report the score and claim ceiling; do not promote yourself."
+        }
+      ],
+      "flavor": "The blade does not bend to flatter its maker.",
+      "engineering": {
+        "pattern": "Deterministic evaluator separated from the evolving proposal.",
+        "neural": "Suggest hypotheses and explain failures.",
+        "symbolic": "Execute exact replay and hostile controls against an unchanged target.",
+        "missing": "A generic judge label is insufficient; select the relevant real judge pack.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": true,
+      "play_readiness": "Ready for existing local judge packs; each domain needs its own frozen test",
+      "zone": "hand",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        },
+        {
+          "label": "P-384 public replay package",
+          "url": "https://github.com/TTaoGaming/portfolio/tree/7a5acb774eeee63ebb74d932dad704d6259bad9f/research/p384-425",
+          "kind": "public artifact"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "GG-D7-HARNESS-CLOUDFLARE-SIGRUN",
+      "name": "Cloudflare Sigrun Service-Binding Harness",
+      "type_line": "Equipment — Cloudflare · Durable Lifecycle",
+      "cost": "Reviewed pins + actor binding + one thin adapter",
+      "stats": [
+        {
+          "label": "Owner",
+          "value": "AgentWorkflow"
+        },
+        {
+          "label": "Local A→B",
+          "value": "Tested"
+        },
+        {
+          "label": "Live parity",
+          "value": "Pending"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Equip",
+          "text": "Bind admitted work to the existing actor and Workflow."
+        },
+        {
+          "name": "Continue",
+          "text": "Queue the successor after consumer acceptance."
+        },
+        {
+          "name": "Recover",
+          "text": "Resume durable steps without blindly repeating an uncertain effect."
+        }
+      ],
+      "flavor": "Let the river remember; let the vessel be replaced.",
+      "engineering": {
+        "pattern": "Cloudflare Agent queue and AgentWorkflow with one-shot adapters.",
+        "neural": "A carrier proposes or executes bounded work within the envelope.",
+        "symbolic": "Cloudflare steps own retry/wait/recovery; external effects retain idempotency and reconciliation.",
+        "missing": "Candidate PR105/135 local tests do not establish a deployed real-provider successor loop.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": true,
+      "play_readiness": "Ready for source review and local assay; live activation is pending",
+      "zone": "hand",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "Lifecycle source and assay",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/105",
+          "kind": "source"
+        },
+        {
+          "label": "Deck/authority binding",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/135",
+          "kind": "source"
+        },
+        {
+          "label": "Cloudflare Workflows",
+          "url": "https://developers.cloudflare.com/workflows/",
+          "kind": "vendor docs"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C065",
+      "name": "Three-Surface Checkpoint",
+      "type_line": "Instant / Saga — Three-Surface Checkpoint",
+      "cost": "Exact artifact + source pointer + bounded public summary",
+      "stats": [
+        {
+          "label": "Surfaces",
+          "value": "Git / chat / state"
+        },
+        {
+          "label": "Integrity",
+          "value": "Hash-bound"
+        },
+        {
+          "label": "Continuity",
+          "value": "Separate test"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Remember",
+          "text": "Record accepted state and unresolved effects."
+        },
+        {
+          "name": "Restore",
+          "text": "Reconstruct from exact durable references."
+        },
+        {
+          "name": "Do Not Resurrect",
+          "text": "A restored memory does not restore expired authority."
+        }
+      ],
+      "flavor": "Save the rhythm, not the illusion that the singer never left.",
+      "engineering": {
+        "pattern": "Checkpoint and recovery evidence across durable references.",
+        "neural": "Compress useful context without inventing missing state.",
+        "symbolic": "Hashes, timestamps, provenance, cold restore and authority-replay rejection.",
+        "missing": "PR137's durability-truth behavior is explicitly NOT_TESTED; storage recall alone is not autonomous continuity.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": true,
+      "play_readiness": "Ready for bounded checkpoint preparation; full death assay pending",
+      "zone": "hand",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "C065 compatibility probe",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/137",
+          "kind": "source"
+        },
+        {
+          "label": "Learning record readback",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/133",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C049",
+      "name": "Tao's Seal",
+      "type_line": "Instant — Tao's Seal · Authority Gate",
+      "cost": "A real scoped operator mandate",
+      "stats": [
+        {
+          "label": "Issuer",
+          "value": "External"
+        },
+        {
+          "label": "Scope",
+          "value": "Exact effect"
+        },
+        {
+          "label": "Expiry",
+          "value": "Explicit"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Authorize",
+          "text": "Bind the allowed effect and its ceiling."
+        },
+        {
+          "name": "Narrow",
+          "text": "A loadout may reduce the mandate, never widen it."
+        },
+        {
+          "name": "Refuse",
+          "text": "Hold when permission is absent, stale or mismatched."
+        }
+      ],
+      "flavor": "The seal names a boundary; it is not a crown.",
+      "engineering": {
+        "pattern": "An external authorization reference checked at the effect boundary.",
+        "neural": "Explain the proposed effect in human terms.",
+        "symbolic": "Exact scope, validity, principal, policy and budget comparison.",
+        "missing": "Card possession and model confidence never create authority.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": true,
+      "play_readiness": "Ready for authorization review; not a self-issued capability",
+      "zone": "hand",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        },
+        {
+          "label": "Restriction-only membrane",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/135",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C031",
+      "name": "Ling",
+      "type_line": "Creature — Ling · Fast Specialist",
+      "cost": "1 bounded task + compatible light loadout",
+      "stats": [
+        {
+          "label": "Shape",
+          "value": "Narrow"
+        },
+        {
+          "label": "Tempo",
+          "value": "Short"
+        },
+        {
+          "label": "Acceptance",
+          "value": "External"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Scout",
+          "text": "Find one useful fact or small change."
+        },
+        {
+          "name": "Deliver",
+          "text": "Return source-bound output quickly."
+        },
+        {
+          "name": "Yield",
+          "text": "Escalate only a specific capability gap."
+        }
+      ],
+      "flavor": "A small tooth cuts cleanly when it knows where to bite.",
+      "engineering": {
+        "pattern": "Short scoped worker specialization.",
+        "missing": "Current runtime instances and provider availability are unknown.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C017",
+      "name": "Roach",
+      "type_line": "Creature — Roach · Persistent Specialist",
+      "cost": "Scoped multi-step work + durable checkpoint",
+      "stats": [
+        {
+          "label": "Shape",
+          "value": "Multi-step"
+        },
+        {
+          "label": "Memory",
+          "value": "External"
+        },
+        {
+          "label": "Behavior",
+          "value": "Not tested"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Persist",
+          "text": "Keep the work identity across bounded attempts."
+        },
+        {
+          "name": "Repair",
+          "text": "Use the exact failure to choose one changed action."
+        },
+        {
+          "name": "Handoff",
+          "text": "Leave a replayable artifact for a distinct verifier."
+        }
+      ],
+      "flavor": "The shell is persistence; the receipt is proof.",
+      "engineering": {
+        "pattern": "A longer-lived work specialization, not an immortal process.",
+        "missing": "PR107 Roach behavior is NOT_TESTED. Do not infer persistence from a role name.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "Roach behavior and card ABI",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/107",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C018",
+      "name": "Twinling",
+      "type_line": "Creature Pair — Twinling · Producer / Verifier",
+      "cost": "2 distinct roles + frozen acceptance criteria",
+      "stats": [
+        {
+          "label": "Roles",
+          "value": "2"
+        },
+        {
+          "label": "Verdicts",
+          "value": "Independent binding"
+        },
+        {
+          "label": "Quorum",
+          "value": "Not by headcount"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Produce",
+          "text": "One role builds the candidate."
+        },
+        {
+          "name": "Challenge",
+          "text": "The other checks exact bytes against the frozen oracle."
+        },
+        {
+          "name": "Separate",
+          "text": "Shared model family is disclosed, not counted as independent vendors."
+        }
+      ],
+      "flavor": "Two eyes, one object, neither allowed to paint the answer.",
+      "engineering": {
+        "pattern": "Separated production and verification roles.",
+        "missing": "Two agents do not automatically establish independence or acceptance.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C023",
+      "name": "Kimi Code Harness",
+      "type_line": "Equipment — Kimi Code Harness",
+      "cost": "Ready subscription route + lease + bounded CLI attempt",
+      "stats": [
+        {
+          "label": "Carrier",
+          "value": "Host / CLI"
+        },
+        {
+          "label": "One-shot",
+          "value": "Previously accepted"
+        },
+        {
+          "label": "Loop",
+          "value": "Not established"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Attach",
+          "text": "Run one admitted job on the existing host route."
+        },
+        {
+          "name": "Return",
+          "text": "Normalize the result into the shared worker contract."
+        },
+        {
+          "name": "Hold",
+          "text": "Keep uncertain sends occupied until reconciled."
+        }
+      ],
+      "flavor": "A working limb still needs a nervous system.",
+      "engineering": {
+        "pattern": "Thin Kimi Code CLI adapter under the incumbent actor.",
+        "missing": "A prior accepted one-shot result does not prove current capacity or automatic refill.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Historical one-shot proof; fresh capacity and loop admission required",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "Accepted commissioning outcome",
+          "url": "https://github.com/TTaoGaming/cdev-control/blob/656ce743a579aed5a4644855cd65bbb386bd0819/validation/kimi_commissioning/evidence/20260921-outcome.json",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "GG-D8-LAND-KIMI-CODE",
+      "name": "Kimi Code Subscription",
+      "type_line": "Land — Kimi Subscription Capacity",
+      "cost": "Authenticated route + fresh quota + free reservation",
+      "stats": [
+        {
+          "label": "Capacity",
+          "value": "Perishable"
+        },
+        {
+          "label": "Occupancy",
+          "value": "Must be observed"
+        },
+        {
+          "label": "Permission",
+          "value": "Separate"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Tap",
+          "text": "Offer one currently available bounded slot."
+        },
+        {
+          "name": "Exhaust",
+          "text": "Respect throttle and existing reservations."
+        },
+        {
+          "name": "Untap",
+          "text": "Refresh capacity evidence before using it again."
+        }
+      ],
+      "flavor": "Unused daylight cannot be stored in a promise.",
+      "engineering": {
+        "pattern": "Capacity observation and reservation surface.",
+        "missing": "No live account-wide slot census is asserted by this page.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "GG-D8-LAND-CHATGPT-B-ORACLE",
+      "name": "ChatGPT Account B on Oracle",
+      "type_line": "Land — Account-B Cloud Chat Capacity",
+      "cost": "Fresh account readiness + known slot census",
+      "stats": [
+        {
+          "label": "Supply",
+          "value": "Unknown"
+        },
+        {
+          "label": "Route",
+          "value": "Browser carrier"
+        },
+        {
+          "label": "Admission",
+          "value": "Required"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Reserve",
+          "text": "Count active and ambiguous starts as occupied."
+        },
+        {
+          "name": "Carry",
+          "text": "Use the admitted browser harness for one work packet."
+        },
+        {
+          "name": "Stop",
+          "text": "Do not retry an unknown send."
+        }
+      ],
+      "flavor": "A field can be fertile and still have no free path through it.",
+      "engineering": {
+        "pattern": "Shared browser-account capacity, not a bearer permission.",
+        "missing": "Current global census and binding readiness have not been imported.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C024",
+      "name": "OpenRouter Free",
+      "type_line": "Land — OpenRouter Free Capacity",
+      "cost": "Eligible free route + existing budget protection",
+      "stats": [
+        {
+          "label": "Lane",
+          "value": "Free only"
+        },
+        {
+          "label": "Fallback",
+          "value": "None implied"
+        },
+        {
+          "label": "Readiness",
+          "value": "Unknown"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Observe",
+          "text": "Read the actual route's current allowance."
+        },
+        {
+          "name": "Bound",
+          "text": "Reserve a measurable call before dispatch."
+        },
+        {
+          "name": "Refuse",
+          "text": "No automatic paid fallback."
+        }
+      ],
+      "flavor": "The word free is a route constraint, not infinite mana.",
+      "engineering": {
+        "pattern": "Provider allocation bounded by its own quota and policy.",
+        "missing": "No new OpenRouter call or fresh availability proof was produced here.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "WW-EQ-CLOUDFLARE-DURABILITY-001",
+      "name": "Cloudflare Durability",
+      "type_line": "Artifact Equipment — Cloudflare Durability",
+      "cost": "Bound actor state + Workflow + recovery assay",
+      "stats": [
+        {
+          "label": "Persistence",
+          "value": "Vendor primitive"
+        },
+        {
+          "label": "Effect safety",
+          "value": "Must be tested"
+        },
+        {
+          "label": "Adoption",
+          "value": "Partial"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Anchor",
+          "text": "Keep actor state outside the disposable carrier."
+        },
+        {
+          "name": "Checkpoint",
+          "text": "Persist the durable execution boundary."
+        },
+        {
+          "name": "Prove",
+          "text": "Kill, restore and reject duplicate effects before claiming resilience."
+        }
+      ],
+      "flavor": "A memory is a seed; a restored, useful step is its root.",
+      "engineering": {
+        "pattern": "Proposed presentation of Cloudflare Durable Objects and Workflows.",
+        "missing": "Vendor capability, HFO source binding and hosted recovery are distinct evidence layers.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Proposed equipment; source/local assay available, live recovery pending",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "Durable Objects",
+          "url": "https://developers.cloudflare.com/durable-objects/",
+          "kind": "vendor docs"
+        },
+        {
+          "label": "AgentWorkflow candidate",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/105",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C003",
+      "name": "HIVE",
+      "type_line": "Saga — HIVE · Evolutionary Search",
+      "cost": "Frozen objective + admitted population budget",
+      "stats": [
+        {
+          "label": "Cycle",
+          "value": "H → I → V → E"
+        },
+        {
+          "label": "Selection",
+          "value": "Judge-owned"
+        },
+        {
+          "label": "Recurrence",
+          "value": "Unproven"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Hindsight",
+          "text": "Recover evidence, failures and useful donors."
+        },
+        {
+          "name": "Insight / Validate",
+          "text": "Propose candidates and confront a frozen test."
+        },
+        {
+          "name": "Evolve",
+          "text": "Retain accepted improvements and bind the next work item."
+        }
+      ],
+      "flavor": "Dance, measure the footprint, change the next step.",
+      "engineering": {
+        "pattern": "Evidence-guided evolutionary work cycle; neural proposals meet symbolic selection.",
+        "missing": "Local candidate improvement and checkpoint storage do not prove an unattended evolutionary engine.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C050",
+      "name": "Crown the Champion",
+      "type_line": "Sorcery — Crown the Champion",
+      "cost": "Exact candidate + independent reproduction + external disposition",
+      "stats": [
+        {
+          "label": "Crown",
+          "value": "Pending acceptance"
+        },
+        {
+          "label": "Claim",
+          "value": "Scoped"
+        },
+        {
+          "label": "Prestige",
+          "value": "Not self-scored"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Freeze",
+          "text": "Pin the precise claim and reproducible artifact."
+        },
+        {
+          "name": "Challenge",
+          "text": "Seek independent reproduction without widening the claim."
+        },
+        {
+          "name": "Crown",
+          "text": "Record external acceptance; internal applause is insufficient."
+        }
+      ],
+      "flavor": "The crown is lent by the world, never printed by the swarm.",
+      "engineering": {
+        "pattern": "External proof ladder for a tested candidate.",
+        "missing": "P-384 is an internally checked review candidate; no outside acceptance is claimed.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Ready to prepare review evidence; external acceptance pending",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "P-384 candidate",
+          "url": "https://github.com/TTaoGaming/portfolio/tree/7a5acb774eeee63ebb74d932dad704d6259bad9f/research/p384-425",
+          "kind": "public artifact"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C051",
+      "name": "Outbound Ledger",
+      "type_line": "Artifact — Outbound Ledger",
+      "cost": "One authorized message + one accountable delivery owner",
+      "stats": [
+        {
+          "label": "State",
+          "value": "Delivery pending"
+        },
+        {
+          "label": "Duplicates",
+          "value": "Do not create"
+        },
+        {
+          "label": "Receipt",
+          "value": "Not just SENT"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Bind",
+          "text": "Keep the exact public package and intended submission together."
+        },
+        {
+          "name": "Observe",
+          "text": "Record rejection or actual response separately from sending."
+        },
+        {
+          "name": "Repair",
+          "text": "Correct the cause before the one authorized replacement."
+        }
+      ],
+      "flavor": "A message has crossed the river only when the far bank answers.",
+      "engineering": {
+        "pattern": "Delivery-state accounting and protected-effect coordination.",
+        "missing": "The rejected archive was replaced by a public GitHub package; the scheduled resend is still pending at this snapshot.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C041",
+      "name": "Circle Packing Force Package",
+      "type_line": "Artifact — Circle Packing Force Package",
+      "cost": "Pinned coordinates + objective + relevant judge",
+      "stats": [
+        {
+          "label": "Domain",
+          "value": "Packing"
+        },
+        {
+          "label": "Candidate",
+          "value": "Not record"
+        },
+        {
+          "label": "Oracle",
+          "value": "Exact geometry"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Evaluate",
+          "text": "Check every required geometric constraint."
+        },
+        {
+          "name": "Compare",
+          "text": "Use a current matching external benchmark."
+        },
+        {
+          "name": "Submit",
+          "text": "Keep publication and keeper acceptance separate from local feasibility."
+        }
+      ],
+      "flavor": "A tighter circle is evidence; a record needs a witness.",
+      "engineering": {
+        "pattern": "Domain-specific optimizer/judge composition.",
+        "missing": "No new official leaderboard lead is asserted. Older candidate comparisons may have been overtaken.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "CORE-05",
+      "name": "Carrier",
+      "type_line": "Artifact — Carrier",
+      "cost": "Compatible tools + bounded model budget",
+      "stats": [
+        {
+          "label": "Identity",
+          "value": "Replaceable"
+        },
+        {
+          "label": "Authority",
+          "value": "Borrowed scope"
+        },
+        {
+          "label": "Memory",
+          "value": "External"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Seat",
+          "text": "Occupy a role without becoming the actor."
+        },
+        {
+          "name": "Think",
+          "text": "Transform scoped inputs using the available model."
+        },
+        {
+          "name": "Depart",
+          "text": "Leave enough evidence for the next carrier."
+        }
+      ],
+      "flavor": "The flame moves between lamps; the work has its own name.",
+      "engineering": {
+        "pattern": "The neural or execution substrate beneath a continuing actor.",
+        "missing": "A carrier's model family, tools and capability must be observed, not inferred from persona.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "CORE-06",
+      "name": "Authority",
+      "type_line": "Enchantment — Authority Envelope",
+      "cost": "External issuer + exact scope + valid time",
+      "stats": [
+        {
+          "label": "Rule",
+          "value": "Deny wins"
+        },
+        {
+          "label": "Composition",
+          "value": "Intersection"
+        },
+        {
+          "label": "Widening",
+          "value": "Forbidden"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Intersect",
+          "text": "A hand can only narrow its parent envelope."
+        },
+        {
+          "name": "Expire",
+          "text": "Old permission cannot be restored from old memory."
+        },
+        {
+          "name": "Gate",
+          "text": "Check at the boundary before protected effects."
+        }
+      ],
+      "flavor": "Power is safest when every door knows its own hinge.",
+      "engineering": {
+        "pattern": "Restriction-only authority membrane.",
+        "missing": "The proposed PR135 deployment pins remain unbound; the card is not live enforcement.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "Least-privilege candidate",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/pull/135",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    },
+    {
+      "card_id": "HFO-G143-C066",
+      "name": "Exotic Engineering",
+      "type_line": "Curse — Exotic Engineering",
+      "cost": "Opportunity cost + extra ownership",
+      "stats": [
+        {
+          "label": "Trigger",
+          "value": "Unproved custom gap"
+        },
+        {
+          "label": "Remedy",
+          "value": "Donor assay"
+        },
+        {
+          "label": "Exile",
+          "value": "Not inferred"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Reveal",
+          "text": "Name each custom mechanism and the donor it replaces."
+        },
+        {
+          "name": "Challenge",
+          "text": "Prove the relevant donor cannot meet the frozen requirement."
+        },
+        {
+          "name": "Dissolve",
+          "text": "Remove redundant ownership after an accepted replacement."
+        }
+      ],
+      "flavor": "Complexity feeds on victories no one can reproduce.",
+      "engineering": {
+        "pattern": "An engineering failure-mode mnemonic and COTS forcing function.",
+        "missing": "A warning card is not evidence that a particular component has been exiled.",
+        "status": "EDITORIAL_CARD_FACE; source and runtime evidence remain separate"
+      },
+      "hand": false,
+      "play_readiness": "Candidate — prepare or inspect; execution requires a current binding",
+      "zone": "deck",
+      "zone_scope": "Reusable definition / proposed operator selection; not a live worker or grant of authority",
+      "evidence": [
+        {
+          "label": "137-card candidate catalog",
+          "url": "https://github.com/TTaoGaming/hfo-gen-143/blob/5e39eaaf66cba33632240f185dba6a197a9fcaf3/cards/gleipnir-grimoire/DECKLIST_v1.yaml",
+          "kind": "source"
+        }
+      ],
+      "claim_ceiling": "Card-face interpretation. Numeric shape is a bounded contract or cited result, never an invented fitness score. Behavioral effectiveness remains unmeasured."
+    }
+  ],
+  "permaweb": {
+    "status": "HOLD_PAYMENT_REQUIRED",
+    "transaction_id": null,
+    "public_url": null,
+    "snapshot_path": "/cards/battlefield/snapshot.html",
+    "snapshot_bytes": 67012,
+    "snapshot_sha256": "416a8d54bd0aa93e57a0208862a19a47348052fa16c6dc3b305eb20144e04d99",
+    "claim": "The zero-payment Arweave upload returned HTTP 402. No transaction or immutable URL exists. The exact frozen snapshot remains downloadable here; no paid fallback was attempted."
+  }
+}

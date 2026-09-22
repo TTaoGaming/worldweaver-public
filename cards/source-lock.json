@@ -1,6 +1,6 @@
 {
   "schema": "worldweaver.card-source-lock.v1",
-  "catalog_commit": "c4427795dbd64510fdef162dfcff616c33f27558",
+  "catalog_commit": "5e39eaaf66cba33632240f185dba6a197a9fcaf3",
   "catalog_path": "cards/gleipnir-grimoire/DECKLIST_v1.yaml",
   "sigrun_commit": "2cc7acb589d94adf58f024abf8853ebfd1ebbe40",
   "sigrun_blob": "1de10bd6fd771c665b3765f8be747f4cace5e024",
@@ -9,5 +9,9 @@
   "enrichments_status": "EDITORIAL_PROPOSAL_NOT_EXECUTED",
   "structured_private_runtime_fields": "EXCLUDED_BY_FIELD_SELECTION",
   "free_text_privacy": "REQUIRES_PUBLICATION_REVIEW",
-  "history_complete": false
+  "history_complete": false,
+  "public_inherited_index_count": 137,
+  "upstream_reported_full_definition_count": 53,
+  "public_recovered_full_definition_count": 37,
+  "upstream_full_definitions_recovered": false
 }
