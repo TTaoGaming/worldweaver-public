@@ -4,9 +4,14 @@
   "world_state_revision": "worldweaver-battlefield-20260922-r1",
   "files": [
     {
+      "path": "HFO_CARD_PLAY_CONTRACT_v0.1.md",
+      "bytes": 11732,
+      "sha256": "2355f7ad5d5d7ab21fc2e39bddc14fccead90b19a9d1a9cc23a408590e6ae6df"
+    },
+    {
       "path": "README.md",
-      "bytes": 3747,
-      "sha256": "12f8526a5a1b02ae978d0a0811563fc7b22a2b3b5aeeb63841311b8aa9626416"
+      "bytes": 4201,
+      "sha256": "587221a9da031156e320742e5b76e3def8939ccd381d333a0605731f89f47b8b"
     },
     {
       "path": "art-guide.md",
@@ -1465,8 +1470,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 8269,
-      "sha256": "5aec143c1a27ac8478c09b6de47ebb617fde4a0da4b2fb560a4a1cd4330563e0"
+      "bytes": 8470,
+      "sha256": "316bc11e768a8c08fc994d2079a371c2847c32447f74af8352b2233253c8c2aa"
     },
     {
       "path": "index.json",

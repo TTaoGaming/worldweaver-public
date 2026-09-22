@@ -2,6 +2,8 @@
 
 Browse [the card library](https://worldweaver.dev/cards/). This public projection combines the exact 129-entry Gleipnir index with a clearly labeled Cloudflare Durability equipment proposal. Definitions, proposed interpretations, behavioral evaluation and runtime evidence have separate statuses.
 
+Read the [proposed card-play contract](HFO_CARD_PLAY_CONTRACT_v0.1.md) for the operator interaction, incumbent WorkItem compilation boundary, first Larva composition, independent evaluation requirements, and release evidence. It is a public behavioral proposal, not a runtime route or proof that any composition is operational.
+
 The [battlefield world state](https://worldweaver.dev/cards/battlefield/) is a separate editorial overlay. It arranges a sanitized current hand across battlefield, hand, deck, graveyard and exile while preserving each card's scope, evidence and claim ceiling. The atlas now includes the complete pinned 137-ID candidate index plus the existing public Cloudflare equipment proposal; the overlay registers no further identities and creates no runtime state machine.
 
 Its exact frozen HTML snapshot is downloadable from `/cards/battlefield/snapshot.html`. The zero-payment Arweave upload returned HTTP 402, so no transaction or immutable permaweb URL is claimed.
@@ -14,6 +16,7 @@ Its exact frozen HTML snapshot is downloadable from `/cards/battlefield/snapshot
 4. [Full browser dataset](catalog.json): optional; avoid loading the entire deck into every agent context.
 5. [Battlefield](battlefield.json): no verified bindings imported in this release; this is not a fleet census.
 6. [Behavioral assay proposal](behavior-assay.json), [art guide](art-guide.md), and [image prompts](image-prompts.json).
+7. [Card-play contract](HFO_CARD_PLAY_CONTRACT_v0.1.md): proposed operator and engineering contract; no execution authority.
 
 Every definition retains its original identifier or an explicit public-proposal identifier. Cards labeled index-only are catalog entries whose full source contracts have not been imported. The pinned catalog and source definitions remain the inherited authority for their own claims; this public view cannot promote them.
 
