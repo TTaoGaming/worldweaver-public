@@ -65,8 +65,8 @@
     },
     {
       "path": "catalog.json",
-      "bytes": 380546,
-      "sha256": "ace6ea9cc3b9f4880b802f49bba32a2bd248b0e3f74b7f120ae36ca6cb268907"
+      "bytes": 380647,
+      "sha256": "153bc0e79b818601e07328a3b453b36a46c0b9f174a3b6c3834aaa44746b02d0"
     },
     {
       "path": "definitions/CORE-01.json",
@@ -1019,14 +1019,19 @@
       "sha256": "486d1d08bd3bc12f0586a60d4a19af5bb28f34dd14f5ba165996cb94a35134aa"
     },
     {
+      "path": "definitions/HFO-G143-C016.behavior-contract.v1.md",
+      "bytes": 8109,
+      "sha256": "19ba5aebb65d7c23936e6aee43a0fc01b0993070146962c61a35838892323b5c"
+    },
+    {
       "path": "definitions/HFO-G143-C016.json",
-      "bytes": 3984,
-      "sha256": "8cceab09945c93b52e0c248ed68faca4d8c788fdbb29edb5d8199c2ebf40b250"
+      "bytes": 4085,
+      "sha256": "6191b98963646f79eb6d9c84305902de897bf6df5babdf42ab6013174c4d4e1e"
     },
     {
       "path": "definitions/HFO-G143-C016.md",
-      "bytes": 3300,
-      "sha256": "d7aa67a1346fa0f6afa4b2655c7a218362ce82f7c292e64639eede6ccc5e3539"
+      "bytes": 3416,
+      "sha256": "21100fb70730e9b40d24ba462e438403e1e31644aaa8149a630dfb88263b39aa"
     },
     {
       "path": "definitions/HFO-G143-C017.json",

@@ -28,7 +28,7 @@
   "behavior": {
     "status": "NOT_TESTED",
     "target": "Bind one work identity, scope, lease, carrier and result contract before launch.",
-    "assay": "Compare a source-bound card capsule against matched factual instructions on held-out tasks. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections. See /cards/behavior-assay.json."
+    "assay": "Read the versioned Larva proposal at /cards/definitions/HFO-G143-C016.behavior-contract.v1.md, then compare a source-bound card capsule against matched factual instructions on held-out tasks under /cards/behavior-assay.json. Freeze carrier, tools, budget and evaluator; record constraint violations, useful outcomes and operator corrections."
   },
   "runtime": {
     "status": "UNVERIFIED",
