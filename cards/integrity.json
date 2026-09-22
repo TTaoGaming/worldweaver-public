@@ -10,8 +10,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4201,
-      "sha256": "587221a9da031156e320742e5b76e3def8939ccd381d333a0605731f89f47b8b"
+      "bytes": 4640,
+      "sha256": "ee00822aeced8bf1ab1e2a633f1262fbbb28f8aa989ef79512d44c0fb8f8198b"
     },
     {
       "path": "art-guide.md",
@@ -1470,13 +1470,23 @@
     },
     {
       "path": "index.html",
-      "bytes": 8470,
-      "sha256": "316bc11e768a8c08fc994d2079a371c2847c32447f74af8352b2233253c8c2aa"
+      "bytes": 8514,
+      "sha256": "7d9d2660f83ed53815ee3ff2b85bce5154a5d03cfa788c0091e8e4e6ea3dc46b"
     },
     {
       "path": "index.json",
       "bytes": 59934,
       "sha256": "f1e9802235bac56eb6f38c19317f55c95cd9b623182480015ed2f1add6c23628"
+    },
+    {
+      "path": "opening-hand.md",
+      "bytes": 6716,
+      "sha256": "aa31221ff47e81b7fd13b8cc0bae4ee0caa7926ae36e158b256ce67516687c2d"
+    },
+    {
+      "path": "opening-hand.v1.json",
+      "bytes": 31569,
+      "sha256": "e309afed533660bb681e9a27235aadc92b1ec36a4f18939e553b20b71125801b"
     },
     {
       "path": "source-lock.json",

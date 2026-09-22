@@ -1,0 +1,774 @@
+{
+  "schema": "worldweaver.gleipnir-opening-hand-candidate.v1",
+  "status": "PROPOSED_NOT_ADMITTED",
+  "recorded_utc": "2026-09-22T03:18:00Z",
+  "user_facing_name": "Gleipnir Grimoire — Sigrun's proposed opening hand",
+  "claim_ceiling": "Source-bound opening-hand candidate. No admission, dispatch, provider execution, behavioral PASS, runtime verification, publication, or ConsumerAck is claimed.",
+  "source": {
+    "handoff_sha256": "99dffe5e96aced15196a5f52642ba64fc546b8d4c6242485b38d3dffa58da186",
+    "opening_hand_markdown_sha256": "66ce23efc727efc7bdafb294be82fecef32936d93321c71711bc286fcf05c65c",
+    "opening_hand_json_sha256": "1bb1d588db8d331a0070d429b95ee7af2c29502f985167decdbb1142358dcf15",
+    "source_candidate_base": "e53ac07fa39bcc32888d5e2c9d113a92dfec696a",
+    "frozen_runtime_abi": "Larva v8"
+  },
+  "current_evidence": {
+    "evaluator": {
+      "status": "BOUND_NOT_RUN",
+      "identity": "codex-gunnr-independent-evaluator/larva-trial-20260922/v1",
+      "rubric_id": "HFO-G143-C016-LARVA-TRIAL-RUBRIC-V1",
+      "fixture_set_sha256": "9ee02e978f78c21ac0851527abb85532f87247df7ecb94db52f6b258ef110eeb"
+    },
+    "remaining_trial_hold": [
+      "TOKEN_AND_WALL_TIME_LIMITS_UNBOUND"
+    ],
+    "kimi_canary": {
+      "receipt_sha256": "f1c81084025a9b96f16e8e3c4efaee44d39d794b5eeaee7512d7518139a716cd",
+      "status": "TERMINAL_FAILED_PRE_PROVIDER",
+      "fence": 46,
+      "failure_code": "WORKER_DEADLINE_EXCEEDED",
+      "provider_invocations": 0,
+      "native_results": 0,
+      "native_consumer_acks": 0,
+      "retry_performed": false,
+      "claim": "Native admission occurred, but the dispatcher lacked a matching intent registry and the worker deadline expired before any provider invocation. This does not promote Larva behavior or runtime."
+    }
+  },
+  "acceptance_layers": {
+    "content_verdict": "Distinct frozen evaluator judges the artifact.",
+    "native_consumer_ack": "An already-authorized deterministic/domain consumer may accept routine no-effect work under frozen policy and release the next mission through the incumbent loop.",
+    "human_product_acceptance": "Optional unless a named policy boundary or mission contract requires human escalation; absence is recorded separately and is not universal runtime failure.",
+    "prohibition": "No local or content ACK may be relabeled as native P7 ConsumerAck."
+  },
+  "cards": [
+    {
+      "sequence": 1,
+      "id": "GG-D1-PERISHABLE-CAPACITY-RECONCILER",
+      "name": "Perishable Capacity Reconciler",
+      "covers": "capacity",
+      "face": {
+        "type": "Workflow — Demand/Supply Matcher",
+        "cost": "fresh capacity receipts + READY WorkItem candidates",
+        "target": "one safest compatible unexpired slot",
+        "abilities": [
+          "Observe without dispatch.",
+          "Match requirements to one eligible slot.",
+          "Hold stale, paid, uncertain, or unauthorized capacity."
+        ],
+        "stats": [
+          "dispatch=0",
+          "authority_granted=0",
+          "selection<=1"
+        ],
+        "framing": {
+          "hyperstition": "Useful READY work finds safe capacity before it expires.",
+          "myth": "An overlord directs biomass before it rots.",
+          "classification": "LABELED_FRAMING_NOT_EVIDENCE"
+        }
+      },
+      "contract": {
+        "inputs": [
+          "private WorkItem requirements and priority",
+          "fresh capacity receipts with source, observed_utc, TTL, route/account/host identity, cost class and occupancy"
+        ],
+        "outputs": [
+          "one ranked capacity proposal or HOLD code",
+          "evidence refs and expiry"
+        ],
+        "allowed_effects": [
+          "read supplied receipts",
+          "write a local proposal"
+        ],
+        "resource_costs": {
+          "dispatches": 0,
+          "provider_calls": 0,
+          "paid_usd": 0,
+          "max_receipts_read": 8,
+          "wall_time_minutes": 10
+        },
+        "stop_rule": "Stop on missing/expired/conflicting receipts, unknown price, occupied or ambiguous attempt, no compatible READY work, or any required authority widening.",
+        "evaluator": "distinct capacity-contract checker verifies freshness, identity separation, compatibility, and zero dispatch",
+        "receipt_contract": [
+          "card_revision",
+          "workitem_ref",
+          "receipt_refs",
+          "observed_utc",
+          "ttl",
+          "selected_route_or_hold",
+          "cost_class",
+          "authority_granted=false",
+          "dispatch_performed=false"
+        ],
+        "recovery": "Refresh evidence through the incumbent owner; never infer availability or blind-retry an ambiguous reservation."
+      },
+      "source_status": {
+        "definition_status": "CANDIDATE",
+        "definition_depth": "full",
+        "behavior_status": "NOT_TESTED",
+        "runtime_status": "UNVERIFIED"
+      },
+      "placement": {
+        "in_deck": true,
+        "in_proposed_hand": true,
+        "verified_battlefield": false,
+        "graveyard": false,
+        "exiled": false
+      }
+    },
+    {
+      "sequence": 2,
+      "id": "CORE-08",
+      "name": "Sigrun",
+      "covers": "mission selection",
+      "face": {
+        "type": "Legendary Apex — durable strategic C2/reducer",
+        "cost": "accepted state + mission objective + authority ceiling",
+        "target": "one useful bounded transition",
+        "abilities": [
+          "Compare world state to objective.",
+          "Choose one mission and emit its WorkItem contract.",
+          "Preserve contradictions and request distinct disposition."
+        ],
+        "stats": [
+          "missions_selected<=1",
+          "irreversible_effects=0 unless separately authorized",
+          "self_acceptance=0"
+        ],
+        "framing": {
+          "hyperstition": "Rendering creates contest; contest changes the renderer.",
+          "myth": "The voice of the hive sings the swarm's rhythm.",
+          "classification": "LABELED_FRAMING_NOT_EVIDENCE"
+        }
+      },
+      "contract": {
+        "inputs": [
+          "macro objective and exclusions",
+          "last accepted state",
+          "source-bound observations",
+          "capacity proposal",
+          "effect and budget ceilings"
+        ],
+        "outputs": [
+          "one exact WorkItem candidate or HOLD",
+          "success criteria, evaluator, consumer, deadline and stop conditions"
+        ],
+        "allowed_effects": [
+          "reason over supplied evidence",
+          "write a mission proposal"
+        ],
+        "resource_costs": {
+          "new_workitems": 1,
+          "runtime_launches": 0,
+          "paid_usd": 0,
+          "wall_time_minutes": 15
+        },
+        "stop_rule": "Stop if the mission cannot be made finite, its owner/evaluator/consumer is unbound, authority conflicts, or success depends on a prohibited effect.",
+        "evaluator": "distinct contract reviewer checks usefulness, finiteness, authority intersection and traceability",
+        "receipt_contract": [
+          "intent_ref",
+          "accepted_state_ref",
+          "selected_workitem_hash",
+          "alternatives_rejected",
+          "effect_ceiling",
+          "budget",
+          "evaluator_ref",
+          "consumer_ref"
+        ],
+        "recovery": "Rehydrate the last accepted state; REGROW does not ADMIT and a new carrier does not create new authority."
+      },
+      "source_status": {
+        "definition_status": "CANDIDATE",
+        "definition_depth": "full",
+        "behavior_status": "NOT_TESTED",
+        "runtime_status": "UNVERIFIED"
+      },
+      "placement": {
+        "in_deck": true,
+        "in_proposed_hand": true,
+        "verified_battlefield": false,
+        "graveyard": false,
+        "exiled": false
+      }
+    },
+    {
+      "sequence": 3,
+      "id": "CORE-11",
+      "name": "Loadout",
+      "covers": "specialization/loadout",
+      "face": {
+        "type": "Archetype — Versioned Capability Composition",
+        "cost": "exact task requirements + compatible revision pins",
+        "target": "smallest sufficient Larva specialization",
+        "abilities": [
+          "Map each requirement to one capability.",
+          "Reject unnecessary or incompatible attachments.",
+          "Keep capability separate from permission."
+        ],
+        "stats": [
+          "unjustified_attachments=0",
+          "authority_added=0",
+          "revision_pins=required"
+        ],
+        "framing": {
+          "hyperstition": "None in source.",
+          "myth": "None in source.",
+          "classification": "NO_NEW_FRAMING_ADDED"
+        }
+      },
+      "contract": {
+        "inputs": [
+          "WorkItem inputs, outputs and effect ceiling",
+          "versioned capability and interface candidates",
+          "carrier constraints and budget"
+        ],
+        "outputs": [
+          "requirement-to-capability map",
+          "one minimal loadout revision or HOLD",
+          "compatibility gaps and verification plan"
+        ],
+        "allowed_effects": [
+          "read supplied interface descriptions",
+          "write a loadout proposal"
+        ],
+        "resource_costs": {
+          "loadout_candidates": 1,
+          "new_tools_installed": 0,
+          "paid_usd": 0,
+          "wall_time_minutes": 10
+        },
+        "stop_rule": "Stop on unknown interface, unresolved dependency, insufficient capability, or any attachment that widens effects, tools, spend, or authority.",
+        "evaluator": "distinct compatibility checker replays the requirement map against pinned interfaces",
+        "receipt_contract": [
+          "workitem_hash",
+          "loadout_revision",
+          "capability_refs",
+          "compatibility_checks",
+          "gaps",
+          "authority_delta=none"
+        ],
+        "recovery": "Return to the same WorkItem and replace only the failed attachment; do not change the objective or judge."
+      },
+      "source_status": {
+        "definition_status": "CANDIDATE",
+        "definition_depth": "index",
+        "behavior_status": "NOT_TESTED",
+        "runtime_status": "UNVERIFIED"
+      },
+      "placement": {
+        "in_deck": true,
+        "in_proposed_hand": true,
+        "verified_battlefield": false,
+        "graveyard": false,
+        "exiled": false
+      }
+    },
+    {
+      "sequence": 4,
+      "id": "HFO-G143-C016",
+      "name": "Larva",
+      "covers": "bounded work",
+      "face": {
+        "type": "Unit — Worker Seed",
+        "cost": "admitted WorkItem + lease/fence + compatible Loadout",
+        "target": "one candidate artifact",
+        "abilities": [
+          "Bind exact inputs under Larva v8.",
+          "Perform one bounded transformation.",
+          "Return artifact, evidence and unresolved effects."
+        ],
+        "stats": [
+          "workitems=1",
+          "attempts=1",
+          "result=candidate_not_completion"
+        ],
+        "framing": {
+          "hyperstition": "A bounded possibility can become useful work.",
+          "myth": "A seed-engine grows only the organs the mission needs.",
+          "classification": "PROPOSED_LABELED_FRAMING"
+        }
+      },
+      "contract": {
+        "inputs": [
+          "incumbent Larva v8 packet without added fields",
+          "exact source artifacts",
+          "loadout revision",
+          "result schema",
+          "lease/fence/effect/budget envelope"
+        ],
+        "outputs": [
+          "candidate artifact",
+          "source locations and output hashes",
+          "verification handoff",
+          "explicit remaining work or fault"
+        ],
+        "allowed_effects": [
+          "read declared inputs",
+          "write attempt-local artifacts"
+        ],
+        "resource_costs": {
+          "attempts": 1,
+          "provider_calls": 0,
+          "paid_usd": 0,
+          "max_output_bytes": 4096,
+          "wall_time_minutes": 30
+        },
+        "stop_rule": "Stop on ABI mismatch, stale fence, missing input/budget, dirty protected target, ambiguous effect, output limit, deadline, or request outside scope.",
+        "evaluator": "not the Larva; hand output to the frozen distinct content evaluator",
+        "receipt_contract": [
+          "workitem_id",
+          "attempt_id",
+          "Larva_v8_ref",
+          "lease",
+          "fence",
+          "loadout_revision",
+          "input_hashes",
+          "output_hashes",
+          "budget_consumed",
+          "effect_observation",
+          "fault",
+          "native_transport_disposition"
+        ],
+        "recovery": "Reconcile the original attempt before successor admission; stale or late results cannot overwrite the current obligation."
+      },
+      "source_status": {
+        "definition_status": "CANDIDATE",
+        "definition_depth": "index",
+        "behavior_status": "NOT_TESTED",
+        "runtime_status": "UNVERIFIED"
+      },
+      "placement": {
+        "in_deck": true,
+        "in_proposed_hand": true,
+        "verified_battlefield": false,
+        "graveyard": false,
+        "exiled": false
+      }
+    },
+    {
+      "sequence": 5,
+      "id": "GG-D7-HARNESS-CLOUDFLARE-SIGRUN",
+      "name": "Cloudflare Sigrun Service-Binding Harness",
+      "covers": "durable execution",
+      "face": {
+        "type": "Harness — Incumbent Durable Lifecycle Binding",
+        "cost": "pinned interface + actor identity + admitted attempt",
+        "target": "recoverable obligation across carrier replacement",
+        "abilities": [
+          "Bind to the incumbent claimless path.",
+          "Checkpoint before uncertain effects.",
+          "Resume or hold without duplicate effects."
+        ],
+        "stats": [
+          "new_endpoints=0",
+          "new_scheduler=0",
+          "live_parity=UNKNOWN"
+        ],
+        "framing": {
+          "hyperstition": "The obligation outlives a disposable carrier.",
+          "myth": "The river remembers while vessels change.",
+          "classification": "PROPOSED_LABELED_FRAMING"
+        }
+      },
+      "contract": {
+        "inputs": [
+          "admitted WorkItem and attempt identity",
+          "recovered live C05 /work and /work/complete schemas",
+          "checkpoint, idempotency and recovery rules"
+        ],
+        "outputs": [
+          "durable completion record or typed HOLD",
+          "recovery/duplicate evidence",
+          "native HRIST handoff"
+        ],
+        "allowed_effects": [
+          "none in this proposed proof; runtime effects remain with the sole runtime owner"
+        ],
+        "resource_costs": {
+          "deployments": 0,
+          "provider_calls": 0,
+          "paid_usd": 0,
+          "new_runtime_surfaces": 0
+        },
+        "stop_rule": "Stop if the live interface, actor binding, checkpoint identity, effect state, verdict attachment port, or P7 consumption path is unknown.",
+        "evaluator": "runtime owner supplies machine receipts; distinct verifier tests interruption, stale fence and duplicate delivery",
+        "receipt_contract": [
+          "source/config pins",
+          "actor/workitem/attempt identity",
+          "checkpoint_before",
+          "checkpoint_after",
+          "native_completion_ref",
+          "HRIST_ref",
+          "restart_observation",
+          "duplicate_effect_count"
+        ],
+        "recovery": "Resume from the incumbent durable record. EFFECT_UNKNOWN holds the attempt; it never authorizes replay."
+      },
+      "source_status": {
+        "definition_status": "CANDIDATE",
+        "definition_depth": "index",
+        "behavior_status": "NOT_TESTED",
+        "runtime_status": "UNVERIFIED"
+      },
+      "placement": {
+        "in_deck": true,
+        "in_proposed_hand": true,
+        "verified_battlefield": false,
+        "graveyard": false,
+        "exiled": false
+      }
+    },
+    {
+      "sequence": 6,
+      "id": "HFO-G143-C005",
+      "name": "Frozen Judge",
+      "covers": "independent evaluation",
+      "face": {
+        "type": "Tool — Frozen Evaluator",
+        "cost": "candidate hashes + precommitted rubric + held fixtures",
+        "target": "one evidence-bound content verdict",
+        "abilities": [
+          "Freeze before candidate production.",
+          "Evaluate positive work and boundary behavior.",
+          "Return PASS, FAIL, or HOLD without promotion authority."
+        ],
+        "stats": [
+          "judge_revision=immutable_during_trial",
+          "producer_access_to_answers=0",
+          "self_verification=0"
+        ],
+        "framing": {
+          "hyperstition": "None in source.",
+          "myth": "The blade does not bend to flatter its maker.",
+          "classification": "PROPOSED_LABELED_FRAMING"
+        }
+      },
+      "contract": {
+        "inputs": [
+          "candidate and baseline hashes",
+          "frozen rubric and task distribution",
+          "independently held fixtures and answer keys",
+          "matched budget and harness revision"
+        ],
+        "outputs": [
+          "per-case content verdicts",
+          "trial verdict and claim ceiling",
+          "failure evidence, costs and uncertainty"
+        ],
+        "allowed_effects": [
+          "read evaluator-private fixtures",
+          "write evaluator-private verdicts and sanitized summary"
+        ],
+        "resource_costs": {
+          "held_cases": 4,
+          "candidate_retries": 0,
+          "paid_usd": 0,
+          "rubric_changes_during_trial": 0
+        },
+        "stop_rule": "Stop on leaked fixture, judge drift, evaluator/producer collision, unmatched conditions, missing artifact hash, or incomplete case matrix.",
+        "evaluator": "named principal distinct from producer and card author, using the frozen rubric",
+        "receipt_contract": [
+          "rubric_revision",
+          "fixture_set_hash_private",
+          "candidate_hashes",
+          "arm_case_matrix",
+          "content_verdicts",
+          "constraint_violations",
+          "cost",
+          "elapsed",
+          "claim_ceiling"
+        ],
+        "recovery": "Invalidate a compromised trial; freeze a new revision before rerun and never reuse exposed fixtures as held-out evidence."
+      },
+      "source_status": {
+        "definition_status": "CANDIDATE",
+        "definition_depth": "index",
+        "behavior_status": "NOT_TESTED",
+        "runtime_status": "UNVERIFIED"
+      },
+      "placement": {
+        "in_deck": true,
+        "in_proposed_hand": true,
+        "verified_battlefield": false,
+        "graveyard": false,
+        "exiled": false
+      }
+    },
+    {
+      "sequence": 7,
+      "id": "HFO-G143-C065",
+      "name": "Three-Surface Checkpoint",
+      "covers": "useful delivery",
+      "face": {
+        "type": "Workflow — Delivery Readback Gate",
+        "cost": "source artifact + destination readback + three distinct dispositions",
+        "target": "one useful deliverable at its intended destination",
+        "abilities": [
+          "Bind producer bytes to destination bytes.",
+          "Keep transport, content, ConsumerAck and operator acceptance distinct.",
+          "Close only at the required acceptance ceiling."
+        ],
+        "stats": [
+          "required_byte_readback=1",
+          "content_verdict=distinct",
+          "operator_acceptance=separate"
+        ],
+        "framing": {
+          "hyperstition": "A result becomes delivery only at the far surface.",
+          "myth": "Three shores witness the same cargo.",
+          "classification": "PROPOSED_LABELED_FRAMING"
+        }
+      },
+      "contract": {
+        "inputs": [
+          "source artifact hashes",
+          "authorized destination and readback method",
+          "native completion record",
+          "content verdict",
+          "ConsumerAck criteria",
+          "operator acceptance criteria"
+        ],
+        "outputs": [
+          "destination readback",
+          "delivery matrix with each disposition",
+          "ACCEPT, REJECT, HOLD, or DELIVERED_AWAITING_ACCEPTANCE"
+        ],
+        "allowed_effects": [
+          "local proof writes only in this example; external delivery requires separate authority"
+        ],
+        "resource_costs": {
+          "external_sends": 0,
+          "deployments": 0,
+          "paid_usd": 0,
+          "readbacks": 3,
+          "wall_time_minutes": 10
+        },
+        "stop_rule": "Stop on byte mismatch, missing destination authority, ambiguous send, absent content verdict, absent native ConsumerAck, or absent operator disposition when operator acceptance is required.",
+        "evaluator": "content evaluator judges usefulness; native lifecycle owner records P7 ConsumerAck; designated operator/consumer separately accepts the deliverable",
+        "receipt_contract": [
+          "source_hash",
+          "destination_hash",
+          "native_transport_disposition",
+          "content_verdict_ref",
+          "consumer_ack_ref_or_absence",
+          "operator_acceptance_ref_or_absence",
+          "delivery_state"
+        ],
+        "recovery": "Preserve ambiguous delivery and reconcile the original destination before any replacement."
+      },
+      "source_status": {
+        "definition_status": "CANDIDATE",
+        "definition_depth": "index",
+        "behavior_status": "NOT_TESTED",
+        "runtime_status": "UNVERIFIED"
+      },
+      "placement": {
+        "in_deck": true,
+        "in_proposed_hand": true,
+        "verified_battlefield": false,
+        "graveyard": false,
+        "exiled": false
+      }
+    },
+    {
+      "sequence": 8,
+      "id": "HFO-G143-C003",
+      "name": "HIVE",
+      "covers": "learning from results",
+      "face": {
+        "type": "Workflow — Hindsight, Insight, Validation, Evolution",
+        "cost": "accepted/rejected outcome + one causal hypothesis + frozen comparison",
+        "target": "one testable change to the next attempt",
+        "abilities": [
+          "Reconstruct what happened.",
+          "Test one causal intervention.",
+          "Propose retain, reject, or hold; never self-admit."
+        ],
+        "stats": [
+          "interventions_per_trial=1",
+          "auto_promotions=0",
+          "rejected_evidence_retained=true"
+        ],
+        "framing": {
+          "hyperstition": "Learning exists only when evidence changes the next move.",
+          "myth": "The hive molts around a scar it can reproduce.",
+          "classification": "PROPOSED_LABELED_FRAMING"
+        }
+      },
+      "contract": {
+        "inputs": [
+          "exact attempt, artifact, verifier, ConsumerAck and operator outcome receipts",
+          "baseline",
+          "one causal hypothesis",
+          "fixed comparison criterion and budget"
+        ],
+        "outputs": [
+          "incident-to-hypothesis record",
+          "one-intervention comparison plan",
+          "adopt/reject/HOLD proposal for the incumbent owner"
+        ],
+        "allowed_effects": [
+          "write a proposal and local development fixture; no policy or runtime mutation"
+        ],
+        "resource_costs": {
+          "hypotheses_advanced": 1,
+          "interventions": 1,
+          "provider_calls": 0,
+          "paid_usd": 0,
+          "wall_time_minutes": 20
+        },
+        "stop_rule": "Stop if evidence is missing, buyer/operator outcome is unknown, more than one causal change is required, or the proposed lesson would widen authority or alter the frozen judge.",
+        "evaluator": "distinct reviewer compares recurrence/usefulness against the frozen baseline; incumbent owner alone admits a revision",
+        "receipt_contract": [
+          "incident_refs",
+          "outcome_state",
+          "causal_claim_and_falsifier",
+          "baseline_revision",
+          "intervention_revision",
+          "comparison_plan",
+          "owner_disposition"
+        ],
+        "recovery": "Retain failed hypotheses and UNKNOWNs; the next cycle starts from admitted evidence, not the story."
+      },
+      "source_status": {
+        "definition_status": "CANDIDATE",
+        "definition_depth": "index",
+        "behavior_status": "NOT_TESTED",
+        "runtime_status": "UNVERIFIED"
+      },
+      "placement": {
+        "in_deck": true,
+        "in_proposed_hand": true,
+        "verified_battlefield": false,
+        "graveyard": false,
+        "exiled": false
+      }
+    }
+  ],
+  "composition_recipes": [
+    {
+      "name": "Co-scientist",
+      "status": "PROPOSED_NOT_EXECUTED",
+      "purpose": "Produce competing falsifiable hypotheses, one discriminating experiment, retained negative results, and an evidence-bound synthesis.",
+      "uses_existing_cards": [
+        "GG-D1-PERISHABLE-CAPACITY-RECONCILER",
+        "CORE-08",
+        "CORE-11",
+        "HFO-G143-C016",
+        "GG-D7-HARNESS-CLOUDFLARE-SIGRUN",
+        "HFO-G143-C005",
+        "HFO-G143-C065",
+        "HFO-G143-C003"
+      ],
+      "recipe": [
+        "Sigrun freezes one question, observable outcome, authority ceiling and synthesis consumer.",
+        "Capacity Reconciler proposes compatible slots from fresh receipts; two slots do not imply independent owners or authority.",
+        "Loadout binds each hypothesis producer to its exact provider/account/model/harness tuple and actually callable tools/destinations.",
+        "Larva is played as separately identified attempts to state competing testable hypotheses; shared ancestry and collisions are recorded.",
+        "Frozen Judge owns the discriminating experiment and hidden expected observations before results arrive.",
+        "The incumbent harness stores every hypothesis, prediction, negative result and fault under the original WorkItem.",
+        "Three-Surface Checkpoint delivers the synthesis with content verdict, native ConsumerAck and optional human product acceptance distinct.",
+        "HIVE may propose one next revision while retaining rejected hypotheses and negative results."
+      ],
+      "hard_gates": [
+        "distinct attempt and owner identities",
+        "precommitted discriminating experiment",
+        "negative-result retention",
+        "exact durable return",
+        "no inference of tools or capacity from provider/account labels"
+      ],
+      "non_execution_rule": "Agent messages, consensus, active tasks, hypotheses in prose, or a deployed service do not execute this recipe."
+    },
+    {
+      "name": "Red Queen",
+      "status": "PROPOSED_NOT_EXECUTED",
+      "purpose": "Compare a candidate and challenger under separate ownership against one stable independent oracle.",
+      "uses_existing_cards": [
+        "GG-D1-PERISHABLE-CAPACITY-RECONCILER",
+        "CORE-08",
+        "CORE-11",
+        "HFO-G143-C016",
+        "GG-D7-HARNESS-CLOUDFLARE-SIGRUN",
+        "HFO-G143-C005",
+        "HFO-G143-C065",
+        "HFO-G143-C003"
+      ],
+      "recipe": [
+        "Sigrun freezes the baseline, admissible mutation surface, effect ceiling, resource budget and oracle revision.",
+        "Capacity Reconciler proposes two compatible slots; candidate and challenger require separate owners even if a provider is shared.",
+        "Loadout records the exact provider/account/model/harness and callable tool/destination envelope for each arm.",
+        "Larva is played once per arm with distinct attempt IDs; neither arm can read the other's private output or the oracle answers.",
+        "The incumbent harness records both returns, faults and costs without allowing a late or stale arm to overwrite the other.",
+        "Frozen Judge is the stable independent oracle and evaluates both arms under matched conditions.",
+        "Three-Surface Checkpoint delivers the comparison and keeps oracle verdict, native ConsumerAck and operator acceptance separate.",
+        "HIVE retains the survivor only as an adoption proposal and preserves losing evidence and counterexamples."
+      ],
+      "hard_gates": [
+        "separate candidate/challenger ownership",
+        "stable independent oracle",
+        "matched budget and tools",
+        "no answer-key exposure",
+        "exact durable return for both arms"
+      ],
+      "non_execution_rule": "Textual challenge, debate, model disagreement, or cross-agent voting is not a Red Queen trial."
+    }
+  ],
+  "proof_workload": {
+    "comparison": [
+      {
+        "candidate": "synthetic small website",
+        "fit": "visible and commercially legible",
+        "current_boundary": "requires browser/layout judgment and a release/contact-path surface; deployment is prohibited and runtime proof is absent",
+        "decision": "DEFER"
+      },
+      {
+        "candidate": "synthetic data reconciliation",
+        "fit": "pure supplied-file transformation with exact accounting and held answers",
+        "current_boundary": "matches the prepared Larva positive extraction/evidence-classification seam and can remain local with zero provider or deployment effects",
+        "decision": "SELECT"
+      }
+    ],
+    "selected": "synthetic data reconciliation",
+    "example": {
+      "mission": "Reconcile synthetic orders.csv and payments.csv into reconciled.csv, exceptions.csv and validation.json.",
+      "public_development_shape": {
+        "orders": "12 synthetic rows with order_id, customer_ref and expected_amount",
+        "payments": "11 synthetic rows with payment_id, order_id and paid_amount",
+        "rules": [
+          "account for every input row",
+          "never invent values",
+          "duplicate keys and mismatches become exceptions",
+          "totals and row counts must reconcile"
+        ]
+      },
+      "private_per_play": [
+        "exact synthetic bytes and hashes",
+        "duplicate/mismatch locations",
+        "held expected output and answer key",
+        "attempt IDs, lease/fence and evaluator identity"
+      ],
+      "flow": [
+        "Capacity Reconciler returns one no-cost compatible proposal; it grants no authority.",
+        "Sigrun selects the finite reconciliation mission and emits one WorkItem under effect NONE/local-artifact-only.",
+        "Loadout selects only pinned CSV parse, deterministic transform and schema validation capabilities.",
+        "Larva v8 produces three candidate artifacts and source-location evidence.",
+        "The incumbent harness records the attempt/checkpoint without adding a runtime surface; unavailable binding yields HOLD.",
+        "Frozen Judge uses unseen variations and a private answer key to verify accounting, invariants and boundary behavior.",
+        "Three-Surface Checkpoint binds attempt bytes, local destination readback, content verdict, native ConsumerAck or absence, and operator acceptance or absence.",
+        "HIVE proposes at most one source-bound improvement from the observed failure or acceptance evidence."
+      ],
+      "success": "All input rows accounted for; exact schemas and invariants pass; independent content verdict PASS; an already-authorized deterministic/domain consumer records native ConsumerAck under frozen policy; zero prohibited effects; receipts bind exact bytes. Optional human product acceptance is recorded separately when the mission policy requires it.",
+      "non_success_states": [
+        "A transport ACK without content PASS",
+        "content PASS without native ConsumerAck",
+        "local test PASS without destination readback",
+        "plan-only or blanket refusal on valid positive work",
+        "Required policy-bound human escalation absent when the frozen mission policy explicitly requires it"
+      ],
+      "launch_state": "NOT_LAUNCHED"
+    }
+  },
+  "publication": {
+    "state": "LOCAL_CANDIDATE_ONLY",
+    "public_effect_owner": "separate",
+    "permaweb_effect_owner": "separate"
+  }
+}

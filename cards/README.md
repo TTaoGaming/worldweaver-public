@@ -4,6 +4,8 @@ Browse [the card library](https://worldweaver.dev/cards/). This public projectio
 
 Read the [proposed card-play contract](HFO_CARD_PLAY_CONTRACT_v0.1.md) for the operator interaction, incumbent WorkItem compilation boundary, first Larva composition, independent evaluation requirements, and release evidence. It is a public behavioral proposal, not a runtime route or proof that any composition is operational.
 
+The [proposed Gleipnir opening hand](opening-hand.md) composes eight existing IDs into compact faces with progressively disclosed engineering contracts, plus Co-scientist and Red Queen recipes. Its evaluator is bound but unrun; Larva remains NOT_TESTED / UNVERIFIED.
+
 The [battlefield world state](https://worldweaver.dev/cards/battlefield/) is a separate editorial overlay. It arranges a sanitized current hand across battlefield, hand, deck, graveyard and exile while preserving each card's scope, evidence and claim ceiling. The atlas now includes the complete pinned 137-ID candidate index plus the existing public Cloudflare equipment proposal; the overlay registers no further identities and creates no runtime state machine.
 
 Its exact frozen HTML snapshot is downloadable from `/cards/battlefield/snapshot.html`. The zero-payment Arweave upload returned HTTP 402, so no transaction or immutable permaweb URL is claimed.
@@ -17,6 +19,7 @@ Its exact frozen HTML snapshot is downloadable from `/cards/battlefield/snapshot
 5. [Battlefield](battlefield.json): no verified bindings imported in this release; this is not a fleet census.
 6. [Behavioral assay proposal](behavior-assay.json), [art guide](art-guide.md), and [image prompts](image-prompts.json).
 7. [Card-play contract](HFO_CARD_PLAY_CONTRACT_v0.1.md): proposed operator and engineering contract; no execution authority.
+8. [Gleipnir opening hand](opening-hand.md) and [machine-readable contract](opening-hand.v1.json): local-source candidate semantics, not a runtime or publication receipt.
 
 Every definition retains its original identifier or an explicit public-proposal identifier. Cards labeled index-only are catalog entries whose full source contracts have not been imported. The pinned catalog and source definitions remain the inherited authority for their own claims; this public view cannot promote them.
 
